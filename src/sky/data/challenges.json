@@ -1,0 +1,16 @@
+{
+  "challenges": [
+    {"target": "Alcor", "text": "Spot Arundhati (Alcor) beside Vasishtha (Mizar) in the Saptarishi handle - an ancient eyesight test.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "M45", "text": "Count the stars of Krittika (the Pleiades) with bare eyes. Most people see 6 or 7; binoculars show dozens.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "Betelgeuse", "text": "Compare the colours of Betelgeuse and Rigel - one orange, one blue-white - opposite corners of Orion.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "M31", "text": "Find the Andromeda Galaxy from a dark spot - the farthest thing your naked eye can see.", "difficulty": "medium", "needs": "eyes"},
+    {"target": "Jupiter", "text": "Watch Jupiter's four Galilean moons line up like tiny stars, then check tomorrow to see them move.", "difficulty": "easy", "needs": "binoculars"},
+    {"target": "Saturn", "text": "Hold binoculars steady on Saturn until the rings make it look like a tiny oval.", "difficulty": "medium", "needs": "binoculars"},
+    {"target": "Orion's Belt", "text": "Trace Orion's Belt - Alnitak, Alnilam, Mintaka - then follow the line down-left to Sirius.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "M42", "text": "Look below Orion's Belt for the 'middle star' of the sword that is not a star - the Orion Nebula.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "Moon", "text": "Note the Moon's colour when it is near the horizon, then again high in the sky.", "difficulty": "easy", "needs": "eyes"},
+    {"target": "Big Dipper", "text": "Count the stars of Saptarishi, then use the two outer bowl stars to point five fists up to Dhruva (Polaris).", "difficulty": "easy", "needs": "eyes"},
+    {"target": "Winter Hexagon", "text": "Walk around the Winter Hexagon: six of the sky's brightest stars ringing Orion.", "difficulty": "medium", "needs": "eyes"},
+    {"target": "M42", "text": "Sweep the Milky Way's brightest stretch with binoculars and find any nebula or cluster - then log which one.", "difficulty": "medium", "needs": "binoculars"}
+  ]
+}

@@ -1,0 +1,977 @@
+{
+ "source": "IAU boundaries via Skyfield; centers derived from bright member stars",
+ "count": 86,
+ "constellations": [
+  {
+   "abbrev": "And",
+   "name": "Andromeda",
+   "ra_hours": 0.6517,
+   "dec_degrees": 38.142,
+   "star_count": 16,
+   "named_stars": [
+    "Alpheratz",
+    "Mirach",
+    "Almach",
+    "Nembus",
+    "Titawin"
+   ]
+  },
+  {
+   "abbrev": "Ant",
+   "name": "Antlia",
+   "ra_hours": 10.4525,
+   "dec_degrees": -31.068,
+   "star_count": 1,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Aps",
+   "name": "Apus",
+   "ra_hours": 16.0627,
+   "dec_degrees": -78.769,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Aql",
+   "name": "Aquila",
+   "ra_hours": 19.6224,
+   "dec_degrees": 4.066,
+   "star_count": 13,
+   "named_stars": [
+    "Altair",
+    "Tarazed",
+    "Okab",
+    "Alshain"
+   ]
+  },
+  {
+   "abbrev": "Aqr",
+   "name": "Aquarius",
+   "ra_hours": 22.5385,
+   "dec_degrees": -10.555,
+   "star_count": 21,
+   "named_stars": [
+    "Sadalsuud",
+    "Sadalmelik",
+    "Skat",
+    "Albali",
+    "Sadachbia",
+    "Ancha"
+   ]
+  },
+  {
+   "abbrev": "Ara",
+   "name": "Ara",
+   "ra_hours": 17.3667,
+   "dec_degrees": -55.236,
+   "star_count": 8,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Ari",
+   "name": "Aries",
+   "ra_hours": 2.5376,
+   "dec_degrees": 23.522,
+   "star_count": 6,
+   "named_stars": [
+    "Hamal",
+    "Sheratan",
+    "Bharani",
+    "Mesarthim",
+    "Botein"
+   ]
+  },
+  {
+   "abbrev": "Aur",
+   "name": "Auriga",
+   "ra_hours": 5.5882,
+   "dec_degrees": 41.715,
+   "star_count": 11,
+   "named_stars": [
+    "Capella",
+    "Menkalinan",
+    "Mahasim",
+    "Hassaleh",
+    "Almaaz",
+    "Haedus"
+   ]
+  },
+  {
+   "abbrev": "Boo",
+   "name": "Bootes",
+   "ra_hours": 14.5105,
+   "dec_degrees": 29.189,
+   "star_count": 15,
+   "named_stars": [
+    "Arcturus",
+    "Izar",
+    "Muphrid",
+    "Seginus",
+    "Nekkar",
+    "Xuange"
+   ]
+  },
+  {
+   "abbrev": "CMa",
+   "name": "Canis Major",
+   "ra_hours": 6.8859,
+   "dec_degrees": -23.778,
+   "star_count": 20,
+   "named_stars": [
+    "Sirius",
+    "Adhara",
+    "Wezen",
+    "Mirzam",
+    "Aludra",
+    "Furud"
+   ]
+  },
+  {
+   "abbrev": "CMi",
+   "name": "Canis Minor",
+   "ra_hours": 7.6546,
+   "dec_degrees": 6.206,
+   "star_count": 4,
+   "named_stars": [
+    "Procyon",
+    "Gomeisa"
+   ]
+  },
+  {
+   "abbrev": "CVn",
+   "name": "Canes Venatici",
+   "ra_hours": 12.7523,
+   "dec_degrees": 39.871,
+   "star_count": 2,
+   "named_stars": [
+    "Cor Caroli",
+    "Chara"
+   ]
+  },
+  {
+   "abbrev": "Cae",
+   "name": "Caelum",
+   "ra_hours": 4.6761,
+   "dec_degrees": -41.864,
+   "star_count": 1,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Cam",
+   "name": "Camelopardalis",
+   "ra_hours": 4.467,
+   "dec_degrees": 61.562,
+   "star_count": 5,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Cap",
+   "name": "Capricornus",
+   "ra_hours": 21.0424,
+   "dec_degrees": -19.168,
+   "star_count": 12,
+   "named_stars": [
+    "Deneb Algedi",
+    "Dabih",
+    "Algedi",
+    "Nashira"
+   ]
+  },
+  {
+   "abbrev": "Car",
+   "name": "Carina",
+   "ra_hours": 9.2208,
+   "dec_degrees": -62.31,
+   "star_count": 26,
+   "named_stars": [
+    "Canopus",
+    "Miaplacidus",
+    "Avior",
+    "Aspidiske"
+   ]
+  },
+  {
+   "abbrev": "Cas",
+   "name": "Cassiopeia",
+   "ra_hours": 1.0946,
+   "dec_degrees": 61.046,
+   "star_count": 13,
+   "named_stars": [
+    "Cih",
+    "Schedar",
+    "Caph",
+    "Ruchbah",
+    "Segin",
+    "Achird"
+   ]
+  },
+  {
+   "abbrev": "Cen",
+   "name": "Centaurus",
+   "ra_hours": 13.5213,
+   "dec_degrees": -47.56,
+   "star_count": 38,
+   "named_stars": [
+    "Rigil Kentaurus",
+    "Hadar",
+    "Toliman",
+    "Menkent"
+   ]
+  },
+  {
+   "abbrev": "Cep",
+   "name": "Cepheus",
+   "ra_hours": 21.8744,
+   "dec_degrees": 67.17,
+   "star_count": 15,
+   "named_stars": [
+    "Alderamin",
+    "Errai",
+    "Alfirk",
+    "Kurhah"
+   ]
+  },
+  {
+   "abbrev": "Cet",
+   "name": "Cetus",
+   "ra_hours": 1.8805,
+   "dec_degrees": -6.193,
+   "star_count": 15,
+   "named_stars": [
+    "Diphda",
+    "Menkar",
+    "Kaffaljidhma",
+    "Baten Kaitos"
+   ]
+  },
+  {
+   "abbrev": "Cha",
+   "name": "Chamaeleon",
+   "ra_hours": 9.9175,
+   "dec_degrees": -79.475,
+   "star_count": 5,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Cir",
+   "name": "Circinus",
+   "ra_hours": 15.1565,
+   "dec_degrees": -61.101,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Cnc",
+   "name": "Cancer",
+   "ra_hours": 8.6898,
+   "dec_degrees": 17.014,
+   "star_count": 4,
+   "named_stars": [
+    "Tarf",
+    "Asellus Australis",
+    "Acubens"
+   ]
+  },
+  {
+   "abbrev": "Col",
+   "name": "Columba",
+   "ra_hours": 5.9461,
+   "dec_degrees": -36.073,
+   "star_count": 7,
+   "named_stars": [
+    "Phact",
+    "Wazn"
+   ]
+  },
+  {
+   "abbrev": "Com",
+   "name": "Coma Berenices",
+   "ra_hours": 12.9446,
+   "dec_degrees": 24.65,
+   "star_count": 3,
+   "named_stars": [
+    "Diadem"
+   ]
+  },
+  {
+   "abbrev": "CrA",
+   "name": "Corona Australis",
+   "ra_hours": 19.1437,
+   "dec_degrees": -38.103,
+   "star_count": 3,
+   "named_stars": [
+    "Meridiana"
+   ]
+  },
+  {
+   "abbrev": "CrB",
+   "name": "Corona Borealis",
+   "ra_hours": 15.6543,
+   "dec_degrees": 28.095,
+   "star_count": 5,
+   "named_stars": [
+    "Alphecca",
+    "Nusakan"
+   ]
+  },
+  {
+   "abbrev": "Crt",
+   "name": "Crater",
+   "ra_hours": 11.2328,
+   "dec_degrees": -18.411,
+   "star_count": 4,
+   "named_stars": [
+    "Alkes"
+   ]
+  },
+  {
+   "abbrev": "Cru",
+   "name": "Crux",
+   "ra_hours": 12.4324,
+   "dec_degrees": -60.969,
+   "star_count": 9,
+   "named_stars": [
+    "Acrux",
+    "Mimosa",
+    "Gacrux",
+    "Imai",
+    "Ginan"
+   ]
+  },
+  {
+   "abbrev": "Crv",
+   "name": "Corvus",
+   "ra_hours": 12.3648,
+   "dec_degrees": -20.186,
+   "star_count": 6,
+   "named_stars": [
+    "Gienah",
+    "Kraz",
+    "Algorab",
+    "Alchiba"
+   ]
+  },
+  {
+   "abbrev": "Cyg",
+   "name": "Cygnus",
+   "ra_hours": 20.612,
+   "dec_degrees": 41.266,
+   "star_count": 24,
+   "named_stars": [
+    "Deneb",
+    "Sadr",
+    "Aljanah",
+    "Fawaris",
+    "Albireo"
+   ]
+  },
+  {
+   "abbrev": "Del",
+   "name": "Delphinus",
+   "ra_hours": 20.6679,
+   "dec_degrees": 14.605,
+   "star_count": 5,
+   "named_stars": [
+    "Rotanev",
+    "Sualocin",
+    "Aldulfin"
+   ]
+  },
+  {
+   "abbrev": "Dor",
+   "name": "Dorado",
+   "ra_hours": 4.932,
+   "dec_degrees": -59.03,
+   "star_count": 4,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Dra",
+   "name": "Draco",
+   "ra_hours": 16.762,
+   "dec_degrees": 69.308,
+   "star_count": 16,
+   "named_stars": [
+    "Eltanin",
+    "Athebyne",
+    "Rastaban",
+    "Altais",
+    "Aldhibah",
+    "Edasich"
+   ]
+  },
+  {
+   "abbrev": "Equ",
+   "name": "Equuleus",
+   "ra_hours": 21.2526,
+   "dec_degrees": 7.628,
+   "star_count": 2,
+   "named_stars": [
+    "Kitalpha"
+   ]
+  },
+  {
+   "abbrev": "Eri",
+   "name": "Eridanus",
+   "ra_hours": 3.8354,
+   "dec_degrees": -23.858,
+   "star_count": 33,
+   "named_stars": [
+    "Achernar",
+    "Cursa",
+    "Acamar",
+    "Zaurak",
+    "Rana",
+    "Ran"
+   ]
+  },
+  {
+   "abbrev": "For",
+   "name": "Fornax",
+   "ra_hours": 3.0131,
+   "dec_degrees": -30.729,
+   "star_count": 2,
+   "named_stars": [
+    "Dalim"
+   ]
+  },
+  {
+   "abbrev": "Gem",
+   "name": "Gemini",
+   "ra_hours": 7.0449,
+   "dec_degrees": 24.155,
+   "star_count": 20,
+   "named_stars": [
+    "Pollux",
+    "Castor",
+    "Alhena",
+    "Tejat",
+    "Mebsuta",
+    "Propus"
+   ]
+  },
+  {
+   "abbrev": "Gru",
+   "name": "Grus",
+   "ra_hours": 22.5746,
+   "dec_degrees": -45.265,
+   "star_count": 10,
+   "named_stars": [
+    "Alnair",
+    "Tiaki",
+    "Aldhanab"
+   ]
+  },
+  {
+   "abbrev": "Her",
+   "name": "Hercules",
+   "ra_hours": 17.4739,
+   "dec_degrees": 30.362,
+   "star_count": 24,
+   "named_stars": [
+    "Kornephoros",
+    "Rasalgethi",
+    "Sarin",
+    "Maasym"
+   ]
+  },
+  {
+   "abbrev": "Hor",
+   "name": "Horologium",
+   "ra_hours": 4.2334,
+   "dec_degrees": -42.294,
+   "star_count": 1,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Hya",
+   "name": "Hydra",
+   "ra_hours": 10.0743,
+   "dec_degrees": -11.048,
+   "star_count": 20,
+   "named_stars": [
+    "Alphard",
+    "Ashlesha",
+    "Ukdah",
+    "Zhang",
+    "Minchir"
+   ]
+  },
+  {
+   "abbrev": "Hyi",
+   "name": "Hydrus",
+   "ra_hours": 2.3003,
+   "dec_degrees": -70.539,
+   "star_count": 5,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Ind",
+   "name": "Indus",
+   "ra_hours": 21.19,
+   "dec_degrees": -53.791,
+   "star_count": 4,
+   "named_stars": []
+  },
+  {
+   "abbrev": "LMi",
+   "name": "Leo Minor",
+   "ra_hours": 10.4941,
+   "dec_degrees": 35.481,
+   "star_count": 3,
+   "named_stars": [
+    "Praecipua"
+   ]
+  },
+  {
+   "abbrev": "Lac",
+   "name": "Lacerta",
+   "ra_hours": 22.423,
+   "dec_degrees": 45.352,
+   "star_count": 6,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Leo",
+   "name": "Leo",
+   "ra_hours": 10.6558,
+   "dec_degrees": 15.93,
+   "star_count": 21,
+   "named_stars": [
+    "Regulus",
+    "Algieba",
+    "Denebola",
+    "Zosma",
+    "Ras Elased Australis",
+    "Chertan"
+   ]
+  },
+  {
+   "abbrev": "Lep",
+   "name": "Lepus",
+   "ra_hours": 5.4894,
+   "dec_degrees": -17.087,
+   "star_count": 11,
+   "named_stars": [
+    "Arneb",
+    "Nihal"
+   ]
+  },
+  {
+   "abbrev": "Lib",
+   "name": "Libra",
+   "ra_hours": 15.3567,
+   "dec_degrees": -18.136,
+   "star_count": 8,
+   "named_stars": [
+    "Zubeneschamali",
+    "Zubenelgenubi",
+    "Brachium",
+    "Zubenelhakrabi"
+   ]
+  },
+  {
+   "abbrev": "Lup",
+   "name": "Lupus",
+   "ra_hours": 15.2163,
+   "dec_degrees": -43.606,
+   "star_count": 21,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Lyn",
+   "name": "Lynx",
+   "ra_hours": 8.4469,
+   "dec_degrees": 46.77,
+   "star_count": 6,
+   "named_stars": [
+    "Alsciaukat"
+   ]
+  },
+  {
+   "abbrev": "Lyr",
+   "name": "Lyra",
+   "ra_hours": 18.8696,
+   "dec_degrees": 37.474,
+   "star_count": 9,
+   "named_stars": [
+    "Vega",
+    "Sulafat",
+    "Sheliak",
+    "Aladfar"
+   ]
+  },
+  {
+   "abbrev": "Mon",
+   "name": "Monoceros",
+   "ra_hours": 6.9352,
+   "dec_degrees": -1.522,
+   "star_count": 8,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Mus",
+   "name": "Musca",
+   "ra_hours": 12.48,
+   "dec_degrees": -69.378,
+   "star_count": 6,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Nor",
+   "name": "Norma",
+   "ra_hours": 16.3935,
+   "dec_degrees": -48.859,
+   "star_count": 2,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Oct",
+   "name": "Octans",
+   "ra_hours": 20.9662,
+   "dec_degrees": -83.578,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Oph",
+   "name": "Ophiuchus",
+   "ra_hours": 17.214,
+   "dec_degrees": -7.521,
+   "star_count": 25,
+   "named_stars": [
+    "Rasalhague",
+    "Sabik",
+    "Yed Prior",
+    "Cebalrai",
+    "Yed Posterior",
+    "Marfik"
+   ]
+  },
+  {
+   "abbrev": "Ori",
+   "name": "Orion",
+   "ra_hours": 5.4736,
+   "dec_degrees": 3.825,
+   "star_count": 28,
+   "named_stars": [
+    "Rigel",
+    "Betelgeuse",
+    "Bellatrix",
+    "Alnilam",
+    "Alnitak",
+    "Saiph"
+   ]
+  },
+  {
+   "abbrev": "Pav",
+   "name": "Pavo",
+   "ra_hours": 19.4087,
+   "dec_degrees": -66.267,
+   "star_count": 11,
+   "named_stars": [
+    "Peacock"
+   ]
+  },
+  {
+   "abbrev": "Peg",
+   "name": "Pegasus",
+   "ra_hours": 22.5377,
+   "dec_degrees": 20.374,
+   "star_count": 16,
+   "named_stars": [
+    "Enif",
+    "Scheat",
+    "Markab",
+    "Algenib",
+    "Matar",
+    "Homam"
+   ]
+  },
+  {
+   "abbrev": "Per",
+   "name": "Perseus",
+   "ra_hours": 3.4776,
+   "dec_degrees": 45.544,
+   "star_count": 23,
+   "named_stars": [
+    "Mirfak",
+    "Algol",
+    "Miram",
+    "Misam",
+    "Atik",
+    "Menkib"
+   ]
+  },
+  {
+   "abbrev": "Phe",
+   "name": "Phoenix",
+   "ra_hours": 0.9818,
+   "dec_degrees": -48.066,
+   "star_count": 9,
+   "named_stars": [
+    "Ankaa",
+    "Wurren"
+   ]
+  },
+  {
+   "abbrev": "Pic",
+   "name": "Pictor",
+   "ra_hours": 6.0897,
+   "dec_degrees": -56.574,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "PsA",
+   "name": "Piscis Austrinus",
+   "ra_hours": 22.5557,
+   "dec_degrees": -31.647,
+   "star_count": 7,
+   "named_stars": [
+    "Fomalhaut"
+   ]
+  },
+  {
+   "abbrev": "Psc",
+   "name": "Pisces",
+   "ra_hours": 0.4607,
+   "dec_degrees": 5.575,
+   "star_count": 13,
+   "named_stars": [
+    "Alpherg",
+    "Alrescha",
+    "Torcular",
+    "Fumalsamakah"
+   ]
+  },
+  {
+   "abbrev": "Pup",
+   "name": "Puppis",
+   "ra_hours": 7.7457,
+   "dec_degrees": -36.782,
+   "star_count": 24,
+   "named_stars": [
+    "Naos",
+    "Tureis",
+    "Azmidi"
+   ]
+  },
+  {
+   "abbrev": "Pyx",
+   "name": "Pyxis",
+   "ra_hours": 8.7482,
+   "dec_degrees": -32.074,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Ret",
+   "name": "Reticulum",
+   "ra_hours": 4.0784,
+   "dec_degrees": -62.222,
+   "star_count": 4,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Scl",
+   "name": "Sculptor",
+   "ra_hours": 23.964,
+   "dec_degrees": -33.738,
+   "star_count": 3,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Sco",
+   "name": "Scorpius",
+   "ra_hours": 16.7612,
+   "dec_degrees": -32.75,
+   "star_count": 24,
+   "named_stars": [
+    "Antares",
+    "Shaula",
+    "Sargas",
+    "Dschubba",
+    "Larawag",
+    "Acrab"
+   ]
+  },
+  {
+   "abbrev": "Sct",
+   "name": "Scutum",
+   "ra_hours": 18.6869,
+   "dec_degrees": -6.498,
+   "star_count": 2,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Ser",
+   "name": "Serpens",
+   "ra_hours": 16.4338,
+   "dec_degrees": 2.65,
+   "star_count": 12,
+   "named_stars": [
+    "Unukalhai",
+    "Gudja"
+   ]
+  },
+  {
+   "abbrev": "Sex",
+   "name": "Sextans",
+   "ra_hours": 10.1323,
+   "dec_degrees": -0.372,
+   "star_count": 1,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Sge",
+   "name": "Sagitta",
+   "ra_hours": 19.7798,
+   "dec_degrees": 18.388,
+   "star_count": 4,
+   "named_stars": [
+    "Sham"
+   ]
+  },
+  {
+   "abbrev": "Sgr",
+   "name": "Sagittarius",
+   "ra_hours": 19.0029,
+   "dec_degrees": -30.526,
+   "star_count": 20,
+   "named_stars": [
+    "Kaus Australis",
+    "Nunki",
+    "Ascella",
+    "Kaus Media",
+    "Kaus Borealis",
+    "Albaldah"
+   ]
+  },
+  {
+   "abbrev": "Tau",
+   "name": "Taurus",
+   "ra_hours": 4.2629,
+   "dec_degrees": 17.517,
+   "star_count": 30,
+   "named_stars": [
+    "Aldebaran",
+    "Elnath",
+    "Alcyone",
+    "Tianguan",
+    "Chamukuy",
+    "Ain"
+   ]
+  },
+  {
+   "abbrev": "Tel",
+   "name": "Telescopium",
+   "ra_hours": 18.4646,
+   "dec_degrees": -47.519,
+   "star_count": 2,
+   "named_stars": []
+  },
+  {
+   "abbrev": "TrA",
+   "name": "Triangulum Australe",
+   "ra_hours": 15.9813,
+   "dec_degrees": -66.407,
+   "star_count": 5,
+   "named_stars": [
+    "Atria"
+   ]
+  },
+  {
+   "abbrev": "Tri",
+   "name": "Triangulum",
+   "ra_hours": 2.1071,
+   "dec_degrees": 32.831,
+   "star_count": 3,
+   "named_stars": [
+    "Mothallah"
+   ]
+  },
+  {
+   "abbrev": "Tuc",
+   "name": "Tucana",
+   "ra_hours": 23.8623,
+   "dec_degrees": -64.159,
+   "star_count": 6,
+   "named_stars": []
+  },
+  {
+   "abbrev": "UMa",
+   "name": "Ursa Major",
+   "ra_hours": 10.8867,
+   "dec_degrees": 54.071,
+   "star_count": 21,
+   "named_stars": [
+    "Alioth",
+    "Dubhe",
+    "Alkaid",
+    "Mizar",
+    "Merak",
+    "Phecda"
+   ]
+  },
+  {
+   "abbrev": "UMi",
+   "name": "Ursa Minor",
+   "ra_hours": 15.341647406880522,
+   "dec_degrees": 80.99160295365321,
+   "star_count": 9,
+   "named_stars": [
+    "Polaris",
+    "Kochab",
+    "Pherkad",
+    "Yildun"
+   ]
+  },
+  {
+   "abbrev": "Vel",
+   "name": "Vela",
+   "ra_hours": 9.4685,
+   "dec_degrees": -49.005,
+   "star_count": 21,
+   "named_stars": [
+    "Alsephina",
+    "Suhail",
+    "Markeb"
+   ]
+  },
+  {
+   "abbrev": "Vir",
+   "name": "Virgo",
+   "ra_hours": 13.3686,
+   "dec_degrees": -0.286,
+   "star_count": 16,
+   "named_stars": [
+    "Spica",
+    "Porrima",
+    "Vindemiatrix",
+    "Heze",
+    "Minelauva",
+    "Zavijava"
+   ]
+  },
+  {
+   "abbrev": "Vol",
+   "name": "Volans",
+   "ra_hours": 7.9959,
+   "dec_degrees": -69,
+   "star_count": 6,
+   "named_stars": []
+  },
+  {
+   "abbrev": "Vul",
+   "name": "Vulpecula",
+   "ra_hours": 19.8653,
+   "dec_degrees": 26.36,
+   "star_count": 2,
+   "named_stars": [
+    "Anser"
+   ]
+  }
+ ]
+}

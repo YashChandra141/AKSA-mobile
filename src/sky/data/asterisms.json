@@ -1,0 +1,38 @@
+{
+  "Orion's Belt": {
+    "members": ["Alnitak", "Alnilam", "Mintaka"],
+    "tip": "Three bright stars in a short, straight line at Orion's middle. Follow the line down and to the left to reach Sirius."
+  },
+  "Big Dipper": {
+    "members": ["Dubhe", "Merak", "Phecda", "Megrez", "Alioth", "Mizar", "Alkaid"],
+    "tip": "Follow the two stars at the far end of the bowl (Merak to Dubhe) upward about 5 fists to find Polaris."
+  },
+  "Summer Triangle": {
+    "members": ["Vega", "Deneb", "Altair"],
+    "tip": "High overhead on summer evenings: three bright stars, each in a different constellation, forming a large triangle."
+  },
+  "Winter Triangle": {
+    "members": ["Sirius", "Betelgeuse", "Procyon"],
+    "tip": "Rises with Orion on winter evenings; Sirius, the brightest star in the sky, marks the bottom corner."
+  },
+  "Winter Hexagon": {
+    "members": ["Capella", "Pollux", "Procyon", "Sirius", "Rigel", "Aldebaran"],
+    "tip": "A large ring of six bright stars surrounding Orion, visible all through northern winter."
+  },
+  "Southern Cross": {
+    "members": ["Acrux", "Mimosa", "Gacrux", "Imai"],
+    "tip": "The smallest constellation in the sky. Its long axis points toward the south celestial pole."
+  },
+  "Great Square of Pegasus": {
+    "members": ["Markab", "Scheat", "Algenib", "Alpheratz"],
+    "tip": "A big, nearly empty square rising in autumn evenings. From its upper-left corner you can hop to the Andromeda Galaxy."
+  },
+  "Cassiopeia's W": {
+    "members": ["Caph", "Cih", "Schedar", "Ruchbah", "Segin"],
+    "tip": "A bright W shape straddling the Milky Way, on the opposite side of Polaris from the Big Dipper."
+  },
+  "Teapot": {
+    "members": ["Kaus Australis", "Kaus Media", "Kaus Borealis", "Nunki", "Ascella", "Alnasl"],
+    "tip": "Look low in the south on summer evenings: the Sagittarius stars form a teapot, with the Milky Way rising like steam from its spout."
+  }
+}

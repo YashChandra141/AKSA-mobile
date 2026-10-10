@@ -1,0 +1,462 @@
+{
+ "Sirius": {
+  "type": "star",
+  "headline": "The brightest star in the night sky.",
+  "color_reason": "Blue-white because its surface is very hot, around 9,900 C.",
+  "size_or_scale": "About twice as massive as the Sun and roughly 25 times brighter.",
+  "indian_name": "Lubdhaka",
+  "lore": "In Indian sky tradition Sirius is Lubdhaka, the hunter following Mriga, the deer (Orion), across the night.",
+  "binocular_tip": "Brilliant white in binoculars; its white dwarf companion Sirius B is real but far too faint to see."
+ },
+ "Canopus": {
+  "type": "star",
+  "headline": "The second-brightest star in the night sky, and the brightest you never see from far northern latitudes.",
+  "color_reason": "Yellow-white, the colour of a bright supergiant.",
+  "size_or_scale": "Roughly 65 times wider than the Sun and thousands of times brighter.",
+  "indian_name": "Agastya",
+  "lore": "Indian tradition names Canopus after Agastya, the revered sage who crossed the Vindhya mountains to the south.",
+  "binocular_tip": "Sits low in the south from India in winter; a clean horizon view is the prize."
+ },
+ "Rigil Kentaurus": {
+  "type": "star",
+  "headline": "The nearest star system to the Sun, just over 4 light years away.",
+  "color_reason": "Warm yellow-white like a Sun-like star slightly hotter than ours.",
+  "size_or_scale": "A triple system; its faint red member Proxima hosts the closest known exoplanet.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Visible only from the southern tropics and south; splits into two bright components in a small telescope."
+ },
+ "Arcturus": {
+  "type": "star",
+  "headline": "The brightest star of the northern spring and a nearby red giant.",
+  "color_reason": "Orange because it is a cool giant, cooler than the Sun.",
+  "size_or_scale": "About 25 times wider than the Sun; its light opened the 1933 Chicago World's Fair, beamed from a telescope 40 years after the 1893 fair.",
+  "indian_name": "Swati",
+  "lore": "The nakshatra Swati is named after this orange beacon.",
+  "binocular_tip": "Its colour is the whole show: a warm amber point against the spring sky."
+ },
+ "Vega": {
+  "type": "star",
+  "headline": "The brightest star of the northern summer and a former pole star.",
+  "color_reason": "Blue-white because it is a hot young star.",
+  "size_or_scale": "About 2.5 times wider than the Sun; it spins so fast it is visibly flattened.",
+  "indian_name": "Abhijit",
+  "lore": "The nakshatra Abhijit honours Vega; around 12,000 BCE it was the pole star, and it will be again.",
+  "binocular_tip": "Halfway between Vega and Altair the Milky Way's Great Rift shows its dark dust lanes."
+ },
+ "Capella": {
+  "type": "star",
+  "headline": "The 'Goat Star', actually a pair of giant binaries circling each other.",
+  "color_reason": "Warm yellow like an aged Sun, seen from about 43 light years away.",
+  "size_or_scale": "The two bright components together shine about 80 times brighter than the Sun.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Low in the northeast on autumn evenings it flashes red and blue; that is our atmosphere, not the star."
+ },
+ "Rigel": {
+  "type": "star",
+  "headline": "The blue-white supergiant at Orion's foot, one of the most powerful stars you can see.",
+  "color_reason": "Blue-white because it is far hotter than the Sun.",
+  "size_or_scale": "Tens of thousands of times brighter than the Sun, from about 850 light years away.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Contrast its icy blue with orange Betelgeuse at Orion's opposite corner."
+ },
+ "Procyon": {
+  "type": "star",
+  "headline": "The Little Dog Star that rises before Sirius, its namesake.",
+  "color_reason": "Yellow-white, a hot star slightly hotter than the Sun.",
+  "size_or_scale": "Only 11.5 light years away, with its own white dwarf companion.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Forms the Winter Triangle with Sirius and Betelgeuse."
+ },
+ "Betelgeuse": {
+  "type": "star",
+  "headline": "The red supergiant at Orion's shoulder, a star near the end of its life.",
+  "color_reason": "Orange-red because it is a cool supergiant, only about half as hot as the Sun.",
+  "size_or_scale": "If it replaced the Sun, its surface would stretch past the orbit of Mars.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Watch it over months; it is a slow, unpredictable variable star."
+ },
+ "Achernar": {
+  "type": "star",
+  "headline": "The end of the River Eridanus, the flattest bright star known.",
+  "color_reason": "Blue-white because it is very hot.",
+  "size_or_scale": "It spins so fast that its poles are far closer to its core than its equator.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Best from south of about 33 degrees north latitude."
+ },
+ "Altair": {
+  "type": "star",
+  "headline": "The eye of the Eagle, a fast-spinning nearby star.",
+  "color_reason": "White with a hint of blue from its high surface temperature.",
+  "size_or_scale": "Completes one spin in about 9 hours; its equator bulges visibly.",
+  "indian_name": "Shravana",
+  "lore": "The nakshatra Shravana, 'the listener', belongs to this star of the Eagle.",
+  "binocular_tip": "Flanked by two fainter stars in a line, a handy pattern for confirming you found it."
+ },
+ "Aldebaran": {
+  "type": "star",
+  "headline": "The orange eye of the Bull, glaring at Orion like the star's name means.",
+  "color_reason": "Orange because it is a cool giant star.",
+  "size_or_scale": "About 45 times wider than the Sun, sitting 65 light years away.",
+  "indian_name": "Rohini",
+  "lore": "The nakshatra Rohini, favourite of the Moon in Vedic stories, is this orange star.",
+  "binocular_tip": "Look beside it for the V-shaped Hyades cluster it merely lines up with."
+ },
+ "Antares": {
+  "type": "star",
+  "headline": "The red supergiant heart of Scorpius, whose name means 'rival of Mars'.",
+  "color_reason": "Fiery red-orange because it is a cool supergiant.",
+  "size_or_scale": "If it replaced the Sun, its surface would reach past the orbit of Mars.",
+  "indian_name": "Jyeshtha",
+  "lore": "The nakshatra Jyeshtha, 'the eldest', crowns Scorpius with this red giant.",
+  "binocular_tip": "When Mars passes nearby, compare their colours; the name Antares means exactly that contest."
+ },
+ "Spica": {
+  "type": "star",
+  "headline": "The wheat ear of the Maiden, a tight pair of hot blue stars.",
+  "color_reason": "Blue-white because its surface is among the hottest of bright stars.",
+  "size_or_scale": "Its two components orbit each other every four days.",
+  "indian_name": "Chitra",
+  "lore": "The nakshatra Chitra, 'the brilliant one', is this sparkling jewel of Virgo.",
+  "binocular_tip": "Follow the Big Dipper's handle in a great arc to Arcturus, then speed on to Spica."
+ },
+ "Pollux": {
+  "type": "star",
+  "headline": "The brighter of the Gemini twins, an orange giant with a known planet.",
+  "color_reason": "Warm orange because it is a cool giant.",
+  "size_or_scale": "About 9 times wider than the Sun, 34 light years away.",
+  "indian_name": "Punarvasu",
+  "lore": "The nakshatra Punarvasu, 'return of the light', is marked by the Gemini twins.",
+  "binocular_tip": "Compare its colour with icy Castor beside it."
+ },
+ "Fomalhaut": {
+  "type": "star",
+  "headline": "The lonely autumn star of the south, ringed by a great disk of dust.",
+  "color_reason": "White with a touch of blue, a hot young star.",
+  "size_or_scale": "A debris disk orbits it where planets are forming, like a young solar system.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Nothing bright is nearby, which is why old skywatchers called it the Lonely One."
+ },
+ "Deneb": {
+  "type": "star",
+  "headline": "The tail of the Swan, one of the most luminous stars visible to the eye.",
+  "color_reason": "White-blue from its ferociously hot surface.",
+  "size_or_scale": "Shines with the light of roughly a hundred thousand Suns from about 2,600 light years away.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Sweep around it: the Milky Way runs right through Cygnus."
+ },
+ "Regulus": {
+  "type": "star",
+  "headline": "The little king at the heart of Leo, sitting almost exactly on the Sun's yearly path.",
+  "color_reason": "Blue-white because it is hot and young.",
+  "size_or_scale": "It spins so fast it would fly apart if it spun much faster.",
+  "indian_name": "Magha",
+  "lore": "The nakshatra Magha, 'the royal one', is ruled by Regulus.",
+  "binocular_tip": "The Moon and planets pass right beside it, since it sits on the ecliptic."
+ },
+ "Polaris": {
+  "type": "star",
+  "headline": "The North Star, the anchor of every northern sky map.",
+  "color_reason": "Yellow-white, a supergiant far more luminous than it looks.",
+  "size_or_scale": "It stands almost exactly at the north celestial pole, less than a degree off.",
+  "indian_name": "Dhruva",
+  "lore": "Dhruva, the unmovable one, was the child devotee set in the sky forever by Vishnu.",
+  "binocular_tip": "Find it first: its height above the horizon equals your latitude."
+ },
+ "Castor": {
+  "type": "star",
+  "headline": "The twin's head that is actually a six-star family.",
+  "color_reason": "White, hot and young like its brother Pollux's neighbour should be.",
+  "size_or_scale": "Three pairs of stars bound together, all about 50 light years away.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "A small telescope splits its brightest pair."
+ },
+ "Mizar": {
+  "type": "star",
+  "headline": "The middle star of the Dipper's handle and history's most famous double star.",
+  "color_reason": "White-hot like a young A-type star.",
+  "size_or_scale": "Mizar itself is two stars, and its faint companion makes a famous pair.",
+  "indian_name": "Vasishtha",
+  "lore": "Vasishtha is one of the seven sages riding the Saptarishi across the sky.",
+  "binocular_tip": "Look just beside it for faint Alcor; seeing both was a traditional eyesight test."
+ },
+ "Alcor": {
+  "type": "star",
+  "headline": "The faint little companion of Mizar, famous as an ancient vision test.",
+  "color_reason": "A white star much fainter than its bright partner.",
+  "size_or_scale": "Only about 4th magnitude, yet easy beside brilliant Mizar.",
+  "indian_name": "Arundhati",
+  "lore": "Arundhati, wife of sage Vasishtha, rides beside him; couples are still shown this pair at weddings as a model of companionship.",
+  "binocular_tip": "Any binoculars separate it instantly; bare eyes see it as one star if your sight is average."
+ },
+ "Alcyone": {
+  "type": "star",
+  "headline": "The brightest member of the Pleiades.",
+  "color_reason": "Blue-white, a hot young star barely 100 million years old.",
+  "size_or_scale": "About ten times wider than the Sun and a thousand times brighter.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Binoculars reveal dozens more sisters around it."
+ },
+ "Bellatrix": {
+  "type": "star",
+  "headline": "The blue 'Amazon Star' at Orion's other shoulder.",
+  "color_reason": "Blue-white because it is a hot giant.",
+  "size_or_scale": "About 8 times wider than the Sun but far hotter and brighter.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Compare with orange Betelgeuse diagonally opposite; same constellation, opposite colours."
+ },
+ "Adhara": {
+  "type": "star",
+  "headline": "The second-brightest of Canis Major and the sky's brightest ultraviolet beacon.",
+  "color_reason": "Blue-white, one of the hottest bright stars.",
+  "size_or_scale": "A supergiant about 430 light years away, far beyond Sirius.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Forms a tidy triangle with Sirius and Wezen on winter evenings."
+ },
+ "Andromeda Galaxy": {
+  "type": "galaxy",
+  "headline": "The farthest thing most human eyes can see: a whole galaxy 2.5 million light years away.",
+  "color_reason": null,
+  "size_or_scale": "About a trillion stars; it and the Milky Way will merge in roughly 4.5 billion years.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Find the Great Square of Pegasus, hop to its upper-left star and glide two more fists in the same direction.",
+  "distance_ly": 2500000
+ },
+ "Great Orion Nebula": {
+  "type": "cluster with nebula",
+  "headline": "A stellar nursery hanging from Orion's belt, visible to the naked eye as a fuzzy 'sword' star.",
+  "color_reason": null,
+  "size_or_scale": "About 1,350 light years away, where hundreds of new stars are forming right now.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Look below Orion's Belt for three fainter stars in a line; the middle one is not a star.",
+  "distance_ly": 1350
+ },
+ "Pleiades": {
+  "type": "open cluster",
+  "headline": "The Seven Sisters, a dipper-shaped cluster of young blue stars.",
+  "color_reason": null,
+  "size_or_scale": "About 440 light years away and roughly 100 million years old.",
+  "indian_name": "Krittika",
+  "lore": "Krittika, the nakshatra of fire, belongs to the Pleiades; legend says the six sisters were so shy that one hid away.",
+  "binocular_tip": "Binoculars turn 6 stars into dozens wrapped in faint blue haze.",
+  "distance_ly": 440
+ },
+ "Ring Nebula": {
+  "type": "planetary nebula",
+  "headline": "A dying sun-like star that puffed off a perfect smoke ring of gas.",
+  "color_reason": null,
+  "size_or_scale": "About 2,300 light years away; this is our Sun's own distant future.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Between the bottom two stars of Lyra's parallelogram; small but unmistakable in a telescope.",
+  "distance_ly": 2300
+ },
+ "Crab Nebula": {
+  "type": "supernova remnant",
+  "headline": "The wreckage of a star that Chinese and Japanese astronomers saw explode in 1054 CE.",
+  "color_reason": null,
+  "size_or_scale": "A spinning pulsar at its core flashes 30 times every second.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Near the star marking the Bull's northern horn; needs a dark, clear night even for a faint smudge.",
+  "distance_ly": 6500
+ },
+ "Great Hercules Cluster": {
+  "type": "globular cluster",
+  "headline": "A ball of several hundred thousand ancient stars, one of the sky's grandest sights.",
+  "color_reason": null,
+  "size_or_scale": "About 22,000 light years away, older than the Sun by billions of years.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Between the stars of the Keystone in Hercules; half-moon shaped in binoculars, glorious in a telescope.",
+  "distance_ly": 22000
+ },
+ "Lagoon Nebula": {
+  "type": "emission nebula",
+  "headline": "A glowing cloud of gas where new stars are born, in the Teapot's steam.",
+  "color_reason": null,
+  "size_or_scale": "About 4,000 light years away, big enough to hold several Orion Nebulas.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Just above the Teapot's top; binoculars show a bright patch with a dark lane through it.",
+  "distance_ly": 4100
+ },
+ "Dumbbell Nebula": {
+  "type": "planetary nebula",
+  "headline": "The first planetary nebula ever discovered, a dying star's expanding cocoon.",
+  "color_reason": null,
+  "size_or_scale": "About 1,350 light years away in the constellation Vulpecula, the little Fox.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Between Cygnus and Sagitta; binoculars catch it as a faint apple-shaped glow.",
+  "distance_ly": 1360
+ },
+ "Whirlpool Galaxy": {
+  "type": "galaxy",
+  "headline": "The first galaxy ever recognized as a spiral, in 1845.",
+  "color_reason": null,
+  "size_or_scale": "About 23 million light years away, tugged by a small companion galaxy.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Near the end star of the Big Dipper's handle; a telescope on a dark night shows the spiral.",
+  "distance_ly": 23000000
+ },
+ "Sombrero Galaxy": {
+  "type": "galaxy",
+  "headline": "A galaxy seen edge-on, wearing a brim of dark dust.",
+  "color_reason": null,
+  "size_or_scale": "About 30 million light years away, with a central bulge hosting a massive black hole.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Just south of the Spica-to-Arcturus line; best with a telescope on a dark night.",
+  "distance_ly": 30000000
+ },
+ "Mercury": {
+  "type": "planet",
+  "headline": "The smallest planet and the fastest, hugging the Sun so tightly it is rarely seen.",
+  "color_reason": null,
+  "size_or_scale": "Swings from -170 C at night to 430 C by day, the wildest temperature range of any planet.",
+  "indian_name": "Budha",
+  "lore": "Budha, the quick-witted son of Chandra, lends his name to Wednesday, Budhavar.",
+  "binocular_tip": "Catch it only in twilight, low near the horizon, for a couple of weeks at a time."
+ },
+ "Venus": {
+  "type": "planet",
+  "headline": "The brightest planet, the 'evening star' or 'morning star'.",
+  "color_reason": null,
+  "size_or_scale": "Its runaway greenhouse keeps the surface near 465 C, hot enough to melt lead.",
+  "indian_name": "Shukra",
+  "lore": "Shukra, the guru of the demons, gives Venus its name and Friday, Shukravar, its day.",
+  "binocular_tip": "A small telescope shows phases like a tiny Moon; check it a month apart."
+ },
+ "Mars": {
+  "type": "planet",
+  "headline": "The red planet, glowing like a steady ember in the night.",
+  "color_reason": null,
+  "size_or_scale": "Rusty iron oxide dust paints it red; it is the second smallest planet.",
+  "indian_name": "Mangal",
+  "lore": "Mangal, the fierce one, lends Mars its name and Tuesday, Mangalavar, its day.",
+  "binocular_tip": "Its brightness changes hugely from year to year as the two planets' orbits line up."
+ },
+ "Jupiter": {
+  "type": "planet",
+  "headline": "The king of planets, bright enough to outshine every star in the sky.",
+  "color_reason": null,
+  "size_or_scale": "More than 1,300 Earths would fit inside; its Great Red Spot is a storm wider than Earth.",
+  "indian_name": "Brihaspati",
+  "lore": "Brihaspati, guru of the gods, gives Jupiter its name and Thursday, Guruvar, its day.",
+  "binocular_tip": "Any binoculars held steady show its four Galilean moons as a little line of stars; watch them swap sides over days."
+ },
+ "Saturn": {
+  "type": "planet",
+  "headline": "The ringed jewel of the solar system.",
+  "color_reason": null,
+  "size_or_scale": "Its rings are ice and rock spanning 280,000 km, yet mostly just tens of metres thick.",
+  "indian_name": "Shani",
+  "lore": "Shani, the slow judge of deeds, gives Saturn its name and Saturday, Shanivar, its day.",
+  "binocular_tip": "Hold binoculars very steady and the rings make it look like a tiny oval; a small telescope makes them unmistakable."
+ },
+ "Moon": {
+  "type": "moon",
+  "headline": "Earth's companion, close enough to see craters with the naked eye.",
+  "color_reason": null,
+  "size_or_scale": "About 384,000 km away, so its light reaches you in about 1.3 seconds.",
+  "indian_name": "Chandra",
+  "lore": "Chandra rides a chariot of white horses across the night; many nakshatras are his brides in myth.",
+  "binocular_tip": "Along the terminator, the line between light and dark, shadows make craters leap out in 3-D."
+ },
+ "Orion": {
+  "type": "constellation",
+  "headline": "The hunter, the easiest constellation to recognize anywhere in the sky.",
+  "color_reason": null,
+  "size_or_scale": "It holds two of the sky's ten brightest stars and the great Orion Nebula.",
+  "indian_name": "Mriga",
+  "lore": "Mriga, the deer, is chased forever across the sky by Lubdhaka, the hunter dog that is Sirius.",
+  "binocular_tip": "Sweep below the Belt for the Orion Nebula; nothing else in the sky looks like it."
+ },
+ "Ursa Major": {
+  "type": "constellation",
+  "headline": "The Great Bear, home of the Big Dipper or Saptarishi.",
+  "color_reason": null,
+  "size_or_scale": "From India it never sets; the whole pattern wheels around Polaris all night.",
+  "indian_name": "Saptarishi",
+  "lore": "Seven sages, the Saptarishi, ride this pattern around the pole: Marichi, Vasishtha, Angiras, Atri, Pulastya, Pulaha and Kratu.",
+  "binocular_tip": "Mizar in the handle shows a faint companion, Arundhati, beside it."
+ },
+ "Crux": {
+  "type": "constellation",
+  "headline": "The Southern Cross, the smallest constellation in the sky and the most famous.",
+  "color_reason": null,
+  "size_or_scale": "It appears on five national flags, from Australia and New Zealand to Brazil.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Its long axis points toward the south celestial pole, where there is no pole star."
+ },
+ "Scorpius": {
+  "type": "constellation",
+  "headline": "The scorpion with a red heart and a hooked tail.",
+  "color_reason": null,
+  "size_or_scale": "It lies close to the brightest part of the Milky Way's centre.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Follow the curved tail low in the south on summer nights; each curl holds a star cluster."
+ },
+ "Sagittarius": {
+  "type": "constellation",
+  "headline": "The archer whose Teapot points the way to the centre of our galaxy.",
+  "color_reason": null,
+  "size_or_scale": "The Milky Way is densest here because you are looking toward the galactic core.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Sweep the 'steam' rising from the Teapot's spout for nebulae and clusters."
+ },
+ "Big Dipper": {
+  "type": "asterism",
+  "headline": "Seven bright stars that point the way north.",
+  "color_reason": null,
+  "size_or_scale": "The two outer bowl stars, Merak and Dubhe, point to Polaris five fists away.",
+  "indian_name": "Saptarishi",
+  "lore": "The seven sages in their sky chariot, circling Dhruva, the pole star.",
+  "binocular_tip": "Look at the middle of the handle for Mizar and Alcor, the famous eye test pair."
+ },
+ "Orion's Belt": {
+  "type": "asterism",
+  "headline": "Three stars in a straight line, the most useful signpost in the sky.",
+  "color_reason": null,
+  "size_or_scale": "The three stars are hundreds of light years away and unrelated, yet line up perfectly from here.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "Below the Belt hangs the sword with the Orion Nebula in its middle."
+ },
+ "Summer Triangle": {
+  "type": "asterism",
+  "headline": "Three bright stars from three constellations ruling summer evenings.",
+  "color_reason": null,
+  "size_or_scale": "Vega, Deneb and Altair are 25, 2,600 and 17 light years away, yet look equally bright.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "The Milky Way flows through the Triangle, splitting near Altair into two dark channels."
+ },
+ "Southern Cross": {
+  "type": "asterism",
+  "headline": "The smallest constellation, and the southern sky's compass.",
+  "color_reason": null,
+  "size_or_scale": "Its long axis points within a few degrees of the south celestial pole.",
+  "indian_name": null,
+  "lore": null,
+  "binocular_tip": "The jewel box cluster sparkles just beside its eastern arm in binoculars."
+ }
+}

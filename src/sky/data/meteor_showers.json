@@ -1,0 +1,13 @@
+{
+  "showers": [
+    {"name": "Quadrantids", "active_start": "12-28", "active_end": "01-12", "peak": "01-03", "zhr": 110, "best_hour": "02:00-05:00 local"},
+    {"name": "Lyrids", "active_start": "04-14", "active_end": "04-30", "peak": "04-22", "zhr": 18, "best_hour": "after midnight"},
+    {"name": "Eta Aquariids", "active_start": "04-19", "active_end": "05-28", "peak": "05-06", "zhr": 50, "best_hour": "the hours before dawn"},
+    {"name": "Perseids", "active_start": "07-17", "active_end": "08-24", "peak": "08-12", "zhr": 90, "best_hour": "after midnight"},
+    {"name": "Draconids", "active_start": "10-06", "active_end": "10-10", "peak": "10-08", "zhr": 10, "best_hour": "early evening"},
+    {"name": "Orionids", "active_start": "10-02", "active_end": "11-07", "peak": "10-21", "zhr": 20, "best_hour": "after midnight"},
+    {"name": "Leonids", "active_start": "11-06", "active_end": "11-30", "peak": "11-17", "zhr": 15, "best_hour": "after midnight"},
+    {"name": "Geminids", "active_start": "12-04", "active_end": "12-20", "peak": "12-14", "zhr": 120, "best_hour": "22:00 onward"},
+    {"name": "Ursids", "active_start": "12-17", "active_end": "12-26", "peak": "12-22", "zhr": 10, "best_hour": "after midnight"}
+  ]
+}

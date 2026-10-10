@@ -2,6 +2,9 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "types": [
+      "jest"
+    ],
     "paths": {
       "@/*": [
         "./src/*"
@@ -16,5 +19,10 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "exclude": [
+    "tools",
+    "android",
+    "ios"
   ]
 }

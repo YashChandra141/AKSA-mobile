@@ -1,0 +1,9196 @@
+{
+ "source": "Hipparcos catalog I/239 via Skyfield; stars brighter than mag 4.5",
+ "count": 919,
+ "stars": [
+  {
+   "hip": 32349,
+   "name": "Sirius",
+   "ra_hours": 6.75257,
+   "dec_degrees": -16.7131,
+   "mag": -1.44,
+   "parallax_mas": 379.21,
+   "distance_ly": 8.6,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 30438,
+   "name": "Canopus",
+   "ra_hours": 6.39919,
+   "dec_degrees": -52.6957,
+   "mag": -0.62,
+   "parallax_mas": 10.43,
+   "distance_ly": 312.7,
+   "constellation": "Car"
+  },
+  {
+   "hip": 69673,
+   "name": "Arcturus",
+   "ra_hours": 14.26121,
+   "dec_degrees": 19.1873,
+   "mag": -0.05,
+   "parallax_mas": 88.85,
+   "distance_ly": 36.7,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 71683,
+   "name": "Rigil Kentaurus",
+   "ra_hours": 14.66136,
+   "dec_degrees": -60.8351,
+   "mag": -0.01,
+   "parallax_mas": 742.12,
+   "distance_ly": 4.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 91262,
+   "name": "Vega",
+   "ra_hours": 18.61561,
+   "dec_degrees": 38.783,
+   "mag": 0.03,
+   "parallax_mas": 128.93,
+   "distance_ly": 25.3,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 24608,
+   "name": "Capella",
+   "ra_hours": 5.27814,
+   "dec_degrees": 45.999,
+   "mag": 0.08,
+   "parallax_mas": 77.29,
+   "distance_ly": 42.2,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 24436,
+   "name": "Rigel",
+   "ra_hours": 5.2423,
+   "dec_degrees": -8.2016,
+   "mag": 0.18,
+   "parallax_mas": 4.22,
+   "distance_ly": 772.9,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 37279,
+   "name": "Procyon",
+   "ra_hours": 7.65515,
+   "dec_degrees": 5.2275,
+   "mag": 0.4,
+   "parallax_mas": 285.93,
+   "distance_ly": 11.4,
+   "constellation": "CMi"
+  },
+  {
+   "hip": 7588,
+   "name": "Achernar",
+   "ra_hours": 1.62854,
+   "dec_degrees": -57.2367,
+   "mag": 0.45,
+   "parallax_mas": 22.68,
+   "distance_ly": 143.8,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 27989,
+   "name": "Betelgeuse",
+   "ra_hours": 5.91952,
+   "dec_degrees": 7.407,
+   "mag": 0.45,
+   "parallax_mas": 7.63,
+   "distance_ly": 427.5,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 68702,
+   "name": "Hadar",
+   "ra_hours": 14.06373,
+   "dec_degrees": -60.373,
+   "mag": 0.61,
+   "parallax_mas": 6.21,
+   "distance_ly": 525.2,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 97649,
+   "name": "Altair",
+   "ra_hours": 19.8463,
+   "dec_degrees": 8.8674,
+   "mag": 0.76,
+   "parallax_mas": 194.44,
+   "distance_ly": 16.8,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 60718,
+   "name": "Acrux",
+   "ra_hours": 12.44332,
+   "dec_degrees": -63.0991,
+   "mag": 0.77,
+   "parallax_mas": 10.17,
+   "distance_ly": 320.7,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 21421,
+   "name": "Aldebaran",
+   "ra_hours": 4.59867,
+   "dec_degrees": 16.5098,
+   "mag": 0.87,
+   "parallax_mas": 50.09,
+   "distance_ly": 65.1,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 65474,
+   "name": "Spica",
+   "ra_hours": 13.41989,
+   "dec_degrees": -11.1612,
+   "mag": 0.98,
+   "parallax_mas": 12.44,
+   "distance_ly": 262.2,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 80763,
+   "name": "Antares",
+   "ra_hours": 16.49013,
+   "dec_degrees": -26.4319,
+   "mag": 1.06,
+   "parallax_mas": 5.4,
+   "distance_ly": 604,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 37826,
+   "name": "Pollux",
+   "ra_hours": 7.75538,
+   "dec_degrees": 28.0263,
+   "mag": 1.16,
+   "parallax_mas": 96.74,
+   "distance_ly": 33.7,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 113368,
+   "name": "Fomalhaut",
+   "ra_hours": 22.96078,
+   "dec_degrees": -29.6218,
+   "mag": 1.17,
+   "parallax_mas": 130.08,
+   "distance_ly": 25.1,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 62434,
+   "name": "Mimosa",
+   "ra_hours": 12.79537,
+   "dec_degrees": -59.6887,
+   "mag": 1.25,
+   "parallax_mas": 9.25,
+   "distance_ly": 352.6,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 102098,
+   "name": "Deneb",
+   "ra_hours": 20.69053,
+   "dec_degrees": 45.2803,
+   "mag": 1.25,
+   "parallax_mas": 1.01,
+   "distance_ly": 3229.3,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 71681,
+   "name": "Toliman",
+   "ra_hours": 14.66094,
+   "dec_degrees": -60.8395,
+   "mag": 1.35,
+   "parallax_mas": 742.12,
+   "distance_ly": 4.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 49669,
+   "name": "Regulus",
+   "ra_hours": 10.13957,
+   "dec_degrees": 11.9672,
+   "mag": 1.36,
+   "parallax_mas": 42.09,
+   "distance_ly": 77.5,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 33579,
+   "name": "Adhara",
+   "ra_hours": 6.9771,
+   "dec_degrees": -28.9721,
+   "mag": 1.5,
+   "parallax_mas": 7.57,
+   "distance_ly": 430.9,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 36850,
+   "name": "Castor",
+   "ra_hours": 7.57667,
+   "dec_degrees": 31.8886,
+   "mag": 1.58,
+   "parallax_mas": 63.27,
+   "distance_ly": 51.5,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 61084,
+   "name": "Gacrux",
+   "ra_hours": 12.51942,
+   "dec_degrees": -57.1126,
+   "mag": 1.59,
+   "parallax_mas": 37.09,
+   "distance_ly": 87.9,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 85927,
+   "name": "Shaula",
+   "ra_hours": 17.56015,
+   "dec_degrees": -37.1037,
+   "mag": 1.62,
+   "parallax_mas": 4.64,
+   "distance_ly": 702.9,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 25336,
+   "name": "Bellatrix",
+   "ra_hours": 5.41885,
+   "dec_degrees": 6.3497,
+   "mag": 1.64,
+   "parallax_mas": 13.42,
+   "distance_ly": 243,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 25428,
+   "name": "Elnath",
+   "ra_hours": 5.43819,
+   "dec_degrees": 28.6079,
+   "mag": 1.65,
+   "parallax_mas": 24.89,
+   "distance_ly": 131,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 45238,
+   "name": "Miaplacidus",
+   "ra_hours": 9.22007,
+   "dec_degrees": -69.7175,
+   "mag": 1.67,
+   "parallax_mas": 29.34,
+   "distance_ly": 111.2,
+   "constellation": "Car"
+  },
+  {
+   "hip": 26311,
+   "name": "Alnilam",
+   "ra_hours": 5.60356,
+   "dec_degrees": -1.2019,
+   "mag": 1.69,
+   "parallax_mas": 2.43,
+   "distance_ly": 1342.2,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 109268,
+   "name": "Alnair",
+   "ra_hours": 22.13719,
+   "dec_degrees": -46.9606,
+   "mag": 1.73,
+   "parallax_mas": 32.16,
+   "distance_ly": 101.4,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 26727,
+   "name": "Alnitak",
+   "ra_hours": 5.67931,
+   "dec_degrees": -1.9426,
+   "mag": 1.74,
+   "parallax_mas": 3.99,
+   "distance_ly": 817.4,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 39953,
+   "name": null,
+   "ra_hours": 8.15888,
+   "dec_degrees": -47.3366,
+   "mag": 1.75,
+   "parallax_mas": 3.88,
+   "distance_ly": 840.6,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 62956,
+   "name": "Alioth",
+   "ra_hours": 12.90045,
+   "dec_degrees": 55.9598,
+   "mag": 1.76,
+   "parallax_mas": 40.3,
+   "distance_ly": 80.9,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 15863,
+   "name": "Mirfak",
+   "ra_hours": 3.40537,
+   "dec_degrees": 49.8612,
+   "mag": 1.79,
+   "parallax_mas": 5.51,
+   "distance_ly": 591.9,
+   "constellation": "Per"
+  },
+  {
+   "hip": 90185,
+   "name": "Kaus Australis",
+   "ra_hours": 18.40287,
+   "dec_degrees": -34.3843,
+   "mag": 1.79,
+   "parallax_mas": 22.55,
+   "distance_ly": 144.6,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 54061,
+   "name": "Dubhe",
+   "ra_hours": 11.06218,
+   "dec_degrees": 61.7511,
+   "mag": 1.81,
+   "parallax_mas": 26.38,
+   "distance_ly": 123.6,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 34444,
+   "name": "Wezen",
+   "ra_hours": 7.13986,
+   "dec_degrees": -26.3932,
+   "mag": 1.83,
+   "parallax_mas": 1.82,
+   "distance_ly": 1792.1,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 67301,
+   "name": "Alkaid",
+   "ra_hours": 13.79237,
+   "dec_degrees": 49.3133,
+   "mag": 1.85,
+   "parallax_mas": 32.39,
+   "distance_ly": 100.7,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 41037,
+   "name": "Avior",
+   "ra_hours": 8.37524,
+   "dec_degrees": -59.5095,
+   "mag": 1.86,
+   "parallax_mas": 5.16,
+   "distance_ly": 632.1,
+   "constellation": "Car"
+  },
+  {
+   "hip": 86228,
+   "name": "Sargas",
+   "ra_hours": 17.62198,
+   "dec_degrees": -42.9978,
+   "mag": 1.86,
+   "parallax_mas": 11.99,
+   "distance_ly": 272,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 28360,
+   "name": "Menkalinan",
+   "ra_hours": 5.99216,
+   "dec_degrees": 44.9474,
+   "mag": 1.9,
+   "parallax_mas": 39.72,
+   "distance_ly": 82.1,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 82273,
+   "name": "Atria",
+   "ra_hours": 16.81107,
+   "dec_degrees": -69.0276,
+   "mag": 1.91,
+   "parallax_mas": 7.85,
+   "distance_ly": 415.5,
+   "constellation": "TrA"
+  },
+  {
+   "hip": 31681,
+   "name": "Alhena",
+   "ra_hours": 6.62853,
+   "dec_degrees": 16.3994,
+   "mag": 1.93,
+   "parallax_mas": 31.12,
+   "distance_ly": 104.8,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 42913,
+   "name": "Alsephina",
+   "ra_hours": 8.74505,
+   "dec_degrees": -54.7086,
+   "mag": 1.93,
+   "parallax_mas": 40.9,
+   "distance_ly": 79.7,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 100751,
+   "name": "Peacock",
+   "ra_hours": 20.42746,
+   "dec_degrees": -56.7349,
+   "mag": 1.94,
+   "parallax_mas": 17.8,
+   "distance_ly": 183.2,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 11767,
+   "name": "Polaris",
+   "ra_hours": 2.52974,
+   "dec_degrees": 89.2641,
+   "mag": 1.97,
+   "parallax_mas": 7.56,
+   "distance_ly": 431.4,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 30324,
+   "name": "Mirzam",
+   "ra_hours": 6.37833,
+   "dec_degrees": -17.9559,
+   "mag": 1.98,
+   "parallax_mas": 6.53,
+   "distance_ly": 499.5,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 46390,
+   "name": "Alphard",
+   "ra_hours": 9.45979,
+   "dec_degrees": -8.6587,
+   "mag": 1.99,
+   "parallax_mas": 18.4,
+   "distance_ly": 177.3,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 9884,
+   "name": "Hamal",
+   "ra_hours": 2.11952,
+   "dec_degrees": 23.4628,
+   "mag": 2.01,
+   "parallax_mas": 49.48,
+   "distance_ly": 65.9,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 50583,
+   "name": "Algieba",
+   "ra_hours": 10.33282,
+   "dec_degrees": 19.8419,
+   "mag": 2.01,
+   "parallax_mas": 25.96,
+   "distance_ly": 125.6,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 3419,
+   "name": "Diphda",
+   "ra_hours": 0.72645,
+   "dec_degrees": -17.9867,
+   "mag": 2.04,
+   "parallax_mas": 34.04,
+   "distance_ly": 95.8,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 92855,
+   "name": "Nunki",
+   "ra_hours": 18.92109,
+   "dec_degrees": -26.2966,
+   "mag": 2.05,
+   "parallax_mas": 14.54,
+   "distance_ly": 224.3,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 68933,
+   "name": "Menkent",
+   "ra_hours": 14.11148,
+   "dec_degrees": -36.3687,
+   "mag": 2.06,
+   "parallax_mas": 53.52,
+   "distance_ly": 60.9,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 677,
+   "name": "Alpheratz",
+   "ra_hours": 0.13977,
+   "dec_degrees": 29.0908,
+   "mag": 2.07,
+   "parallax_mas": 33.6,
+   "distance_ly": 97.1,
+   "constellation": "And"
+  },
+  {
+   "hip": 5447,
+   "name": "Mirach",
+   "ra_hours": 1.16217,
+   "dec_degrees": 35.6208,
+   "mag": 2.07,
+   "parallax_mas": 16.36,
+   "distance_ly": 199.4,
+   "constellation": "And"
+  },
+  {
+   "hip": 27366,
+   "name": "Saiph",
+   "ra_hours": 5.79594,
+   "dec_degrees": -9.6696,
+   "mag": 2.07,
+   "parallax_mas": 4.52,
+   "distance_ly": 721.6,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 72607,
+   "name": "Kochab",
+   "ra_hours": 14.84511,
+   "dec_degrees": 74.1555,
+   "mag": 2.07,
+   "parallax_mas": 25.79,
+   "distance_ly": 126.5,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 112122,
+   "name": "Tiaki",
+   "ra_hours": 22.71109,
+   "dec_degrees": -46.8846,
+   "mag": 2.07,
+   "parallax_mas": 19.17,
+   "distance_ly": 170.1,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 86032,
+   "name": "Rasalhague",
+   "ra_hours": 17.58222,
+   "dec_degrees": 12.5606,
+   "mag": 2.08,
+   "parallax_mas": 69.84,
+   "distance_ly": 46.7,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 14576,
+   "name": "Algol",
+   "ra_hours": 3.13615,
+   "dec_degrees": 40.9557,
+   "mag": 2.09,
+   "parallax_mas": 35.14,
+   "distance_ly": 92.8,
+   "constellation": "Per"
+  },
+  {
+   "hip": 9640,
+   "name": "Almach",
+   "ra_hours": 2.06498,
+   "dec_degrees": 42.3298,
+   "mag": 2.1,
+   "parallax_mas": 9.19,
+   "distance_ly": 354.9,
+   "constellation": "And"
+  },
+  {
+   "hip": 57632,
+   "name": "Denebola",
+   "ra_hours": 11.81774,
+   "dec_degrees": 14.5723,
+   "mag": 2.14,
+   "parallax_mas": 90.16,
+   "distance_ly": 36.2,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 4427,
+   "name": "Cih",
+   "ra_hours": 0.94514,
+   "dec_degrees": 60.7167,
+   "mag": 2.15,
+   "parallax_mas": 5.32,
+   "distance_ly": 613.1,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 61932,
+   "name": null,
+   "ra_hours": 12.692,
+   "dec_degrees": -48.9599,
+   "mag": 2.2,
+   "parallax_mas": 25.01,
+   "distance_ly": 130.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 39429,
+   "name": "Naos",
+   "ra_hours": 8.05974,
+   "dec_degrees": -40.0032,
+   "mag": 2.21,
+   "parallax_mas": 2.33,
+   "distance_ly": 1399.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 45556,
+   "name": "Aspidiske",
+   "ra_hours": 9.28484,
+   "dec_degrees": -59.2753,
+   "mag": 2.21,
+   "parallax_mas": 4.71,
+   "distance_ly": 692.5,
+   "constellation": "Car"
+  },
+  {
+   "hip": 76267,
+   "name": "Alphecca",
+   "ra_hours": 15.57811,
+   "dec_degrees": 26.7149,
+   "mag": 2.22,
+   "parallax_mas": 43.65,
+   "distance_ly": 74.7,
+   "constellation": "CrB"
+  },
+  {
+   "hip": 44816,
+   "name": "Suhail",
+   "ra_hours": 9.13327,
+   "dec_degrees": -43.4326,
+   "mag": 2.23,
+   "parallax_mas": 5.69,
+   "distance_ly": 573.2,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 65378,
+   "name": "Mizar",
+   "ra_hours": 13.39873,
+   "dec_degrees": 54.9254,
+   "mag": 2.23,
+   "parallax_mas": 41.73,
+   "distance_ly": 78.2,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 100453,
+   "name": "Sadr",
+   "ra_hours": 20.37047,
+   "dec_degrees": 40.2567,
+   "mag": 2.23,
+   "parallax_mas": 2.14,
+   "distance_ly": 1524.1,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 3179,
+   "name": "Schedar",
+   "ra_hours": 0.67511,
+   "dec_degrees": 56.5374,
+   "mag": 2.24,
+   "parallax_mas": 14.27,
+   "distance_ly": 228.6,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 87833,
+   "name": "Eltanin",
+   "ra_hours": 17.94344,
+   "dec_degrees": 51.489,
+   "mag": 2.24,
+   "parallax_mas": 22.1,
+   "distance_ly": 147.6,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 25930,
+   "name": "Mintaka",
+   "ra_hours": 5.53344,
+   "dec_degrees": -0.2991,
+   "mag": 2.25,
+   "parallax_mas": 3.56,
+   "distance_ly": 916.2,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 746,
+   "name": "Caph",
+   "ra_hours": 0.1528,
+   "dec_degrees": 59.1502,
+   "mag": 2.28,
+   "parallax_mas": 59.89,
+   "distance_ly": 54.5,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 66657,
+   "name": null,
+   "ra_hours": 13.6648,
+   "dec_degrees": -53.4664,
+   "mag": 2.29,
+   "parallax_mas": 8.68,
+   "distance_ly": 375.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 78401,
+   "name": "Dschubba",
+   "ra_hours": 16.00556,
+   "dec_degrees": -22.6216,
+   "mag": 2.29,
+   "parallax_mas": 8.12,
+   "distance_ly": 401.7,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 82396,
+   "name": "Larawag",
+   "ra_hours": 16.83618,
+   "dec_degrees": -34.2926,
+   "mag": 2.29,
+   "parallax_mas": 49.85,
+   "distance_ly": 65.4,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 71860,
+   "name": null,
+   "ra_hours": 14.69883,
+   "dec_degrees": -47.3881,
+   "mag": 2.3,
+   "parallax_mas": 5.95,
+   "distance_ly": 548.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 71352,
+   "name": null,
+   "ra_hours": 14.59179,
+   "dec_degrees": -42.1577,
+   "mag": 2.33,
+   "parallax_mas": 10.57,
+   "distance_ly": 308.6,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 53910,
+   "name": "Merak",
+   "ra_hours": 11.03066,
+   "dec_degrees": 56.3823,
+   "mag": 2.34,
+   "parallax_mas": 41.07,
+   "distance_ly": 79.4,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 72105,
+   "name": "Izar",
+   "ra_hours": 14.74979,
+   "dec_degrees": 27.0742,
+   "mag": 2.35,
+   "parallax_mas": 15.55,
+   "distance_ly": 209.7,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 107315,
+   "name": "Enif",
+   "ra_hours": 21.73643,
+   "dec_degrees": 9.875,
+   "mag": 2.38,
+   "parallax_mas": 4.85,
+   "distance_ly": 672.5,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 86670,
+   "name": null,
+   "ra_hours": 17.70813,
+   "dec_degrees": -39.0299,
+   "mag": 2.39,
+   "parallax_mas": 7.03,
+   "distance_ly": 463.9,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 2081,
+   "name": "Ankaa",
+   "ra_hours": 0.43802,
+   "dec_degrees": -42.3051,
+   "mag": 2.4,
+   "parallax_mas": 42.14,
+   "distance_ly": 77.4,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 58001,
+   "name": "Phecda",
+   "ra_hours": 11.89715,
+   "dec_degrees": 53.6947,
+   "mag": 2.41,
+   "parallax_mas": 38.99,
+   "distance_ly": 83.7,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 84012,
+   "name": "Sabik",
+   "ra_hours": 17.17296,
+   "dec_degrees": -15.7251,
+   "mag": 2.43,
+   "parallax_mas": 38.77,
+   "distance_ly": 84.1,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 113881,
+   "name": "Scheat",
+   "ra_hours": 23.06287,
+   "dec_degrees": 28.0825,
+   "mag": 2.44,
+   "parallax_mas": 16.37,
+   "distance_ly": 199.2,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 35904,
+   "name": "Aludra",
+   "ra_hours": 7.40158,
+   "dec_degrees": -29.3031,
+   "mag": 2.45,
+   "parallax_mas": 1.02,
+   "distance_ly": 3197.6,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 105199,
+   "name": "Alderamin",
+   "ra_hours": 21.30961,
+   "dec_degrees": 62.5855,
+   "mag": 2.45,
+   "parallax_mas": 66.84,
+   "distance_ly": 48.8,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 45941,
+   "name": "Markeb",
+   "ra_hours": 9.36856,
+   "dec_degrees": -55.0107,
+   "mag": 2.47,
+   "parallax_mas": 6.05,
+   "distance_ly": 539.1,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 102488,
+   "name": "Aljanah",
+   "ra_hours": 20.77012,
+   "dec_degrees": 33.9695,
+   "mag": 2.48,
+   "parallax_mas": 45.26,
+   "distance_ly": 72.1,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 113963,
+   "name": "Markab",
+   "ra_hours": 23.07934,
+   "dec_degrees": 15.2054,
+   "mag": 2.49,
+   "parallax_mas": 23.36,
+   "distance_ly": 139.6,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 14135,
+   "name": "Menkar",
+   "ra_hours": 3.03799,
+   "dec_degrees": 4.0899,
+   "mag": 2.54,
+   "parallax_mas": 14.82,
+   "distance_ly": 220.1,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 81377,
+   "name": null,
+   "ra_hours": 16.61931,
+   "dec_degrees": -10.5672,
+   "mag": 2.54,
+   "parallax_mas": 7.12,
+   "distance_ly": 458.1,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 68002,
+   "name": null,
+   "ra_hours": 13.92568,
+   "dec_degrees": -47.2883,
+   "mag": 2.55,
+   "parallax_mas": 8.48,
+   "distance_ly": 384.6,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 54872,
+   "name": "Zosma",
+   "ra_hours": 11.23511,
+   "dec_degrees": 20.524,
+   "mag": 2.56,
+   "parallax_mas": 56.52,
+   "distance_ly": 57.7,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 78820,
+   "name": "Acrab",
+   "ra_hours": 16.09062,
+   "dec_degrees": -19.8054,
+   "mag": 2.56,
+   "parallax_mas": 6.15,
+   "distance_ly": 530.3,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 25985,
+   "name": "Arneb",
+   "ra_hours": 5.5455,
+   "dec_degrees": -17.8223,
+   "mag": 2.58,
+   "parallax_mas": 2.54,
+   "distance_ly": 1284.1,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 59196,
+   "name": null,
+   "ra_hours": 12.13932,
+   "dec_degrees": -50.7224,
+   "mag": 2.58,
+   "parallax_mas": 8.25,
+   "distance_ly": 395.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 59803,
+   "name": "Gienah",
+   "ra_hours": 12.26346,
+   "dec_degrees": -17.542,
+   "mag": 2.58,
+   "parallax_mas": 19.78,
+   "distance_ly": 164.9,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 93506,
+   "name": "Ascella",
+   "ra_hours": 19.04353,
+   "dec_degrees": -29.8801,
+   "mag": 2.6,
+   "parallax_mas": 36.61,
+   "distance_ly": 89.1,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 74785,
+   "name": "Zubeneschamali",
+   "ra_hours": 15.28346,
+   "dec_degrees": -9.3829,
+   "mag": 2.61,
+   "parallax_mas": 20.38,
+   "distance_ly": 160,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 77070,
+   "name": "Unukalhai",
+   "ra_hours": 15.73778,
+   "dec_degrees": 6.4255,
+   "mag": 2.63,
+   "parallax_mas": 44.54,
+   "distance_ly": 73.2,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 8903,
+   "name": "Sheratan",
+   "ra_hours": 1.91065,
+   "dec_degrees": 20.8083,
+   "mag": 2.64,
+   "parallax_mas": 54.74,
+   "distance_ly": 59.6,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 26634,
+   "name": "Phact",
+   "ra_hours": 5.66082,
+   "dec_degrees": -34.074,
+   "mag": 2.65,
+   "parallax_mas": 12.16,
+   "distance_ly": 268.2,
+   "constellation": "Col"
+  },
+  {
+   "hip": 28380,
+   "name": "Mahasim",
+   "ra_hours": 5.99534,
+   "dec_degrees": 37.2128,
+   "mag": 2.65,
+   "parallax_mas": 18.83,
+   "distance_ly": 173.2,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 61359,
+   "name": "Kraz",
+   "ra_hours": 12.57312,
+   "dec_degrees": -23.3966,
+   "mag": 2.65,
+   "parallax_mas": 23.34,
+   "distance_ly": 139.7,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 6686,
+   "name": "Ruchbah",
+   "ra_hours": 1.43017,
+   "dec_degrees": 60.2354,
+   "mag": 2.66,
+   "parallax_mas": 32.81,
+   "distance_ly": 99.4,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 67927,
+   "name": "Muphrid",
+   "ra_hours": 13.91142,
+   "dec_degrees": 18.3986,
+   "mag": 2.68,
+   "parallax_mas": 88.17,
+   "distance_ly": 37,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 73273,
+   "name": null,
+   "ra_hours": 14.97554,
+   "dec_degrees": -43.1339,
+   "mag": 2.68,
+   "parallax_mas": 6.23,
+   "distance_ly": 523.5,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 23015,
+   "name": "Hassaleh",
+   "ra_hours": 4.94989,
+   "dec_degrees": 33.1661,
+   "mag": 2.69,
+   "parallax_mas": 6.37,
+   "distance_ly": 512,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 52727,
+   "name": null,
+   "ra_hours": 10.77948,
+   "dec_degrees": -49.4201,
+   "mag": 2.69,
+   "parallax_mas": 28.18,
+   "distance_ly": 115.7,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 61585,
+   "name": null,
+   "ra_hours": 12.61975,
+   "dec_degrees": -69.1355,
+   "mag": 2.69,
+   "parallax_mas": 10.67,
+   "distance_ly": 305.7,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 85696,
+   "name": "Lesath",
+   "ra_hours": 17.51273,
+   "dec_degrees": -37.2957,
+   "mag": 2.7,
+   "parallax_mas": 6.29,
+   "distance_ly": 518.5,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 35264,
+   "name": null,
+   "ra_hours": 7.28571,
+   "dec_degrees": -37.0975,
+   "mag": 2.71,
+   "parallax_mas": 2.98,
+   "distance_ly": 1094.5,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 89931,
+   "name": "Kaus Media",
+   "ra_hours": 18.34989,
+   "dec_degrees": -29.828,
+   "mag": 2.72,
+   "parallax_mas": 10.67,
+   "distance_ly": 305.7,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 97278,
+   "name": "Tarazed",
+   "ra_hours": 19.77099,
+   "dec_degrees": 10.6133,
+   "mag": 2.72,
+   "parallax_mas": 7.08,
+   "distance_ly": 460.7,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 79593,
+   "name": "Yed Prior",
+   "ra_hours": 16.2391,
+   "dec_degrees": -3.694,
+   "mag": 2.73,
+   "parallax_mas": 19.16,
+   "distance_ly": 170.2,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 80331,
+   "name": "Athebyne",
+   "ra_hours": 16.39986,
+   "dec_degrees": 61.5141,
+   "mag": 2.73,
+   "parallax_mas": 37.18,
+   "distance_ly": 87.7,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 52419,
+   "name": null,
+   "ra_hours": 10.71595,
+   "dec_degrees": -64.3945,
+   "mag": 2.74,
+   "parallax_mas": 7.43,
+   "distance_ly": 439,
+   "constellation": "Car"
+  },
+  {
+   "hip": 61941,
+   "name": "Porrima",
+   "ra_hours": 12.69445,
+   "dec_degrees": -1.4495,
+   "mag": 2.74,
+   "parallax_mas": 84.53,
+   "distance_ly": 38.6,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 26241,
+   "name": "Hatysa",
+   "ra_hours": 5.59055,
+   "dec_degrees": -5.9099,
+   "mag": 2.75,
+   "parallax_mas": 2.46,
+   "distance_ly": 1325.8,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 65109,
+   "name": null,
+   "ra_hours": 13.34335,
+   "dec_degrees": -36.7121,
+   "mag": 2.75,
+   "parallax_mas": 55.64,
+   "distance_ly": 58.6,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 72622,
+   "name": "Zubenelgenubi",
+   "ra_hours": 14.84799,
+   "dec_degrees": -16.0416,
+   "mag": 2.75,
+   "parallax_mas": 42.25,
+   "distance_ly": 77.2,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 86742,
+   "name": "Cebalrai",
+   "ra_hours": 17.72455,
+   "dec_degrees": 4.5669,
+   "mag": 2.76,
+   "parallax_mas": 39.78,
+   "distance_ly": 82,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 23875,
+   "name": "Cursa",
+   "ra_hours": 5.13084,
+   "dec_degrees": -5.0863,
+   "mag": 2.78,
+   "parallax_mas": 36.71,
+   "distance_ly": 88.8,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 80816,
+   "name": "Kornephoros",
+   "ra_hours": 16.50368,
+   "dec_degrees": 21.4896,
+   "mag": 2.78,
+   "parallax_mas": 22.07,
+   "distance_ly": 147.8,
+   "constellation": "Her"
+  },
+  {
+   "hip": 84345,
+   "name": "Rasalgethi",
+   "ra_hours": 17.24413,
+   "dec_degrees": 14.3903,
+   "mag": 2.78,
+   "parallax_mas": 8.53,
+   "distance_ly": 382.4,
+   "constellation": "Her"
+  },
+  {
+   "hip": 59747,
+   "name": "Imai",
+   "ra_hours": 12.25243,
+   "dec_degrees": -58.7489,
+   "mag": 2.79,
+   "parallax_mas": 8.96,
+   "distance_ly": 364,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 85670,
+   "name": "Rastaban",
+   "ra_hours": 17.50722,
+   "dec_degrees": 52.3014,
+   "mag": 2.79,
+   "parallax_mas": 9.02,
+   "distance_ly": 361.6,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 76297,
+   "name": null,
+   "ra_hours": 15.58568,
+   "dec_degrees": -41.1667,
+   "mag": 2.8,
+   "parallax_mas": 5.75,
+   "distance_ly": 567.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 25606,
+   "name": "Nihal",
+   "ra_hours": 5.47076,
+   "dec_degrees": -20.7592,
+   "mag": 2.81,
+   "parallax_mas": 20.49,
+   "distance_ly": 159.2,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 81693,
+   "name": null,
+   "ra_hours": 16.68819,
+   "dec_degrees": 31.6019,
+   "mag": 2.81,
+   "parallax_mas": 92.63,
+   "distance_ly": 35.2,
+   "constellation": "Her"
+  },
+  {
+   "hip": 2021,
+   "name": null,
+   "ra_hours": 0.42756,
+   "dec_degrees": -77.255,
+   "mag": 2.82,
+   "parallax_mas": 133.78,
+   "distance_ly": 24.4,
+   "constellation": "Hyi"
+  },
+  {
+   "hip": 81266,
+   "name": "Paikauhale",
+   "ra_hours": 16.59804,
+   "dec_degrees": -28.216,
+   "mag": 2.82,
+   "parallax_mas": 7.59,
+   "distance_ly": 429.7,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 90496,
+   "name": "Kaus Borealis",
+   "ra_hours": 18.46619,
+   "dec_degrees": -25.4212,
+   "mag": 2.82,
+   "parallax_mas": 42.2,
+   "distance_ly": 77.3,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 1067,
+   "name": "Algenib",
+   "ra_hours": 0.2206,
+   "dec_degrees": 15.1836,
+   "mag": 2.83,
+   "parallax_mas": 9.79,
+   "distance_ly": 333.2,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 39757,
+   "name": "Tureis",
+   "ra_hours": 8.12575,
+   "dec_degrees": -24.3044,
+   "mag": 2.83,
+   "parallax_mas": 51.99,
+   "distance_ly": 62.7,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 77952,
+   "name": null,
+   "ra_hours": 15.91911,
+   "dec_degrees": -63.4297,
+   "mag": 2.83,
+   "parallax_mas": 81.24,
+   "distance_ly": 40.1,
+   "constellation": "TrA"
+  },
+  {
+   "hip": 18246,
+   "name": null,
+   "ra_hours": 3.9022,
+   "dec_degrees": 31.8837,
+   "mag": 2.84,
+   "parallax_mas": 3.32,
+   "distance_ly": 982.4,
+   "constellation": "Per"
+  },
+  {
+   "hip": 85258,
+   "name": null,
+   "ra_hours": 17.42167,
+   "dec_degrees": -55.5298,
+   "mag": 2.84,
+   "parallax_mas": 5.41,
+   "distance_ly": 602.9,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 85792,
+   "name": null,
+   "ra_hours": 17.5307,
+   "dec_degrees": -49.876,
+   "mag": 2.84,
+   "parallax_mas": 13.46,
+   "distance_ly": 242.3,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 17702,
+   "name": "Alcyone",
+   "ra_hours": 3.79141,
+   "dec_degrees": 24.1052,
+   "mag": 2.85,
+   "parallax_mas": 8.87,
+   "distance_ly": 367.7,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 63608,
+   "name": "Vindemiatrix",
+   "ra_hours": 13.03632,
+   "dec_degrees": 10.9591,
+   "mag": 2.85,
+   "parallax_mas": 31.9,
+   "distance_ly": 102.2,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 107556,
+   "name": "Deneb Algedi",
+   "ra_hours": 21.78397,
+   "dec_degrees": -16.1266,
+   "mag": 2.85,
+   "parallax_mas": 84.58,
+   "distance_ly": 38.6,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 9236,
+   "name": null,
+   "ra_hours": 1.97941,
+   "dec_degrees": -61.5699,
+   "mag": 2.86,
+   "parallax_mas": 45.74,
+   "distance_ly": 71.3,
+   "constellation": "Hyi"
+  },
+  {
+   "hip": 97165,
+   "name": "Fawaris",
+   "ra_hours": 19.74957,
+   "dec_degrees": 45.1307,
+   "mag": 2.86,
+   "parallax_mas": 19.07,
+   "distance_ly": 171,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 30343,
+   "name": "Tejat",
+   "ra_hours": 6.38266,
+   "dec_degrees": 22.5139,
+   "mag": 2.87,
+   "parallax_mas": 14.07,
+   "distance_ly": 231.8,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 74946,
+   "name": null,
+   "ra_hours": 15.31519,
+   "dec_degrees": -68.6795,
+   "mag": 2.87,
+   "parallax_mas": 17.85,
+   "distance_ly": 182.7,
+   "constellation": "TrA"
+  },
+  {
+   "hip": 110130,
+   "name": null,
+   "ra_hours": 22.30838,
+   "dec_degrees": -60.2595,
+   "mag": 2.87,
+   "parallax_mas": 16.42,
+   "distance_ly": 198.6,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 13847,
+   "name": "Acamar",
+   "ra_hours": 2.97103,
+   "dec_degrees": -40.3047,
+   "mag": 2.88,
+   "parallax_mas": 20.22,
+   "distance_ly": 161.3,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 94141,
+   "name": "Albaldah",
+   "ra_hours": 19.16273,
+   "dec_degrees": -21.0235,
+   "mag": 2.88,
+   "parallax_mas": 7.41,
+   "distance_ly": 440.2,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 36188,
+   "name": "Gomeisa",
+   "ra_hours": 7.45252,
+   "dec_degrees": 8.2894,
+   "mag": 2.89,
+   "parallax_mas": 19.16,
+   "distance_ly": 170.2,
+   "constellation": "CMi"
+  },
+  {
+   "hip": 63125,
+   "name": "Cor Caroli",
+   "ra_hours": 12.93384,
+   "dec_degrees": 38.3182,
+   "mag": 2.89,
+   "parallax_mas": 29.6,
+   "distance_ly": 110.2,
+   "constellation": "CVn"
+  },
+  {
+   "hip": 78265,
+   "name": "Fang",
+   "ra_hours": 15.98087,
+   "dec_degrees": -26.114,
+   "mag": 2.89,
+   "parallax_mas": 7.1,
+   "distance_ly": 459.4,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 18532,
+   "name": null,
+   "ra_hours": 3.96423,
+   "dec_degrees": 40.0103,
+   "mag": 2.9,
+   "parallax_mas": 6.06,
+   "distance_ly": 538.2,
+   "constellation": "Per"
+  },
+  {
+   "hip": 80112,
+   "name": "Alniyat",
+   "ra_hours": 16.35315,
+   "dec_degrees": -25.5928,
+   "mag": 2.9,
+   "parallax_mas": 4.44,
+   "distance_ly": 734.6,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 106278,
+   "name": "Sadalsuud",
+   "ra_hours": 21.52598,
+   "dec_degrees": -5.5712,
+   "mag": 2.9,
+   "parallax_mas": 5.33,
+   "distance_ly": 611.9,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 14328,
+   "name": null,
+   "ra_hours": 3.07994,
+   "dec_degrees": 53.5065,
+   "mag": 2.91,
+   "parallax_mas": 12.72,
+   "distance_ly": 256.4,
+   "constellation": "Per"
+  },
+  {
+   "hip": 48002,
+   "name": null,
+   "ra_hours": 9.78504,
+   "dec_degrees": -65.072,
+   "mag": 2.92,
+   "parallax_mas": 2.01,
+   "distance_ly": 1622.7,
+   "constellation": "Car"
+  },
+  {
+   "hip": 112158,
+   "name": "Matar",
+   "ra_hours": 22.7167,
+   "dec_degrees": 30.2213,
+   "mag": 2.93,
+   "parallax_mas": 15.18,
+   "distance_ly": 214.9,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 32768,
+   "name": null,
+   "ra_hours": 6.83226,
+   "dec_degrees": -50.6144,
+   "mag": 2.94,
+   "parallax_mas": 17.85,
+   "distance_ly": 182.7,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 60965,
+   "name": "Algorab",
+   "ra_hours": 12.49777,
+   "dec_degrees": -16.5151,
+   "mag": 2.94,
+   "parallax_mas": 37.11,
+   "distance_ly": 87.9,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 109074,
+   "name": "Sadalmelik",
+   "ra_hours": 22.0964,
+   "dec_degrees": -0.3198,
+   "mag": 2.95,
+   "parallax_mas": 4.3,
+   "distance_ly": 758.5,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 18543,
+   "name": "Zaurak",
+   "ra_hours": 3.96715,
+   "dec_degrees": -13.5082,
+   "mag": 2.97,
+   "parallax_mas": 14.75,
+   "distance_ly": 221.1,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 26451,
+   "name": "Tianguan",
+   "ra_hours": 5.62741,
+   "dec_degrees": 21.1426,
+   "mag": 2.97,
+   "parallax_mas": 7.82,
+   "distance_ly": 417.1,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 47908,
+   "name": "Ras Elased Australis",
+   "ra_hours": 9.7642,
+   "dec_degrees": 23.7743,
+   "mag": 2.97,
+   "parallax_mas": 13.01,
+   "distance_ly": 250.7,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 88635,
+   "name": "Alnasl",
+   "ra_hours": 18.09681,
+   "dec_degrees": -30.4237,
+   "mag": 2.98,
+   "parallax_mas": 33.94,
+   "distance_ly": 96.1,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 64962,
+   "name": null,
+   "ra_hours": 13.31535,
+   "dec_degrees": -23.1714,
+   "mag": 2.99,
+   "parallax_mas": 24.69,
+   "distance_ly": 132.1,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 87073,
+   "name": null,
+   "ra_hours": 17.79308,
+   "dec_degrees": -40.127,
+   "mag": 2.99,
+   "parallax_mas": 1.82,
+   "distance_ly": 1792.1,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 93747,
+   "name": "Okab",
+   "ra_hours": 19.09017,
+   "dec_degrees": 13.8637,
+   "mag": 2.99,
+   "parallax_mas": 39.18,
+   "distance_ly": 83.2,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 10064,
+   "name": null,
+   "ra_hours": 2.15903,
+   "dec_degrees": 34.9874,
+   "mag": 3,
+   "parallax_mas": 26.24,
+   "distance_ly": 124.3,
+   "constellation": "Tri"
+  },
+  {
+   "hip": 54539,
+   "name": null,
+   "ra_hours": 11.16107,
+   "dec_degrees": 44.4986,
+   "mag": 3,
+   "parallax_mas": 22.21,
+   "distance_ly": 146.9,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 75097,
+   "name": "Pherkad",
+   "ra_hours": 15.34549,
+   "dec_degrees": 71.834,
+   "mag": 3,
+   "parallax_mas": 6.79,
+   "distance_ly": 480.3,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 82514,
+   "name": "Xamidimura",
+   "ra_hours": 16.86451,
+   "dec_degrees": -38.0473,
+   "mag": 3,
+   "parallax_mas": 3.97,
+   "distance_ly": 821.6,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 108085,
+   "name": "Aldhanab",
+   "ra_hours": 21.89879,
+   "dec_degrees": -37.3648,
+   "mag": 3,
+   "parallax_mas": 16.07,
+   "distance_ly": 203,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 17358,
+   "name": null,
+   "ra_hours": 3.71541,
+   "dec_degrees": 47.7877,
+   "mag": 3.01,
+   "parallax_mas": 6.18,
+   "distance_ly": 527.8,
+   "constellation": "Per"
+  },
+  {
+   "hip": 30122,
+   "name": "Furud",
+   "ra_hours": 6.33855,
+   "dec_degrees": -30.0634,
+   "mag": 3.02,
+   "parallax_mas": 9.7,
+   "distance_ly": 336.2,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 33977,
+   "name": null,
+   "ra_hours": 7.05041,
+   "dec_degrees": -23.8333,
+   "mag": 3.02,
+   "parallax_mas": 1.27,
+   "distance_ly": 2568.2,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 59316,
+   "name": null,
+   "ra_hours": 12.16876,
+   "dec_degrees": -22.6198,
+   "mag": 3.02,
+   "parallax_mas": 10.75,
+   "distance_ly": 303.4,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 23416,
+   "name": "Almaaz",
+   "ra_hours": 5.03282,
+   "dec_degrees": 43.8233,
+   "mag": 3.03,
+   "parallax_mas": 1.6,
+   "distance_ly": 2038.5,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 62322,
+   "name": null,
+   "ra_hours": 12.77135,
+   "dec_degrees": -68.1081,
+   "mag": 3.04,
+   "parallax_mas": 10.48,
+   "distance_ly": 311.2,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 71075,
+   "name": "Seginus",
+   "ra_hours": 14.53465,
+   "dec_degrees": 38.3079,
+   "mag": 3.04,
+   "parallax_mas": 38.29,
+   "distance_ly": 85.2,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 95947,
+   "name": "Albireo",
+   "ra_hours": 19.51202,
+   "dec_degrees": 27.9597,
+   "mag": 3.05,
+   "parallax_mas": 8.46,
+   "distance_ly": 385.5,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 100345,
+   "name": "Dabih",
+   "ra_hours": 20.35018,
+   "dec_degrees": -14.7814,
+   "mag": 3.05,
+   "parallax_mas": 9.48,
+   "distance_ly": 344,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 32246,
+   "name": "Mebsuta",
+   "ra_hours": 6.7322,
+   "dec_degrees": 25.1312,
+   "mag": 3.06,
+   "parallax_mas": 3.61,
+   "distance_ly": 903.5,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 50801,
+   "name": "Tania Australis",
+   "ra_hours": 10.37217,
+   "dec_degrees": 41.4994,
+   "mag": 3.06,
+   "parallax_mas": 13.11,
+   "distance_ly": 248.8,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 94376,
+   "name": "Altais",
+   "ra_hours": 19.20921,
+   "dec_degrees": 67.6613,
+   "mag": 3.07,
+   "parallax_mas": 32.54,
+   "distance_ly": 100.2,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 89642,
+   "name": null,
+   "ra_hours": 18.29381,
+   "dec_degrees": -36.7613,
+   "mag": 3.1,
+   "parallax_mas": 21.87,
+   "distance_ly": 149.1,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 43813,
+   "name": null,
+   "ra_hours": 8.92325,
+   "dec_degrees": 5.9455,
+   "mag": 3.11,
+   "parallax_mas": 21.64,
+   "distance_ly": 150.7,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 52943,
+   "name": null,
+   "ra_hours": 10.82706,
+   "dec_degrees": -16.1941,
+   "mag": 3.11,
+   "parallax_mas": 23.54,
+   "distance_ly": 138.6,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 56561,
+   "name": null,
+   "ra_hours": 11.59637,
+   "dec_degrees": -63.0198,
+   "mag": 3.11,
+   "parallax_mas": 7.96,
+   "distance_ly": 409.7,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 101772,
+   "name": null,
+   "ra_hours": 20.62611,
+   "dec_degrees": -47.2917,
+   "mag": 3.11,
+   "parallax_mas": 32.21,
+   "distance_ly": 101.3,
+   "constellation": "Ind"
+  },
+  {
+   "hip": 27628,
+   "name": "Wazn",
+   "ra_hours": 5.84932,
+   "dec_degrees": -35.7693,
+   "mag": 3.12,
+   "parallax_mas": 37.94,
+   "distance_ly": 86,
+   "constellation": "Col"
+  },
+  {
+   "hip": 44127,
+   "name": "Talitha",
+   "ra_hours": 8.9869,
+   "dec_degrees": 48.0423,
+   "mag": 3.12,
+   "parallax_mas": 68.32,
+   "distance_ly": 47.7,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 83081,
+   "name": null,
+   "ra_hours": 16.97701,
+   "dec_degrees": -55.9901,
+   "mag": 3.12,
+   "parallax_mas": 5.68,
+   "distance_ly": 574.2,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 84379,
+   "name": "Sarin",
+   "ra_hours": 17.25053,
+   "dec_degrees": 24.8396,
+   "mag": 3.12,
+   "parallax_mas": 41.55,
+   "distance_ly": 78.5,
+   "constellation": "Her"
+  },
+  {
+   "hip": 73334,
+   "name": null,
+   "ra_hours": 14.98603,
+   "dec_degrees": -42.1041,
+   "mag": 3.13,
+   "parallax_mas": 6.05,
+   "distance_ly": 539.1,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 45860,
+   "name": null,
+   "ra_hours": 9.35096,
+   "dec_degrees": 34.3925,
+   "mag": 3.14,
+   "parallax_mas": 14.69,
+   "distance_ly": 222,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 46701,
+   "name": null,
+   "ra_hours": 9.52038,
+   "dec_degrees": -57.0344,
+   "mag": 3.16,
+   "parallax_mas": 13.72,
+   "distance_ly": 237.7,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 84380,
+   "name": null,
+   "ra_hours": 17.25079,
+   "dec_degrees": 36.8092,
+   "mag": 3.16,
+   "parallax_mas": 8.89,
+   "distance_ly": 366.9,
+   "constellation": "Her"
+  },
+  {
+   "hip": 31685,
+   "name": null,
+   "ra_hours": 6.62935,
+   "dec_degrees": -43.1959,
+   "mag": 3.17,
+   "parallax_mas": 7.71,
+   "distance_ly": 423,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 46853,
+   "name": null,
+   "ra_hours": 9.54787,
+   "dec_degrees": 51.6786,
+   "mag": 3.17,
+   "parallax_mas": 74.15,
+   "distance_ly": 44,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 83895,
+   "name": "Aldhibah",
+   "ra_hours": 17.14645,
+   "dec_degrees": 65.7146,
+   "mag": 3.17,
+   "parallax_mas": 9.6,
+   "distance_ly": 339.7,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 92041,
+   "name": null,
+   "ra_hours": 18.76093,
+   "dec_degrees": -26.9908,
+   "mag": 3.17,
+   "parallax_mas": 14.14,
+   "distance_ly": 230.7,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 23767,
+   "name": "Haedus",
+   "ra_hours": 5.10857,
+   "dec_degrees": 41.2346,
+   "mag": 3.18,
+   "parallax_mas": 14.87,
+   "distance_ly": 219.3,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 71908,
+   "name": null,
+   "ra_hours": 14.70852,
+   "dec_degrees": -64.9746,
+   "mag": 3.18,
+   "parallax_mas": 60.97,
+   "distance_ly": 53.5,
+   "constellation": "Cir"
+  },
+  {
+   "hip": 22449,
+   "name": "Tabit",
+   "ra_hours": 4.83059,
+   "dec_degrees": 6.9612,
+   "mag": 3.19,
+   "parallax_mas": 124.6,
+   "distance_ly": 26.2,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 23685,
+   "name": null,
+   "ra_hours": 5.09101,
+   "dec_degrees": -22.3709,
+   "mag": 3.19,
+   "parallax_mas": 14.39,
+   "distance_ly": 226.7,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 83000,
+   "name": null,
+   "ra_hours": 16.96119,
+   "dec_degrees": 9.3751,
+   "mag": 3.19,
+   "parallax_mas": 37.99,
+   "distance_ly": 85.9,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 87261,
+   "name": "Fuyue",
+   "ra_hours": 17.83096,
+   "dec_degrees": -37.0434,
+   "mag": 3.19,
+   "parallax_mas": 25.71,
+   "distance_ly": 126.9,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 104732,
+   "name": null,
+   "ra_hours": 21.21561,
+   "dec_degrees": 30.2271,
+   "mag": 3.21,
+   "parallax_mas": 21.62,
+   "distance_ly": 150.9,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 116727,
+   "name": "Errai",
+   "ra_hours": 23.65583,
+   "dec_degrees": 77.632,
+   "mag": 3.21,
+   "parallax_mas": 72.5,
+   "distance_ly": 45,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 75141,
+   "name": null,
+   "ra_hours": 15.3562,
+   "dec_degrees": -40.6475,
+   "mag": 3.22,
+   "parallax_mas": 6.39,
+   "distance_ly": 510.4,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 79882,
+   "name": "Yed Posterior",
+   "ra_hours": 16.30534,
+   "dec_degrees": -4.6926,
+   "mag": 3.23,
+   "parallax_mas": 30.34,
+   "distance_ly": 107.5,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 89962,
+   "name": null,
+   "ra_hours": 18.35526,
+   "dec_degrees": -2.8971,
+   "mag": 3.23,
+   "parallax_mas": 52.81,
+   "distance_ly": 61.8,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 106032,
+   "name": "Alfirk",
+   "ra_hours": 21.47766,
+   "dec_degrees": 70.5607,
+   "mag": 3.23,
+   "parallax_mas": 5.48,
+   "distance_ly": 595.2,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 32607,
+   "name": null,
+   "ra_hours": 6.8032,
+   "dec_degrees": -61.942,
+   "mag": 3.24,
+   "parallax_mas": 32.96,
+   "distance_ly": 99,
+   "constellation": "Pic"
+  },
+  {
+   "hip": 99473,
+   "name": null,
+   "ra_hours": 20.18841,
+   "dec_degrees": -0.8215,
+   "mag": 3.24,
+   "parallax_mas": 11.36,
+   "distance_ly": 287.1,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 36377,
+   "name": null,
+   "ra_hours": 7.48719,
+   "dec_degrees": -43.3019,
+   "mag": 3.25,
+   "parallax_mas": 17.74,
+   "distance_ly": 183.9,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 68895,
+   "name": null,
+   "ra_hours": 14.10619,
+   "dec_degrees": -26.682,
+   "mag": 3.25,
+   "parallax_mas": 32.17,
+   "distance_ly": 101.4,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 73714,
+   "name": "Brachium",
+   "ra_hours": 15.06785,
+   "dec_degrees": -25.2819,
+   "mag": 3.25,
+   "parallax_mas": 11.17,
+   "distance_ly": 292,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 93194,
+   "name": "Sulafat",
+   "ra_hours": 18.9824,
+   "dec_degrees": 32.6896,
+   "mag": 3.25,
+   "parallax_mas": 5.14,
+   "distance_ly": 634.5,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 17678,
+   "name": null,
+   "ra_hours": 3.78729,
+   "dec_degrees": -74.2392,
+   "mag": 3.26,
+   "parallax_mas": 15.23,
+   "distance_ly": 214.2,
+   "constellation": "Hyi"
+  },
+  {
+   "hip": 3092,
+   "name": null,
+   "ra_hours": 0.65544,
+   "dec_degrees": 30.8612,
+   "mag": 3.27,
+   "parallax_mas": 32.19,
+   "distance_ly": 101.3,
+   "constellation": "And"
+  },
+  {
+   "hip": 84970,
+   "name": null,
+   "ra_hours": 17.36683,
+   "dec_degrees": -24.9995,
+   "mag": 3.27,
+   "parallax_mas": 5.79,
+   "distance_ly": 563.3,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 113136,
+   "name": "Skat",
+   "ra_hours": 22.91084,
+   "dec_degrees": -15.8208,
+   "mag": 3.27,
+   "parallax_mas": 20.44,
+   "distance_ly": 159.6,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 24305,
+   "name": null,
+   "ra_hours": 5.21552,
+   "dec_degrees": -16.2054,
+   "mag": 3.29,
+   "parallax_mas": 17.69,
+   "distance_ly": 184.4,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 50099,
+   "name": null,
+   "ra_hours": 10.22897,
+   "dec_degrees": -70.0379,
+   "mag": 3.29,
+   "parallax_mas": 8.81,
+   "distance_ly": 370.2,
+   "constellation": "Car"
+  },
+  {
+   "hip": 75458,
+   "name": "Edasich",
+   "ra_hours": 15.4155,
+   "dec_degrees": 58.966,
+   "mag": 3.29,
+   "parallax_mas": 31.92,
+   "distance_ly": 102.2,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 21281,
+   "name": null,
+   "ra_hours": 4.56659,
+   "dec_degrees": -55.045,
+   "mag": 3.3,
+   "parallax_mas": 18.56,
+   "distance_ly": 175.7,
+   "constellation": "Dor"
+  },
+  {
+   "hip": 51576,
+   "name": null,
+   "ra_hours": 10.53375,
+   "dec_degrees": -61.6854,
+   "mag": 3.3,
+   "parallax_mas": 6.56,
+   "distance_ly": 497.2,
+   "constellation": "Car"
+  },
+  {
+   "hip": 29655,
+   "name": "Propus",
+   "ra_hours": 6.24797,
+   "dec_degrees": 22.5068,
+   "mag": 3.31,
+   "parallax_mas": 9.34,
+   "distance_ly": 349.2,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 85267,
+   "name": null,
+   "ra_hours": 17.42324,
+   "dec_degrees": -56.3777,
+   "mag": 3.31,
+   "parallax_mas": 2.87,
+   "distance_ly": 1136.4,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 5165,
+   "name": null,
+   "ra_hours": 1.10142,
+   "dec_degrees": -46.7185,
+   "mag": 3.32,
+   "parallax_mas": 16.46,
+   "distance_ly": 198.2,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 14354,
+   "name": null,
+   "ra_hours": 3.08625,
+   "dec_degrees": 38.8405,
+   "mag": 3.32,
+   "parallax_mas": 10.03,
+   "distance_ly": 325.2,
+   "constellation": "Per"
+  },
+  {
+   "hip": 59774,
+   "name": "Megrez",
+   "ra_hours": 12.25707,
+   "dec_degrees": 57.0326,
+   "mag": 3.32,
+   "parallax_mas": 40.05,
+   "distance_ly": 81.4,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 84143,
+   "name": null,
+   "ra_hours": 17.20255,
+   "dec_degrees": -43.2385,
+   "mag": 3.32,
+   "parallax_mas": 45.56,
+   "distance_ly": 71.6,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 88048,
+   "name": null,
+   "ra_hours": 17.98378,
+   "dec_degrees": -9.7733,
+   "mag": 3.32,
+   "parallax_mas": 21.35,
+   "distance_ly": 152.8,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 93864,
+   "name": null,
+   "ra_hours": 19.11568,
+   "dec_degrees": -27.6698,
+   "mag": 3.32,
+   "parallax_mas": 27.09,
+   "distance_ly": 120.4,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 19780,
+   "name": null,
+   "ra_hours": 4.2404,
+   "dec_degrees": -62.474,
+   "mag": 3.33,
+   "parallax_mas": 19.98,
+   "distance_ly": 163.2,
+   "constellation": "Ret"
+  },
+  {
+   "hip": 54879,
+   "name": "Chertan",
+   "ra_hours": 11.23734,
+   "dec_degrees": 15.4298,
+   "mag": 3.33,
+   "parallax_mas": 18.36,
+   "distance_ly": 177.6,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 38170,
+   "name": "Azmidi",
+   "ra_hours": 7.82157,
+   "dec_degrees": -24.8598,
+   "mag": 3.34,
+   "parallax_mas": 2.42,
+   "distance_ly": 1347.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 8886,
+   "name": "Segin",
+   "ra_hours": 1.90658,
+   "dec_degrees": 63.6701,
+   "mag": 3.35,
+   "parallax_mas": 7.38,
+   "distance_ly": 441.9,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 25281,
+   "name": null,
+   "ra_hours": 5.40795,
+   "dec_degrees": -2.3971,
+   "mag": 3.35,
+   "parallax_mas": 3.62,
+   "distance_ly": 901,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 32362,
+   "name": "Alzirr",
+   "ra_hours": 6.75484,
+   "dec_degrees": 12.8961,
+   "mag": 3.35,
+   "parallax_mas": 57.02,
+   "distance_ly": 57.2,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 41704,
+   "name": "Muscida",
+   "ra_hours": 8.50445,
+   "dec_degrees": 60.7184,
+   "mag": 3.35,
+   "parallax_mas": 17.76,
+   "distance_ly": 183.6,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 95501,
+   "name": null,
+   "ra_hours": 19.42493,
+   "dec_degrees": 3.1146,
+   "mag": 3.36,
+   "parallax_mas": 65.05,
+   "distance_ly": 50.1,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 75264,
+   "name": null,
+   "ra_hours": 15.37802,
+   "dec_degrees": -44.6896,
+   "mag": 3.37,
+   "parallax_mas": 6.47,
+   "distance_ly": 504.1,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 43109,
+   "name": "Ashlesha",
+   "ra_hours": 8.77962,
+   "dec_degrees": 6.4189,
+   "mag": 3.38,
+   "parallax_mas": 24.13,
+   "distance_ly": 135.2,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 66249,
+   "name": "Heze",
+   "ra_hours": 13.57827,
+   "dec_degrees": -0.5959,
+   "mag": 3.38,
+   "parallax_mas": 44.55,
+   "distance_ly": 73.2,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 26207,
+   "name": "Meissa",
+   "ra_hours": 5.58563,
+   "dec_degrees": 9.9342,
+   "mag": 3.39,
+   "parallax_mas": 3.09,
+   "distance_ly": 1055.5,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 50371,
+   "name": null,
+   "ra_hours": 10.28472,
+   "dec_degrees": -61.3323,
+   "mag": 3.39,
+   "parallax_mas": 4.43,
+   "distance_ly": 736.2,
+   "constellation": "Car"
+  },
+  {
+   "hip": 63090,
+   "name": "Minelauva",
+   "ra_hours": 12.9268,
+   "dec_degrees": 3.3976,
+   "mag": 3.39,
+   "parallax_mas": 16.11,
+   "distance_ly": 202.5,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 109492,
+   "name": null,
+   "ra_hours": 22.18091,
+   "dec_degrees": 58.2012,
+   "mag": 3.39,
+   "parallax_mas": 4.49,
+   "distance_ly": 726.4,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 20894,
+   "name": "Chamukuy",
+   "ra_hours": 4.47769,
+   "dec_degrees": 15.8709,
+   "mag": 3.4,
+   "parallax_mas": 21.89,
+   "distance_ly": 149,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 6867,
+   "name": null,
+   "ra_hours": 1.47276,
+   "dec_degrees": -43.3177,
+   "mag": 3.41,
+   "parallax_mas": 13.94,
+   "distance_ly": 234,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 18724,
+   "name": null,
+   "ra_hours": 4.01134,
+   "dec_degrees": 12.4904,
+   "mag": 3.41,
+   "parallax_mas": 8.81,
+   "distance_ly": 370.2,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 67464,
+   "name": null,
+   "ra_hours": 13.82508,
+   "dec_degrees": -41.6877,
+   "mag": 3.41,
+   "parallax_mas": 6.87,
+   "distance_ly": 474.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 74395,
+   "name": null,
+   "ra_hours": 15.20478,
+   "dec_degrees": -52.0991,
+   "mag": 3.41,
+   "parallax_mas": 28.06,
+   "distance_ly": 116.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 102422,
+   "name": null,
+   "ra_hours": 20.7548,
+   "dec_degrees": 61.8368,
+   "mag": 3.41,
+   "parallax_mas": 69.73,
+   "distance_ly": 46.8,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 112029,
+   "name": "Homam",
+   "ra_hours": 22.69102,
+   "dec_degrees": 10.8314,
+   "mag": 3.41,
+   "parallax_mas": 15.64,
+   "distance_ly": 208.5,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 8796,
+   "name": "Mothallah",
+   "ra_hours": 1.88469,
+   "dec_degrees": 29.5794,
+   "mag": 3.42,
+   "parallax_mas": 50.87,
+   "distance_ly": 64.1,
+   "constellation": "Tri"
+  },
+  {
+   "hip": 78384,
+   "name": null,
+   "ra_hours": 16.00204,
+   "dec_degrees": -38.3966,
+   "mag": 3.42,
+   "parallax_mas": 6.61,
+   "distance_ly": 493.4,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 86974,
+   "name": null,
+   "ra_hours": 17.77437,
+   "dec_degrees": 27.7225,
+   "mag": 3.42,
+   "parallax_mas": 119.05,
+   "distance_ly": 27.4,
+   "constellation": "Her"
+  },
+  {
+   "hip": 102395,
+   "name": null,
+   "ra_hours": 20.74932,
+   "dec_degrees": -66.2032,
+   "mag": 3.42,
+   "parallax_mas": 23.71,
+   "distance_ly": 137.6,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 45080,
+   "name": null,
+   "ra_hours": 9.18281,
+   "dec_degrees": -58.9669,
+   "mag": 3.43,
+   "parallax_mas": 7.79,
+   "distance_ly": 418.7,
+   "constellation": "Car"
+  },
+  {
+   "hip": 50335,
+   "name": "Adhafera",
+   "ra_hours": 10.27817,
+   "dec_degrees": 23.4173,
+   "mag": 3.43,
+   "parallax_mas": 12.56,
+   "distance_ly": 259.7,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 93805,
+   "name": null,
+   "ra_hours": 19.10415,
+   "dec_degrees": -4.8823,
+   "mag": 3.43,
+   "parallax_mas": 26.05,
+   "distance_ly": 125.2,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 50372,
+   "name": "Tania Borealis",
+   "ra_hours": 10.28498,
+   "dec_degrees": 42.9145,
+   "mag": 3.45,
+   "parallax_mas": 24.27,
+   "distance_ly": 134.4,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 3821,
+   "name": "Achird",
+   "ra_hours": 0.81808,
+   "dec_degrees": 57.8165,
+   "mag": 3.46,
+   "parallax_mas": 167.99,
+   "distance_ly": 19.4,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 5364,
+   "name": null,
+   "ra_hours": 1.14313,
+   "dec_degrees": -10.1819,
+   "mag": 3.46,
+   "parallax_mas": 27.73,
+   "distance_ly": 117.6,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 38827,
+   "name": null,
+   "ra_hours": 7.94632,
+   "dec_degrees": -52.9824,
+   "mag": 3.46,
+   "parallax_mas": 8.43,
+   "distance_ly": 386.9,
+   "constellation": "Car"
+  },
+  {
+   "hip": 74666,
+   "name": null,
+   "ra_hours": 15.25836,
+   "dec_degrees": 33.3151,
+   "mag": 3.46,
+   "parallax_mas": 27.94,
+   "distance_ly": 116.7,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 12706,
+   "name": "Kaffaljidhma",
+   "ra_hours": 2.7217,
+   "dec_degrees": 3.2362,
+   "mag": 3.47,
+   "parallax_mas": 39.78,
+   "distance_ly": 82,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 67472,
+   "name": null,
+   "ra_hours": 13.82695,
+   "dec_degrees": -42.4737,
+   "mag": 3.47,
+   "parallax_mas": 6.19,
+   "distance_ly": 526.9,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 49583,
+   "name": null,
+   "ra_hours": 10.12221,
+   "dec_degrees": 16.7627,
+   "mag": 3.48,
+   "parallax_mas": 1.53,
+   "distance_ly": 2131.7,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 81833,
+   "name": null,
+   "ra_hours": 16.71493,
+   "dec_degrees": 38.9225,
+   "mag": 3.48,
+   "parallax_mas": 29.11,
+   "distance_ly": 112,
+   "constellation": "Her"
+  },
+  {
+   "hip": 8102,
+   "name": null,
+   "ra_hours": 1.73476,
+   "dec_degrees": -15.9396,
+   "mag": 3.49,
+   "parallax_mas": 274.17,
+   "distance_ly": 11.9,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 33856,
+   "name": "Nganurganity",
+   "ra_hours": 7.02865,
+   "dec_degrees": -27.9348,
+   "mag": 3.49,
+   "parallax_mas": 2.68,
+   "distance_ly": 1217,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 55219,
+   "name": "Alula Borealis",
+   "ra_hours": 11.30799,
+   "dec_degrees": 33.0942,
+   "mag": 3.49,
+   "parallax_mas": 7.74,
+   "distance_ly": 421.4,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 73555,
+   "name": "Nekkar",
+   "ra_hours": 15.03244,
+   "dec_degrees": 40.3906,
+   "mag": 3.49,
+   "parallax_mas": 14.91,
+   "distance_ly": 218.7,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 90422,
+   "name": null,
+   "ra_hours": 18.44956,
+   "dec_degrees": -45.9683,
+   "mag": 3.49,
+   "parallax_mas": 13.08,
+   "distance_ly": 249.4,
+   "constellation": "Tel"
+  },
+  {
+   "hip": 112623,
+   "name": null,
+   "ra_hours": 22.80922,
+   "dec_degrees": -51.3167,
+   "mag": 3.49,
+   "parallax_mas": 25.16,
+   "distance_ly": 129.6,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 32759,
+   "name": null,
+   "ra_hours": 6.83068,
+   "dec_degrees": -32.5085,
+   "mag": 3.5,
+   "parallax_mas": 4.13,
+   "distance_ly": 789.7,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 35550,
+   "name": "Wasat",
+   "ra_hours": 7.33539,
+   "dec_degrees": 21.9823,
+   "mag": 3.5,
+   "parallax_mas": 55.45,
+   "distance_ly": 58.8,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 112724,
+   "name": null,
+   "ra_hours": 22.82803,
+   "dec_degrees": 66.2007,
+   "mag": 3.5,
+   "parallax_mas": 28.27,
+   "distance_ly": 115.4,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 98337,
+   "name": null,
+   "ra_hours": 19.97927,
+   "dec_degrees": 19.4921,
+   "mag": 3.51,
+   "parallax_mas": 11.9,
+   "distance_ly": 274.1,
+   "constellation": "Sge"
+  },
+  {
+   "hip": 112748,
+   "name": "Sadalbari",
+   "ra_hours": 22.83336,
+   "dec_degrees": 24.6017,
+   "mag": 3.51,
+   "parallax_mas": 27.95,
+   "distance_ly": 116.7,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 17378,
+   "name": "Rana",
+   "ra_hours": 3.72082,
+   "dec_degrees": -9.7652,
+   "mag": 3.52,
+   "parallax_mas": 110.58,
+   "distance_ly": 29.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 47508,
+   "name": "Subra",
+   "ra_hours": 9.68587,
+   "dec_degrees": 9.8924,
+   "mag": 3.52,
+   "parallax_mas": 24.12,
+   "distance_ly": 135.2,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 48774,
+   "name": null,
+   "ra_hours": 9.94771,
+   "dec_degrees": -54.5678,
+   "mag": 3.52,
+   "parallax_mas": 1.69,
+   "distance_ly": 1929.9,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 92420,
+   "name": "Sheliak",
+   "ra_hours": 18.83466,
+   "dec_degrees": 33.3627,
+   "mag": 3.52,
+   "parallax_mas": 3.7,
+   "distance_ly": 881.5,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 93085,
+   "name": null,
+   "ra_hours": 18.96216,
+   "dec_degrees": -21.1066,
+   "mag": 3.52,
+   "parallax_mas": 8.76,
+   "distance_ly": 372.3,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 109427,
+   "name": "Biham",
+   "ra_hours": 22.16995,
+   "dec_degrees": 6.1978,
+   "mag": 3.52,
+   "parallax_mas": 33.77,
+   "distance_ly": 96.6,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 20889,
+   "name": "Ain",
+   "ra_hours": 4.47693,
+   "dec_degrees": 19.1805,
+   "mag": 3.53,
+   "parallax_mas": 21.04,
+   "distance_ly": 155,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 40526,
+   "name": "Tarf",
+   "ra_hours": 8.27526,
+   "dec_degrees": 9.1857,
+   "mag": 3.53,
+   "parallax_mas": 11.23,
+   "distance_ly": 290.4,
+   "constellation": "Cnc"
+  },
+  {
+   "hip": 56343,
+   "name": null,
+   "ra_hours": 11.55007,
+   "dec_degrees": -31.8575,
+   "mag": 3.54,
+   "parallax_mas": 25.23,
+   "distance_ly": 129.3,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 77516,
+   "name": null,
+   "ra_hours": 15.82702,
+   "dec_degrees": -3.4301,
+   "mag": 3.54,
+   "parallax_mas": 20.94,
+   "distance_ly": 155.8,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 86263,
+   "name": null,
+   "ra_hours": 17.62645,
+   "dec_degrees": -15.3984,
+   "mag": 3.54,
+   "parallax_mas": 30.93,
+   "distance_ly": 105.4,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 20042,
+   "name": null,
+   "ra_hours": 4.29823,
+   "dec_degrees": -33.7983,
+   "mag": 3.55,
+   "parallax_mas": 18.27,
+   "distance_ly": 178.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 27288,
+   "name": null,
+   "ra_hours": 5.7826,
+   "dec_degrees": -14.8219,
+   "mag": 3.55,
+   "parallax_mas": 46.47,
+   "distance_ly": 70.2,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 69996,
+   "name": null,
+   "ra_hours": 14.3234,
+   "dec_degrees": -46.0581,
+   "mag": 3.55,
+   "parallax_mas": 9.27,
+   "distance_ly": 351.8,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 89937,
+   "name": null,
+   "ra_hours": 18.35065,
+   "dec_degrees": 72.7337,
+   "mag": 3.55,
+   "parallax_mas": 124.11,
+   "distance_ly": 26.3,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 99240,
+   "name": null,
+   "ra_hours": 20.14496,
+   "dec_degrees": -66.1793,
+   "mag": 3.55,
+   "parallax_mas": 163.73,
+   "distance_ly": 19.9,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 1562,
+   "name": null,
+   "ra_hours": 0.3238,
+   "dec_degrees": -8.8238,
+   "mag": 3.56,
+   "parallax_mas": 11.26,
+   "distance_ly": 289.7,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 10602,
+   "name": null,
+   "ra_hours": 2.27514,
+   "dec_degrees": -51.5121,
+   "mag": 3.56,
+   "parallax_mas": 21.06,
+   "distance_ly": 154.9,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 55282,
+   "name": null,
+   "ra_hours": 11.32237,
+   "dec_degrees": -14.779,
+   "mag": 3.56,
+   "parallax_mas": 16.75,
+   "distance_ly": 194.7,
+   "constellation": "Crt"
+  },
+  {
+   "hip": 82545,
+   "name": "Pipirima",
+   "ra_hours": 16.87226,
+   "dec_degrees": -38.0175,
+   "mag": 3.56,
+   "parallax_mas": 6.31,
+   "distance_ly": 516.9,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 37740,
+   "name": null,
+   "ra_hours": 7.7408,
+   "dec_degrees": 24.3981,
+   "mag": 3.57,
+   "parallax_mas": 22.73,
+   "distance_ly": 143.5,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 44471,
+   "name": "Alkaphrah",
+   "ra_hours": 9.06043,
+   "dec_degrees": 47.1567,
+   "mag": 3.57,
+   "parallax_mas": 7.71,
+   "distance_ly": 423,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 71053,
+   "name": null,
+   "ra_hours": 14.53052,
+   "dec_degrees": 30.3711,
+   "mag": 3.57,
+   "parallax_mas": 21.92,
+   "distance_ly": 148.8,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 75177,
+   "name": null,
+   "ra_hours": 15.36345,
+   "dec_degrees": -36.2612,
+   "mag": 3.57,
+   "parallax_mas": 9.99,
+   "distance_ly": 326.5,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 35350,
+   "name": null,
+   "ra_hours": 7.30156,
+   "dec_degrees": 16.5405,
+   "mag": 3.58,
+   "parallax_mas": 34.59,
+   "distance_ly": 94.3,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 100064,
+   "name": "Algedi",
+   "ra_hours": 20.30089,
+   "dec_degrees": -12.5449,
+   "mag": 3.58,
+   "parallax_mas": 30.01,
+   "distance_ly": 108.7,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 7607,
+   "name": "Nembus",
+   "ra_hours": 1.6332,
+   "dec_degrees": 48.6285,
+   "mag": 3.59,
+   "parallax_mas": 18.76,
+   "distance_ly": 173.9,
+   "constellation": "And"
+  },
+  {
+   "hip": 24674,
+   "name": null,
+   "ra_hours": 5.29344,
+   "dec_degrees": -6.8444,
+   "mag": 3.59,
+   "parallax_mas": 5.88,
+   "distance_ly": 554.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 27072,
+   "name": null,
+   "ra_hours": 5.7411,
+   "dec_degrees": -22.4475,
+   "mag": 3.59,
+   "parallax_mas": 111.49,
+   "distance_ly": 29.3,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 57757,
+   "name": "Zavijava",
+   "ra_hours": 11.8448,
+   "dec_degrees": 1.7654,
+   "mag": 3.59,
+   "parallax_mas": 91.74,
+   "distance_ly": 35.6,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 60260,
+   "name": "Ginan",
+   "ra_hours": 12.35606,
+   "dec_degrees": -60.4014,
+   "mag": 3.59,
+   "parallax_mas": 14.3,
+   "distance_ly": 228.1,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 6537,
+   "name": null,
+   "ra_hours": 1.4004,
+   "dec_degrees": -8.1828,
+   "mag": 3.6,
+   "parallax_mas": 28.48,
+   "distance_ly": 114.5,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 33018,
+   "name": null,
+   "ra_hours": 6.87982,
+   "dec_degrees": 33.9614,
+   "mag": 3.6,
+   "parallax_mas": 16.59,
+   "distance_ly": 196.6,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 42536,
+   "name": null,
+   "ra_hours": 8.67156,
+   "dec_degrees": -52.922,
+   "mag": 3.6,
+   "parallax_mas": 6.59,
+   "distance_ly": 494.9,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 46651,
+   "name": null,
+   "ra_hours": 9.5117,
+   "dec_degrees": -40.4669,
+   "mag": 3.6,
+   "parallax_mas": 53.89,
+   "distance_ly": 60.5,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 76470,
+   "name": null,
+   "ra_hours": 15.61707,
+   "dec_degrees": -28.1351,
+   "mag": 3.6,
+   "parallax_mas": 16.76,
+   "distance_ly": 194.6,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 85727,
+   "name": null,
+   "ra_hours": 17.51833,
+   "dec_degrees": -60.6836,
+   "mag": 3.6,
+   "parallax_mas": 17.42,
+   "distance_ly": 187.2,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 13209,
+   "name": "Bharani",
+   "ra_hours": 2.83305,
+   "dec_degrees": 27.2608,
+   "mag": 3.61,
+   "parallax_mas": 20.45,
+   "distance_ly": 159.5,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 15900,
+   "name": null,
+   "ra_hours": 3.41357,
+   "dec_degrees": 9.0291,
+   "mag": 3.61,
+   "parallax_mas": 15.42,
+   "distance_ly": 211.5,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 49841,
+   "name": null,
+   "ra_hours": 10.1765,
+   "dec_degrees": -12.3538,
+   "mag": 3.61,
+   "parallax_mas": 28.44,
+   "distance_ly": 114.7,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 63613,
+   "name": null,
+   "ra_hours": 13.03772,
+   "dec_degrees": -71.5488,
+   "mag": 3.61,
+   "parallax_mas": 35.91,
+   "distance_ly": 90.8,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 86929,
+   "name": null,
+   "ra_hours": 17.76222,
+   "dec_degrees": -64.7237,
+   "mag": 3.61,
+   "parallax_mas": 8.79,
+   "distance_ly": 371.1,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 7097,
+   "name": "Alpherg",
+   "ra_hours": 1.52472,
+   "dec_degrees": 15.3458,
+   "mag": 3.62,
+   "parallax_mas": 11.09,
+   "distance_ly": 294.1,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 17847,
+   "name": "Atlas",
+   "ra_hours": 3.81937,
+   "dec_degrees": 24.0535,
+   "mag": 3.62,
+   "parallax_mas": 8.57,
+   "distance_ly": 380.6,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 37819,
+   "name": null,
+   "ra_hours": 7.75425,
+   "dec_degrees": -37.9686,
+   "mag": 3.62,
+   "parallax_mas": 2.35,
+   "distance_ly": 1387.9,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 82729,
+   "name": null,
+   "ra_hours": 16.90975,
+   "dec_degrees": -42.3608,
+   "mag": 3.62,
+   "parallax_mas": 21.67,
+   "distance_ly": 150.5,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 113726,
+   "name": null,
+   "ra_hours": 23.03201,
+   "dec_degrees": 42.326,
+   "mag": 3.62,
+   "parallax_mas": 4.71,
+   "distance_ly": 692.5,
+   "constellation": "And"
+  },
+  {
+   "hip": 57363,
+   "name": null,
+   "ra_hours": 11.76016,
+   "dec_degrees": -66.7288,
+   "mag": 3.63,
+   "parallax_mas": 25.42,
+   "distance_ly": 128.3,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 101769,
+   "name": "Rotanev",
+   "ra_hours": 20.6258,
+   "dec_degrees": 14.5952,
+   "mag": 3.64,
+   "parallax_mas": 33.49,
+   "distance_ly": 97.4,
+   "constellation": "Del"
+  },
+  {
+   "hip": 20205,
+   "name": "Prima Hyadum",
+   "ra_hours": 4.32987,
+   "dec_degrees": 15.6277,
+   "mag": 3.65,
+   "parallax_mas": 21.17,
+   "distance_ly": 154.1,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 46733,
+   "name": null,
+   "ra_hours": 9.52544,
+   "dec_degrees": 63.0618,
+   "mag": 3.65,
+   "parallax_mas": 43.2,
+   "distance_ly": 75.5,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 77233,
+   "name": null,
+   "ra_hours": 15.76978,
+   "dec_degrees": 15.4219,
+   "mag": 3.65,
+   "parallax_mas": 21.31,
+   "distance_ly": 153.1,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 88714,
+   "name": null,
+   "ra_hours": 18.11052,
+   "dec_degrees": -50.0915,
+   "mag": 3.65,
+   "parallax_mas": 3.22,
+   "distance_ly": 1012.9,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 110960,
+   "name": null,
+   "ra_hours": 22.4805,
+   "dec_degrees": -0.0201,
+   "mag": 3.65,
+   "parallax_mas": 31.53,
+   "distance_ly": 103.4,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 75695,
+   "name": "Nusakan",
+   "ra_hours": 15.46385,
+   "dec_degrees": 29.1055,
+   "mag": 3.66,
+   "parallax_mas": 28.6,
+   "distance_ly": 114,
+   "constellation": "CrB"
+  },
+  {
+   "hip": 76600,
+   "name": null,
+   "ra_hours": 15.64427,
+   "dec_degrees": -29.7777,
+   "mag": 3.66,
+   "parallax_mas": 7.33,
+   "distance_ly": 445,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 68756,
+   "name": "Thuban",
+   "ra_hours": 14.07317,
+   "dec_degrees": 64.3758,
+   "mag": 3.67,
+   "parallax_mas": 10.56,
+   "distance_ly": 308.9,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 103227,
+   "name": null,
+   "ra_hours": 20.91349,
+   "dec_degrees": -58.4541,
+   "mag": 3.67,
+   "parallax_mas": 5.41,
+   "distance_ly": 602.9,
+   "constellation": "Ind"
+  },
+  {
+   "hip": 22549,
+   "name": null,
+   "ra_hours": 4.85344,
+   "dec_degrees": 5.6051,
+   "mag": 3.68,
+   "parallax_mas": 2.59,
+   "distance_ly": 1259.3,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 42828,
+   "name": null,
+   "ra_hours": 8.72654,
+   "dec_degrees": -33.1864,
+   "mag": 3.68,
+   "parallax_mas": 3.86,
+   "distance_ly": 845,
+   "constellation": "Pyx"
+  },
+  {
+   "hip": 97365,
+   "name": null,
+   "ra_hours": 19.7898,
+   "dec_degrees": 18.5343,
+   "mag": 3.68,
+   "parallax_mas": 7.28,
+   "distance_ly": 448,
+   "constellation": "Sge"
+  },
+  {
+   "hip": 114341,
+   "name": null,
+   "ra_hours": 23.15743,
+   "dec_degrees": -21.1725,
+   "mag": 3.68,
+   "parallax_mas": 13.96,
+   "distance_ly": 233.6,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 2920,
+   "name": "Fulu",
+   "ra_hours": 0.61619,
+   "dec_degrees": 53.8969,
+   "mag": 3.69,
+   "parallax_mas": 5.46,
+   "distance_ly": 597.4,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 9007,
+   "name": null,
+   "ra_hours": 1.93245,
+   "dec_degrees": -51.6096,
+   "mag": 3.69,
+   "parallax_mas": 57.19,
+   "distance_ly": 57,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 23453,
+   "name": "Saclateni",
+   "ra_hours": 5.0413,
+   "dec_degrees": 41.0759,
+   "mag": 3.69,
+   "parallax_mas": 4.14,
+   "distance_ly": 787.8,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 47854,
+   "name": null,
+   "ra_hours": 9.75412,
+   "dec_degrees": -62.5079,
+   "mag": 3.69,
+   "parallax_mas": 2.16,
+   "distance_ly": 1510,
+   "constellation": "Car"
+  },
+  {
+   "hip": 57399,
+   "name": "Taiyangshou",
+   "ra_hours": 11.76754,
+   "dec_degrees": 47.7793,
+   "mag": 3.69,
+   "parallax_mas": 16.64,
+   "distance_ly": 196,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 106985,
+   "name": "Nashira",
+   "ra_hours": 21.66815,
+   "dec_degrees": -16.6623,
+   "mag": 3.69,
+   "parallax_mas": 23.48,
+   "distance_ly": 138.9,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 15474,
+   "name": null,
+   "ra_hours": 3.32527,
+   "dec_degrees": -21.7579,
+   "mag": 3.7,
+   "parallax_mas": 12.63,
+   "distance_ly": 258.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 87933,
+   "name": null,
+   "ra_hours": 17.96273,
+   "dec_degrees": 29.2479,
+   "mag": 3.7,
+   "parallax_mas": 24.12,
+   "distance_ly": 135.2,
+   "constellation": "Her"
+  },
+  {
+   "hip": 114971,
+   "name": null,
+   "ra_hours": 23.28597,
+   "dec_degrees": 3.2822,
+   "mag": 3.7,
+   "parallax_mas": 24.92,
+   "distance_ly": 130.9,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 22797,
+   "name": null,
+   "ra_hours": 4.90419,
+   "dec_degrees": 2.4407,
+   "mag": 3.71,
+   "parallax_mas": 2.43,
+   "distance_ly": 1342.2,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 28103,
+   "name": null,
+   "ra_hours": 5.94009,
+   "dec_degrees": -14.168,
+   "mag": 3.71,
+   "parallax_mas": 66.47,
+   "distance_ly": 49.1,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 38414,
+   "name": null,
+   "ra_hours": 7.87029,
+   "dec_degrees": -40.5758,
+   "mag": 3.71,
+   "parallax_mas": 9.46,
+   "distance_ly": 344.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 77622,
+   "name": null,
+   "ra_hours": 15.84691,
+   "dec_degrees": 4.4776,
+   "mag": 3.71,
+   "parallax_mas": 46.39,
+   "distance_ly": 70.3,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 88771,
+   "name": null,
+   "ra_hours": 18.12251,
+   "dec_degrees": 9.5637,
+   "mag": 3.71,
+   "parallax_mas": 39.4,
+   "distance_ly": 82.8,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 98036,
+   "name": "Alshain",
+   "ra_hours": 19.92188,
+   "dec_degrees": 6.4079,
+   "mag": 3.71,
+   "parallax_mas": 72.95,
+   "distance_ly": 44.7,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 16537,
+   "name": "Ran",
+   "ra_hours": 3.54901,
+   "dec_degrees": -9.4583,
+   "mag": 3.72,
+   "parallax_mas": 310.75,
+   "distance_ly": 10.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 17499,
+   "name": "Electra",
+   "ra_hours": 3.74792,
+   "dec_degrees": 24.1134,
+   "mag": 3.72,
+   "parallax_mas": 8.8,
+   "distance_ly": 370.6,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 28358,
+   "name": null,
+   "ra_hours": 5.9921,
+   "dec_degrees": 54.285,
+   "mag": 3.72,
+   "parallax_mas": 23.22,
+   "distance_ly": 140.5,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 104060,
+   "name": null,
+   "ra_hours": 21.08218,
+   "dec_degrees": 43.9279,
+   "mag": 3.72,
+   "parallax_mas": 2.77,
+   "distance_ly": 1177.5,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 16083,
+   "name": null,
+   "ra_hours": 3.45281,
+   "dec_degrees": 9.7328,
+   "mag": 3.73,
+   "parallax_mas": 14.68,
+   "distance_ly": 222.2,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 72220,
+   "name": null,
+   "ra_hours": 14.77083,
+   "dec_degrees": 1.8929,
+   "mag": 3.73,
+   "parallax_mas": 25.35,
+   "distance_ly": 128.7,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 87585,
+   "name": "Grumium",
+   "ra_hours": 17.89212,
+   "dec_degrees": 56.8725,
+   "mag": 3.73,
+   "parallax_mas": 29.26,
+   "distance_ly": 111.5,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 107089,
+   "name": null,
+   "ra_hours": 21.69124,
+   "dec_degrees": -77.3895,
+   "mag": 3.73,
+   "parallax_mas": 47.22,
+   "distance_ly": 69.1,
+   "constellation": "Oct"
+  },
+  {
+   "hip": 112961,
+   "name": null,
+   "ra_hours": 22.87691,
+   "dec_degrees": -7.5797,
+   "mag": 3.73,
+   "parallax_mas": 8.33,
+   "distance_ly": 391.5,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 8645,
+   "name": "Baten Kaitos",
+   "ra_hours": 1.85767,
+   "dec_degrees": -10.3349,
+   "mag": 3.74,
+   "parallax_mas": 12.59,
+   "distance_ly": 259.1,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 80170,
+   "name": null,
+   "ra_hours": 16.36535,
+   "dec_degrees": 19.153,
+   "mag": 3.74,
+   "parallax_mas": 16.69,
+   "distance_ly": 195.4,
+   "constellation": "Her"
+  },
+  {
+   "hip": 104887,
+   "name": null,
+   "ra_hours": 21.24649,
+   "dec_degrees": 38.0443,
+   "mag": 3.74,
+   "parallax_mas": 47.8,
+   "distance_ly": 68.2,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 44511,
+   "name": null,
+   "ra_hours": 9.06926,
+   "dec_degrees": -47.0977,
+   "mag": 3.75,
+   "parallax_mas": 10.55,
+   "distance_ly": 309.2,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 87108,
+   "name": null,
+   "ra_hours": 17.79822,
+   "dec_degrees": 2.7075,
+   "mag": 3.75,
+   "parallax_mas": 34.42,
+   "distance_ly": 94.8,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 26069,
+   "name": null,
+   "ra_hours": 5.56042,
+   "dec_degrees": -62.4899,
+   "mag": 3.76,
+   "parallax_mas": 3.14,
+   "distance_ly": 1038.7,
+   "constellation": "Dor"
+  },
+  {
+   "hip": 27654,
+   "name": null,
+   "ra_hours": 5.85532,
+   "dec_degrees": -20.8775,
+   "mag": 3.76,
+   "parallax_mas": 29.05,
+   "distance_ly": 112.3,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 30867,
+   "name": null,
+   "ra_hours": 6.4803,
+   "dec_degrees": -7.0331,
+   "mag": 3.76,
+   "parallax_mas": 4.72,
+   "distance_ly": 691,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 93683,
+   "name": null,
+   "ra_hours": 19.07804,
+   "dec_degrees": -21.7414,
+   "mag": 3.76,
+   "parallax_mas": 23.49,
+   "distance_ly": 138.8,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 95853,
+   "name": null,
+   "ra_hours": 19.49509,
+   "dec_degrees": 51.7295,
+   "mag": 3.76,
+   "parallax_mas": 26.63,
+   "distance_ly": 122.5,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 111169,
+   "name": null,
+   "ra_hours": 22.52149,
+   "dec_degrees": 50.2824,
+   "mag": 3.76,
+   "parallax_mas": 31.86,
+   "distance_ly": 102.4,
+   "constellation": "Lac"
+  },
+  {
+   "hip": 13268,
+   "name": "Miram",
+   "ra_hours": 2.84494,
+   "dec_degrees": 55.8955,
+   "mag": 3.77,
+   "parallax_mas": 2.45,
+   "distance_ly": 1331.2,
+   "constellation": "Per"
+  },
+  {
+   "hip": 17529,
+   "name": null,
+   "ra_hours": 3.75323,
+   "dec_degrees": 42.5785,
+   "mag": 3.77,
+   "parallax_mas": 5.86,
+   "distance_ly": 556.6,
+   "constellation": "Per"
+  },
+  {
+   "hip": 20455,
+   "name": "Secunda Hyadum",
+   "ra_hours": 4.38223,
+   "dec_degrees": 17.5426,
+   "mag": 3.77,
+   "parallax_mas": 21.29,
+   "distance_ly": 153.2,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 26549,
+   "name": null,
+   "ra_hours": 5.64577,
+   "dec_degrees": -2.6001,
+   "mag": 3.77,
+   "parallax_mas": 2.84,
+   "distance_ly": 1148.4,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 41312,
+   "name": null,
+   "ra_hours": 8.42896,
+   "dec_degrees": -66.1365,
+   "mag": 3.77,
+   "parallax_mas": 30.21,
+   "distance_ly": 108,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 42570,
+   "name": null,
+   "ra_hours": 8.6771,
+   "dec_degrees": -46.6488,
+   "mag": 3.77,
+   "parallax_mas": 1.05,
+   "distance_ly": 3106.2,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 82363,
+   "name": null,
+   "ra_hours": 16.82975,
+   "dec_degrees": -59.0413,
+   "mag": 3.77,
+   "parallax_mas": 10.41,
+   "distance_ly": 313.3,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 101958,
+   "name": "Sualocin",
+   "ra_hours": 20.66063,
+   "dec_degrees": 15.9121,
+   "mag": 3.77,
+   "parallax_mas": 13.55,
+   "distance_ly": 240.7,
+   "constellation": "Del"
+  },
+  {
+   "hip": 105881,
+   "name": null,
+   "ra_hours": 21.44445,
+   "dec_degrees": -22.4114,
+   "mag": 3.77,
+   "parallax_mas": 8.19,
+   "distance_ly": 398.2,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 109176,
+   "name": null,
+   "ra_hours": 22.1168,
+   "dec_degrees": 25.345,
+   "mag": 3.77,
+   "parallax_mas": 85.06,
+   "distance_ly": 38.3,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 34481,
+   "name": null,
+   "ra_hours": 7.14578,
+   "dec_degrees": -70.4992,
+   "mag": 3.78,
+   "parallax_mas": 23.02,
+   "distance_ly": 141.7,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 36046,
+   "name": null,
+   "ra_hours": 7.4288,
+   "dec_degrees": 27.7983,
+   "mag": 3.78,
+   "parallax_mas": 25.9,
+   "distance_ly": 125.9,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 48319,
+   "name": null,
+   "ra_hours": 9.84991,
+   "dec_degrees": 59.0391,
+   "mag": 3.78,
+   "parallax_mas": 28.35,
+   "distance_ly": 115,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 53253,
+   "name": null,
+   "ra_hours": 10.89155,
+   "dec_degrees": -58.8533,
+   "mag": 3.78,
+   "parallax_mas": 33.71,
+   "distance_ly": 96.8,
+   "constellation": "Car"
+  },
+  {
+   "hip": 71795,
+   "name": null,
+   "ra_hours": 14.68581,
+   "dec_degrees": 13.7283,
+   "mag": 3.78,
+   "parallax_mas": 18.07,
+   "distance_ly": 180.5,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 102618,
+   "name": "Albali",
+   "ra_hours": 20.79459,
+   "dec_degrees": -9.4957,
+   "mag": 3.78,
+   "parallax_mas": 14.21,
+   "distance_ly": 229.5,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 14668,
+   "name": "Misam",
+   "ra_hours": 3.15823,
+   "dec_degrees": 44.8579,
+   "mag": 3.79,
+   "parallax_mas": 29.05,
+   "distance_ly": 112.3,
+   "constellation": "Per"
+  },
+  {
+   "hip": 53229,
+   "name": "Praecipua",
+   "ra_hours": 10.88851,
+   "dec_degrees": 34.2156,
+   "mag": 3.79,
+   "parallax_mas": 33.4,
+   "distance_ly": 97.7,
+   "constellation": "LMi"
+  },
+  {
+   "hip": 14879,
+   "name": "Dalim",
+   "ra_hours": 3.20119,
+   "dec_degrees": -28.9891,
+   "mag": 3.8,
+   "parallax_mas": 70.86,
+   "distance_ly": 46,
+   "constellation": "For"
+  },
+  {
+   "hip": 37229,
+   "name": null,
+   "ra_hours": 7.64719,
+   "dec_degrees": -26.8039,
+   "mag": 3.8,
+   "parallax_mas": 7.18,
+   "distance_ly": 454.3,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 76276,
+   "name": null,
+   "ra_hours": 15.58005,
+   "dec_degrees": 10.5389,
+   "mag": 3.8,
+   "parallax_mas": 15.54,
+   "distance_ly": 209.9,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 94779,
+   "name": null,
+   "ra_hours": 19.28503,
+   "dec_degrees": 53.3682,
+   "mag": 3.8,
+   "parallax_mas": 26.48,
+   "distance_ly": 123.2,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 99675,
+   "name": null,
+   "ra_hours": 20.2272,
+   "dec_degrees": 46.7413,
+   "mag": 3.8,
+   "parallax_mas": 2.41,
+   "distance_ly": 1353.3,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 21393,
+   "name": "Theemin",
+   "ra_hours": 4.59252,
+   "dec_degrees": -30.5623,
+   "mag": 3.81,
+   "parallax_mas": 15.62,
+   "distance_ly": 208.8,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 51232,
+   "name": null,
+   "ra_hours": 10.46465,
+   "dec_degrees": -58.7394,
+   "mag": 3.81,
+   "parallax_mas": 3.13,
+   "distance_ly": 1042,
+   "constellation": "Car"
+  },
+  {
+   "hip": 76952,
+   "name": null,
+   "ra_hours": 15.7124,
+   "dec_degrees": 26.2955,
+   "mag": 3.81,
+   "parallax_mas": 22.48,
+   "distance_ly": 145.1,
+   "constellation": "CrB"
+  },
+  {
+   "hip": 116584,
+   "name": null,
+   "ra_hours": 23.62603,
+   "dec_degrees": 46.4592,
+   "mag": 3.81,
+   "parallax_mas": 38.74,
+   "distance_ly": 84.2,
+   "constellation": "And"
+  },
+  {
+   "hip": 9487,
+   "name": "Alrescha",
+   "ra_hours": 2.03411,
+   "dec_degrees": 2.7638,
+   "mag": 3.82,
+   "parallax_mas": 23.45,
+   "distance_ly": 139.1,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 45688,
+   "name": null,
+   "ra_hours": 9.31407,
+   "dec_degrees": 36.8029,
+   "mag": 3.82,
+   "parallax_mas": 26.75,
+   "distance_ly": 121.9,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 56211,
+   "name": "Giausar",
+   "ra_hours": 11.52341,
+   "dec_degrees": 69.3311,
+   "mag": 3.82,
+   "parallax_mas": 9.76,
+   "distance_ly": 334.2,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 80883,
+   "name": "Marfik",
+   "ra_hours": 16.51523,
+   "dec_degrees": 1.9841,
+   "mag": 3.82,
+   "parallax_mas": 19.63,
+   "distance_ly": 166.2,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 86414,
+   "name": null,
+   "ra_hours": 17.65775,
+   "dec_degrees": 46.0063,
+   "mag": 3.82,
+   "parallax_mas": 6.58,
+   "distance_ly": 495.7,
+   "constellation": "Her"
+  },
+  {
+   "hip": 51069,
+   "name": null,
+   "ra_hours": 10.43486,
+   "dec_degrees": -16.8361,
+   "mag": 3.83,
+   "parallax_mas": 13.14,
+   "distance_ly": 248.2,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 68245,
+   "name": null,
+   "ra_hours": 13.97119,
+   "dec_degrees": -42.1007,
+   "mag": 3.83,
+   "parallax_mas": 7.01,
+   "distance_ly": 465.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 72370,
+   "name": null,
+   "ra_hours": 14.7977,
+   "dec_degrees": -79.0447,
+   "mag": 3.83,
+   "parallax_mas": 7.93,
+   "distance_ly": 411.3,
+   "constellation": "Aps"
+  },
+  {
+   "hip": 17440,
+   "name": null,
+   "ra_hours": 3.73654,
+   "dec_degrees": -64.8071,
+   "mag": 3.84,
+   "parallax_mas": 32.71,
+   "distance_ly": 99.7,
+   "constellation": "Ret"
+  },
+  {
+   "hip": 17448,
+   "name": "Atik",
+   "ra_hours": 3.73865,
+   "dec_degrees": 32.2883,
+   "mag": 3.84,
+   "parallax_mas": 2.21,
+   "distance_ly": 1475.8,
+   "constellation": "Per"
+  },
+  {
+   "hip": 20885,
+   "name": null,
+   "ra_hours": 4.47623,
+   "dec_degrees": 15.9622,
+   "mag": 3.84,
+   "parallax_mas": 20.66,
+   "distance_ly": 157.9,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 43783,
+   "name": null,
+   "ra_hours": 8.91746,
+   "dec_degrees": -60.6447,
+   "mag": 3.84,
+   "parallax_mas": 10.45,
+   "distance_ly": 312.1,
+   "constellation": "Car"
+  },
+  {
+   "hip": 51624,
+   "name": null,
+   "ra_hours": 10.54685,
+   "dec_degrees": 9.3066,
+   "mag": 3.84,
+   "parallax_mas": 0.57,
+   "distance_ly": 5722,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 51986,
+   "name": null,
+   "ra_hours": 10.62174,
+   "dec_degrees": -48.2256,
+   "mag": 3.84,
+   "parallax_mas": 37.71,
+   "distance_ly": 86.5,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 61199,
+   "name": null,
+   "ra_hours": 12.54114,
+   "dec_degrees": -72.133,
+   "mag": 3.84,
+   "parallax_mas": 10.07,
+   "distance_ly": 323.9,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 88794,
+   "name": null,
+   "ra_hours": 18.12571,
+   "dec_degrees": 28.7625,
+   "mag": 3.84,
+   "parallax_mas": 9.39,
+   "distance_ly": 347.3,
+   "constellation": "Her"
+  },
+  {
+   "hip": 89341,
+   "name": "Polis",
+   "ra_hours": 18.22939,
+   "dec_degrees": -21.0588,
+   "mag": 3.84,
+   "parallax_mas": 0.11,
+   "distance_ly": 29650.5,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 97433,
+   "name": null,
+   "ra_hours": 19.80284,
+   "dec_degrees": 70.2678,
+   "mag": 3.84,
+   "parallax_mas": 22.4,
+   "distance_ly": 145.6,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 19747,
+   "name": null,
+   "ra_hours": 4.23336,
+   "dec_degrees": -42.2939,
+   "mag": 3.85,
+   "parallax_mas": 27.85,
+   "distance_ly": 117.1,
+   "constellation": "Hor"
+  },
+  {
+   "hip": 27321,
+   "name": null,
+   "ra_hours": 5.78808,
+   "dec_degrees": -51.0667,
+   "mag": 3.85,
+   "parallax_mas": 51.87,
+   "distance_ly": 62.9,
+   "constellation": "Pic"
+  },
+  {
+   "hip": 30277,
+   "name": null,
+   "ra_hours": 6.36857,
+   "dec_degrees": -33.4363,
+   "mag": 3.85,
+   "parallax_mas": 13.75,
+   "distance_ly": 237.2,
+   "constellation": "Col"
+  },
+  {
+   "hip": 50191,
+   "name": null,
+   "ra_hours": 10.24563,
+   "dec_degrees": -42.1221,
+   "mag": 3.85,
+   "parallax_mas": 31.72,
+   "distance_ly": 102.8,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 61281,
+   "name": null,
+   "ra_hours": 12.55807,
+   "dec_degrees": 69.7882,
+   "mag": 3.85,
+   "parallax_mas": 6.55,
+   "distance_ly": 497.9,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 61622,
+   "name": null,
+   "ra_hours": 12.62842,
+   "dec_degrees": -48.5413,
+   "mag": 3.85,
+   "parallax_mas": 24.77,
+   "distance_ly": 131.7,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 78072,
+   "name": null,
+   "ra_hours": 15.94083,
+   "dec_degrees": 15.6647,
+   "mag": 3.85,
+   "parallax_mas": 89.92,
+   "distance_ly": 36.3,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 90139,
+   "name": null,
+   "ra_hours": 18.39494,
+   "dec_degrees": 21.7703,
+   "mag": 3.85,
+   "parallax_mas": 25.4,
+   "distance_ly": 128.4,
+   "constellation": "Her"
+  },
+  {
+   "hip": 91117,
+   "name": null,
+   "ra_hours": 18.58679,
+   "dec_degrees": -8.2433,
+   "mag": 3.85,
+   "parallax_mas": 18.72,
+   "distance_ly": 174.2,
+   "constellation": "Sct"
+  },
+  {
+   "hip": 4436,
+   "name": null,
+   "ra_hours": 0.94586,
+   "dec_degrees": 38.4993,
+   "mag": 3.86,
+   "parallax_mas": 23.93,
+   "distance_ly": 136.3,
+   "constellation": "And"
+  },
+  {
+   "hip": 21594,
+   "name": "Sceptrum",
+   "ra_hours": 4.63635,
+   "dec_degrees": -14.3036,
+   "mag": 3.86,
+   "parallax_mas": 29.84,
+   "distance_ly": 109.3,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 25859,
+   "name": null,
+   "ra_hours": 5.5202,
+   "dec_degrees": -35.4704,
+   "mag": 3.86,
+   "parallax_mas": 11.77,
+   "distance_ly": 277.1,
+   "constellation": "Col"
+  },
+  {
+   "hip": 79664,
+   "name": null,
+   "ra_hours": 16.2573,
+   "dec_degrees": -63.6856,
+   "mag": 3.86,
+   "parallax_mas": 5.25,
+   "distance_ly": 621.2,
+   "constellation": "TrA"
+  },
+  {
+   "hip": 81065,
+   "name": null,
+   "ra_hours": 16.55763,
+   "dec_degrees": -78.897,
+   "mag": 3.86,
+   "parallax_mas": 20.44,
+   "distance_ly": 159.6,
+   "constellation": "Aps"
+  },
+  {
+   "hip": 87808,
+   "name": null,
+   "ra_hours": 17.93755,
+   "dec_degrees": 37.2505,
+   "mag": 3.86,
+   "parallax_mas": 4.87,
+   "distance_ly": 669.7,
+   "constellation": "Her"
+  },
+  {
+   "hip": 110395,
+   "name": "Sadachbia",
+   "ra_hours": 22.36092,
+   "dec_degrees": -1.3874,
+   "mag": 3.86,
+   "parallax_mas": 20.67,
+   "distance_ly": 157.8,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 17573,
+   "name": "Maia",
+   "ra_hours": 3.76378,
+   "dec_degrees": 24.3679,
+   "mag": 3.87,
+   "parallax_mas": 9.06,
+   "distance_ly": 360,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 43023,
+   "name": null,
+   "ra_hours": 8.76713,
+   "dec_degrees": -46.0415,
+   "mag": 3.87,
+   "parallax_mas": 2.1,
+   "distance_ly": 1553.1,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 68282,
+   "name": null,
+   "ra_hours": 13.97799,
+   "dec_degrees": -44.8035,
+   "mag": 3.87,
+   "parallax_mas": 7.81,
+   "distance_ly": 417.6,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 71957,
+   "name": null,
+   "ra_hours": 14.71766,
+   "dec_degrees": -5.6574,
+   "mag": 3.87,
+   "parallax_mas": 53.54,
+   "distance_ly": 60.9,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 78104,
+   "name": "Iklil",
+   "ra_hours": 15.94808,
+   "dec_degrees": -29.214,
+   "mag": 3.87,
+   "parallax_mas": 7.97,
+   "distance_ly": 409.2,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 97804,
+   "name": null,
+   "ra_hours": 19.87455,
+   "dec_degrees": 1.0057,
+   "mag": 3.87,
+   "parallax_mas": 2.78,
+   "distance_ly": 1173.2,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 765,
+   "name": null,
+   "ra_hours": 0.15682,
+   "dec_degrees": -45.747,
+   "mag": 3.88,
+   "parallax_mas": 23.28,
+   "distance_ly": 140.1,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 8832,
+   "name": "Mesarthim",
+   "ra_hours": 1.89216,
+   "dec_degrees": 19.2941,
+   "mag": 3.88,
+   "parallax_mas": 15.96,
+   "distance_ly": 204.4,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 48455,
+   "name": "Rasalas",
+   "ra_hours": 9.87943,
+   "dec_degrees": 26.0071,
+   "mag": 3.88,
+   "parallax_mas": 24.52,
+   "distance_ly": 133,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 74376,
+   "name": null,
+   "ra_hours": 15.19893,
+   "dec_degrees": -48.7377,
+   "mag": 3.88,
+   "parallax_mas": 17.89,
+   "distance_ly": 182.3,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 114421,
+   "name": null,
+   "ra_hours": 23.17262,
+   "dec_degrees": -45.2466,
+   "mag": 3.88,
+   "parallax_mas": 17.63,
+   "distance_ly": 185,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 13701,
+   "name": "Azha",
+   "ra_hours": 2.94045,
+   "dec_degrees": -8.8976,
+   "mag": 3.89,
+   "parallax_mas": 24.49,
+   "distance_ly": 133.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 33152,
+   "name": null,
+   "ra_hours": 6.90221,
+   "dec_degrees": -24.1842,
+   "mag": 3.89,
+   "parallax_mas": 1.65,
+   "distance_ly": 1976.7,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 45336,
+   "name": null,
+   "ra_hours": 9.23939,
+   "dec_degrees": 2.315,
+   "mag": 3.89,
+   "parallax_mas": 25.34,
+   "distance_ly": 128.7,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 60129,
+   "name": "Zaniah",
+   "ra_hours": 12.33178,
+   "dec_degrees": -0.6667,
+   "mag": 3.89,
+   "parallax_mas": 13.06,
+   "distance_ly": 249.7,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 98110,
+   "name": null,
+   "ra_hours": 19.93844,
+   "dec_degrees": 35.0835,
+   "mag": 3.89,
+   "parallax_mas": 23.4,
+   "distance_ly": 139.4,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 47431,
+   "name": "Ukdah",
+   "ra_hours": 9.66426,
+   "dec_degrees": -1.1427,
+   "mag": 3.9,
+   "parallax_mas": 11.83,
+   "distance_ly": 275.7,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 55425,
+   "name": null,
+   "ra_hours": 11.35012,
+   "dec_degrees": -54.491,
+   "mag": 3.9,
+   "parallax_mas": 10.15,
+   "distance_ly": 321.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 65936,
+   "name": null,
+   "ra_hours": 13.51741,
+   "dec_degrees": -39.4073,
+   "mag": 3.9,
+   "parallax_mas": 2.6,
+   "distance_ly": 1254.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 18907,
+   "name": null,
+   "ra_hours": 4.0526,
+   "dec_degrees": 5.9893,
+   "mag": 3.91,
+   "parallax_mas": 25.24,
+   "distance_ly": 129.2,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 41307,
+   "name": null,
+   "ra_hours": 8.42769,
+   "dec_degrees": -3.9064,
+   "mag": 3.91,
+   "parallax_mas": 26.09,
+   "distance_ly": 125,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 60823,
+   "name": null,
+   "ra_hours": 12.46734,
+   "dec_degrees": -50.2306,
+   "mag": 3.91,
+   "parallax_mas": 7.36,
+   "distance_ly": 443.1,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 73807,
+   "name": null,
+   "ra_hours": 15.08531,
+   "dec_degrees": -47.0512,
+   "mag": 3.91,
+   "parallax_mas": 6.56,
+   "distance_ly": 497.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 76333,
+   "name": "Zubenelhakrabi",
+   "ra_hours": 15.59209,
+   "dec_degrees": -14.7896,
+   "mag": 3.91,
+   "parallax_mas": 21.42,
+   "distance_ly": 152.3,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 79992,
+   "name": null,
+   "ra_hours": 16.32901,
+   "dec_degrees": 46.3133,
+   "mag": 3.91,
+   "parallax_mas": 10.37,
+   "distance_ly": 314.5,
+   "constellation": "Her"
+  },
+  {
+   "hip": 83207,
+   "name": null,
+   "ra_hours": 17.00484,
+   "dec_degrees": 30.9263,
+   "mag": 3.92,
+   "parallax_mas": 20.04,
+   "distance_ly": 162.8,
+   "constellation": "Her"
+  },
+  {
+   "hip": 95168,
+   "name": null,
+   "ra_hours": 19.36122,
+   "dec_degrees": -17.8473,
+   "mag": 3.92,
+   "parallax_mas": 26.79,
+   "distance_ly": 121.7,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 104987,
+   "name": "Kitalpha",
+   "ra_hours": 21.26372,
+   "dec_degrees": 5.2481,
+   "mag": 3.92,
+   "parallax_mas": 17.51,
+   "distance_ly": 186.3,
+   "constellation": "Equ"
+  },
+  {
+   "hip": 2072,
+   "name": null,
+   "ra_hours": 0.4367,
+   "dec_degrees": -43.6799,
+   "mag": 3.93,
+   "parallax_mas": 42.51,
+   "distance_ly": 76.7,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 7083,
+   "name": null,
+   "ra_hours": 1.52083,
+   "dec_degrees": -49.0731,
+   "mag": 3.93,
+   "parallax_mas": 22.15,
+   "distance_ly": 147.2,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 13531,
+   "name": null,
+   "ra_hours": 2.9043,
+   "dec_degrees": 52.7625,
+   "mag": 3.93,
+   "parallax_mas": 13.15,
+   "distance_ly": 248,
+   "constellation": "Per"
+  },
+  {
+   "hip": 21444,
+   "name": null,
+   "ra_hours": 4.60532,
+   "dec_degrees": -3.3524,
+   "mag": 3.93,
+   "parallax_mas": 5.56,
+   "distance_ly": 586.6,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 37504,
+   "name": null,
+   "ra_hours": 7.697,
+   "dec_degrees": -72.6061,
+   "mag": 3.93,
+   "parallax_mas": 24.36,
+   "distance_ly": 133.9,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 54463,
+   "name": null,
+   "ra_hours": 11.14317,
+   "dec_degrees": -58.975,
+   "mag": 3.93,
+   "parallax_mas": 0.55,
+   "distance_ly": 5930.1,
+   "constellation": "Car"
+  },
+  {
+   "hip": 78933,
+   "name": null,
+   "ra_hours": 16.11345,
+   "dec_degrees": -20.6691,
+   "mag": 3.93,
+   "parallax_mas": 7.7,
+   "distance_ly": 423.6,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 88192,
+   "name": null,
+   "ra_hours": 18.01075,
+   "dec_degrees": 2.9316,
+   "mag": 3.93,
+   "parallax_mas": 2.3,
+   "distance_ly": 1418.1,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 5348,
+   "name": "Wurren",
+   "ra_hours": 1.13974,
+   "dec_degrees": -55.2458,
+   "mag": 3.94,
+   "parallax_mas": 11.66,
+   "distance_ly": 279.7,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 37447,
+   "name": null,
+   "ra_hours": 7.68747,
+   "dec_degrees": -9.5511,
+   "mag": 3.94,
+   "parallax_mas": 22.61,
+   "distance_ly": 144.3,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 37677,
+   "name": null,
+   "ra_hours": 7.73013,
+   "dec_degrees": -28.9548,
+   "mag": 3.94,
+   "parallax_mas": -0.37,
+   "distance_ly": null,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 42911,
+   "name": "Asellus Australis",
+   "ra_hours": 8.74475,
+   "dec_degrees": 18.1549,
+   "mag": 3.94,
+   "parallax_mas": 23.97,
+   "distance_ly": 136.1,
+   "constellation": "Cnc"
+  },
+  {
+   "hip": 103413,
+   "name": null,
+   "ra_hours": 20.95289,
+   "dec_degrees": 41.1672,
+   "mag": 3.94,
+   "parallax_mas": 9.17,
+   "distance_ly": 355.7,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 9598,
+   "name": null,
+   "ra_hours": 2.05728,
+   "dec_degrees": 72.4212,
+   "mag": 3.95,
+   "parallax_mas": 20.12,
+   "distance_ly": 162.1,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 31592,
+   "name": null,
+   "ra_hours": 6.61139,
+   "dec_degrees": -19.2557,
+   "mag": 3.95,
+   "parallax_mas": 50.41,
+   "distance_ly": 64.7,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 19343,
+   "name": null,
+   "ra_hours": 4.14435,
+   "dec_degrees": 47.7126,
+   "mag": 3.96,
+   "parallax_mas": 5.89,
+   "distance_ly": 553.7,
+   "constellation": "Per"
+  },
+  {
+   "hip": 28328,
+   "name": null,
+   "ra_hours": 5.98578,
+   "dec_degrees": -42.8151,
+   "mag": 3.96,
+   "parallax_mas": 6.14,
+   "distance_ly": 531.2,
+   "constellation": "Col"
+  },
+  {
+   "hip": 44248,
+   "name": null,
+   "ra_hours": 9.01076,
+   "dec_degrees": 41.7834,
+   "mag": 3.96,
+   "parallax_mas": 60.86,
+   "distance_ly": 53.6,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 45101,
+   "name": null,
+   "ra_hours": 9.18799,
+   "dec_degrees": -62.317,
+   "mag": 3.96,
+   "parallax_mas": 6.53,
+   "distance_ly": 499.5,
+   "constellation": "Car"
+  },
+  {
+   "hip": 95241,
+   "name": "Arkab Prior",
+   "ra_hours": 19.3773,
+   "dec_degrees": -44.4589,
+   "mag": 3.96,
+   "parallax_mas": 8.62,
+   "distance_ly": 378.4,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 95347,
+   "name": "Rukbat",
+   "ra_hours": 19.3981,
+   "dec_degrees": -40.6156,
+   "mag": 3.96,
+   "parallax_mas": 19.2,
+   "distance_ly": 169.9,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 99848,
+   "name": null,
+   "ra_hours": 20.25787,
+   "dec_degrees": 47.7142,
+   "mag": 3.96,
+   "parallax_mas": 2.94,
+   "distance_ly": 1109.4,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 115438,
+   "name": null,
+   "ra_hours": 23.38286,
+   "dec_degrees": -20.1003,
+   "mag": 3.96,
+   "parallax_mas": 20.14,
+   "distance_ly": 161.9,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 20535,
+   "name": "Beemim",
+   "ra_hours": 4.4006,
+   "dec_degrees": -34.017,
+   "mag": 3.97,
+   "parallax_mas": 11.95,
+   "distance_ly": 272.9,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 27673,
+   "name": null,
+   "ra_hours": 5.85816,
+   "dec_degrees": 39.1485,
+   "mag": 3.97,
+   "parallax_mas": 15.17,
+   "distance_ly": 215,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 35228,
+   "name": null,
+   "ra_hours": 7.28051,
+   "dec_degrees": -67.9572,
+   "mag": 3.97,
+   "parallax_mas": 4.94,
+   "distance_ly": 660.2,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 42515,
+   "name": null,
+   "ra_hours": 8.66837,
+   "dec_degrees": -35.3083,
+   "mag": 3.97,
+   "parallax_mas": 8.4,
+   "distance_ly": 388.3,
+   "constellation": "Pyx"
+  },
+  {
+   "hip": 59449,
+   "name": null,
+   "ra_hours": 12.19421,
+   "dec_degrees": -52.3684,
+   "mag": 3.97,
+   "parallax_mas": 9.53,
+   "distance_ly": 342.2,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 77634,
+   "name": null,
+   "ra_hours": 15.84932,
+   "dec_degrees": -33.6271,
+   "mag": 3.97,
+   "parallax_mas": 15.86,
+   "distance_ly": 205.6,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 98495,
+   "name": null,
+   "ra_hours": 20.00983,
+   "dec_degrees": -72.9102,
+   "mag": 3.97,
+   "parallax_mas": 30.73,
+   "distance_ly": 106.1,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 110997,
+   "name": null,
+   "ra_hours": 22.48782,
+   "dec_degrees": -43.4956,
+   "mag": 3.97,
+   "parallax_mas": 11.03,
+   "distance_ly": 295.7,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 112440,
+   "name": null,
+   "ra_hours": 22.77551,
+   "dec_degrees": 23.5657,
+   "mag": 3.97,
+   "parallax_mas": 8.26,
+   "distance_ly": 394.9,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 18614,
+   "name": "Menkib",
+   "ra_hours": 3.98275,
+   "dec_degrees": 35.791,
+   "mag": 3.98,
+   "parallax_mas": 1.84,
+   "distance_ly": 1772.6,
+   "constellation": "Per"
+  },
+  {
+   "hip": 106481,
+   "name": null,
+   "ra_hours": 21.56635,
+   "dec_degrees": 45.5921,
+   "mag": 3.98,
+   "parallax_mas": 26.2,
+   "distance_ly": 124.5,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 9347,
+   "name": null,
+   "ra_hours": 2.00006,
+   "dec_degrees": -21.0778,
+   "mag": 3.99,
+   "parallax_mas": 10.84,
+   "distance_ly": 300.9,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 29651,
+   "name": null,
+   "ra_hours": 6.24759,
+   "dec_degrees": -6.2747,
+   "mag": 3.99,
+   "parallax_mas": 5.06,
+   "distance_ly": 644.6,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 50954,
+   "name": null,
+   "ra_hours": 10.40659,
+   "dec_degrees": -74.0315,
+   "mag": 3.99,
+   "parallax_mas": 61.67,
+   "distance_ly": 52.9,
+   "constellation": "Car"
+  },
+  {
+   "hip": 65477,
+   "name": "Alcor",
+   "ra_hours": 13.42039,
+   "dec_degrees": 54.988,
+   "mag": 3.99,
+   "parallax_mas": 40.19,
+   "distance_ly": 81.2,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 114996,
+   "name": null,
+   "ra_hours": 23.2905,
+   "dec_degrees": -58.2359,
+   "mag": 3.99,
+   "parallax_mas": 45.4,
+   "distance_ly": 71.8,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 44382,
+   "name": null,
+   "ra_hours": 9.04078,
+   "dec_degrees": -66.3958,
+   "mag": 4,
+   "parallax_mas": 26.24,
+   "distance_ly": 124.3,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 55642,
+   "name": null,
+   "ra_hours": 11.39871,
+   "dec_degrees": 10.5297,
+   "mag": 4,
+   "parallax_mas": 41.26,
+   "distance_ly": 79,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 79374,
+   "name": "Jabbah",
+   "ra_hours": 16.19993,
+   "dec_degrees": -19.4606,
+   "mag": 4,
+   "parallax_mas": 7.47,
+   "distance_ly": 436.6,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 8068,
+   "name": null,
+   "ra_hours": 1.72767,
+   "dec_degrees": 50.6888,
+   "mag": 4.01,
+   "parallax_mas": 4.55,
+   "distance_ly": 716.8,
+   "constellation": "Per"
+  },
+  {
+   "hip": 22109,
+   "name": null,
+   "ra_hours": 4.75837,
+   "dec_degrees": -3.2546,
+   "mag": 4.01,
+   "parallax_mas": 6.13,
+   "distance_ly": 532.1,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 34088,
+   "name": "Mekbuda",
+   "ra_hours": 7.06848,
+   "dec_degrees": 20.5703,
+   "mag": 4.01,
+   "parallax_mas": 2.79,
+   "distance_ly": 1169,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 35037,
+   "name": null,
+   "ra_hours": 7.24685,
+   "dec_degrees": -26.7727,
+   "mag": 4.01,
+   "parallax_mas": 3.53,
+   "distance_ly": 924,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 71865,
+   "name": null,
+   "ra_hours": 14.69934,
+   "dec_degrees": -37.7934,
+   "mag": 4.01,
+   "parallax_mas": 10.69,
+   "distance_ly": 305.1,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 78527,
+   "name": null,
+   "ra_hours": 16.03158,
+   "dec_degrees": 58.5644,
+   "mag": 4.01,
+   "parallax_mas": 47.79,
+   "distance_ly": 68.2,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 80000,
+   "name": null,
+   "ra_hours": 16.33071,
+   "dec_degrees": -50.1554,
+   "mag": 4.01,
+   "parallax_mas": 25.58,
+   "distance_ly": 127.5,
+   "constellation": "Nor"
+  },
+  {
+   "hip": 91792,
+   "name": null,
+   "ra_hours": 18.71726,
+   "dec_degrees": -71.4277,
+   "mag": 4.01,
+   "parallax_mas": 15.55,
+   "distance_ly": 209.7,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 101076,
+   "name": null,
+   "ra_hours": 20.48993,
+   "dec_degrees": 30.3686,
+   "mag": 4.01,
+   "parallax_mas": 4.3,
+   "distance_ly": 758.5,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 43409,
+   "name": null,
+   "ra_hours": 8.84223,
+   "dec_degrees": -27.7101,
+   "mag": 4.02,
+   "parallax_mas": 15.63,
+   "distance_ly": 208.7,
+   "constellation": "Pyx"
+  },
+  {
+   "hip": 59199,
+   "name": "Alchiba",
+   "ra_hours": 12.14021,
+   "dec_degrees": -24.7288,
+   "mag": 4.02,
+   "parallax_mas": 67.71,
+   "distance_ly": 48.2,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 93244,
+   "name": null,
+   "ra_hours": 18.99372,
+   "dec_degrees": 15.0685,
+   "mag": 4.02,
+   "parallax_mas": 21.22,
+   "distance_ly": 153.7,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 93429,
+   "name": null,
+   "ra_hours": 19.02801,
+   "dec_degrees": -5.739,
+   "mag": 4.02,
+   "parallax_mas": 21.95,
+   "distance_ly": 148.6,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 10670,
+   "name": null,
+   "ra_hours": 2.28857,
+   "dec_degrees": 33.8473,
+   "mag": 4.03,
+   "parallax_mas": 27.73,
+   "distance_ly": 117.6,
+   "constellation": "Tri"
+  },
+  {
+   "hip": 23522,
+   "name": null,
+   "ra_hours": 5.05697,
+   "dec_degrees": 60.4423,
+   "mag": 4.03,
+   "parallax_mas": 3.27,
+   "distance_ly": 997.4,
+   "constellation": "Cam"
+  },
+  {
+   "hip": 43103,
+   "name": null,
+   "ra_hours": 8.77829,
+   "dec_degrees": 28.76,
+   "mag": 4.03,
+   "parallax_mas": 10.94,
+   "distance_ly": 298.1,
+   "constellation": "Cnc"
+  },
+  {
+   "hip": 63003,
+   "name": null,
+   "ra_hours": 12.9099,
+   "dec_degrees": -57.1779,
+   "mag": 4.03,
+   "parallax_mas": 8.64,
+   "distance_ly": 377.5,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 88601,
+   "name": null,
+   "ra_hours": 18.09089,
+   "dec_degrees": 2.5024,
+   "mag": 4.03,
+   "parallax_mas": 196.62,
+   "distance_ly": 16.6,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 101421,
+   "name": "Aldulfin",
+   "ra_hours": 20.55355,
+   "dec_degrees": 11.3033,
+   "mag": 4.03,
+   "parallax_mas": 9.09,
+   "distance_ly": 358.8,
+   "constellation": "Del"
+  },
+  {
+   "hip": 118268,
+   "name": null,
+   "ra_hours": 23.9885,
+   "dec_degrees": 6.8636,
+   "mag": 4.03,
+   "parallax_mas": 30.78,
+   "distance_ly": 106,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 19587,
+   "name": "Beid",
+   "ra_hours": 4.19776,
+   "dec_degrees": -6.8378,
+   "mag": 4.04,
+   "parallax_mas": 25.98,
+   "distance_ly": 125.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 57380,
+   "name": null,
+   "ra_hours": 11.76433,
+   "dec_degrees": 6.5298,
+   "mag": 4.04,
+   "parallax_mas": 10.42,
+   "distance_ly": 313,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 70497,
+   "name": null,
+   "ra_hours": 14.42001,
+   "dec_degrees": 51.8517,
+   "mag": 4.04,
+   "parallax_mas": 68.63,
+   "distance_ly": 47.5,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 111497,
+   "name": null,
+   "ra_hours": 22.58926,
+   "dec_degrees": -0.1174,
+   "mag": 4.04,
+   "parallax_mas": 17.77,
+   "distance_ly": 183.5,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 14632,
+   "name": null,
+   "ra_hours": 3.1508,
+   "dec_degrees": 49.6135,
+   "mag": 4.05,
+   "parallax_mas": 94.93,
+   "distance_ly": 34.4,
+   "constellation": "Per"
+  },
+  {
+   "hip": 40702,
+   "name": null,
+   "ra_hours": 8.30869,
+   "dec_degrees": -76.92,
+   "mag": 4.05,
+   "parallax_mas": 51.4,
+   "distance_ly": 63.5,
+   "constellation": "Cha"
+  },
+  {
+   "hip": 42884,
+   "name": null,
+   "ra_hours": 8.73999,
+   "dec_degrees": -42.6493,
+   "mag": 4.05,
+   "parallax_mas": 14.27,
+   "distance_ly": 228.6,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 55434,
+   "name": null,
+   "ra_hours": 11.35229,
+   "dec_degrees": 6.0294,
+   "mag": 4.05,
+   "parallax_mas": 15.24,
+   "distance_ly": 214,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 67459,
+   "name": null,
+   "ra_hours": 13.82464,
+   "dec_degrees": 15.7978,
+   "mag": 4.05,
+   "parallax_mas": 13.29,
+   "distance_ly": 245.4,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 70090,
+   "name": null,
+   "ra_hours": 14.34263,
+   "dec_degrees": -37.8853,
+   "mag": 4.05,
+   "parallax_mas": 13.19,
+   "distance_ly": 247.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 71536,
+   "name": null,
+   "ra_hours": 14.63146,
+   "dec_degrees": -49.4258,
+   "mag": 4.05,
+   "parallax_mas": 10.51,
+   "distance_ly": 310.3,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 112716,
+   "name": null,
+   "ra_hours": 22.82653,
+   "dec_degrees": -13.5925,
+   "mag": 4.05,
+   "parallax_mas": 8.58,
+   "distance_ly": 380.1,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 22957,
+   "name": null,
+   "ra_hours": 4.93953,
+   "dec_degrees": 13.5146,
+   "mag": 4.06,
+   "parallax_mas": 19.26,
+   "distance_ly": 169.3,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 36962,
+   "name": null,
+   "ra_hours": 7.59871,
+   "dec_degrees": 26.896,
+   "mag": 4.06,
+   "parallax_mas": 13.57,
+   "distance_ly": 240.4,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 55705,
+   "name": null,
+   "ra_hours": 11.41472,
+   "dec_degrees": -17.684,
+   "mag": 4.06,
+   "parallax_mas": 38.9,
+   "distance_ly": 83.8,
+   "constellation": "Crt"
+  },
+  {
+   "hip": 59929,
+   "name": null,
+   "ra_hours": 12.29295,
+   "dec_degrees": -67.9607,
+   "mag": 4.06,
+   "parallax_mas": 10.8,
+   "distance_ly": 302,
+   "constellation": "Mus"
+  },
+  {
+   "hip": 60009,
+   "name": null,
+   "ra_hours": 12.3073,
+   "dec_degrees": -64.003,
+   "mag": 4.06,
+   "parallax_mas": 9.03,
+   "distance_ly": 361.2,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 72010,
+   "name": null,
+   "ra_hours": 14.72763,
+   "dec_degrees": -35.1732,
+   "mag": 4.06,
+   "parallax_mas": 15.89,
+   "distance_ly": 205.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 83153,
+   "name": null,
+   "ra_hours": 16.99307,
+   "dec_degrees": -53.1605,
+   "mag": 4.06,
+   "parallax_mas": 10.72,
+   "distance_ly": 304.2,
+   "constellation": "Ara"
+  },
+  {
+   "hip": 69701,
+   "name": "Syrma",
+   "ra_hours": 14.26691,
+   "dec_degrees": -5.9995,
+   "mag": 4.07,
+   "parallax_mas": 46.74,
+   "distance_ly": 69.8,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 74117,
+   "name": null,
+   "ra_hours": 15.1474,
+   "dec_degrees": -45.2798,
+   "mag": 4.07,
+   "parallax_mas": 8.02,
+   "distance_ly": 406.7,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 74824,
+   "name": null,
+   "ra_hours": 15.29193,
+   "dec_degrees": -58.8009,
+   "mag": 4.07,
+   "parallax_mas": 33.75,
+   "distance_ly": 96.6,
+   "constellation": "Cir"
+  },
+  {
+   "hip": 110991,
+   "name": null,
+   "ra_hours": 22.48618,
+   "dec_degrees": 58.4152,
+   "mag": 4.07,
+   "parallax_mas": 3.32,
+   "distance_ly": 982.4,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 3693,
+   "name": null,
+   "ra_hours": 0.789,
+   "dec_degrees": 24.2674,
+   "mag": 4.08,
+   "parallax_mas": 17.98,
+   "distance_ly": 181.4,
+   "constellation": "And"
+  },
+  {
+   "hip": 11001,
+   "name": null,
+   "ra_hours": 2.36251,
+   "dec_degrees": -68.6594,
+   "mag": 4.08,
+   "parallax_mas": 24.1,
+   "distance_ly": 135.3,
+   "constellation": "Hyi"
+  },
+  {
+   "hip": 12387,
+   "name": null,
+   "ra_hours": 2.65804,
+   "dec_degrees": 0.3285,
+   "mag": 4.08,
+   "parallax_mas": 5.04,
+   "distance_ly": 647.1,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 14146,
+   "name": null,
+   "ra_hours": 3.03989,
+   "dec_degrees": -23.6243,
+   "mag": 4.08,
+   "parallax_mas": 37.85,
+   "distance_ly": 86.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 33160,
+   "name": null,
+   "ra_hours": 6.90319,
+   "dec_degrees": -12.0386,
+   "mag": 4.08,
+   "parallax_mas": 12.94,
+   "distance_ly": 252.1,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 46974,
+   "name": null,
+   "ra_hours": 9.57407,
+   "dec_degrees": -59.2298,
+   "mag": 4.08,
+   "parallax_mas": 1.65,
+   "distance_ly": 1976.7,
+   "constellation": "Car"
+  },
+  {
+   "hip": 53740,
+   "name": "Alkes",
+   "ra_hours": 10.99632,
+   "dec_degrees": -18.2991,
+   "mag": 4.08,
+   "parallax_mas": 18.71,
+   "distance_ly": 174.3,
+   "constellation": "Crt"
+  },
+  {
+   "hip": 92862,
+   "name": null,
+   "ra_hours": 18.92225,
+   "dec_degrees": 43.9459,
+   "mag": 4.08,
+   "parallax_mas": 9.33,
+   "distance_ly": 349.6,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 104139,
+   "name": null,
+   "ra_hours": 21.09911,
+   "dec_degrees": -17.2327,
+   "mag": 4.08,
+   "parallax_mas": 20.61,
+   "distance_ly": 158.3,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 105502,
+   "name": null,
+   "ra_hours": 21.36809,
+   "dec_degrees": 19.8044,
+   "mag": 4.08,
+   "parallax_mas": 21.19,
+   "distance_ly": 153.9,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 26366,
+   "name": null,
+   "ra_hours": 5.61509,
+   "dec_degrees": 9.2914,
+   "mag": 4.09,
+   "parallax_mas": 28.1,
+   "distance_ly": 116.1,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 77450,
+   "name": "Gudja",
+   "ra_hours": 15.81234,
+   "dec_degrees": 18.1418,
+   "mag": 4.09,
+   "parallax_mas": 9.36,
+   "distance_ly": 348.5,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 7513,
+   "name": "Titawin",
+   "ra_hours": 1.61333,
+   "dec_degrees": 41.4064,
+   "mag": 4.1,
+   "parallax_mas": 74.25,
+   "distance_ly": 43.9,
+   "constellation": "And"
+  },
+  {
+   "hip": 12777,
+   "name": null,
+   "ra_hours": 2.73658,
+   "dec_degrees": 49.2287,
+   "mag": 4.1,
+   "parallax_mas": 89.03,
+   "distance_ly": 36.6,
+   "constellation": "Per"
+  },
+  {
+   "hip": 38164,
+   "name": null,
+   "ra_hours": 7.82064,
+   "dec_degrees": -46.3732,
+   "mag": 4.1,
+   "parallax_mas": 1.66,
+   "distance_ly": 1964.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 90568,
+   "name": null,
+   "ra_hours": 18.48048,
+   "dec_degrees": -49.07,
+   "mag": 4.1,
+   "parallax_mas": 25.6,
+   "distance_ly": 127.4,
+   "constellation": "Tel"
+  },
+  {
+   "hip": 94160,
+   "name": null,
+   "ra_hours": 19.16715,
+   "dec_degrees": -39.3407,
+   "mag": 4.1,
+   "parallax_mas": 6.42,
+   "distance_ly": 508,
+   "constellation": "CrA"
+  },
+  {
+   "hip": 12486,
+   "name": null,
+   "ra_hours": 2.67776,
+   "dec_degrees": -39.8553,
+   "mag": 4.11,
+   "parallax_mas": 22.42,
+   "distance_ly": 145.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 34045,
+   "name": "Muliphein",
+   "ra_hours": 7.06264,
+   "dec_degrees": -15.6333,
+   "mag": 4.11,
+   "parallax_mas": 8.11,
+   "distance_ly": 402.2,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 42312,
+   "name": null,
+   "ra_hours": 8.6274,
+   "dec_degrees": -42.9891,
+   "mag": 4.11,
+   "parallax_mas": 2.27,
+   "distance_ly": 1436.8,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 48356,
+   "name": "Zhang",
+   "ra_hours": 9.85797,
+   "dec_degrees": -14.8465,
+   "mag": 4.11,
+   "parallax_mas": 11.92,
+   "distance_ly": 273.6,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 51839,
+   "name": null,
+   "ra_hours": 10.59117,
+   "dec_degrees": -78.6078,
+   "mag": 4.11,
+   "parallax_mas": 7.89,
+   "distance_ly": 413.4,
+   "constellation": "Cha"
+  },
+  {
+   "hip": 57439,
+   "name": null,
+   "ra_hours": 11.77524,
+   "dec_degrees": -61.1784,
+   "mag": 4.11,
+   "parallax_mas": 7.51,
+   "distance_ly": 434.3,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 76440,
+   "name": null,
+   "ra_hours": 15.612,
+   "dec_degrees": -66.3169,
+   "mag": 4.11,
+   "parallax_mas": 15.09,
+   "distance_ly": 216.1,
+   "constellation": "TrA"
+  },
+  {
+   "hip": 94114,
+   "name": "Meridiana",
+   "ra_hours": 19.15786,
+   "dec_degrees": -37.9042,
+   "mag": 4.11,
+   "parallax_mas": 25.15,
+   "distance_ly": 129.7,
+   "constellation": "CrA"
+  },
+  {
+   "hip": 113638,
+   "name": null,
+   "ra_hours": 23.01469,
+   "dec_degrees": -52.7541,
+   "mag": 4.11,
+   "parallax_mas": 28.99,
+   "distance_ly": 112.5,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 12394,
+   "name": null,
+   "ra_hours": 2.65978,
+   "dec_degrees": -68.2669,
+   "mag": 4.12,
+   "parallax_mas": 21.27,
+   "distance_ly": 153.3,
+   "constellation": "Hyi"
+  },
+  {
+   "hip": 19812,
+   "name": null,
+   "ra_hours": 4.24829,
+   "dec_degrees": 48.4094,
+   "mag": 4.12,
+   "parallax_mas": 4.51,
+   "distance_ly": 723.2,
+   "constellation": "Per"
+  },
+  {
+   "hip": 28614,
+   "name": null,
+   "ra_hours": 6.03972,
+   "dec_degrees": 9.6474,
+   "mag": 4.12,
+   "parallax_mas": 21.49,
+   "distance_ly": 151.8,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 58948,
+   "name": null,
+   "ra_hours": 12.08685,
+   "dec_degrees": 8.7328,
+   "mag": 4.12,
+   "parallax_mas": 19.08,
+   "distance_ly": 170.9,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 98032,
+   "name": null,
+   "ra_hours": 19.92102,
+   "dec_degrees": -41.8684,
+   "mag": 4.12,
+   "parallax_mas": 17.24,
+   "distance_ly": 189.2,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 102978,
+   "name": null,
+   "ra_hours": 20.86369,
+   "dec_degrees": -26.9191,
+   "mag": 4.12,
+   "parallax_mas": 5.19,
+   "distance_ly": 628.4,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 111043,
+   "name": null,
+   "ra_hours": 22.49596,
+   "dec_degrees": -43.7492,
+   "mag": 4.12,
+   "parallax_mas": 10.04,
+   "distance_ly": 324.9,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 25247,
+   "name": null,
+   "ra_hours": 5.39912,
+   "dec_degrees": -7.808,
+   "mag": 4.13,
+   "parallax_mas": 18.71,
+   "distance_ly": 174.3,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 30883,
+   "name": null,
+   "ra_hours": 6.48272,
+   "dec_degrees": 20.2122,
+   "mag": 4.13,
+   "parallax_mas": 6.49,
+   "distance_ly": 502.6,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 77853,
+   "name": null,
+   "ra_hours": 15.89708,
+   "dec_degrees": -16.7296,
+   "mag": 4.13,
+   "parallax_mas": 20.02,
+   "distance_ly": 162.9,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 102485,
+   "name": null,
+   "ra_hours": 20.76827,
+   "dec_degrees": -25.2705,
+   "mag": 4.13,
+   "parallax_mas": 68.16,
+   "distance_ly": 47.9,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 112405,
+   "name": null,
+   "ra_hours": 22.7677,
+   "dec_degrees": -81.3816,
+   "mag": 4.13,
+   "parallax_mas": 23.23,
+   "distance_ly": 140.4,
+   "constellation": "Oct"
+  },
+  {
+   "hip": 116771,
+   "name": null,
+   "ra_hours": 23.66578,
+   "dec_degrees": 5.6274,
+   "mag": 4.13,
+   "parallax_mas": 72.51,
+   "distance_ly": 45,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 16369,
+   "name": null,
+   "ra_hours": 3.51455,
+   "dec_degrees": 12.9367,
+   "mag": 4.14,
+   "parallax_mas": 9.05,
+   "distance_ly": 360.4,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 17608,
+   "name": "Merope",
+   "ra_hours": 3.7721,
+   "dec_degrees": 23.9485,
+   "mag": 4.14,
+   "parallax_mas": 9.08,
+   "distance_ly": 359.2,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 42313,
+   "name": null,
+   "ra_hours": 8.62761,
+   "dec_degrees": 5.7038,
+   "mag": 4.14,
+   "parallax_mas": 18.21,
+   "distance_ly": 179.1,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 59072,
+   "name": null,
+   "ra_hours": 12.11468,
+   "dec_degrees": -64.6136,
+   "mag": 4.14,
+   "parallax_mas": 50.79,
+   "distance_ly": 64.2,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 76127,
+   "name": null,
+   "ra_hours": 15.54883,
+   "dec_degrees": 31.3592,
+   "mag": 4.14,
+   "parallax_mas": 10.49,
+   "distance_ly": 310.9,
+   "constellation": "CrB"
+  },
+  {
+   "hip": 78159,
+   "name": null,
+   "ra_hours": 15.95981,
+   "dec_degrees": 26.878,
+   "mag": 4.14,
+   "parallax_mas": 14.2,
+   "distance_ly": 229.7,
+   "constellation": "CrB"
+  },
+  {
+   "hip": 107354,
+   "name": null,
+   "ra_hours": 21.74408,
+   "dec_degrees": 25.645,
+   "mag": 4.14,
+   "parallax_mas": 28.34,
+   "distance_ly": 115.1,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 109937,
+   "name": null,
+   "ra_hours": 22.26616,
+   "dec_degrees": 37.7487,
+   "mag": 4.14,
+   "parallax_mas": 5.2,
+   "distance_ly": 627.2,
+   "constellation": "Lac"
+  },
+  {
+   "hip": 34769,
+   "name": null,
+   "ra_hours": 7.19774,
+   "dec_degrees": -0.4928,
+   "mag": 4.15,
+   "parallax_mas": 8.7,
+   "distance_ly": 374.9,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 85112,
+   "name": null,
+   "ra_hours": 17.39471,
+   "dec_degrees": 37.1459,
+   "mag": 4.15,
+   "parallax_mas": 8.12,
+   "distance_ly": 401.7,
+   "constellation": "Her"
+  },
+  {
+   "hip": 116805,
+   "name": null,
+   "ra_hours": 23.67346,
+   "dec_degrees": 44.334,
+   "mag": 4.15,
+   "parallax_mas": 19.22,
+   "distance_ly": 169.7,
+   "constellation": "And"
+  },
+  {
+   "hip": 28734,
+   "name": null,
+   "ra_hours": 6.06867,
+   "dec_degrees": 23.2636,
+   "mag": 4.16,
+   "parallax_mas": 21.64,
+   "distance_ly": 150.7,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 36366,
+   "name": null,
+   "ra_hours": 7.48517,
+   "dec_degrees": 31.7841,
+   "mag": 4.16,
+   "parallax_mas": 54.06,
+   "distance_ly": 60.3,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 85340,
+   "name": null,
+   "ra_hours": 17.4395,
+   "dec_degrees": -24.175,
+   "mag": 4.16,
+   "parallax_mas": 38.96,
+   "distance_ly": 83.7,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 2599,
+   "name": null,
+   "ra_hours": 0.55,
+   "dec_degrees": 62.9318,
+   "mag": 4.17,
+   "parallax_mas": 0.79,
+   "distance_ly": 4128.6,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 17874,
+   "name": null,
+   "ra_hours": 3.82424,
+   "dec_degrees": -36.2001,
+   "mag": 4.17,
+   "parallax_mas": 15.54,
+   "distance_ly": 209.9,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 110003,
+   "name": "Ancha",
+   "ra_hours": 22.28055,
+   "dec_degrees": -7.7832,
+   "mag": 4.17,
+   "parallax_mas": 17.04,
+   "distance_ly": 191.4,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 69427,
+   "name": "Kang",
+   "ra_hours": 14.21493,
+   "dec_degrees": -10.274,
+   "mag": 4.18,
+   "parallax_mas": 14.59,
+   "distance_ly": 223.5,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 69732,
+   "name": "Xuange",
+   "ra_hours": 14.2731,
+   "dec_degrees": 46.0879,
+   "mag": 4.18,
+   "parallax_mas": 33.58,
+   "distance_ly": 97.1,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 81304,
+   "name": null,
+   "ra_hours": 16.60624,
+   "dec_degrees": -35.2554,
+   "mag": 4.18,
+   "parallax_mas": 9.63,
+   "distance_ly": 338.7,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 109857,
+   "name": null,
+   "ra_hours": 22.25047,
+   "dec_degrees": 57.0435,
+   "mag": 4.18,
+   "parallax_mas": 38.86,
+   "distance_ly": 83.9,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 111954,
+   "name": null,
+   "ra_hours": 22.67759,
+   "dec_degrees": -27.0436,
+   "mag": 4.18,
+   "parallax_mas": 4.38,
+   "distance_ly": 744.6,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 67457,
+   "name": null,
+   "ra_hours": 13.8241,
+   "dec_degrees": -34.4506,
+   "mag": 4.19,
+   "parallax_mas": 18.39,
+   "distance_ly": 177.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 92043,
+   "name": null,
+   "ra_hours": 18.76104,
+   "dec_degrees": 20.5471,
+   "mag": 4.19,
+   "parallax_mas": 52.37,
+   "distance_ly": 62.3,
+   "constellation": "Her"
+  },
+  {
+   "hip": 25813,
+   "name": null,
+   "ra_hours": 5.51307,
+   "dec_degrees": 5.9482,
+   "mag": 4.2,
+   "parallax_mas": 11.3,
+   "distance_ly": 288.6,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 38835,
+   "name": null,
+   "ra_hours": 7.94766,
+   "dec_degrees": -22.8801,
+   "mag": 4.2,
+   "parallax_mas": 6.49,
+   "distance_ly": 502.6,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 51233,
+   "name": null,
+   "ra_hours": 10.46475,
+   "dec_degrees": 36.7075,
+   "mag": 4.2,
+   "parallax_mas": 22.34,
+   "distance_ly": 146,
+   "constellation": "LMi"
+  },
+  {
+   "hip": 81126,
+   "name": null,
+   "ra_hours": 16.56839,
+   "dec_degrees": 42.4369,
+   "mag": 4.2,
+   "parallax_mas": 10.79,
+   "distance_ly": 302.3,
+   "constellation": "Her"
+  },
+  {
+   "hip": 112447,
+   "name": null,
+   "ra_hours": 22.77818,
+   "dec_degrees": 12.1741,
+   "mag": 4.2,
+   "parallax_mas": 61.54,
+   "distance_ly": 53,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 113246,
+   "name": null,
+   "ra_hours": 22.93247,
+   "dec_degrees": -32.5397,
+   "mag": 4.2,
+   "parallax_mas": 19.14,
+   "distance_ly": 170.4,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 16228,
+   "name": null,
+   "ra_hours": 3.48448,
+   "dec_degrees": 59.9403,
+   "mag": 4.21,
+   "parallax_mas": 0.76,
+   "distance_ly": 4291.5,
+   "constellation": "Cam"
+  },
+  {
+   "hip": 20635,
+   "name": null,
+   "ra_hours": 4.42281,
+   "dec_degrees": 22.294,
+   "mag": 4.21,
+   "parallax_mas": 21.27,
+   "distance_ly": 153.3,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 82080,
+   "name": null,
+   "ra_hours": 16.76616,
+   "dec_degrees": 82.0373,
+   "mag": 4.21,
+   "parallax_mas": 9.41,
+   "distance_ly": 346.6,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 101093,
+   "name": null,
+   "ra_hours": 20.49301,
+   "dec_degrees": 62.9941,
+   "mag": 4.21,
+   "parallax_mas": 24.04,
+   "distance_ly": 135.7,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 105858,
+   "name": null,
+   "ra_hours": 21.44069,
+   "dec_degrees": -65.3681,
+   "mag": 4.21,
+   "parallax_mas": 108.5,
+   "distance_ly": 30.1,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 13254,
+   "name": null,
+   "ra_hours": 2.84303,
+   "dec_degrees": 38.3189,
+   "mag": 4.22,
+   "parallax_mas": 25.54,
+   "distance_ly": 127.7,
+   "constellation": "Per"
+  },
+  {
+   "hip": 17651,
+   "name": null,
+   "ra_hours": 3.78083,
+   "dec_degrees": -23.2484,
+   "mag": 4.22,
+   "parallax_mas": 55.79,
+   "distance_ly": 58.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 38518,
+   "name": null,
+   "ra_hours": 7.88838,
+   "dec_degrees": -48.1029,
+   "mag": 4.22,
+   "parallax_mas": 1.68,
+   "distance_ly": 1941.4,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 78918,
+   "name": null,
+   "ra_hours": 16.10988,
+   "dec_degrees": -36.8022,
+   "mag": 4.22,
+   "parallax_mas": 7.94,
+   "distance_ly": 410.8,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 80569,
+   "name": null,
+   "ra_hours": 16.4504,
+   "dec_degrees": -18.4562,
+   "mag": 4.22,
+   "parallax_mas": 6.67,
+   "distance_ly": 489,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 89908,
+   "name": null,
+   "ra_hours": 18.34596,
+   "dec_degrees": 71.3377,
+   "mag": 4.22,
+   "parallax_mas": 11.28,
+   "distance_ly": 289.1,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 92175,
+   "name": null,
+   "ra_hours": 18.78624,
+   "dec_degrees": -4.7478,
+   "mag": 4.22,
+   "parallax_mas": 4.73,
+   "distance_ly": 689.5,
+   "constellation": "Sct"
+  },
+  {
+   "hip": 92609,
+   "name": null,
+   "ra_hours": 18.87029,
+   "dec_degrees": -62.1876,
+   "mag": 4.22,
+   "parallax_mas": 1.8,
+   "distance_ly": 1812,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 92791,
+   "name": null,
+   "ra_hours": 18.90841,
+   "dec_degrees": 36.8986,
+   "mag": 4.22,
+   "parallax_mas": 3.63,
+   "distance_ly": 898.5,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 102453,
+   "name": null,
+   "ra_hours": 20.76104,
+   "dec_degrees": 30.7197,
+   "mag": 4.22,
+   "parallax_mas": 15.84,
+   "distance_ly": 205.9,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 105102,
+   "name": null,
+   "ra_hours": 21.29026,
+   "dec_degrees": 39.3947,
+   "mag": 4.22,
+   "parallax_mas": 0.72,
+   "distance_ly": 4529.9,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 114724,
+   "name": null,
+   "ra_hours": 23.2387,
+   "dec_degrees": -6.0485,
+   "mag": 4.22,
+   "parallax_mas": 14.68,
+   "distance_ly": 222.2,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 1599,
+   "name": null,
+   "ra_hours": 0.33387,
+   "dec_degrees": -64.8776,
+   "mag": 4.23,
+   "parallax_mas": 116.38,
+   "distance_ly": 28,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 37629,
+   "name": null,
+   "ra_hours": 7.72186,
+   "dec_degrees": 28.8841,
+   "mag": 4.23,
+   "parallax_mas": 26.68,
+   "distance_ly": 122.2,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 64394,
+   "name": null,
+   "ra_hours": 13.19803,
+   "dec_degrees": 27.876,
+   "mag": 4.23,
+   "parallax_mas": 109.23,
+   "distance_ly": 29.9,
+   "constellation": "Com"
+  },
+  {
+   "hip": 67153,
+   "name": null,
+   "ra_hours": 13.76155,
+   "dec_degrees": -33.0434,
+   "mag": 4.23,
+   "parallax_mas": 51.91,
+   "distance_ly": 62.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 68520,
+   "name": null,
+   "ra_hours": 14.02744,
+   "dec_degrees": 1.5446,
+   "mag": 4.23,
+   "parallax_mas": 14.94,
+   "distance_ly": 218.3,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 79101,
+   "name": null,
+   "ra_hours": 16.14617,
+   "dec_degrees": 44.9348,
+   "mag": 4.23,
+   "parallax_mas": 14.27,
+   "distance_ly": 228.6,
+   "constellation": "Her"
+  },
+  {
+   "hip": 81852,
+   "name": null,
+   "ra_hours": 16.71817,
+   "dec_degrees": -77.5166,
+   "mag": 4.23,
+   "parallax_mas": 20.69,
+   "distance_ly": 157.6,
+   "constellation": "Aps"
+  },
+  {
+   "hip": 93825,
+   "name": null,
+   "ra_hours": 19.10696,
+   "dec_degrees": -37.0628,
+   "mag": 4.23,
+   "parallax_mas": 55.89,
+   "distance_ly": 58.4,
+   "constellation": "CrA"
+  },
+  {
+   "hip": 107259,
+   "name": null,
+   "ra_hours": 21.72513,
+   "dec_degrees": 58.7801,
+   "mag": 4.23,
+   "parallax_mas": 0.62,
+   "distance_ly": 5260.6,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 107533,
+   "name": null,
+   "ra_hours": 21.77989,
+   "dec_degrees": 49.3096,
+   "mag": 4.23,
+   "parallax_mas": 2.82,
+   "distance_ly": 1156.6,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 5372,
+   "name": null,
+   "ra_hours": 1.1456,
+   "dec_degrees": 86.2571,
+   "mag": 4.24,
+   "parallax_mas": 10.43,
+   "distance_ly": 312.7,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 11407,
+   "name": null,
+   "ra_hours": 2.44975,
+   "dec_degrees": -47.7038,
+   "mag": 4.24,
+   "parallax_mas": 6.17,
+   "distance_ly": 528.6,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 12770,
+   "name": null,
+   "ra_hours": 2.73538,
+   "dec_degrees": -13.8587,
+   "mag": 4.24,
+   "parallax_mas": 7.4,
+   "distance_ly": 440.8,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 60000,
+   "name": null,
+   "ra_hours": 12.30582,
+   "dec_degrees": -79.3123,
+   "mag": 4.24,
+   "parallax_mas": 12.05,
+   "distance_ly": 270.7,
+   "constellation": "Cha"
+  },
+  {
+   "hip": 61317,
+   "name": "Chara",
+   "ra_hours": 12.56253,
+   "dec_degrees": 41.3568,
+   "mag": 4.24,
+   "parallax_mas": 119.46,
+   "distance_ly": 27.3,
+   "constellation": "CVn"
+  },
+  {
+   "hip": 80911,
+   "name": null,
+   "ra_hours": 16.52304,
+   "dec_degrees": -34.7043,
+   "mag": 4.24,
+   "parallax_mas": 4.37,
+   "distance_ly": 746.4,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 86565,
+   "name": null,
+   "ra_hours": 17.69025,
+   "dec_degrees": -12.8752,
+   "mag": 4.24,
+   "parallax_mas": 19.41,
+   "distance_ly": 168,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 114855,
+   "name": null,
+   "ra_hours": 23.2648,
+   "dec_degrees": -9.0877,
+   "mag": 4.24,
+   "parallax_mas": 21.97,
+   "distance_ly": 148.5,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 5896,
+   "name": null,
+   "ra_hours": 1.26264,
+   "dec_degrees": -68.8762,
+   "mag": 4.25,
+   "parallax_mas": 48.94,
+   "distance_ly": 66.6,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 19167,
+   "name": null,
+   "ra_hours": 4.10974,
+   "dec_degrees": 50.3514,
+   "mag": 4.25,
+   "parallax_mas": 9.41,
+   "distance_ly": 346.6,
+   "constellation": "Per"
+  },
+  {
+   "hip": 21402,
+   "name": null,
+   "ra_hours": 4.59423,
+   "dec_degrees": 10.1609,
+   "mag": 4.25,
+   "parallax_mas": 21.68,
+   "distance_ly": 150.4,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 21476,
+   "name": null,
+   "ra_hours": 4.61151,
+   "dec_degrees": 41.2649,
+   "mag": 4.25,
+   "parallax_mas": 5.08,
+   "distance_ly": 642,
+   "constellation": "Per"
+  },
+  {
+   "hip": 23972,
+   "name": null,
+   "ra_hours": 5.15244,
+   "dec_degrees": -8.7541,
+   "mag": 4.25,
+   "parallax_mas": 1.86,
+   "distance_ly": 1753.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 41075,
+   "name": "Alsciaukat",
+   "ra_hours": 8.38059,
+   "dec_degrees": 43.1884,
+   "mag": 4.25,
+   "parallax_mas": 8.39,
+   "distance_ly": 388.7,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 62896,
+   "name": null,
+   "ra_hours": 12.8906,
+   "dec_degrees": -40.1788,
+   "mag": 4.25,
+   "parallax_mas": 21.03,
+   "distance_ly": 155.1,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 70692,
+   "name": null,
+   "ra_hours": 14.45876,
+   "dec_degrees": 75.6959,
+   "mag": 4.25,
+   "parallax_mas": 9.46,
+   "distance_ly": 344.8,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 107418,
+   "name": null,
+   "ra_hours": 21.75748,
+   "dec_degrees": 61.1208,
+   "mag": 4.25,
+   "parallax_mas": 0.64,
+   "distance_ly": 5096.2,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 5434,
+   "name": null,
+   "ra_hours": 1.15837,
+   "dec_degrees": 47.2418,
+   "mag": 4.26,
+   "parallax_mas": 4.43,
+   "distance_ly": 736.2,
+   "constellation": "And"
+  },
+  {
+   "hip": 8198,
+   "name": "Torcular",
+   "ra_hours": 1.75655,
+   "dec_degrees": 9.1576,
+   "mag": 4.26,
+   "parallax_mas": 12.63,
+   "distance_ly": 258.2,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 15510,
+   "name": "82 G. Eri",
+   "ra_hours": 3.33145,
+   "dec_degrees": -43.0715,
+   "mag": 4.26,
+   "parallax_mas": 165.02,
+   "distance_ly": 19.8,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 16611,
+   "name": null,
+   "ra_hours": 3.56312,
+   "dec_degrees": -21.6328,
+   "mag": 4.26,
+   "parallax_mas": 11.02,
+   "distance_ly": 296,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 19893,
+   "name": null,
+   "ra_hours": 4.26708,
+   "dec_degrees": -51.4871,
+   "mag": 4.26,
+   "parallax_mas": 49.26,
+   "distance_ly": 66.2,
+   "constellation": "Dor"
+  },
+  {
+   "hip": 22783,
+   "name": null,
+   "ra_hours": 4.90084,
+   "dec_degrees": 66.3427,
+   "mag": 4.26,
+   "parallax_mas": 0.47,
+   "distance_ly": 6939.5,
+   "constellation": "Cam"
+  },
+  {
+   "hip": 44066,
+   "name": "Acubens",
+   "ra_hours": 8.97478,
+   "dec_degrees": 11.8578,
+   "mag": 4.26,
+   "parallax_mas": 18.79,
+   "distance_ly": 173.6,
+   "constellation": "Cnc"
+  },
+  {
+   "hip": 86170,
+   "name": null,
+   "ra_hours": 17.60912,
+   "dec_degrees": -38.6349,
+   "mag": 4.26,
+   "parallax_mas": 22.64,
+   "distance_ly": 144.1,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 88267,
+   "name": null,
+   "ra_hours": 18.02511,
+   "dec_degrees": 21.5957,
+   "mag": 4.26,
+   "parallax_mas": 6.93,
+   "distance_ly": 470.6,
+   "constellation": "Her"
+  },
+  {
+   "hip": 108917,
+   "name": "Kurhah",
+   "ra_hours": 22.0631,
+   "dec_degrees": 64.6278,
+   "mag": 4.26,
+   "parallax_mas": 32.07,
+   "distance_ly": 101.7,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 4906,
+   "name": null,
+   "ra_hours": 1.04907,
+   "dec_degrees": 7.8901,
+   "mag": 4.27,
+   "parallax_mas": 17.14,
+   "distance_ly": 190.3,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 12828,
+   "name": null,
+   "ra_hours": 2.74899,
+   "dec_degrees": 10.1142,
+   "mag": 4.27,
+   "parallax_mas": 38.71,
+   "distance_ly": 84.3,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 19860,
+   "name": null,
+   "ra_hours": 4.2589,
+   "dec_degrees": 8.8924,
+   "mag": 4.27,
+   "parallax_mas": 7.5,
+   "distance_ly": 434.9,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 21589,
+   "name": null,
+   "ra_hours": 4.63594,
+   "dec_degrees": 12.5109,
+   "mag": 4.27,
+   "parallax_mas": 21.79,
+   "distance_ly": 149.7,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 21881,
+   "name": null,
+   "ra_hours": 4.70408,
+   "dec_degrees": 22.957,
+   "mag": 4.27,
+   "parallax_mas": 8.14,
+   "distance_ly": 400.7,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 64004,
+   "name": null,
+   "ra_hours": 13.11518,
+   "dec_degrees": -49.9062,
+   "mag": 4.27,
+   "parallax_mas": 7.92,
+   "distance_ly": 411.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 74911,
+   "name": null,
+   "ra_hours": 15.3089,
+   "dec_degrees": -47.8752,
+   "mag": 4.27,
+   "parallax_mas": 11.22,
+   "distance_ly": 290.7,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 95294,
+   "name": "Arkab Posterior",
+   "ra_hours": 19.38696,
+   "dec_degrees": -44.7996,
+   "mag": 4.27,
+   "parallax_mas": 23.52,
+   "distance_ly": 138.7,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 102532,
+   "name": null,
+   "ra_hours": 20.77764,
+   "dec_degrees": 16.1248,
+   "mag": 4.27,
+   "parallax_mas": 32.14,
+   "distance_ly": 101.5,
+   "constellation": "Del"
+  },
+  {
+   "hip": 115830,
+   "name": null,
+   "ra_hours": 23.46616,
+   "dec_degrees": 6.3791,
+   "mag": 4.27,
+   "parallax_mas": 20.54,
+   "distance_ly": 158.8,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 20711,
+   "name": null,
+   "ra_hours": 4.43844,
+   "dec_degrees": 22.8137,
+   "mag": 4.28,
+   "parallax_mas": 21.07,
+   "distance_ly": 154.8,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 47193,
+   "name": null,
+   "ra_hours": 9.61815,
+   "dec_degrees": 81.3264,
+   "mag": 4.28,
+   "parallax_mas": 3.03,
+   "distance_ly": 1076.4,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 51172,
+   "name": null,
+   "ra_hours": 10.45254,
+   "dec_degrees": -31.0678,
+   "mag": 4.28,
+   "parallax_mas": 8.9,
+   "distance_ly": 366.5,
+   "constellation": "Ant"
+  },
+  {
+   "hip": 85423,
+   "name": null,
+   "ra_hours": 17.45591,
+   "dec_degrees": -29.8667,
+   "mag": 4.28,
+   "parallax_mas": 29.26,
+   "distance_ly": 111.5,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 99655,
+   "name": null,
+   "ra_hours": 20.22328,
+   "dec_degrees": 56.5675,
+   "mag": 4.28,
+   "parallax_mas": 21.41,
+   "distance_ly": 152.3,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 105515,
+   "name": null,
+   "ra_hours": 21.37077,
+   "dec_degrees": -16.8346,
+   "mag": 4.28,
+   "parallax_mas": 15.13,
+   "distance_ly": 215.6,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 109410,
+   "name": null,
+   "ra_hours": 22.16646,
+   "dec_degrees": 33.1783,
+   "mag": 4.28,
+   "parallax_mas": 12.96,
+   "distance_ly": 251.7,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 114131,
+   "name": null,
+   "ra_hours": 23.11466,
+   "dec_degrees": -43.5203,
+   "mag": 4.28,
+   "parallax_mas": 24.51,
+   "distance_ly": 133.1,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 16852,
+   "name": null,
+   "ra_hours": 3.61459,
+   "dec_degrees": 0.4028,
+   "mag": 4.29,
+   "parallax_mas": 72.89,
+   "distance_ly": 44.7,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 24845,
+   "name": null,
+   "ra_hours": 5.32626,
+   "dec_degrees": -13.1768,
+   "mag": 4.29,
+   "parallax_mas": 3.03,
+   "distance_ly": 1076.4,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 52154,
+   "name": null,
+   "ra_hours": 10.65511,
+   "dec_degrees": -55.6033,
+   "mag": 4.29,
+   "parallax_mas": 3.62,
+   "distance_ly": 901,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 57936,
+   "name": null,
+   "ra_hours": 11.88182,
+   "dec_degrees": -33.9081,
+   "mag": 4.29,
+   "parallax_mas": 8.93,
+   "distance_ly": 365.2,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 77055,
+   "name": null,
+   "ra_hours": 15.7343,
+   "dec_degrees": 77.7945,
+   "mag": 4.29,
+   "parallax_mas": 8.68,
+   "distance_ly": 375.8,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 80894,
+   "name": null,
+   "ra_hours": 16.519,
+   "dec_degrees": -16.6126,
+   "mag": 4.29,
+   "parallax_mas": 15.53,
+   "distance_ly": 210,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 109139,
+   "name": null,
+   "ra_hours": 22.10728,
+   "dec_degrees": -13.8695,
+   "mag": 4.29,
+   "parallax_mas": 18.9,
+   "distance_ly": 172.6,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 111188,
+   "name": null,
+   "ra_hours": 22.52508,
+   "dec_degrees": -32.346,
+   "mag": 4.29,
+   "parallax_mas": 21.99,
+   "distance_ly": 148.3,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 116631,
+   "name": null,
+   "ra_hours": 23.63561,
+   "dec_degrees": 43.2681,
+   "mag": 4.29,
+   "parallax_mas": 6.49,
+   "distance_ly": 502.6,
+   "constellation": "And"
+  },
+  {
+   "hip": 4577,
+   "name": null,
+   "ra_hours": 0.97676,
+   "dec_degrees": -29.3575,
+   "mag": 4.3,
+   "parallax_mas": 4.85,
+   "distance_ly": 672.5,
+   "constellation": "Scl"
+  },
+  {
+   "hip": 11484,
+   "name": null,
+   "ra_hours": 2.46931,
+   "dec_degrees": 8.4601,
+   "mag": 4.3,
+   "parallax_mas": 18.53,
+   "distance_ly": 176,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 17531,
+   "name": "Taygeta",
+   "ra_hours": 3.75347,
+   "dec_degrees": 24.4674,
+   "mag": 4.3,
+   "parallax_mas": 8.75,
+   "distance_ly": 372.7,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 17797,
+   "name": null,
+   "ra_hours": 3.80995,
+   "dec_degrees": -37.6201,
+   "mag": 4.3,
+   "parallax_mas": 20.23,
+   "distance_ly": 161.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 20648,
+   "name": null,
+   "ra_hours": 4.42481,
+   "dec_degrees": 17.928,
+   "mag": 4.3,
+   "parallax_mas": 22.05,
+   "distance_ly": 147.9,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 28404,
+   "name": null,
+   "ra_hours": 5.99892,
+   "dec_degrees": 45.9368,
+   "mag": 4.3,
+   "parallax_mas": 3.88,
+   "distance_ly": 840.6,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 42799,
+   "name": null,
+   "ra_hours": 8.72041,
+   "dec_degrees": 3.3987,
+   "mag": 4.3,
+   "parallax_mas": 6.99,
+   "distance_ly": 466.6,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 53417,
+   "name": null,
+   "ra_hours": 10.9269,
+   "dec_degrees": 24.7498,
+   "mag": 4.3,
+   "parallax_mas": 11.29,
+   "distance_ly": 288.9,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 56647,
+   "name": null,
+   "ra_hours": 11.61581,
+   "dec_degrees": -0.8239,
+   "mag": 4.3,
+   "parallax_mas": 18.31,
+   "distance_ly": 178.1,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 57669,
+   "name": null,
+   "ra_hours": 11.82808,
+   "dec_degrees": -63.7885,
+   "mag": 4.3,
+   "parallax_mas": 7.1,
+   "distance_ly": 459.4,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 61174,
+   "name": null,
+   "ra_hours": 12.53458,
+   "dec_degrees": -16.1959,
+   "mag": 4.3,
+   "parallax_mas": 54.92,
+   "distance_ly": 59.4,
+   "constellation": "Crv"
+  },
+  {
+   "hip": 70069,
+   "name": null,
+   "ra_hours": 14.33876,
+   "dec_degrees": -56.3865,
+   "mag": 4.3,
+   "parallax_mas": 2.75,
+   "distance_ly": 1186,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 100027,
+   "name": null,
+   "ra_hours": 20.29413,
+   "dec_degrees": -12.5082,
+   "mag": 4.3,
+   "parallax_mas": 4.75,
+   "distance_ly": 686.6,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 42568,
+   "name": null,
+   "ra_hours": 8.67695,
+   "dec_degrees": -59.761,
+   "mag": 4.31,
+   "parallax_mas": 2.31,
+   "distance_ly": 1411.9,
+   "constellation": "Car"
+  },
+  {
+   "hip": 70638,
+   "name": null,
+   "ra_hours": 14.44882,
+   "dec_degrees": -83.6679,
+   "mag": 4.31,
+   "parallax_mas": 11.7,
+   "distance_ly": 278.8,
+   "constellation": "Oct"
+  },
+  {
+   "hip": 75411,
+   "name": "Alkalurops",
+   "ra_hours": 15.4082,
+   "dec_degrees": 37.377,
+   "mag": 4.31,
+   "parallax_mas": 26.96,
+   "distance_ly": 121,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 78990,
+   "name": null,
+   "ra_hours": 16.12342,
+   "dec_degrees": -20.8687,
+   "mag": 4.31,
+   "parallax_mas": 12.32,
+   "distance_ly": 264.7,
+   "constellation": "Sco"
+  },
+  {
+   "hip": 101847,
+   "name": null,
+   "ra_hours": 20.63896,
+   "dec_degrees": -1.1051,
+   "mag": 4.31,
+   "parallax_mas": 8.5,
+   "distance_ly": 383.7,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 16826,
+   "name": null,
+   "ra_hours": 3.60816,
+   "dec_degrees": 48.1927,
+   "mag": 4.32,
+   "parallax_mas": 4.66,
+   "distance_ly": 699.9,
+   "constellation": "Per"
+  },
+  {
+   "hip": 21763,
+   "name": null,
+   "ra_hours": 4.67403,
+   "dec_degrees": -19.6713,
+   "mag": 4.32,
+   "parallax_mas": 9.03,
+   "distance_ly": 361.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 25945,
+   "name": null,
+   "ra_hours": 5.53688,
+   "dec_degrees": 18.5942,
+   "mag": 4.32,
+   "parallax_mas": 1.7,
+   "distance_ly": 1918.6,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 29696,
+   "name": null,
+   "ra_hours": 6.25632,
+   "dec_degrees": 29.4987,
+   "mag": 4.32,
+   "parallax_mas": 19.31,
+   "distance_ly": 168.9,
+   "constellation": "Aur"
+  },
+  {
+   "hip": 43067,
+   "name": null,
+   "ra_hours": 8.77292,
+   "dec_degrees": -13.5477,
+   "mag": 4.32,
+   "parallax_mas": 14.38,
+   "distance_ly": 226.8,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 46750,
+   "name": "Alterf",
+   "ra_hours": 9.52868,
+   "dec_degrees": 22.9681,
+   "mag": 4.32,
+   "parallax_mas": 9.69,
+   "distance_ly": 336.6,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 58758,
+   "name": null,
+   "ra_hours": 12.05047,
+   "dec_degrees": -63.3129,
+   "mag": 4.32,
+   "parallax_mas": 14.19,
+   "distance_ly": 229.8,
+   "constellation": "Cru"
+  },
+  {
+   "hip": 64241,
+   "name": "Diadem",
+   "ra_hours": 13.16654,
+   "dec_degrees": 17.5291,
+   "mag": 4.32,
+   "parallax_mas": 69.81,
+   "distance_ly": 46.7,
+   "constellation": "Com"
+  },
+  {
+   "hip": 67669,
+   "name": null,
+   "ra_hours": 13.86378,
+   "dec_degrees": -32.994,
+   "mag": 4.32,
+   "parallax_mas": 10.96,
+   "distance_ly": 297.6,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 72683,
+   "name": null,
+   "ra_hours": 14.86065,
+   "dec_degrees": -43.5753,
+   "mag": 4.32,
+   "parallax_mas": 8,
+   "distance_ly": 407.7,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 84880,
+   "name": null,
+   "ra_hours": 17.34712,
+   "dec_degrees": -12.8469,
+   "mag": 4.32,
+   "parallax_mas": 16.86,
+   "distance_ly": 193.4,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 36284,
+   "name": null,
+   "ra_hours": 7.4694,
+   "dec_degrees": 8.9255,
+   "mag": 4.33,
+   "parallax_mas": 8.2,
+   "distance_ly": 397.8,
+   "constellation": "CMi"
+  },
+  {
+   "hip": 62867,
+   "name": null,
+   "ra_hours": 12.88527,
+   "dec_degrees": -48.9433,
+   "mag": 4.33,
+   "parallax_mas": 10.77,
+   "distance_ly": 302.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 70576,
+   "name": null,
+   "ra_hours": 14.43633,
+   "dec_degrees": -45.3793,
+   "mag": 4.33,
+   "parallax_mas": 10.38,
+   "distance_ly": 314.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 84405,
+   "name": "Guniibuu",
+   "ra_hours": 17.25591,
+   "dec_degrees": -26.6,
+   "mag": 4.33,
+   "parallax_mas": 167.08,
+   "distance_ly": 19.5,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 88866,
+   "name": null,
+   "ra_hours": 18.143,
+   "dec_degrees": -63.668,
+   "mag": 4.33,
+   "parallax_mas": 23.55,
+   "distance_ly": 138.5,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 89826,
+   "name": null,
+   "ra_hours": 18.33103,
+   "dec_degrees": 36.0644,
+   "mag": 4.33,
+   "parallax_mas": 13.71,
+   "distance_ly": 237.9,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 2912,
+   "name": null,
+   "ra_hours": 0.61468,
+   "dec_degrees": 33.7194,
+   "mag": 4.34,
+   "parallax_mas": 4.97,
+   "distance_ly": 656.2,
+   "constellation": "And"
+  },
+  {
+   "hip": 3031,
+   "name": null,
+   "ra_hours": 0.64264,
+   "dec_degrees": 29.3124,
+   "mag": 4.34,
+   "parallax_mas": 19.34,
+   "distance_ly": 168.6,
+   "constellation": "And"
+  },
+  {
+   "hip": 5542,
+   "name": null,
+   "ra_hours": 1.18498,
+   "dec_degrees": 55.1499,
+   "mag": 4.34,
+   "parallax_mas": 23.73,
+   "distance_ly": 137.4,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 27100,
+   "name": null,
+   "ra_hours": 5.74623,
+   "dec_degrees": -65.7355,
+   "mag": 4.34,
+   "parallax_mas": 22.48,
+   "distance_ly": 145.1,
+   "constellation": "Dor"
+  },
+  {
+   "hip": 31125,
+   "name": null,
+   "ra_hours": 6.53094,
+   "dec_degrees": -23.4184,
+   "mag": 4.34,
+   "parallax_mas": 1.59,
+   "distance_ly": 2051.3,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 40888,
+   "name": null,
+   "ra_hours": 8.34414,
+   "dec_degrees": -77.4846,
+   "mag": 4.34,
+   "parallax_mas": 21.22,
+   "distance_ly": 153.7,
+   "constellation": "Cha"
+  },
+  {
+   "hip": 45496,
+   "name": null,
+   "ra_hours": 9.27003,
+   "dec_degrees": -57.5414,
+   "mag": 4.34,
+   "parallax_mas": 6.08,
+   "distance_ly": 536.4,
+   "constellation": "Car"
+  },
+  {
+   "hip": 47175,
+   "name": null,
+   "ra_hours": 9.61379,
+   "dec_degrees": -49.3551,
+   "mag": 4.34,
+   "parallax_mas": 30.35,
+   "distance_ly": 107.5,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 68523,
+   "name": null,
+   "ra_hours": 14.02875,
+   "dec_degrees": -45.6034,
+   "mag": 4.34,
+   "parallax_mas": 7.28,
+   "distance_ly": 448,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 76552,
+   "name": null,
+   "ra_hours": 15.63426,
+   "dec_degrees": -42.5675,
+   "mag": 4.34,
+   "parallax_mas": 14.19,
+   "distance_ly": 229.8,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 85355,
+   "name": null,
+   "ra_hours": 17.44191,
+   "dec_degrees": 4.1403,
+   "mag": 4.34,
+   "parallax_mas": 2.78,
+   "distance_ly": 1173.2,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 91971,
+   "name": null,
+   "ra_hours": 18.7462,
+   "dec_degrees": 37.6051,
+   "mag": 4.34,
+   "parallax_mas": 21.23,
+   "distance_ly": 153.6,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 92161,
+   "name": null,
+   "ra_hours": 18.78367,
+   "dec_degrees": 18.1812,
+   "mag": 4.34,
+   "parallax_mas": 35.17,
+   "distance_ly": 92.7,
+   "constellation": "Her"
+  },
+  {
+   "hip": 107348,
+   "name": null,
+   "ra_hours": 21.74186,
+   "dec_degrees": 17.35,
+   "mag": 4.34,
+   "parallax_mas": 3.62,
+   "distance_ly": 901,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 111022,
+   "name": null,
+   "ra_hours": 22.49217,
+   "dec_degrees": 47.7069,
+   "mag": 4.34,
+   "parallax_mas": 2.8,
+   "distance_ly": 1164.8,
+   "constellation": "Lac"
+  },
+  {
+   "hip": 14838,
+   "name": "Botein",
+   "ra_hours": 3.1938,
+   "dec_degrees": 19.7267,
+   "mag": 4.35,
+   "parallax_mas": 19.44,
+   "distance_ly": 167.8,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 22509,
+   "name": null,
+   "ra_hours": 4.84353,
+   "dec_degrees": 8.9003,
+   "mag": 4.35,
+   "parallax_mas": 16.84,
+   "distance_ly": 193.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 31407,
+   "name": null,
+   "ra_hours": 6.58294,
+   "dec_degrees": -52.9756,
+   "mag": 4.35,
+   "parallax_mas": 1.85,
+   "distance_ly": 1763,
+   "constellation": "Car"
+  },
+  {
+   "hip": 33449,
+   "name": null,
+   "ra_hours": 6.95461,
+   "dec_degrees": 58.4231,
+   "mag": 4.35,
+   "parallax_mas": 19.14,
+   "distance_ly": 170.4,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 39794,
+   "name": null,
+   "ra_hours": 8.13218,
+   "dec_degrees": -68.6171,
+   "mag": 4.35,
+   "parallax_mas": 5.08,
+   "distance_ly": 642,
+   "constellation": "Vol"
+  },
+  {
+   "hip": 43234,
+   "name": null,
+   "ra_hours": 8.80722,
+   "dec_degrees": 5.8379,
+   "mag": 4.35,
+   "parallax_mas": 9.67,
+   "distance_ly": 337.3,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 60742,
+   "name": null,
+   "ra_hours": 12.44898,
+   "dec_degrees": 28.2686,
+   "mag": 4.35,
+   "parallax_mas": 19.18,
+   "distance_ly": 170.1,
+   "constellation": "Com"
+  },
+  {
+   "hip": 74857,
+   "name": null,
+   "ra_hours": 15.29718,
+   "dec_degrees": -30.1487,
+   "mag": 4.35,
+   "parallax_mas": 10.59,
+   "distance_ly": 308,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 85822,
+   "name": "Yildun",
+   "ra_hours": 17.53692,
+   "dec_degrees": 86.5863,
+   "mag": 4.35,
+   "parallax_mas": 17.85,
+   "distance_ly": 182.7,
+   "constellation": "UMi"
+  },
+  {
+   "hip": 90098,
+   "name": null,
+   "ra_hours": 18.38712,
+   "dec_degrees": -61.4939,
+   "mag": 4.35,
+   "parallax_mas": 7.76,
+   "distance_ly": 420.3,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 94713,
+   "name": null,
+   "ra_hours": 19.2728,
+   "dec_degrees": 38.1337,
+   "mag": 4.35,
+   "parallax_mas": 4.24,
+   "distance_ly": 769.2,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 107380,
+   "name": null,
+   "ra_hours": 21.74911,
+   "dec_degrees": -33.0256,
+   "mag": 4.35,
+   "parallax_mas": 15.93,
+   "distance_ly": 204.7,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 2484,
+   "name": null,
+   "ra_hours": 0.52571,
+   "dec_degrees": -62.9581,
+   "mag": 4.36,
+   "parallax_mas": 23.35,
+   "distance_ly": 139.7,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 3405,
+   "name": null,
+   "ra_hours": 0.72257,
+   "dec_degrees": -57.4631,
+   "mag": 4.36,
+   "parallax_mas": 13.57,
+   "distance_ly": 240.4,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 10324,
+   "name": null,
+   "ra_hours": 2.21667,
+   "dec_degrees": 8.8468,
+   "mag": 4.36,
+   "parallax_mas": 9.01,
+   "distance_ly": 362,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 16335,
+   "name": null,
+   "ra_hours": 3.50958,
+   "dec_degrees": 47.9952,
+   "mag": 4.36,
+   "parallax_mas": 9.23,
+   "distance_ly": 353.4,
+   "constellation": "Per"
+  },
+  {
+   "hip": 19038,
+   "name": null,
+   "ra_hours": 4.07824,
+   "dec_degrees": 22.0821,
+   "mag": 4.36,
+   "parallax_mas": 18.04,
+   "distance_ly": 180.8,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 22701,
+   "name": null,
+   "ra_hours": 4.88158,
+   "dec_degrees": -5.4528,
+   "mag": 4.36,
+   "parallax_mas": 14.39,
+   "distance_ly": 226.7,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 24327,
+   "name": null,
+   "ra_hours": 5.22052,
+   "dec_degrees": -12.9413,
+   "mag": 4.36,
+   "parallax_mas": 5.83,
+   "distance_ly": 559.4,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 28199,
+   "name": null,
+   "ra_hours": 5.95895,
+   "dec_degrees": -35.2833,
+   "mag": 4.36,
+   "parallax_mas": 3.82,
+   "distance_ly": 853.8,
+   "constellation": "Col"
+  },
+  {
+   "hip": 33347,
+   "name": null,
+   "ra_hours": 6.93562,
+   "dec_degrees": -17.0542,
+   "mag": 4.36,
+   "parallax_mas": 1.06,
+   "distance_ly": 3076.9,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 39863,
+   "name": null,
+   "ra_hours": 8.14324,
+   "dec_degrees": -2.9838,
+   "mag": 4.36,
+   "parallax_mas": 1.76,
+   "distance_ly": 1853.2,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 68862,
+   "name": null,
+   "ra_hours": 14.10077,
+   "dec_degrees": -41.1796,
+   "mag": 4.36,
+   "parallax_mas": 7.31,
+   "distance_ly": 446.2,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 96468,
+   "name": null,
+   "ra_hours": 19.61202,
+   "dec_degrees": -1.2866,
+   "mag": 4.36,
+   "parallax_mas": 10.61,
+   "distance_ly": 307.4,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 154,
+   "name": null,
+   "ra_hours": 0.03266,
+   "dec_degrees": -6.014,
+   "mag": 4.37,
+   "parallax_mas": 7.86,
+   "distance_ly": 415,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 29807,
+   "name": null,
+   "ra_hours": 6.27587,
+   "dec_degrees": -35.1407,
+   "mag": 4.37,
+   "parallax_mas": 17.83,
+   "distance_ly": 182.9,
+   "constellation": "Col"
+  },
+  {
+   "hip": 35415,
+   "name": null,
+   "ra_hours": 7.3118,
+   "dec_degrees": -24.9544,
+   "mag": 4.37,
+   "parallax_mas": 1.02,
+   "distance_ly": 3197.6,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 53773,
+   "name": null,
+   "ra_hours": 11.00257,
+   "dec_degrees": -42.2259,
+   "mag": 4.37,
+   "parallax_mas": 15.99,
+   "distance_ly": 204,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 88886,
+   "name": null,
+   "ra_hours": 18.14597,
+   "dec_degrees": 20.8146,
+   "mag": 4.37,
+   "parallax_mas": 2.14,
+   "distance_ly": 1524.1,
+   "constellation": "Her"
+  },
+  {
+   "hip": 98412,
+   "name": null,
+   "ra_hours": 19.9956,
+   "dec_degrees": -35.2762,
+   "mag": 4.37,
+   "parallax_mas": 5.28,
+   "distance_ly": 617.7,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 64238,
+   "name": null,
+   "ra_hours": 13.16584,
+   "dec_degrees": -5.5389,
+   "mag": 4.38,
+   "parallax_mas": 7.86,
+   "distance_ly": 415,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 99255,
+   "name": null,
+   "ra_hours": 20.14814,
+   "dec_degrees": 77.7114,
+   "mag": 4.38,
+   "parallax_mas": 9.97,
+   "distance_ly": 327.1,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 115669,
+   "name": null,
+   "ra_hours": 23.43412,
+   "dec_degrees": -20.6419,
+   "mag": 4.38,
+   "parallax_mas": 10.57,
+   "distance_ly": 308.6,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 116231,
+   "name": null,
+   "ra_hours": 23.5495,
+   "dec_degrees": -37.8184,
+   "mag": 4.38,
+   "parallax_mas": 18.28,
+   "distance_ly": 178.4,
+   "constellation": "Scl"
+  },
+  {
+   "hip": 8837,
+   "name": null,
+   "ra_hours": 1.89412,
+   "dec_degrees": -46.3024,
+   "mag": 4.39,
+   "parallax_mas": 10.15,
+   "distance_ly": 321.3,
+   "constellation": "Phe"
+  },
+  {
+   "hip": 17884,
+   "name": null,
+   "ra_hours": 3.82536,
+   "dec_degrees": 65.526,
+   "mag": 4.39,
+   "parallax_mas": 3.38,
+   "distance_ly": 965,
+   "constellation": "Cam"
+  },
+  {
+   "hip": 26176,
+   "name": null,
+   "ra_hours": 5.58034,
+   "dec_degrees": 9.4896,
+   "mag": 4.39,
+   "parallax_mas": 3.31,
+   "distance_ly": 985.4,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 27913,
+   "name": null,
+   "ra_hours": 5.90641,
+   "dec_degrees": 20.2764,
+   "mag": 4.39,
+   "parallax_mas": 115.43,
+   "distance_ly": 28.3,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 30419,
+   "name": null,
+   "ra_hours": 6.39614,
+   "dec_degrees": 4.5928,
+   "mag": 4.39,
+   "parallax_mas": 25.39,
+   "distance_ly": 128.5,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 39311,
+   "name": null,
+   "ra_hours": 8.03776,
+   "dec_degrees": 2.3343,
+   "mag": 4.39,
+   "parallax_mas": 12.49,
+   "distance_ly": 261.1,
+   "constellation": "CMi"
+  },
+  {
+   "hip": 49637,
+   "name": null,
+   "ra_hours": 10.13176,
+   "dec_degrees": 9.9977,
+   "mag": 4.39,
+   "parallax_mas": 11.89,
+   "distance_ly": 274.3,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 73620,
+   "name": null,
+   "ra_hours": 15.04835,
+   "dec_degrees": 2.0913,
+   "mag": 4.39,
+   "parallax_mas": 17.78,
+   "distance_ly": 183.4,
+   "constellation": "Vir"
+  },
+  {
+   "hip": 82673,
+   "name": null,
+   "ra_hours": 16.90014,
+   "dec_degrees": 10.1654,
+   "mag": 4.39,
+   "parallax_mas": 13.95,
+   "distance_ly": 233.8,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 84893,
+   "name": null,
+   "ra_hours": 17.35006,
+   "dec_degrees": -21.1124,
+   "mag": 4.39,
+   "parallax_mas": 57.48,
+   "distance_ly": 56.7,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 96757,
+   "name": "Sham",
+   "ra_hours": 19.66827,
+   "dec_degrees": 18.0139,
+   "mag": 4.39,
+   "parallax_mas": 6.89,
+   "distance_ly": 473.4,
+   "constellation": "Sge"
+  },
+  {
+   "hip": 96837,
+   "name": null,
+   "ra_hours": 19.68415,
+   "dec_degrees": 17.4761,
+   "mag": 4.39,
+   "parallax_mas": 6.99,
+   "distance_ly": 466.6,
+   "constellation": "Sge"
+  },
+  {
+   "hip": 105319,
+   "name": null,
+   "ra_hours": 21.33108,
+   "dec_degrees": -53.4493,
+   "mag": 4.39,
+   "parallax_mas": 33.58,
+   "distance_ly": 97.1,
+   "constellation": "Ind"
+  },
+  {
+   "hip": 4463,
+   "name": null,
+   "ra_hours": 0.95345,
+   "dec_degrees": 23.4178,
+   "mag": 4.4,
+   "parallax_mas": 13.44,
+   "distance_ly": 242.7,
+   "constellation": "And"
+  },
+  {
+   "hip": 38070,
+   "name": null,
+   "ra_hours": 7.80144,
+   "dec_degrees": -25.9372,
+   "mag": 4.4,
+   "parallax_mas": 1.32,
+   "distance_ly": 2470.9,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 39906,
+   "name": null,
+   "ra_hours": 8.15046,
+   "dec_degrees": -19.245,
+   "mag": 4.4,
+   "parallax_mas": 6.9,
+   "distance_ly": 472.7,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 93015,
+   "name": null,
+   "ra_hours": 18.94918,
+   "dec_degrees": -67.2335,
+   "mag": 4.4,
+   "parallax_mas": 6,
+   "distance_ly": 543.6,
+   "constellation": "Pav"
+  },
+  {
+   "hip": 108431,
+   "name": null,
+   "ra_hours": 21.96529,
+   "dec_degrees": -54.9926,
+   "mag": 4.4,
+   "parallax_mas": 17.65,
+   "distance_ly": 184.8,
+   "constellation": "Ind"
+  },
+  {
+   "hip": 32761,
+   "name": null,
+   "ra_hours": 6.83092,
+   "dec_degrees": -53.6225,
+   "mag": 4.41,
+   "parallax_mas": 5.9,
+   "distance_ly": 552.8,
+   "constellation": "Car"
+  },
+  {
+   "hip": 34693,
+   "name": null,
+   "ra_hours": 7.18566,
+   "dec_degrees": 30.2453,
+   "mag": 4.41,
+   "parallax_mas": 10.81,
+   "distance_ly": 301.7,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 70300,
+   "name": null,
+   "ra_hours": 14.38396,
+   "dec_degrees": -39.5118,
+   "mag": 4.41,
+   "parallax_mas": 7.79,
+   "distance_ly": 418.7,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 85693,
+   "name": "Maasym",
+   "ra_hours": 17.51231,
+   "dec_degrees": 26.1106,
+   "mag": 4.41,
+   "parallax_mas": 8.88,
+   "distance_ly": 367.3,
+   "constellation": "Her"
+  },
+  {
+   "hip": 87998,
+   "name": null,
+   "ra_hours": 17.97504,
+   "dec_degrees": 30.1893,
+   "mag": 4.41,
+   "parallax_mas": 4.1,
+   "distance_ly": 795.5,
+   "constellation": "Her"
+  },
+  {
+   "hip": 105138,
+   "name": null,
+   "ra_hours": 21.29863,
+   "dec_degrees": 34.8969,
+   "mag": 4.41,
+   "parallax_mas": 3.62,
+   "distance_ly": 901,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 114222,
+   "name": null,
+   "ra_hours": 23.13162,
+   "dec_degrees": 75.3876,
+   "mag": 4.41,
+   "parallax_mas": 14.83,
+   "distance_ly": 219.9,
+   "constellation": "Cep"
+  },
+  {
+   "hip": 115033,
+   "name": null,
+   "ra_hours": 23.29839,
+   "dec_degrees": -9.1825,
+   "mag": 4.41,
+   "parallax_mas": 10.13,
+   "distance_ly": 322,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 115102,
+   "name": null,
+   "ra_hours": 23.31373,
+   "dec_degrees": -32.5318,
+   "mag": 4.41,
+   "parallax_mas": 18.24,
+   "distance_ly": 178.8,
+   "constellation": "Scl"
+  },
+  {
+   "hip": 29038,
+   "name": null,
+   "ra_hours": 6.1262,
+   "dec_degrees": 14.7685,
+   "mag": 4.42,
+   "parallax_mas": 6.1,
+   "distance_ly": 534.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 31700,
+   "name": null,
+   "ra_hours": 6.63151,
+   "dec_degrees": -18.2375,
+   "mag": 4.42,
+   "parallax_mas": 7.03,
+   "distance_ly": 463.9,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 34922,
+   "name": null,
+   "ra_hours": 7.22562,
+   "dec_degrees": -44.6405,
+   "mag": 4.42,
+   "parallax_mas": 16.46,
+   "distance_ly": 198.2,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 34981,
+   "name": null,
+   "ra_hours": 7.23756,
+   "dec_degrees": -26.3525,
+   "mag": 4.42,
+   "parallax_mas": 2.07,
+   "distance_ly": 1575.6,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 40326,
+   "name": null,
+   "ra_hours": 8.23414,
+   "dec_degrees": -40.3477,
+   "mag": 4.42,
+   "parallax_mas": 10.5,
+   "distance_ly": 310.6,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 53954,
+   "name": null,
+   "ra_hours": 11.03883,
+   "dec_degrees": 20.1797,
+   "mag": 4.42,
+   "parallax_mas": 26.37,
+   "distance_ly": 123.7,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 72571,
+   "name": null,
+   "ra_hours": 14.83819,
+   "dec_degrees": -27.9602,
+   "mag": 4.42,
+   "parallax_mas": 10.68,
+   "distance_ly": 305.4,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 77257,
+   "name": null,
+   "ra_hours": 15.7741,
+   "dec_degrees": 7.3532,
+   "mag": 4.42,
+   "parallax_mas": 85.08,
+   "distance_ly": 38.3,
+   "constellation": "Ser"
+  },
+  {
+   "hip": 88290,
+   "name": null,
+   "ra_hours": 18.02922,
+   "dec_degrees": 1.3051,
+   "mag": 4.42,
+   "parallax_mas": 12.31,
+   "distance_ly": 265,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 110538,
+   "name": null,
+   "ra_hours": 22.39268,
+   "dec_degrees": 52.2295,
+   "mag": 4.42,
+   "parallax_mas": 19.21,
+   "distance_ly": 169.8,
+   "constellation": "Lac"
+  },
+  {
+   "hip": 115623,
+   "name": "Alkarab",
+   "ra_hours": 23.42296,
+   "dec_degrees": 23.404,
+   "mag": 4.42,
+   "parallax_mas": 18.83,
+   "distance_ly": 173.2,
+   "constellation": "Peg"
+  },
+  {
+   "hip": 17593,
+   "name": null,
+   "ra_hours": 3.76903,
+   "dec_degrees": -12.1017,
+   "mag": 4.43,
+   "parallax_mas": 6.56,
+   "distance_ly": 497.2,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 19849,
+   "name": "Keid",
+   "ra_hours": 4.2549,
+   "dec_degrees": -7.6446,
+   "mag": 4.43,
+   "parallax_mas": 198.24,
+   "distance_ly": 16.5,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 23040,
+   "name": null,
+   "ra_hours": 4.95478,
+   "dec_degrees": 53.7521,
+   "mag": 4.43,
+   "parallax_mas": 8.68,
+   "distance_ly": 375.8,
+   "constellation": "Cam"
+  },
+  {
+   "hip": 94481,
+   "name": "Aladfar",
+   "ra_hours": 19.2293,
+   "dec_degrees": 39.146,
+   "mag": 4.43,
+   "parallax_mas": 3.13,
+   "distance_ly": 1042,
+   "constellation": "Lyr"
+  },
+  {
+   "hip": 98688,
+   "name": null,
+   "ra_hours": 20.04429,
+   "dec_degrees": -27.7099,
+   "mag": 4.43,
+   "parallax_mas": 7.28,
+   "distance_ly": 448,
+   "constellation": "Sgr"
+  },
+  {
+   "hip": 100587,
+   "name": null,
+   "ra_hours": 20.39767,
+   "dec_degrees": 32.1902,
+   "mag": 4.43,
+   "parallax_mas": 12.77,
+   "distance_ly": 255.4,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 102281,
+   "name": null,
+   "ra_hours": 20.72432,
+   "dec_degrees": 15.0747,
+   "mag": 4.43,
+   "parallax_mas": 16.03,
+   "distance_ly": 203.5,
+   "constellation": "Del"
+  },
+  {
+   "hip": 102624,
+   "name": null,
+   "ra_hours": 20.79562,
+   "dec_degrees": -5.0276,
+   "mag": 4.43,
+   "parallax_mas": 7.33,
+   "distance_ly": 445,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 1170,
+   "name": null,
+   "ra_hours": 0.24401,
+   "dec_degrees": -18.9327,
+   "mag": 4.44,
+   "parallax_mas": 6.62,
+   "distance_ly": 492.7,
+   "constellation": "Cet"
+  },
+  {
+   "hip": 3786,
+   "name": null,
+   "ra_hours": 0.81136,
+   "dec_degrees": 7.5852,
+   "mag": 4.44,
+   "parallax_mas": 10.69,
+   "distance_ly": 305.1,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 19921,
+   "name": null,
+   "ra_hours": 4.27475,
+   "dec_degrees": -59.3017,
+   "mag": 4.44,
+   "parallax_mas": 54.84,
+   "distance_ly": 59.5,
+   "constellation": "Ret"
+  },
+  {
+   "hip": 21770,
+   "name": null,
+   "ra_hours": 4.67606,
+   "dec_degrees": -41.8636,
+   "mag": 4.44,
+   "parallax_mas": 49.67,
+   "distance_ly": 65.7,
+   "constellation": "Cae"
+  },
+  {
+   "hip": 30060,
+   "name": null,
+   "ra_hours": 6.32705,
+   "dec_degrees": 59.0109,
+   "mag": 4.44,
+   "parallax_mas": 21.88,
+   "distance_ly": 149.1,
+   "constellation": "Lyn"
+  },
+  {
+   "hip": 36795,
+   "name": null,
+   "ra_hours": 7.56756,
+   "dec_degrees": -22.2962,
+   "mag": 4.44,
+   "parallax_mas": 38.91,
+   "distance_ly": 83.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 40091,
+   "name": null,
+   "ra_hours": 8.18931,
+   "dec_degrees": -39.6186,
+   "mag": 4.44,
+   "parallax_mas": 1.74,
+   "distance_ly": 1874.5,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 40706,
+   "name": null,
+   "ra_hours": 8.30928,
+   "dec_degrees": -36.6595,
+   "mag": 4.44,
+   "parallax_mas": 35.06,
+   "distance_ly": 93,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 71121,
+   "name": null,
+   "ra_hours": 14.54363,
+   "dec_degrees": -50.4571,
+   "mag": 4.44,
+   "parallax_mas": 5.68,
+   "distance_ly": 574.2,
+   "constellation": "Lup"
+  },
+  {
+   "hip": 95771,
+   "name": "Anser",
+   "ra_hours": 19.47845,
+   "dec_degrees": 24.6652,
+   "mag": 4.44,
+   "parallax_mas": 11,
+   "distance_ly": 296.5,
+   "constellation": "Vul"
+  },
+  {
+   "hip": 7884,
+   "name": null,
+   "ra_hours": 1.69053,
+   "dec_degrees": 5.4876,
+   "mag": 4.45,
+   "parallax_mas": 8.86,
+   "distance_ly": 368.1,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 13147,
+   "name": null,
+   "ra_hours": 2.81816,
+   "dec_degrees": -32.4063,
+   "mag": 4.45,
+   "parallax_mas": 19.31,
+   "distance_ly": 168.9,
+   "constellation": "For"
+  },
+  {
+   "hip": 24244,
+   "name": null,
+   "ra_hours": 5.20497,
+   "dec_degrees": -11.8691,
+   "mag": 4.45,
+   "parallax_mas": 13.53,
+   "distance_ly": 241.1,
+   "constellation": "Lep"
+  },
+  {
+   "hip": 29426,
+   "name": null,
+   "ra_hours": 6.199,
+   "dec_degrees": 14.2088,
+   "mag": 4.45,
+   "parallax_mas": 5.14,
+   "distance_ly": 634.5,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 42402,
+   "name": "Minchir",
+   "ra_hours": 8.64596,
+   "dec_degrees": 3.3415,
+   "mag": 4.45,
+   "parallax_mas": 9.25,
+   "distance_ly": 352.6,
+   "constellation": "Hya"
+  },
+  {
+   "hip": 44191,
+   "name": null,
+   "ra_hours": 9.00151,
+   "dec_degrees": -41.2537,
+   "mag": 4.45,
+   "parallax_mas": 16.19,
+   "distance_ly": 201.5,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 51849,
+   "name": null,
+   "ra_hours": 10.59314,
+   "dec_degrees": -57.5576,
+   "mag": 4.45,
+   "parallax_mas": 2.37,
+   "distance_ly": 1376.2,
+   "constellation": "Car"
+  },
+  {
+   "hip": 52633,
+   "name": null,
+   "ra_hours": 10.76309,
+   "dec_degrees": -80.5402,
+   "mag": 4.45,
+   "parallax_mas": 8.97,
+   "distance_ly": 363.6,
+   "constellation": "Cha"
+  },
+  {
+   "hip": 55084,
+   "name": null,
+   "ra_hours": 11.27771,
+   "dec_degrees": -3.6515,
+   "mag": 4.45,
+   "parallax_mas": 16.69,
+   "distance_ly": 195.4,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 80975,
+   "name": null,
+   "ra_hours": 16.53561,
+   "dec_degrees": -21.4665,
+   "mag": 4.45,
+   "parallax_mas": 18.66,
+   "distance_ly": 174.8,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 94648,
+   "name": null,
+   "ra_hours": 19.25925,
+   "dec_degrees": 73.3552,
+   "mag": 4.45,
+   "parallax_mas": 21.73,
+   "distance_ly": 150.1,
+   "constellation": "Dra"
+  },
+  {
+   "hip": 96229,
+   "name": null,
+   "ra_hours": 19.56812,
+   "dec_degrees": 7.3793,
+   "mag": 4.45,
+   "parallax_mas": 29.5,
+   "distance_ly": 110.6,
+   "constellation": "Aql"
+  },
+  {
+   "hip": 11569,
+   "name": null,
+   "ra_hours": 2.48444,
+   "dec_degrees": 67.4024,
+   "mag": 4.46,
+   "parallax_mas": 23.04,
+   "distance_ly": 141.6,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 18255,
+   "name": null,
+   "ra_hours": 3.90486,
+   "dec_degrees": -2.9547,
+   "mag": 4.46,
+   "parallax_mas": 9.46,
+   "distance_ly": 344.8,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 24331,
+   "name": null,
+   "ra_hours": 5.22152,
+   "dec_degrees": 2.8613,
+   "mag": 4.46,
+   "parallax_mas": 9.49,
+   "distance_ly": 343.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 44901,
+   "name": null,
+   "ra_hours": 9.14788,
+   "dec_degrees": 51.6047,
+   "mag": 4.46,
+   "parallax_mas": 34.12,
+   "distance_ly": 95.6,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 54682,
+   "name": null,
+   "ra_hours": 11.1943,
+   "dec_degrees": -22.8256,
+   "mag": 4.46,
+   "parallax_mas": 12.26,
+   "distance_ly": 266,
+   "constellation": "Crt"
+  },
+  {
+   "hip": 59173,
+   "name": null,
+   "ra_hours": 12.13479,
+   "dec_degrees": -50.6613,
+   "mag": 4.46,
+   "parallax_mas": 8.68,
+   "distance_ly": 375.8,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 80582,
+   "name": null,
+   "ra_hours": 16.45307,
+   "dec_degrees": -47.5547,
+   "mag": 4.46,
+   "parallax_mas": 8.16,
+   "distance_ly": 399.7,
+   "constellation": "Nor"
+  },
+  {
+   "hip": 112948,
+   "name": null,
+   "ra_hours": 22.87543,
+   "dec_degrees": -32.8755,
+   "mag": 4.46,
+   "parallax_mas": 14.67,
+   "distance_ly": 222.3,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 12843,
+   "name": null,
+   "ra_hours": 2.75166,
+   "dec_degrees": -18.5727,
+   "mag": 4.47,
+   "parallax_mas": 71.56,
+   "distance_ly": 45.6,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 15549,
+   "name": null,
+   "ra_hours": 3.33899,
+   "dec_degrees": 29.0485,
+   "mag": 4.47,
+   "parallax_mas": 5.09,
+   "distance_ly": 640.8,
+   "constellation": "Ari"
+  },
+  {
+   "hip": 23123,
+   "name": null,
+   "ra_hours": 4.97581,
+   "dec_degrees": 1.714,
+   "mag": 4.47,
+   "parallax_mas": 3.42,
+   "distance_ly": 953.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 30788,
+   "name": null,
+   "ra_hours": 6.4695,
+   "dec_degrees": -32.5801,
+   "mag": 4.47,
+   "parallax_mas": 8.03,
+   "distance_ly": 406.2,
+   "constellation": "CMa"
+  },
+  {
+   "hip": 31216,
+   "name": null,
+   "ra_hours": 6.5484,
+   "dec_degrees": 7.333,
+   "mag": 4.47,
+   "parallax_mas": 2.16,
+   "distance_ly": 1510,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 38957,
+   "name": null,
+   "ra_hours": 7.97068,
+   "dec_degrees": -49.2449,
+   "mag": 4.47,
+   "parallax_mas": 2.8,
+   "distance_ly": 1164.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 44599,
+   "name": null,
+   "ra_hours": 9.08579,
+   "dec_degrees": -72.6027,
+   "mag": 4.47,
+   "parallax_mas": 7.18,
+   "distance_ly": 454.3,
+   "constellation": "Car"
+  },
+  {
+   "hip": 46146,
+   "name": null,
+   "ra_hours": 9.41091,
+   "dec_degrees": 26.1824,
+   "mag": 4.47,
+   "parallax_mas": 15.28,
+   "distance_ly": 213.5,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 47006,
+   "name": null,
+   "ra_hours": 9.58042,
+   "dec_degrees": 52.0516,
+   "mag": 4.47,
+   "parallax_mas": 12.21,
+   "distance_ly": 267.1,
+   "constellation": "UMa"
+  },
+  {
+   "hip": 57803,
+   "name": null,
+   "ra_hours": 11.85243,
+   "dec_degrees": -45.1734,
+   "mag": 4.47,
+   "parallax_mas": 7.03,
+   "distance_ly": 463.9,
+   "constellation": "Cen"
+  },
+  {
+   "hip": 71284,
+   "name": null,
+   "ra_hours": 14.57797,
+   "dec_degrees": 29.7448,
+   "mag": 4.47,
+   "parallax_mas": 64.66,
+   "distance_ly": 50.4,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 73165,
+   "name": null,
+   "ra_hours": 14.95307,
+   "dec_degrees": -4.3461,
+   "mag": 4.47,
+   "parallax_mas": 35.83,
+   "distance_ly": 91,
+   "constellation": "Lib"
+  },
+  {
+   "hip": 104858,
+   "name": null,
+   "ra_hours": 21.24133,
+   "dec_degrees": 10.0077,
+   "mag": 4.47,
+   "parallax_mas": 54.11,
+   "distance_ly": 60.3,
+   "constellation": "Equ"
+  },
+  {
+   "hip": 109111,
+   "name": null,
+   "ra_hours": 22.10192,
+   "dec_degrees": -39.543,
+   "mag": 4.47,
+   "parallax_mas": 13.2,
+   "distance_ly": 247.1,
+   "constellation": "Gru"
+  },
+  {
+   "hip": 3504,
+   "name": null,
+   "ra_hours": 0.74542,
+   "dec_degrees": 48.2844,
+   "mag": 4.48,
+   "parallax_mas": 3.6,
+   "distance_ly": 906,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 18744,
+   "name": null,
+   "ra_hours": 4.01495,
+   "dec_degrees": -62.1594,
+   "mag": 4.48,
+   "parallax_mas": 6.65,
+   "distance_ly": 490.5,
+   "constellation": "Ret"
+  },
+  {
+   "hip": 20713,
+   "name": null,
+   "ra_hours": 4.43908,
+   "dec_degrees": 15.6183,
+   "mag": 4.48,
+   "parallax_mas": 20.86,
+   "distance_ly": 156.4,
+   "constellation": "Tau"
+  },
+  {
+   "hip": 32578,
+   "name": null,
+   "ra_hours": 6.79768,
+   "dec_degrees": 2.4122,
+   "mag": 4.48,
+   "parallax_mas": 8.74,
+   "distance_ly": 373.2,
+   "constellation": "Mon"
+  },
+  {
+   "hip": 49641,
+   "name": null,
+   "ra_hours": 10.1323,
+   "dec_degrees": -0.3716,
+   "mag": 4.48,
+   "parallax_mas": 11.35,
+   "distance_ly": 287.4,
+   "constellation": "Sex"
+  },
+  {
+   "hip": 75323,
+   "name": null,
+   "ra_hours": 15.38963,
+   "dec_degrees": -59.3207,
+   "mag": 4.48,
+   "parallax_mas": 6.4,
+   "distance_ly": 509.6,
+   "constellation": "Cir"
+  },
+  {
+   "hip": 80343,
+   "name": null,
+   "ra_hours": 16.40172,
+   "dec_degrees": -20.0372,
+   "mag": 4.48,
+   "parallax_mas": 18.32,
+   "distance_ly": 178,
+   "constellation": "Oph"
+  },
+  {
+   "hip": 113889,
+   "name": "Fumalsamakah",
+   "ra_hours": 23.06461,
+   "dec_degrees": 3.8201,
+   "mag": 4.48,
+   "parallax_mas": 6.62,
+   "distance_ly": 492.7,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 114119,
+   "name": null,
+   "ra_hours": 23.11134,
+   "dec_degrees": -23.7431,
+   "mag": 4.48,
+   "parallax_mas": 17.32,
+   "distance_ly": 188.3,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 9480,
+   "name": null,
+   "ra_hours": 2.03265,
+   "dec_degrees": 70.907,
+   "mag": 4.49,
+   "parallax_mas": 27.91,
+   "distance_ly": 116.9,
+   "constellation": "Cas"
+  },
+  {
+   "hip": 21248,
+   "name": null,
+   "ra_hours": 4.55851,
+   "dec_degrees": -29.7658,
+   "mag": 4.49,
+   "parallax_mas": 26.22,
+   "distance_ly": 124.4,
+   "constellation": "Eri"
+  },
+  {
+   "hip": 32249,
+   "name": null,
+   "ra_hours": 6.73314,
+   "dec_degrees": 13.2281,
+   "mag": 4.49,
+   "parallax_mas": 11.82,
+   "distance_ly": 275.9,
+   "constellation": "Gem"
+  },
+  {
+   "hip": 34834,
+   "name": null,
+   "ra_hours": 7.20937,
+   "dec_degrees": -46.7596,
+   "mag": 4.49,
+   "parallax_mas": 47.22,
+   "distance_ly": 69.1,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 38455,
+   "name": null,
+   "ra_hours": 7.8774,
+   "dec_degrees": -38.8628,
+   "mag": 4.49,
+   "parallax_mas": 5.09,
+   "distance_ly": 640.8,
+   "constellation": "Pup"
+  },
+  {
+   "hip": 49593,
+   "name": null,
+   "ra_hours": 10.12381,
+   "dec_degrees": 35.2447,
+   "mag": 4.49,
+   "parallax_mas": 35.78,
+   "distance_ly": 91.2,
+   "constellation": "LMi"
+  },
+  {
+   "hip": 71762,
+   "name": null,
+   "ra_hours": 14.67877,
+   "dec_degrees": 16.4183,
+   "mag": 4.49,
+   "parallax_mas": 10.28,
+   "distance_ly": 317.3,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 96441,
+   "name": null,
+   "ra_hours": 19.60737,
+   "dec_degrees": 50.2205,
+   "mag": 4.49,
+   "parallax_mas": 53.78,
+   "distance_ly": 60.6,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 104234,
+   "name": null,
+   "ra_hours": 21.1188,
+   "dec_degrees": -25.0057,
+   "mag": 4.49,
+   "parallax_mas": 6.24,
+   "distance_ly": 522.7,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 107310,
+   "name": null,
+   "ra_hours": 21.73567,
+   "dec_degrees": 28.7432,
+   "mag": 4.49,
+   "parallax_mas": 44.64,
+   "distance_ly": 73.1,
+   "constellation": "Cyg"
+  },
+  {
+   "hip": 116928,
+   "name": null,
+   "ra_hours": 23.7008,
+   "dec_degrees": 1.7804,
+   "mag": 4.49,
+   "parallax_mas": 32.38,
+   "distance_ly": 100.7,
+   "constellation": "Psc"
+  },
+  {
+   "hip": 116971,
+   "name": null,
+   "ra_hours": 23.71202,
+   "dec_degrees": -14.5447,
+   "mag": 4.49,
+   "parallax_mas": 21.16,
+   "distance_ly": 154.1,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 118322,
+   "name": null,
+   "ra_hours": 23.99859,
+   "dec_degrees": -65.5771,
+   "mag": 4.49,
+   "parallax_mas": 8.71,
+   "distance_ly": 374.5,
+   "constellation": "Tuc"
+  },
+  {
+   "hip": 26594,
+   "name": null,
+   "ra_hours": 5.6531,
+   "dec_degrees": 4.1215,
+   "mag": 4.5,
+   "parallax_mas": 2.01,
+   "distance_ly": 1622.7,
+   "constellation": "Ori"
+  },
+  {
+   "hip": 27530,
+   "name": null,
+   "ra_hours": 5.83044,
+   "dec_degrees": -56.1665,
+   "mag": 4.5,
+   "parallax_mas": 18.78,
+   "distance_ly": 173.7,
+   "constellation": "Pic"
+  },
+  {
+   "hip": 43105,
+   "name": null,
+   "ra_hours": 8.77849,
+   "dec_degrees": -56.7698,
+   "mag": 4.5,
+   "parallax_mas": 5.97,
+   "distance_ly": 546.3,
+   "constellation": "Car"
+  },
+  {
+   "hip": 50676,
+   "name": null,
+   "ra_hours": 10.34856,
+   "dec_degrees": -56.0432,
+   "mag": 4.5,
+   "parallax_mas": 2.34,
+   "distance_ly": 1393.8,
+   "constellation": "Vel"
+  },
+  {
+   "hip": 57565,
+   "name": null,
+   "ra_hours": 11.79979,
+   "dec_degrees": 20.2189,
+   "mag": 4.5,
+   "parallax_mas": 14.4,
+   "distance_ly": 226.5,
+   "constellation": "Leo"
+  },
+  {
+   "hip": 67275,
+   "name": null,
+   "ra_hours": 13.78779,
+   "dec_degrees": 17.4568,
+   "mag": 4.5,
+   "parallax_mas": 64.12,
+   "distance_ly": 50.9,
+   "constellation": "Boo"
+  },
+  {
+   "hip": 99874,
+   "name": null,
+   "ra_hours": 20.26282,
+   "dec_degrees": 27.8142,
+   "mag": 4.5,
+   "parallax_mas": 9.94,
+   "distance_ly": 328.1,
+   "constellation": "Vul"
+  },
+  {
+   "hip": 104459,
+   "name": null,
+   "ra_hours": 21.15989,
+   "dec_degrees": -11.3717,
+   "mag": 4.5,
+   "parallax_mas": 19.93,
+   "distance_ly": 163.7,
+   "constellation": "Aqr"
+  },
+  {
+   "hip": 106039,
+   "name": null,
+   "ra_hours": 21.4787,
+   "dec_degrees": -21.8072,
+   "mag": 4.5,
+   "parallax_mas": 18.18,
+   "distance_ly": 179.4,
+   "constellation": "Cap"
+  },
+  {
+   "hip": 109285,
+   "name": null,
+   "ra_hours": 22.13971,
+   "dec_degrees": -32.9884,
+   "mag": 4.5,
+   "parallax_mas": 25.01,
+   "distance_ly": 130.4,
+   "constellation": "PsA"
+  },
+  {
+   "hip": 109754,
+   "name": null,
+   "ra_hours": 22.23131,
+   "dec_degrees": 39.7149,
+   "mag": 4.5,
+   "parallax_mas": 5.79,
+   "distance_ly": 563.3,
+   "constellation": "Lac"
+  },
+  {
+   "hip": 111944,
+   "name": null,
+   "ra_hours": 22.67522,
+   "dec_degrees": 44.2763,
+   "mag": 4.5,
+   "parallax_mas": 10.81,
+   "distance_ly": 301.7,
+   "constellation": "Lac"
+  }
+ ]
+}

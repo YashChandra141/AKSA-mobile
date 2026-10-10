@@ -1,0 +1,996 @@
+{
+ "source": "OpenNGC (github.com/mattiaverga/OpenNGC), database_files",
+ "count": 110,
+ "objects": [
+  {
+   "m": 1,
+   "name": "Crab Nebula",
+   "type": "supernova remnant",
+   "ra_hours": 5.57555,
+   "dec_degrees": 22.0145,
+   "mag": 8.4,
+   "constellation": "Tau"
+  },
+  {
+   "m": 2,
+   "name": "Messier 2",
+   "type": "globular cluster",
+   "ra_hours": 21.5575,
+   "dec_degrees": -0.8233,
+   "mag": 6.25,
+   "constellation": "Aqr"
+  },
+  {
+   "m": 3,
+   "name": "Messier 3",
+   "type": "globular cluster",
+   "ra_hours": 13.70312,
+   "dec_degrees": 28.3754,
+   "mag": 6.39,
+   "constellation": "CVn"
+  },
+  {
+   "m": 4,
+   "name": "Messier 4",
+   "type": "globular cluster",
+   "ra_hours": 16.39317,
+   "dec_degrees": -26.5255,
+   "mag": 5.4,
+   "constellation": "Sco"
+  },
+  {
+   "m": 5,
+   "name": "Messier 5",
+   "type": "globular cluster",
+   "ra_hours": 15.30938,
+   "dec_degrees": 2.0827,
+   "mag": 5.95,
+   "constellation": "Se1"
+  },
+  {
+   "m": 6,
+   "name": "Butterfly Cluster",
+   "type": "open cluster",
+   "ra_hours": 17.67243,
+   "dec_degrees": -32.2542,
+   "mag": 4.2,
+   "constellation": "Sco"
+  },
+  {
+   "m": 7,
+   "name": "Ptolemy's Cluster",
+   "type": "open cluster",
+   "ra_hours": 17.89755,
+   "dec_degrees": -34.7928,
+   "mag": 3.3,
+   "constellation": "Sco"
+  },
+  {
+   "m": 8,
+   "name": "Lagoon Nebula",
+   "type": "nebula",
+   "ra_hours": 18.06146,
+   "dec_degrees": -24.3802,
+   "mag": 5.8,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 9,
+   "name": "Messier 9",
+   "type": "globular cluster",
+   "ra_hours": 17.31994,
+   "dec_degrees": -18.5162,
+   "mag": 8.42,
+   "constellation": "Oph"
+  },
+  {
+   "m": 10,
+   "name": "Messier 10",
+   "type": "globular cluster",
+   "ra_hours": 16.9525,
+   "dec_degrees": -4.0993,
+   "mag": 4.98,
+   "constellation": "Oph"
+  },
+  {
+   "m": 11,
+   "name": "Amas de l'Ecu de Sobieski",
+   "type": "open cluster",
+   "ra_hours": 18.85166,
+   "dec_degrees": -6.27,
+   "mag": 5.8,
+   "constellation": "Sct"
+  },
+  {
+   "m": 12,
+   "name": "Messier 12",
+   "type": "globular cluster",
+   "ra_hours": 16.78737,
+   "dec_degrees": -1.9478,
+   "mag": 6.07,
+   "constellation": "Oph"
+  },
+  {
+   "m": 13,
+   "name": "Hercules Globular Cluster",
+   "type": "globular cluster",
+   "ra_hours": 16.6949,
+   "dec_degrees": 36.4613,
+   "mag": 5.8,
+   "constellation": "Her"
+  },
+  {
+   "m": 14,
+   "name": "Messier 14",
+   "type": "globular cluster",
+   "ra_hours": 17.62671,
+   "dec_degrees": -3.2459,
+   "mag": 5.73,
+   "constellation": "Oph"
+  },
+  {
+   "m": 15,
+   "name": "Messier 15",
+   "type": "globular cluster",
+   "ra_hours": 21.49955,
+   "dec_degrees": 12.1668,
+   "mag": 6.3,
+   "constellation": "Peg"
+  },
+  {
+   "m": 16,
+   "name": "Eagle Nebula",
+   "type": "nebula",
+   "ra_hours": 18.31338,
+   "dec_degrees": -13.8072,
+   "mag": 6.0,
+   "constellation": "Se2"
+  },
+  {
+   "m": 17,
+   "name": "Checkmark Nebula",
+   "type": "nebula",
+   "ra_hours": 18.34642,
+   "dec_degrees": -16.1715,
+   "mag": 7.0,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 18,
+   "name": "Messier 18",
+   "type": "open cluster",
+   "ra_hours": 18.33291,
+   "dec_degrees": -17.102,
+   "mag": 6.9,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 19,
+   "name": "Messier 19",
+   "type": "globular cluster",
+   "ra_hours": 17.0438,
+   "dec_degrees": -26.2679,
+   "mag": 5.57,
+   "constellation": "Oph"
+  },
+  {
+   "m": 20,
+   "name": "Trifid Nebula",
+   "type": "nebula",
+   "ra_hours": 18.04503,
+   "dec_degrees": -22.9719,
+   "mag": 8.5,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 21,
+   "name": "Messier 21",
+   "type": "open cluster",
+   "ra_hours": 18.0704,
+   "dec_degrees": -22.4901,
+   "mag": 5.9,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 22,
+   "name": "Messier 22",
+   "type": "globular cluster",
+   "ra_hours": 18.60672,
+   "dec_degrees": -23.9034,
+   "mag": 6.17,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 23,
+   "name": "Messier 23",
+   "type": "open cluster",
+   "ra_hours": 17.95133,
+   "dec_degrees": -18.9853,
+   "mag": 5.5,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 24,
+   "name": "Small Sgr Star Cloud",
+   "type": "star association",
+   "ra_hours": 18.28226,
+   "dec_degrees": -18.5146,
+   "mag": 4.5,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 25,
+   "name": "Messier 25",
+   "type": "open cluster",
+   "ra_hours": 18.52966,
+   "dec_degrees": -19.1149,
+   "mag": 4.6,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 26,
+   "name": "Messier 26",
+   "type": "open cluster",
+   "ra_hours": 18.75518,
+   "dec_degrees": -9.3836,
+   "mag": 8.87,
+   "constellation": "Sct"
+  },
+  {
+   "m": 27,
+   "name": "Dumbbell Nebula",
+   "type": "planetary nebula",
+   "ra_hours": 19.99344,
+   "dec_degrees": 22.721,
+   "mag": 7.4,
+   "constellation": "Vul"
+  },
+  {
+   "m": 28,
+   "name": "Messier 28",
+   "type": "globular cluster",
+   "ra_hours": 18.40914,
+   "dec_degrees": -24.8698,
+   "mag": 6.9,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 29,
+   "name": "Messier 29",
+   "type": "open cluster",
+   "ra_hours": 20.39938,
+   "dec_degrees": 38.5077,
+   "mag": 6.6,
+   "constellation": "Cyg"
+  },
+  {
+   "m": 30,
+   "name": "Messier 30",
+   "type": "globular cluster",
+   "ra_hours": 21.67278,
+   "dec_degrees": -23.1791,
+   "mag": 7.1,
+   "constellation": "Cap"
+  },
+  {
+   "m": 31,
+   "name": "Andromeda Galaxy",
+   "type": "galaxy",
+   "ra_hours": 0.71232,
+   "dec_degrees": 41.2691,
+   "mag": 3.44,
+   "constellation": "And"
+  },
+  {
+   "m": 32,
+   "name": "Messier 32",
+   "type": "galaxy",
+   "ra_hours": 0.71162,
+   "dec_degrees": 40.8653,
+   "mag": 8.13,
+   "constellation": "And"
+  },
+  {
+   "m": 33,
+   "name": "Triangulum Galaxy",
+   "type": "galaxy",
+   "ra_hours": 1.56414,
+   "dec_degrees": 30.6602,
+   "mag": 5.79,
+   "constellation": "Tri"
+  },
+  {
+   "m": 34,
+   "name": "Messier 34",
+   "type": "open cluster",
+   "ra_hours": 2.70206,
+   "dec_degrees": 42.7461,
+   "mag": 5.2,
+   "constellation": "Per"
+  },
+  {
+   "m": 35,
+   "name": "Messier 35",
+   "type": "open cluster",
+   "ra_hours": 6.15141,
+   "dec_degrees": 24.3386,
+   "mag": 5.1,
+   "constellation": "Gem"
+  },
+  {
+   "m": 36,
+   "name": "Messier 36",
+   "type": "open cluster",
+   "ra_hours": 5.60493,
+   "dec_degrees": 34.1407,
+   "mag": 6.0,
+   "constellation": "Aur"
+  },
+  {
+   "m": 37,
+   "name": "Messier 37",
+   "type": "open cluster",
+   "ra_hours": 5.87176,
+   "dec_degrees": 32.553,
+   "mag": 5.6,
+   "constellation": "Aur"
+  },
+  {
+   "m": 38,
+   "name": "Messier 38",
+   "type": "open cluster",
+   "ra_hours": 5.47847,
+   "dec_degrees": 35.8549,
+   "mag": 6.4,
+   "constellation": "Aur"
+  },
+  {
+   "m": 39,
+   "name": "Messier 39",
+   "type": "open cluster",
+   "ra_hours": 21.53009,
+   "dec_degrees": 48.4382,
+   "mag": 4.6,
+   "constellation": "Cyg"
+  },
+  {
+   "m": 40,
+   "name": "Messier 40",
+   "type": "double star",
+   "ra_hours": 12.37114,
+   "dec_degrees": 58.0844,
+   "mag": 8.0,
+   "constellation": "UMa"
+  },
+  {
+   "m": 41,
+   "name": "Messier 41",
+   "type": "open cluster",
+   "ra_hours": 6.76665,
+   "dec_degrees": -20.7542,
+   "mag": 4.5,
+   "constellation": "CMa"
+  },
+  {
+   "m": 42,
+   "name": "Great Orion Nebula",
+   "type": "cluster with nebula",
+   "ra_hours": 5.58791,
+   "dec_degrees": -5.3897,
+   "mag": 4.0,
+   "constellation": "Ori"
+  },
+  {
+   "m": 43,
+   "name": "Mairan's Nebula",
+   "type": "emission nebula",
+   "ra_hours": 5.59205,
+   "dec_degrees": -5.2675,
+   "mag": 9.0,
+   "constellation": "Ori"
+  },
+  {
+   "m": 44,
+   "name": "Beehive",
+   "type": "open cluster",
+   "ra_hours": 8.67283,
+   "dec_degrees": 19.6721,
+   "mag": 3.1,
+   "constellation": "Cnc"
+  },
+  {
+   "m": 45,
+   "name": "Pleiades",
+   "type": "open cluster",
+   "ra_hours": 3.79128,
+   "dec_degrees": 24.1053,
+   "mag": 1.2,
+   "constellation": "Tau"
+  },
+  {
+   "m": 46,
+   "name": "Messier 46",
+   "type": "open cluster",
+   "ra_hours": 7.69634,
+   "dec_degrees": -14.81,
+   "mag": 6.1,
+   "constellation": "Pup"
+  },
+  {
+   "m": 47,
+   "name": "Messier 47",
+   "type": "open cluster",
+   "ra_hours": 7.60973,
+   "dec_degrees": -14.4826,
+   "mag": 4.4,
+   "constellation": "Pup"
+  },
+  {
+   "m": 48,
+   "name": "Messier 48",
+   "type": "open cluster",
+   "ra_hours": 8.22866,
+   "dec_degrees": -5.7504,
+   "mag": 5.8,
+   "constellation": "Hya"
+  },
+  {
+   "m": 49,
+   "name": "Messier 49",
+   "type": "galaxy",
+   "ra_hours": 12.49632,
+   "dec_degrees": 8.0005,
+   "mag": 8.28,
+   "constellation": "Vir"
+  },
+  {
+   "m": 50,
+   "name": "Messier 50",
+   "type": "open cluster",
+   "ra_hours": 7.04458,
+   "dec_degrees": -8.364,
+   "mag": 5.9,
+   "constellation": "Mon"
+  },
+  {
+   "m": 51,
+   "name": "Whirlpool Galaxy",
+   "type": "galaxy",
+   "ra_hours": 13.49797,
+   "dec_degrees": 47.1952,
+   "mag": 8.36,
+   "constellation": "CVn"
+  },
+  {
+   "m": 52,
+   "name": "Messier 52",
+   "type": "open cluster",
+   "ra_hours": 23.41344,
+   "dec_degrees": 61.5932,
+   "mag": 6.9,
+   "constellation": "Cas"
+  },
+  {
+   "m": 53,
+   "name": "Messier 53",
+   "type": "globular cluster",
+   "ra_hours": 13.21534,
+   "dec_degrees": 18.1691,
+   "mag": 7.79,
+   "constellation": "Com"
+  },
+  {
+   "m": 54,
+   "name": "Messier 54",
+   "type": "globular cluster",
+   "ra_hours": 18.91758,
+   "dec_degrees": -30.4785,
+   "mag": 7.7,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 55,
+   "name": "Messier 55",
+   "type": "globular cluster",
+   "ra_hours": 19.6665,
+   "dec_degrees": -30.9621,
+   "mag": 6.49,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 56,
+   "name": "Messier 56",
+   "type": "globular cluster",
+   "ra_hours": 19.27653,
+   "dec_degrees": 30.1845,
+   "mag": 8.4,
+   "constellation": "Lyr"
+  },
+  {
+   "m": 57,
+   "name": "Ring Nebula",
+   "type": "planetary nebula",
+   "ra_hours": 18.89306,
+   "dec_degrees": 33.0286,
+   "mag": 8.8,
+   "constellation": "Lyr"
+  },
+  {
+   "m": 58,
+   "name": "Messier 58",
+   "type": "galaxy",
+   "ra_hours": 12.62876,
+   "dec_degrees": 11.8182,
+   "mag": 10.3,
+   "constellation": "Vir"
+  },
+  {
+   "m": 59,
+   "name": "Messier 59",
+   "type": "galaxy",
+   "ra_hours": 12.70062,
+   "dec_degrees": 11.647,
+   "mag": 9.56,
+   "constellation": "Vir"
+  },
+  {
+   "m": 60,
+   "name": "Messier 60",
+   "type": "galaxy",
+   "ra_hours": 12.72777,
+   "dec_degrees": 11.5527,
+   "mag": 8.79,
+   "constellation": "Vir"
+  },
+  {
+   "m": 61,
+   "name": "Messier 61",
+   "type": "galaxy",
+   "ra_hours": 12.36525,
+   "dec_degrees": 4.4736,
+   "mag": 10.25,
+   "constellation": "Vir"
+  },
+  {
+   "m": 62,
+   "name": "Messier 62",
+   "type": "globular cluster",
+   "ra_hours": 17.02017,
+   "dec_degrees": -30.1124,
+   "mag": 7.39,
+   "constellation": "Oph"
+  },
+  {
+   "m": 63,
+   "name": "Sunflower Galaxy",
+   "type": "galaxy",
+   "ra_hours": 13.2637,
+   "dec_degrees": 42.0293,
+   "mag": 8.61,
+   "constellation": "CVn"
+  },
+  {
+   "m": 64,
+   "name": "Black Eye Galaxy",
+   "type": "galaxy",
+   "ra_hours": 12.94546,
+   "dec_degrees": 21.683,
+   "mag": 8.52,
+   "constellation": "Com"
+  },
+  {
+   "m": 65,
+   "name": "Messier 65",
+   "type": "galaxy",
+   "ra_hours": 11.31553,
+   "dec_degrees": 13.0924,
+   "mag": 9.32,
+   "constellation": "Leo"
+  },
+  {
+   "m": 66,
+   "name": "Messier 66",
+   "type": "galaxy",
+   "ra_hours": 11.33749,
+   "dec_degrees": 12.9915,
+   "mag": 8.92,
+   "constellation": "Leo"
+  },
+  {
+   "m": 67,
+   "name": "Messier 67",
+   "type": "open cluster",
+   "ra_hours": 8.85559,
+   "dec_degrees": 11.8119,
+   "mag": 6.9,
+   "constellation": "Cnc"
+  },
+  {
+   "m": 68,
+   "name": "Messier 68",
+   "type": "globular cluster",
+   "ra_hours": 12.65778,
+   "dec_degrees": -26.743,
+   "mag": 7.96,
+   "constellation": "Hya"
+  },
+  {
+   "m": 69,
+   "name": "Messier 69",
+   "type": "globular cluster",
+   "ra_hours": 18.52312,
+   "dec_degrees": -32.348,
+   "mag": 8.31,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 70,
+   "name": "Messier 70",
+   "type": "globular cluster",
+   "ra_hours": 18.72018,
+   "dec_degrees": -32.2919,
+   "mag": 9.06,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 71,
+   "name": "Messier 71",
+   "type": "globular cluster",
+   "ra_hours": 19.89614,
+   "dec_degrees": 18.7784,
+   "mag": 6.1,
+   "constellation": "Sge"
+  },
+  {
+   "m": 72,
+   "name": "Messier 72",
+   "type": "globular cluster",
+   "ra_hours": 20.89109,
+   "dec_degrees": -12.5371,
+   "mag": 8.96,
+   "constellation": "Aqr"
+  },
+  {
+   "m": 73,
+   "name": "Messier 73",
+   "type": "unknown",
+   "ra_hours": 20.98221,
+   "dec_degrees": -12.6355,
+   "mag": 8.9,
+   "constellation": "Aqr"
+  },
+  {
+   "m": 74,
+   "name": "Messier 74",
+   "type": "galaxy",
+   "ra_hours": 1.6116,
+   "dec_degrees": 15.7837,
+   "mag": 9.31,
+   "constellation": "Psc"
+  },
+  {
+   "m": 75,
+   "name": "Messier 75",
+   "type": "globular cluster",
+   "ra_hours": 20.10134,
+   "dec_degrees": -21.9222,
+   "mag": 8.26,
+   "constellation": "Sgr"
+  },
+  {
+   "m": 76,
+   "name": "Barbell Nebula",
+   "type": "planetary nebula",
+   "ra_hours": 1.70547,
+   "dec_degrees": 51.5755,
+   "mag": 10.1,
+   "constellation": "Per"
+  },
+  {
+   "m": 77,
+   "name": "Messier 77",
+   "type": "galaxy",
+   "ra_hours": 2.71131,
+   "dec_degrees": -0.0133,
+   "mag": 9.29,
+   "constellation": "Cet"
+  },
+  {
+   "m": 78,
+   "name": "Messier 78",
+   "type": "unknown",
+   "ra_hours": 5.77939,
+   "dec_degrees": 0.0793,
+   "mag": 8.0,
+   "constellation": "Ori"
+  },
+  {
+   "m": 79,
+   "name": "Messier 79",
+   "type": "globular cluster",
+   "ra_hours": 5.40294,
+   "dec_degrees": -24.5242,
+   "mag": 8.16,
+   "constellation": "Lep"
+  },
+  {
+   "m": 80,
+   "name": "Messier 80",
+   "type": "globular cluster",
+   "ra_hours": 16.28403,
+   "dec_degrees": -22.9751,
+   "mag": 7.3,
+   "constellation": "Sco"
+  },
+  {
+   "m": 81,
+   "name": "Bode's Galaxy",
+   "type": "galaxy",
+   "ra_hours": 9.92588,
+   "dec_degrees": 69.0653,
+   "mag": 6.92,
+   "constellation": "UMa"
+  },
+  {
+   "m": 82,
+   "name": "Cigar Galaxy",
+   "type": "galaxy",
+   "ra_hours": 9.93131,
+   "dec_degrees": 69.6794,
+   "mag": 8.3,
+   "constellation": "UMa"
+  },
+  {
+   "m": 83,
+   "name": "Southern Pinwheel Galaxy",
+   "type": "galaxy",
+   "ra_hours": 13.61693,
+   "dec_degrees": -29.8654,
+   "mag": 7.21,
+   "constellation": "Hya"
+  },
+  {
+   "m": 84,
+   "name": "Messier 84",
+   "type": "galaxy",
+   "ra_hours": 12.41771,
+   "dec_degrees": 12.887,
+   "mag": 9.79,
+   "constellation": "Vir"
+  },
+  {
+   "m": 85,
+   "name": "Messier 85",
+   "type": "galaxy",
+   "ra_hours": 12.42336,
+   "dec_degrees": 18.1915,
+   "mag": 9.05,
+   "constellation": "Com"
+  },
+  {
+   "m": 86,
+   "name": "Messier 86",
+   "type": "galaxy",
+   "ra_hours": 12.43659,
+   "dec_degrees": 12.9462,
+   "mag": 8.86,
+   "constellation": "Vir"
+  },
+  {
+   "m": 87,
+   "name": "Virgo Galaxy",
+   "type": "galaxy",
+   "ra_hours": 12.51373,
+   "dec_degrees": 12.3911,
+   "mag": 9.0,
+   "constellation": "Vir"
+  },
+  {
+   "m": 88,
+   "name": "Messier 88",
+   "type": "galaxy",
+   "ra_hours": 12.5331,
+   "dec_degrees": 14.4204,
+   "mag": 10.33,
+   "constellation": "Com"
+  },
+  {
+   "m": 89,
+   "name": "Messier 89",
+   "type": "galaxy",
+   "ra_hours": 12.59439,
+   "dec_degrees": 12.5563,
+   "mag": 10.08,
+   "constellation": "Vir"
+  },
+  {
+   "m": 90,
+   "name": "Messier 90",
+   "type": "galaxy",
+   "ra_hours": 12.61383,
+   "dec_degrees": 13.1629,
+   "mag": 9.54,
+   "constellation": "Vir"
+  },
+  {
+   "m": 91,
+   "name": "Messier 91",
+   "type": "galaxy",
+   "ra_hours": 12.59068,
+   "dec_degrees": 14.4963,
+   "mag": 10.96,
+   "constellation": "Com"
+  },
+  {
+   "m": 92,
+   "name": "Messier 92",
+   "type": "globular cluster",
+   "ra_hours": 17.28535,
+   "dec_degrees": 43.1365,
+   "mag": 6.52,
+   "constellation": "Her"
+  },
+  {
+   "m": 93,
+   "name": "Messier 93",
+   "type": "open cluster",
+   "ra_hours": 7.74145,
+   "dec_degrees": -23.8531,
+   "mag": 6.2,
+   "constellation": "Pup"
+  },
+  {
+   "m": 94,
+   "name": "Messier 94",
+   "type": "galaxy",
+   "ra_hours": 12.84807,
+   "dec_degrees": 41.1204,
+   "mag": 8.24,
+   "constellation": "CVn"
+  },
+  {
+   "m": 95,
+   "name": "Messier 95",
+   "type": "galaxy",
+   "ra_hours": 10.73269,
+   "dec_degrees": 11.7038,
+   "mag": 9.77,
+   "constellation": "Leo"
+  },
+  {
+   "m": 96,
+   "name": "Messier 96",
+   "type": "galaxy",
+   "ra_hours": 10.77937,
+   "dec_degrees": 11.8199,
+   "mag": 9.21,
+   "constellation": "Leo"
+  },
+  {
+   "m": 97,
+   "name": "Owl Nebula",
+   "type": "planetary nebula",
+   "ra_hours": 11.24659,
+   "dec_degrees": 55.019,
+   "mag": 9.9,
+   "constellation": "UMa"
+  },
+  {
+   "m": 98,
+   "name": "Messier 98",
+   "type": "galaxy",
+   "ra_hours": 12.23008,
+   "dec_degrees": 14.9003,
+   "mag": 10.84,
+   "constellation": "Com"
+  },
+  {
+   "m": 99,
+   "name": "Coma Pinwheel",
+   "type": "galaxy",
+   "ra_hours": 12.31378,
+   "dec_degrees": 14.4165,
+   "mag": 9.84,
+   "constellation": "Com"
+  },
+  {
+   "m": 100,
+   "name": "Messier 100",
+   "type": "galaxy",
+   "ra_hours": 12.3819,
+   "dec_degrees": 15.8218,
+   "mag": 9.47,
+   "constellation": "Com"
+  },
+  {
+   "m": 101,
+   "name": "Messier 101",
+   "type": "galaxy",
+   "ra_hours": 14.05348,
+   "dec_degrees": 54.3489,
+   "mag": 7.9,
+   "constellation": "UMa"
+  },
+  {
+   "m": 102,
+   "name": "Messier 102",
+   "type": "unknown",
+   "ra_hours": 14.05348,
+   "dec_degrees": 54.3489,
+   "mag": null,
+   "constellation": "UMa"
+  },
+  {
+   "m": 103,
+   "name": "Messier 103",
+   "type": "open cluster",
+   "ra_hours": 1.55606,
+   "dec_degrees": 60.658,
+   "mag": 7.4,
+   "constellation": "Cas"
+  },
+  {
+   "m": 104,
+   "name": "Sombrero Galaxy",
+   "type": "galaxy",
+   "ra_hours": 12.66651,
+   "dec_degrees": -11.6231,
+   "mag": 8.59,
+   "constellation": "Vir"
+  },
+  {
+   "m": 105,
+   "name": "Messier 105",
+   "type": "galaxy",
+   "ra_hours": 10.79711,
+   "dec_degrees": 12.5816,
+   "mag": 9.27,
+   "constellation": "Leo"
+  },
+  {
+   "m": 106,
+   "name": "Messier 106",
+   "type": "galaxy",
+   "ra_hours": 12.31597,
+   "dec_degrees": 47.304,
+   "mag": 9.29,
+   "constellation": "CVn"
+  },
+  {
+   "m": 107,
+   "name": "Messier 107",
+   "type": "globular cluster",
+   "ra_hours": 16.5422,
+   "dec_degrees": -13.0536,
+   "mag": 8.85,
+   "constellation": "Oph"
+  },
+  {
+   "m": 108,
+   "name": "Messier 108",
+   "type": "galaxy",
+   "ra_hours": 11.19194,
+   "dec_degrees": 55.6741,
+   "mag": 10.05,
+   "constellation": "UMa"
+  },
+  {
+   "m": 109,
+   "name": "Messier 109",
+   "type": "galaxy",
+   "ra_hours": 11.95999,
+   "dec_degrees": 53.3745,
+   "mag": 9.88,
+   "constellation": "UMa"
+  },
+  {
+   "m": 110,
+   "name": "Messier 110",
+   "type": "galaxy",
+   "ra_hours": 0.6728,
+   "dec_degrees": 41.6853,
+   "mag": 8.15,
+   "constellation": "And"
+  }
+ ]
+}

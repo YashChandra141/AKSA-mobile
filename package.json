@@ -1,22 +1,25 @@
 {
-  "name": "mlh",
+  "name": "aksa-mobile",
   "main": "expo-router/entry",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "dependencies": {
-    "@expo/ui": "~57.0.22",
+    "@react-navigation/native": "^7.5.0",
+    "@shopify/react-native-skia": "2.6.2",
+    "astronomy-engine": "^2.1.19",
     "expo": "~57.0.27",
     "expo-constants": "~57.0.21",
     "expo-device": "~57.0.2",
+    "expo-document-picker": "~57.0.3",
+    "expo-file-system": "~57.0.7",
     "expo-font": "~57.0.4",
-    "expo-glass-effect": "~57.0.4",
-    "expo-image": "~57.0.5",
     "expo-linking": "~57.0.12",
+    "expo-location": "~57.0.20",
     "expo-router": "~57.0.25",
     "expo-splash-screen": "~57.0.9",
     "expo-status-bar": "~57.0.1",
-    "expo-symbols": "~57.0.3",
     "expo-system-ui": "~57.0.4",
-    "expo-web-browser": "~57.0.3",
+    "fuse.js": "^7.5.0",
+    "llama.rn": "^0.13.0-rc.7",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
@@ -24,20 +27,28 @@
     "react-native-reanimated": "4.5.1",
     "react-native-safe-area-context": "~5.7.0",
     "react-native-screens": "~4.26.0",
-    "react-native-web": "~0.21.0",
-    "react-native-worklets": "0.10.1"
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.10.1",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/react": "~19.2.2",
+    "jest": "^30.5.2",
+    "jest-expo": "^57.0.5",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "lint": "expo lint"
+    "dev": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "test": "jest",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit"
   },
-  "private": true
+  "private": true,
+  "trustedDependencies": [
+    "unrs-resolver"
+  ]
 }

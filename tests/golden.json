@@ -1,0 +1,1697 @@
+{
+ "cases": {
+  "pune_oct": {
+   "local_time": "2026-10-09T21:30",
+   "dark_window": {
+    "start": "19:29",
+    "end": "05:14",
+    "hours": 9.8,
+    "kind": "dark"
+   },
+   "moon_info": {
+    "phase_name": "New Moon",
+    "percent_lit": 1,
+    "waxing": false,
+    "rise": "06:00",
+    "set": "17:16",
+    "distance_km": 383965,
+    "next_full": "26 Oct",
+    "next_new": "10 Oct"
+   },
+   "visible_planets": [
+    {
+     "name": "Mars",
+     "from": "02:29",
+     "to": "05:14",
+     "best_time": "05:14",
+     "best_alt": 51.3,
+     "compass": "E",
+     "fists": 5.1,
+     "distance_km": 239660803,
+     "light_minutes": 13,
+     "constellation": "Cancer"
+    },
+    {
+     "name": "Jupiter",
+     "from": "03:29",
+     "to": "05:14",
+     "best_time": "05:14",
+     "best_alt": 37.2,
+     "compass": "E",
+     "fists": 3.7,
+     "distance_km": 869225317,
+     "light_minutes": 48,
+     "constellation": "Leo"
+    },
+    {
+     "name": "Saturn",
+     "from": "19:29",
+     "to": "05:14",
+     "best_time": "23:59",
+     "best_alt": 73.2,
+     "compass": "S",
+     "fists": 7.3,
+     "distance_km": 1262366467,
+     "light_minutes": 70,
+     "constellation": "Cetus"
+    }
+   ],
+   "meteor_showers": [
+    {
+     "name": "Draconids",
+     "active_start": "10-06",
+     "active_end": "10-10",
+     "peak": "10-08",
+     "zhr": 10,
+     "best_hour": "early evening",
+     "days_to_peak": 364
+    },
+    {
+     "name": "Orionids",
+     "active_start": "10-02",
+     "active_end": "11-07",
+     "peak": "10-21",
+     "zhr": 20,
+     "best_hour": "after midnight",
+     "days_to_peak": 12
+    }
+   ],
+   "find_objects": {
+    "Sirius": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Sirius"
+     },
+     "summary": "It is below the horizon right now. It rises 00:30, sets 11:42, is highest 06:10 at 54.7 deg.",
+     "position": {
+      "alt": -41.9,
+      "az": 96.2,
+      "compass": "E",
+      "fists": -4.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "06:10",
+      "highest_alt": 54.7,
+      "rise": "00:30",
+      "set": "11:42",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brilliant white in binoculars; its white dwarf companion Sirius B is real but far too faint to see."
+    },
+    "Polaris": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Polaris"
+     },
+     "summary": "Face N and look about 2 fists up. It never sets from your latitude. About 1.5 fists from Kochab, toward the N.",
+     "position": {
+      "alt": 18.7,
+      "az": 0.6,
+      "compass": "N",
+      "fists": 2.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "02:30",
+      "highest_alt": 19.1,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes",
+     "fact": "Its light left about 431 years ago, around the year 1596.",
+     "hop": "About 1.5 fists from Kochab, toward the N."
+    },
+    "Betelgeuse": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Betelgeuse"
+     },
+     "summary": "It is below the horizon right now. It rises 23:07, sets 11:25, is highest 05:19 at 78.9 deg.",
+     "position": {
+      "alt": -22.7,
+      "az": 73.3,
+      "compass": "ENE",
+      "fists": -2.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "05:19",
+      "highest_alt": 78.9,
+      "rise": "23:07",
+      "set": "11:25",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "If it replaced the Sun, its surface would stretch past the orbit of Mars."
+    },
+    "Saturn": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Saturn"
+     },
+     "summary": "Face ESE and look about 5 fists up. It rises 18:03, sets 06:06, is highest 00:10 at 73.3 deg.",
+     "position": {
+      "alt": 48.4,
+      "az": 109.1,
+      "compass": "ESE",
+      "fists": 5.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "00:10",
+      "highest_alt": 73.3,
+      "rise": "18:03",
+      "set": "06:06",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Saturn - The ringed jewel of the solar system.",
+     "live": {
+      "name": "Saturn",
+      "distance_km": 1262341935,
+      "light_minutes": 70
+     }
+    },
+    "Jupiter": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Jupiter"
+     },
+     "summary": "It is below the horizon right now. It rises 02:34, sets 15:17, is highest 08:50 at 86.3 deg.",
+     "position": {
+      "alt": -55.4,
+      "az": 14.5,
+      "compass": "NNE",
+      "fists": -5.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "08:50",
+      "highest_alt": 86.3,
+      "rise": "02:34",
+      "set": "15:17",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brihaspati, guru of the gods, gives Jupiter its name and Thursday, Guruvar, its day.",
+     "live": {
+      "name": "Jupiter",
+      "distance_km": 869846330,
+      "light_minutes": 48
+     }
+    },
+    "M31": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Andromeda Galaxy"
+     },
+     "summary": "Face NE and look about 5 fists up. It rises 16:57, sets 07:12, is highest 00:10 at 67.1 deg. About 1 fist from Mirach, toward the NE.",
+     "position": {
+      "alt": 49.8,
+      "az": 46.8,
+      "compass": "NE",
+      "fists": 5.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "00:10",
+      "highest_alt": 67.1,
+      "rise": "16:57",
+      "set": "07:12",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Andromeda Galaxy - The farthest thing most human eyes can see: a whole galaxy 2.5 million light years away.",
+     "hop": "About 1 fist from Mirach, toward the NE."
+    },
+    "Pleiades": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Pleiades"
+     },
+     "summary": "Face ENE and look about 1 fist up. It rises 20:36, sets 09:43, is highest 03:10 at 84.3 deg. About 2 fists from Algol, toward the ENE.",
+     "position": {
+      "alt": 11.7,
+      "az": 68.2,
+      "compass": "ENE",
+      "fists": 1.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "03:10",
+      "highest_alt": 84.3,
+      "rise": "20:36",
+      "set": "09:43",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Pleiades - The Seven Sisters, a dipper-shaped cluster of young blue stars.",
+     "hop": "About 2 fists from Algol, toward the ENE."
+    },
+    "orion belt": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Orion's Belt"
+     },
+     "summary": "It is below the horizon right now. It rises 23:00, sets 10:55, is highest 05:00 at 70.3 deg. Look for Alnitak , Alnilam , Mintaka.",
+     "position": {
+      "alt": -21.5,
+      "az": 83.7,
+      "compass": "E",
+      "fists": -2.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "05:00",
+      "highest_alt": 70.3,
+      "rise": "23:00",
+      "set": "10:55",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Below the Belt hangs the sword with the Orion Nebula in its middle.",
+     "members": [
+      "Alnitak",
+      "Alnilam",
+      "Mintaka"
+     ],
+     "tip": "Three bright stars in a short, straight line at Orion's middle. Follow the line down and to the left to reach Sirius."
+    },
+    "Big Dipper": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Big Dipper"
+     },
+     "summary": "It is below the horizon right now. It rises 03:44, sets 19:47, is highest 11:40 at 52.1 deg. Look for Dubhe , Merak , Phecda.",
+     "position": {
+      "alt": -9.8,
+      "az": 341.6,
+      "compass": "NNW",
+      "fists": -1.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "11:40",
+      "highest_alt": 52.1,
+      "rise": "03:44",
+      "set": "19:47",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "The two outer bowl stars, Merak and Dubhe, point to Polaris five fists away.",
+     "members": [
+      "Dubhe",
+      "Merak",
+      "Phecda",
+      "Megrez",
+      "Alioth",
+      "Mizar",
+      "Alkaid"
+     ],
+     "tip": "Follow the two stars at the far end of the bowl (Merak to Dubhe) upward about 5 fists to find Polaris."
+    },
+    "Orion": {
+     "ok": true,
+     "object": {
+      "kind": "constellation",
+      "name": "Orion"
+     },
+     "summary": "It is below the horizon right now. It rises 22:45, sets 10:54, is highest 04:50 at 75.3 deg. Its brightest named stars: Rigel, Betelgeuse, Bellatrix, Alnilam.",
+     "position": {
+      "alt": -17.9,
+      "az": 79.5,
+      "compass": "E",
+      "fists": -2.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "04:50",
+      "highest_alt": 75.3,
+      "rise": "22:45",
+      "set": "10:54",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Mriga, the deer, is chased forever across the sky by Lubdhaka, the hunter dog that is Sirius.",
+     "members": [
+      "Rigel",
+      "Betelgeuse",
+      "Bellatrix",
+      "Alnilam",
+      "Alnitak",
+      "Saiph"
+     ]
+    },
+    "Venus": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Venus"
+     },
+     "summary": "It is below the horizon right now. It rises 07:59, sets 19:02, is highest 13:30 at 50.2 deg.",
+     "position": {
+      "alt": -33.3,
+      "az": 256.3,
+      "compass": "WSW",
+      "fists": -3.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "13:30",
+      "highest_alt": 50.2,
+      "rise": "07:59",
+      "set": "19:02",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Shukra, the guru of the demons, gives Venus its name and Friday, Shukravar, its day.",
+     "live": {
+      "name": "Venus",
+      "distance_km": 45737931,
+      "light_minutes": 3
+     }
+    },
+    "Mars": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Mars"
+     },
+     "summary": "It is below the horizon right now. It rises 01:31, sets 14:27, is highest 08:00 at 88.8 deg.",
+     "position": {
+      "alt": -45.7,
+      "az": 31.5,
+      "compass": "NNE",
+      "fists": -4.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "08:00",
+      "highest_alt": 88.8,
+      "rise": "01:31",
+      "set": "14:27",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Rusty iron oxide dust paints it red; it is the second smallest planet.",
+     "live": {
+      "name": "Mars",
+      "distance_km": 240010349,
+      "light_minutes": 13
+     }
+    },
+    "Aldebaran": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Aldebaran"
+     },
+     "summary": "It is below the horizon right now. It rises 21:36, sets 10:19, is highest 04:00 at 88 deg. About 3 fists from Algol, toward the ENE.",
+     "position": {
+      "alt": -1.4,
+      "az": 72.0,
+      "compass": "ENE",
+      "fists": 0.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "04:00",
+      "highest_alt": 88.0,
+      "rise": "21:36",
+      "set": "10:19",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "The nakshatra Rohini, favourite of the Moon in Vedic stories, is this orange star.",
+     "hop": "About 3 fists from Algol, toward the ENE."
+    },
+    "M13": {
+     "ok": false,
+     "error": "\"Messier object 'Great Hercules Cluster' missing from messier.json\""
+    },
+    "Crab Nebula": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Crab Nebula"
+     },
+     "summary": "It is below the horizon right now. It rises 22:26, sets 11:26, is highest 05:00 at 86.4 deg. About 3.5 fists from Algol, toward the ENE.",
+     "position": {
+      "alt": -12.0,
+      "az": 61.6,
+      "compass": "ENE",
+      "fists": -1.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "05:00",
+      "highest_alt": 86.4,
+      "rise": "22:26",
+      "set": "11:26",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "binoculars",
+     "fact": "Near the star marking the Bull's northern horn; needs a dark, clear night even for a faint smudge.",
+     "hop": "About 3.5 fists from Algol, toward the ENE."
+    }
+   },
+   "whats_up": {
+    "ok": true,
+    "summary": "Right now: Vega, Saturn, Altair, Fomalhaut, Deneb.",
+    "list": [
+     {
+      "name": "Vega",
+      "kind": "star",
+      "mag": 0.03,
+      "alt": 40.3,
+      "compass": "NW",
+      "fists": 4.0
+     },
+     {
+      "name": "Saturn",
+      "kind": "planet",
+      "mag": 0.4,
+      "alt": 48.4,
+      "compass": "ESE",
+      "fists": 5.0
+     },
+     {
+      "name": "Altair",
+      "kind": "star",
+      "mag": 0.76,
+      "alt": 55.6,
+      "compass": "WSW",
+      "fists": 5.6
+     },
+     {
+      "name": "Fomalhaut",
+      "kind": "star",
+      "mag": 1.17,
+      "alt": 40.5,
+      "compass": "SSE",
+      "fists": 4.0
+     },
+     {
+      "name": "Deneb",
+      "kind": "star",
+      "mag": 1.25,
+      "alt": 57.7,
+      "compass": "NNW",
+      "fists": 5.8
+     }
+    ]
+   }
+  },
+  "reykjavik_summer": {
+   "local_time": "2026-06-21T23:00",
+   "dark_window": null,
+   "moon_info": {
+    "phase_name": "First Quarter",
+    "percent_lit": 51,
+    "waxing": true,
+    "rise": "13:21",
+    "set": "00:55",
+    "distance_km": 388705,
+    "next_full": "29 Jun",
+    "next_new": "14 Jul"
+   },
+   "visible_planets": [
+    {
+     "name": "Mercury",
+     "from": "12:00",
+     "to": "12:00",
+     "best_time": "15:15",
+     "best_alt": 47.1,
+     "compass": "S",
+     "fists": 4.7,
+     "distance_km": 108992352,
+     "light_minutes": 6,
+     "constellation": "Gemini"
+    },
+    {
+     "name": "Venus",
+     "from": "12:00",
+     "to": "12:00",
+     "best_time": "16:15",
+     "best_alt": 45.6,
+     "compass": "S",
+     "fists": 4.6,
+     "distance_km": 166426294,
+     "light_minutes": 9,
+     "constellation": "Cancer"
+    },
+    {
+     "name": "Mars",
+     "from": "12:00",
+     "to": "12:00",
+     "best_time": "11:00",
+     "best_alt": 44.6,
+     "compass": "S",
+     "fists": 4.5,
+     "distance_km": 318787073,
+     "light_minutes": 18,
+     "constellation": "Taurus"
+    },
+    {
+     "name": "Jupiter",
+     "from": "12:00",
+     "to": "12:00",
+     "best_time": "15:30",
+     "best_alt": 46.8,
+     "compass": "S",
+     "fists": 4.7,
+     "distance_km": 919955342,
+     "light_minutes": 51,
+     "constellation": "Gemini"
+    },
+    {
+     "name": "Saturn",
+     "from": "12:00",
+     "to": "12:00",
+     "best_time": "08:15",
+     "best_alt": 29.1,
+     "compass": "S",
+     "fists": 2.9,
+     "distance_km": 1441895009,
+     "light_minutes": 80,
+     "constellation": "Pisces"
+    }
+   ],
+   "meteor_showers": [],
+   "find_objects": {
+    "Sirius": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Sirius"
+     },
+     "summary": "It is below the horizon right now. It rises 10:45, sets 17:40, is highest 14:10 at 9.1 deg.",
+     "position": {
+      "alt": -32.5,
+      "az": 302.0,
+      "compass": "WNW",
+      "fists": -3.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "14:10",
+      "highest_alt": 9.1,
+      "rise": "10:45",
+      "set": "17:40",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brilliant white in binoculars; its white dwarf companion Sirius B is real but far too faint to see."
+    },
+    "Polaris": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Polaris"
+     },
+     "summary": "Face N and look about 6.5 fists up. It never sets from your latitude. About 1.5 fists from Kochab, toward the N.",
+     "position": {
+      "alt": 63.5,
+      "az": 0.2,
+      "compass": "N",
+      "fists": 6.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "10:30",
+      "highest_alt": 64.8,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes",
+     "fact": "Its light left about 431 years ago, around the year 1596.",
+     "hop": "About 1.5 fists from Kochab, toward the N."
+    },
+    "Betelgeuse": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Betelgeuse"
+     },
+     "summary": "It is below the horizon right now. It rises 06:20, sets 20:26, is highest 13:30 at 33.3 deg. About 2 fists from Elnath, toward the NW.",
+     "position": {
+      "alt": -13.5,
+      "az": 323.2,
+      "compass": "NW",
+      "fists": -1.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "13:30",
+      "highest_alt": 33.3,
+      "rise": "06:20",
+      "set": "20:26",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "If it replaced the Sun, its surface would stretch past the orbit of Mars.",
+     "hop": "About 2 fists from Elnath, toward the NW."
+    },
+    "Saturn": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Saturn"
+     },
+     "summary": "It is below the horizon right now. It rises 01:53, sets 14:49, is highest 08:19 at 29.1 deg.",
+     "position": {
+      "alt": -16.5,
+      "az": 41.6,
+      "compass": "NE",
+      "fists": -1.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "08:19",
+      "highest_alt": 29.1,
+      "rise": "01:53",
+      "set": "14:49",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Saturn - The ringed jewel of the solar system.",
+     "live": {
+      "name": "Saturn",
+      "distance_km": 1442828205,
+      "light_minutes": 80
+     }
+    },
+    "Jupiter": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Jupiter"
+     },
+     "summary": "Face WNW and look about 1 fist up. It rises 05:59, sets 00:57, is highest 15:30 at 46.8 deg.",
+     "position": {
+      "alt": 9.4,
+      "az": 299.2,
+      "compass": "WNW",
+      "fists": 1.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "15:30",
+      "highest_alt": 46.8,
+      "rise": "05:59",
+      "set": "00:57",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brihaspati, guru of the gods, gives Jupiter its name and Thursday, Guruvar, its day.",
+     "live": {
+      "name": "Jupiter",
+      "distance_km": 920311386,
+      "light_minutes": 51
+     }
+    },
+    "M31": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Andromeda Galaxy"
+     },
+     "summary": "Face NNE and look about 2 fists up. It never sets from your latitude. About 1 fist from Mirach, toward the NNE.",
+     "position": {
+      "alt": 20.7,
+      "az": 32.5,
+      "compass": "NNE",
+      "fists": 2.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "08:10",
+      "highest_alt": 67.3,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Andromeda Galaxy - The farthest thing most human eyes can see: a whole galaxy 2.5 million light years away.",
+     "hop": "About 1 fist from Mirach, toward the NNE."
+    },
+    "Pleiades": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Pleiades"
+     },
+     "summary": "It is below the horizon right now. It rises 00:43, sets 21:48, is highest 11:10 at 50 deg. About 2 fists from Algol, toward the N.",
+     "position": {
+      "alt": -1.6,
+      "az": 356.3,
+      "compass": "N",
+      "fists": 0.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "11:10",
+      "highest_alt": 50.0,
+      "rise": "00:43",
+      "set": "21:48",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Pleiades - The Seven Sisters, a dipper-shaped cluster of young blue stars.",
+     "hop": "About 2 fists from Algol, toward the N."
+    },
+    "orion belt": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Orion's Belt"
+     },
+     "summary": "It is below the horizon right now. It rises 07:12, sets 18:56, is highest 13:10 at 24.7 deg. Look for Alnitak , Alnilam , Mintaka.",
+     "position": {
+      "alt": -23.0,
+      "az": 325.8,
+      "compass": "NW",
+      "fists": -2.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "13:10",
+      "highest_alt": 24.7,
+      "rise": "07:12",
+      "set": "18:56",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Below the Belt hangs the sword with the Orion Nebula in its middle.",
+     "members": [
+      "Alnitak",
+      "Alnilam",
+      "Mintaka"
+     ],
+     "tip": "Three bright stars in a short, straight line at Orion's middle. Follow the line down and to the left to reach Sirius."
+    },
+    "Big Dipper": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Big Dipper"
+     },
+     "summary": "Face W and look about 6.5 fists up. It never sets from your latitude. Look for Dubhe , Merak , Phecda.",
+     "position": {
+      "alt": 66.1,
+      "az": 273.2,
+      "compass": "W",
+      "fists": 6.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "19:50",
+      "highest_alt": 82.2,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes",
+     "fact": "The two outer bowl stars, Merak and Dubhe, point to Polaris five fists away.",
+     "members": [
+      "Dubhe",
+      "Merak",
+      "Phecda",
+      "Megrez",
+      "Alioth",
+      "Mizar",
+      "Alkaid"
+     ],
+     "tip": "Follow the two stars at the far end of the bowl (Merak to Dubhe) upward about 5 fists to find Polaris."
+    },
+    "Orion": {
+     "ok": true,
+     "object": {
+      "kind": "constellation",
+      "name": "Orion"
+     },
+     "summary": "It is below the horizon right now. It rises 06:23, sets 19:29, is highest 13:00 at 29.7 deg. Its brightest named stars: Rigel, Betelgeuse, Bellatrix, Alnilam.",
+     "position": {
+      "alt": -18.6,
+      "az": 329.1,
+      "compass": "NNW",
+      "fists": -2.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "13:00",
+      "highest_alt": 29.7,
+      "rise": "06:23",
+      "set": "19:29",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Mriga, the deer, is chased forever across the sky by Lubdhaka, the hunter dog that is Sirius.",
+     "members": [
+      "Rigel",
+      "Betelgeuse",
+      "Bellatrix",
+      "Alnilam",
+      "Alnitak",
+      "Saiph"
+     ]
+    },
+    "Venus": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Venus"
+     },
+     "summary": "Face WNW and look about 1.5 fists up. It rises 07:10, sets 01:28, is highest 16:20 at 45.6 deg.",
+     "position": {
+      "alt": 13.3,
+      "az": 287.9,
+      "compass": "WNW",
+      "fists": 1.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "16:20",
+      "highest_alt": 45.6,
+      "rise": "07:10",
+      "set": "01:28",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Shukra, the guru of the demons, gives Venus its name and Friday, Shukravar, its day.",
+     "live": {
+      "name": "Venus",
+      "distance_km": 166118639,
+      "light_minutes": 9
+     }
+    },
+    "Mars": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Mars"
+     },
+     "summary": "It is below the horizon right now. It rises 02:01, sets 19:54, is highest 11:00 at 44.6 deg.",
+     "position": {
+      "alt": -7.2,
+      "az": 0.4,
+      "compass": "N",
+      "fists": -0.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "11:00",
+      "highest_alt": 44.6,
+      "rise": "02:01",
+      "set": "19:54",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Rusty iron oxide dust paints it red; it is the second smallest planet.",
+     "live": {
+      "name": "Mars",
+      "distance_km": 318992031,
+      "light_minutes": 18
+     }
+    },
+    "Aldebaran": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Aldebaran"
+     },
+     "summary": "It is below the horizon right now. It rises 03:32, sets 20:36, is highest 12:00 at 42.4 deg. About 1.5 fists from Elnath, toward the NNW.",
+     "position": {
+      "alt": -8.3,
+      "az": 344.4,
+      "compass": "NNW",
+      "fists": -1.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "12:00",
+      "highest_alt": 42.4,
+      "rise": "03:32",
+      "set": "20:36",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "The nakshatra Rohini, favourite of the Moon in Vedic stories, is this orange star.",
+     "hop": "About 1.5 fists from Elnath, toward the NNW."
+    },
+    "M13": {
+     "ok": false,
+     "error": "\"Messier object 'Great Hercules Cluster' missing from messier.json\""
+    },
+    "Crab Nebula": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Crab Nebula"
+     },
+     "summary": "It is below the horizon right now. It rises 03:15, sets 22:49, is highest 13:00 at 47.9 deg. About 0.5 fists from Elnath, toward the NNW.",
+     "position": {
+      "alt": -0.5,
+      "az": 331.6,
+      "compass": "NNW",
+      "fists": 0.0,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "13:00",
+      "highest_alt": 47.9,
+      "rise": "03:15",
+      "set": "22:49",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "binoculars",
+     "fact": "Near the star marking the Bull's northern horn; needs a dark, clear night even for a faint smudge.",
+     "hop": "About 0.5 fists from Elnath, toward the NNW."
+    }
+   },
+   "whats_up": {
+    "ok": true,
+    "summary": "Right now: Arcturus, Vega, Capella, Altair, Deneb, Castor.",
+    "list": [
+     {
+      "name": "Arcturus",
+      "kind": "star",
+      "mag": -0.05,
+      "alt": 43.1,
+      "compass": "SSW",
+      "fists": 4.3
+     },
+     {
+      "name": "Vega",
+      "kind": "star",
+      "mag": 0.03,
+      "alt": 53.0,
+      "compass": "ESE",
+      "fists": 5.3
+     },
+     {
+      "name": "Capella",
+      "kind": "star",
+      "mag": 0.08,
+      "alt": 22.1,
+      "compass": "NNW",
+      "fists": 2.2
+     },
+     {
+      "name": "Altair",
+      "kind": "star",
+      "mag": 0.76,
+      "alt": 18.9,
+      "compass": "ESE",
+      "fists": 1.9
+     },
+     {
+      "name": "Deneb",
+      "kind": "star",
+      "mag": 1.25,
+      "alt": 45.0,
+      "compass": "ENE",
+      "fists": 4.5
+     },
+     {
+      "name": "Castor",
+      "kind": "star",
+      "mag": 1.58,
+      "alt": 17.1,
+      "compass": "NW",
+      "fists": 1.7
+     }
+    ]
+   }
+  },
+  "newyork_winter": {
+   "local_time": "2026-01-15T20:00",
+   "dark_window": {
+    "start": "18:30",
+    "end": "05:40",
+    "hours": 11.2,
+    "kind": "dark"
+   },
+   "moon_info": {
+    "phase_name": "Waning Crescent",
+    "percent_lit": 7,
+    "waxing": false,
+    "rise": "06:07",
+    "set": "13:40",
+    "distance_km": 403053,
+    "next_full": "01 Feb",
+    "next_new": "18 Jan"
+   },
+   "visible_planets": [
+    {
+     "name": "Jupiter",
+     "from": "18:30",
+     "to": "05:40",
+     "best_time": "23:34",
+     "best_alt": 71.6,
+     "compass": "S",
+     "fists": 7.2,
+     "distance_km": 634169925,
+     "light_minutes": 35,
+     "constellation": "Gemini"
+    },
+    {
+     "name": "Saturn",
+     "from": "18:30",
+     "to": "21:02",
+     "best_time": "18:30",
+     "best_alt": 35.4,
+     "compass": "SW",
+     "fists": 3.5,
+     "distance_km": 1487844792,
+     "light_minutes": 83,
+     "constellation": "Pisces"
+    }
+   ],
+   "meteor_showers": [],
+   "find_objects": {
+    "Sirius": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Sirius"
+     },
+     "summary": "Face SE and look about 2 fists up. It rises 18:00, sets 03:59, is highest 23:00 at 32.5 deg. About 0.5 fists from Mirzam, toward the SE.",
+     "position": {
+      "alt": 18.9,
+      "az": 134.2,
+      "compass": "SE",
+      "fists": 2.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "23:00",
+      "highest_alt": 32.5,
+      "rise": "18:00",
+      "set": "03:59",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brilliant white in binoculars; its white dwarf companion Sirius B is real but far too faint to see.",
+     "hop": "About 0.5 fists from Mirzam, toward the SE."
+    },
+    "Polaris": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Polaris"
+     },
+     "summary": "Face N and look about 4 fists up. It never sets from your latitude. About 1.5 fists from Kochab, toward the N.",
+     "position": {
+      "alt": 41.3,
+      "az": 359.9,
+      "compass": "N",
+      "fists": 4.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "19:20",
+      "highest_alt": 41.3,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes",
+     "fact": "Its light left about 431 years ago, around the year 1596.",
+     "hop": "About 1.5 fists from Kochab, toward the N."
+    },
+    "Betelgeuse": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Betelgeuse"
+     },
+     "summary": "Face SE and look about 4.5 fists up. It rises 15:45, sets 04:34, is highest 22:10 at 56.7 deg. About 1 fist from Bellatrix, toward the SE.",
+     "position": {
+      "alt": 45.8,
+      "az": 129.8,
+      "compass": "SE",
+      "fists": 4.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "22:10",
+      "highest_alt": 56.7,
+      "rise": "15:45",
+      "set": "04:34",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "If it replaced the Sun, its surface would stretch past the orbit of Mars.",
+     "hop": "About 1 fist from Bellatrix, toward the SE."
+    },
+    "Saturn": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Saturn"
+     },
+     "summary": "Face WSW and look about 2 fists up. It rises 10:15, sets 21:56, is highest 16:10 at 46.1 deg.",
+     "position": {
+      "alt": 21.3,
+      "az": 245.6,
+      "compass": "WSW",
+      "fists": 2.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "16:10",
+      "highest_alt": 46.1,
+      "rise": "10:15",
+      "set": "21:56",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Saturn - The ringed jewel of the solar system.",
+     "live": {
+      "name": "Saturn",
+      "distance_km": 1487980871,
+      "light_minutes": 83
+     }
+    },
+    "Jupiter": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Jupiter"
+     },
+     "summary": "Face E and look about 4 fists up. It rises 16:15, sets 06:58, is highest 23:40 at 71.6 deg.",
+     "position": {
+      "alt": 40.9,
+      "az": 94.8,
+      "compass": "E",
+      "fists": 4.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "23:40",
+      "highest_alt": 71.6,
+      "rise": "16:15",
+      "set": "06:58",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Brihaspati, guru of the gods, gives Jupiter its name and Thursday, Guruvar, its day.",
+     "live": {
+      "name": "Jupiter",
+      "distance_km": 634121827,
+      "light_minutes": 35
+     }
+    },
+    "M31": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Andromeda Galaxy"
+     },
+     "summary": "Face WNW and look about 5.5 fists up. It rises 07:38, sets 02:14, is highest 17:00 at 89.3 deg. About 1 fist from Mirach, toward the WNW.",
+     "position": {
+      "alt": 56.1,
+      "az": 286.5,
+      "compass": "WNW",
+      "fists": 5.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "17:00",
+      "highest_alt": 89.3,
+      "rise": "07:38",
+      "set": "02:14",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Andromeda Galaxy - The farthest thing most human eyes can see: a whole galaxy 2.5 million light years away.",
+     "hop": "About 1 fist from Mirach, toward the WNW."
+    },
+    "Pleiades": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Pleiades"
+     },
+     "summary": "Face S and look about 7.5 fists up. It rises 12:33, sets 03:32, is highest 20:00 at 73.5 deg. About 1.5 fists from Aldebaran, toward the S.",
+     "position": {
+      "alt": 73.5,
+      "az": 177.5,
+      "compass": "S",
+      "fists": 7.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "20:00",
+      "highest_alt": 73.5,
+      "rise": "12:33",
+      "set": "03:32",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes (dark sky)",
+     "fact": "Pleiades - The Seven Sisters, a dipper-shaped cluster of young blue stars.",
+     "hop": "About 1.5 fists from Aldebaran, toward the S."
+    },
+    "orion belt": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Orion's Belt"
+     },
+     "summary": "Face SE and look about 4 fists up. It rises 15:56, sets 03:46, is highest 21:49 at 48.2 deg. Look for Alnitak , Alnilam , Mintaka.",
+     "position": {
+      "alt": 41.0,
+      "az": 141.6,
+      "compass": "SE",
+      "fists": 4.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "21:49",
+      "highest_alt": 48.2,
+      "rise": "15:56",
+      "set": "03:46",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Below the Belt hangs the sword with the Orion Nebula in its middle.",
+     "members": [
+      "Alnitak",
+      "Alnilam",
+      "Mintaka"
+     ],
+     "tip": "Three bright stars in a short, straight line at Orion's middle. Follow the line down and to the left to reach Sirius."
+    },
+    "Big Dipper": {
+     "ok": true,
+     "object": {
+      "kind": "asterism",
+      "name": "Big Dipper"
+     },
+     "summary": "Face NNE and look about 1.5 fists up. It never sets from your latitude. Look for Dubhe , Merak , Phecda.",
+     "position": {
+      "alt": 15.9,
+      "az": 26.3,
+      "compass": "NNE",
+      "fists": 1.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "04:40",
+      "highest_alt": 74.3,
+      "rise": null,
+      "set": null,
+      "circumpolar": true
+     },
+     "needs": "eyes",
+     "fact": "The two outer bowl stars, Merak and Dubhe, point to Polaris five fists away.",
+     "members": [
+      "Dubhe",
+      "Merak",
+      "Phecda",
+      "Megrez",
+      "Alioth",
+      "Mizar",
+      "Alkaid"
+     ],
+     "tip": "Follow the two stars at the far end of the bowl (Merak to Dubhe) upward about 5 fists to find Polaris."
+    },
+    "Orion": {
+     "ok": true,
+     "object": {
+      "kind": "constellation",
+      "name": "Orion"
+     },
+     "summary": "Face SE and look about 4.5 fists up. It rises 15:31, sets 03:55, is highest 21:40 at 53.1 deg. Its brightest named stars: Rigel, Betelgeuse, Bellatrix, Alnilam.",
+     "position": {
+      "alt": 46.4,
+      "az": 140.7,
+      "compass": "SE",
+      "fists": 4.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "21:40",
+      "highest_alt": 53.1,
+      "rise": "15:31",
+      "set": "03:55",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Mriga, the deer, is chased forever across the sky by Lubdhaka, the hunter dog that is Sirius.",
+     "members": [
+      "Rigel",
+      "Betelgeuse",
+      "Bellatrix",
+      "Alnilam",
+      "Alnitak",
+      "Saiph"
+     ]
+    },
+    "Venus": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Venus"
+     },
+     "summary": "It is below the horizon right now. It rises 07:35, sets 16:56, is highest 12:00 at 27.8 deg.",
+     "position": {
+      "alt": -33.3,
+      "az": 269.2,
+      "compass": "W",
+      "fists": -3.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "12:00",
+      "highest_alt": 27.8,
+      "rise": "07:35",
+      "set": "16:56",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Shukra, the guru of the demons, gives Venus its name and Friday, Shukravar, its day.",
+     "live": {
+      "name": "Venus",
+      "distance_km": 255779464,
+      "light_minutes": 14
+     }
+    },
+    "Mars": {
+     "ok": true,
+     "object": {
+      "kind": "planet",
+      "name": "Mars"
+     },
+     "summary": "It is below the horizon right now. It rises 07:21, sets 16:37, is highest 12:00 at 27.2 deg.",
+     "position": {
+      "alt": -36.8,
+      "az": 271.2,
+      "compass": "W",
+      "fists": -3.5,
+      "above_horizon": false
+     },
+     "tonight": {
+      "highest_time": "12:00",
+      "highest_alt": 27.2,
+      "rise": "07:21",
+      "set": "16:37",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "Rusty iron oxide dust paints it red; it is the second smallest planet.",
+     "live": {
+      "name": "Mars",
+      "distance_km": 358584064,
+      "light_minutes": 20
+     }
+    },
+    "Aldebaran": {
+     "ok": true,
+     "object": {
+      "kind": "star",
+      "name": "Aldebaran"
+     },
+     "summary": "Face SSE and look about 6.5 fists up. It rises 13:53, sets 03:49, is highest 20:50 at 65.8 deg. About 1.5 fists from Bellatrix, toward the SSE.",
+     "position": {
+      "alt": 63.4,
+      "az": 151.5,
+      "compass": "SSE",
+      "fists": 6.5,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "20:50",
+      "highest_alt": 65.8,
+      "rise": "13:53",
+      "set": "03:49",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "eyes",
+     "fact": "The nakshatra Rohini, favourite of the Moon in Vedic stories, is this orange star.",
+     "hop": "About 1.5 fists from Bellatrix, toward the SSE."
+    },
+    "M13": {
+     "ok": false,
+     "error": "\"Messier object 'Great Hercules Cluster' missing from messier.json\""
+    },
+    "Crab Nebula": {
+     "ok": true,
+     "object": {
+      "kind": "messier",
+      "name": "Crab Nebula"
+     },
+     "summary": "Face ESE and look about 6 fists up. It rises 14:29, sets 05:10, is highest 21:49 at 71.3 deg. About 0.5 fists from Elnath, toward the ESE.",
+     "position": {
+      "alt": 60.2,
+      "az": 120.4,
+      "compass": "ESE",
+      "fists": 6.0,
+      "above_horizon": true
+     },
+     "tonight": {
+      "highest_time": "21:49",
+      "highest_alt": 71.3,
+      "rise": "14:29",
+      "set": "05:10",
+      "circumpolar": false,
+      "never_rises": false
+     },
+     "needs": "binoculars",
+     "fact": "Near the star marking the Bull's northern horn; needs a dark, clear night even for a faint smudge.",
+     "hop": "About 0.5 fists from Elnath, toward the ESE."
+    }
+   },
+   "whats_up": {
+    "ok": true,
+    "summary": "Right now: Jupiter, Sirius, Capella, Rigel, Procyon, Betelgeuse, Aldebaran, Saturn.",
+    "list": [
+     {
+      "name": "Jupiter",
+      "kind": "planet",
+      "mag": -2.7,
+      "alt": 40.9,
+      "compass": "E",
+      "fists": 4.0
+     },
+     {
+      "name": "Sirius",
+      "kind": "star",
+      "mag": -1.44,
+      "alt": 18.9,
+      "compass": "SE",
+      "fists": 1.9
+     },
+     {
+      "name": "Capella",
+      "kind": "star",
+      "mag": 0.08,
+      "alt": 72.4,
+      "compass": "ENE",
+      "fists": 7.2
+     },
+     {
+      "name": "Rigel",
+      "kind": "star",
+      "mag": 0.18,
+      "alt": 36.9,
+      "compass": "SSE",
+      "fists": 3.7
+     },
+     {
+      "name": "Procyon",
+      "kind": "star",
+      "mag": 0.4,
+      "alt": 26.8,
+      "compass": "ESE",
+      "fists": 2.7
+     },
+     {
+      "name": "Betelgeuse",
+      "kind": "star",
+      "mag": 0.45,
+      "alt": 45.8,
+      "compass": "SE",
+      "fists": 4.6
+     },
+     {
+      "name": "Aldebaran",
+      "kind": "star",
+      "mag": 0.87,
+      "alt": 63.4,
+      "compass": "SSE",
+      "fists": 6.3
+     },
+     {
+      "name": "Saturn",
+      "kind": "planet",
+      "mag": 1.0,
+      "alt": 21.3,
+      "compass": "WSW",
+      "fists": 2.0
+     }
+    ]
+   }
+  }
+ },
+ "catalog": {
+  "sirius": {
+   "result": {
+    "match": {
+     "kind": "star",
+     "name": "Sirius",
+     "data": {
+      "hip": 32349,
+      "name": "Sirius",
+      "ra_hours": 6.75257,
+      "dec_degrees": -16.7131,
+      "mag": -1.44,
+      "parallax_mas": 379.21,
+      "distance_ly": 8.6,
+      "constellation": "CMa"
+     }
+    }
+   }
+  },
+  "m31": {
+   "result": {
+    "match": {
+     "kind": "messier",
+     "name": "Andromeda Galaxy",
+     "data": {
+      "m": 31,
+      "name": "Andromeda Galaxy",
+      "type": "galaxy",
+      "ra_hours": 0.71232,
+      "dec_degrees": 41.2691,
+      "mag": 3.44,
+      "constellation": "And"
+     }
+    }
+   }
+  },
+  "orion belt": {
+   "result": {
+    "match": {
+     "kind": "asterism",
+     "name": "Orion's Belt",
+     "data": {
+      "members": [
+       "Alnitak",
+       "Alnilam",
+       "Mintaka"
+      ],
+      "tip": "Three bright stars in a short, straight line at Orion's middle. Follow the line down and to the left to reach Sirius."
+     }
+    }
+   }
+  },
+  "north star": {
+   "result": {
+    "match": {
+     "kind": "star",
+     "name": "Polaris",
+     "data": {
+      "hip": 11767,
+      "name": "Polaris",
+      "ra_hours": 2.52974,
+      "dec_degrees": 89.2641,
+      "mag": 1.97,
+      "parallax_mas": 7.56,
+      "distance_ly": 431.4,
+      "constellation": "UMi"
+     }
+    }
+   }
+  },
+  "saturn": {
+   "result": {
+    "match": {
+     "kind": "planet",
+     "name": "Saturn",
+     "data": {
+      "name": "Saturn"
+     }
+    }
+   }
+  },
+  "orion ring": {
+   "result": {
+    "ambiguous": [
+     "Orion (constellation)",
+     "Great Orion Nebula (messier)"
+    ]
+   }
+  },
+  "zzzqqq": {
+   "error": "\"Unknown sky object 'zzzqqq'. Try: \""
+  },
+  "swathi": {
+   "result": {
+    "match": {
+     "kind": "star",
+     "name": "Arcturus",
+     "data": {
+      "hip": 69673,
+      "name": "Arcturus",
+      "ra_hours": 14.26121,
+      "dec_degrees": 19.1873,
+      "mag": -0.05,
+      "parallax_mas": 88.85,
+      "distance_ly": 36.7,
+      "constellation": "Boo"
+     }
+    }
+   }
+  }
+ }
+}

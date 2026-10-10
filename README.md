@@ -1,56 +1,114 @@
-# Welcome to your Expo app 👋
+# AKSA — your stargazing buddy, computed on your phone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AKSA is an offline-first stargazing companion. It tells you **whether tonight is
+worth going out**, **what you can actually see from where you are**, and walks
+you to it with **compass directions and fists** — one fist at arm's length is
+about 10°. A friendly local AI model rephrases the computed answers into chat,
+but it never invents a single position: the astronomy is always calculated on
+device, right where you stand.
 
-## Get started
+No account. No telemetry. No stored app data.
 
-1. Install dependencies
+## What it does
 
-   ```bash
-   npm install
-   ```
+- **Tonight verdict** — a GO / MAYBE / SKIP score for tonight built from the
+  dark window (Sun −18°), real cloud cover, the Moon's phase and how long it
+  will be up, and active meteor showers. With reasons you can check yourself.
+- **Where is it?** — ask for any star, planet, constellation, asterism or
+  Messier object: direction, height in fists, when it rises and sets, what
+  equipment you need, and a star-hop hint from a nearby bright star.
+- **What's that bright star in the east?** — identify unknown objects from a
+  direction and height above the horizon.
+- **Sky Detective** — a live all-sky map you can tap. Don't know what you're
+  looking at? A five-clue guessing ladder (direction → star-hop → shape →
+  comparison → reveal) is built from verified data, never the model's memory.
+- **Stargazing missions** — a short chain of real, doable challenges for
+  tonight, filtered by what is actually up and the equipment you told AKSA you
+  have. Stuck on a step? The Detective's clue ladder walks you in.
+- **Red-light mode** — one tap turns the whole app red to protect your
+  dark-adapted eyes at the eyepiece.
 
-2. Start the app
+## Privacy by construction
 
-   ```bash
-   npx expo start
-   ```
+- **Location is used in memory only.** A fresh GPS fix every launch, never
+  written to disk. Deny GPS and pick a city instead.
+- **No stored app data at all.** Profile, chat history, clue progress and
+  mission progress reset when you close the app. There is no journal, no
+  sync, no analytics.
+- **The only network calls are** (1) Open-Meteo for cloud cover, (2) an
+  optional one-time download of a ~0.8 GB GGUF model, and (3) ipapi.co for an
+  automatic IP-based location/timezone — used only when GPS is unavailable so
+  the sky math uses the right clock. Everything else runs offline.
+- **The AI runs on your phone.** The local model (Gemma 3 1B by default)
+  only phrases sentences from computed data. It cannot see the sky, and the
+  prompts forbid it from guessing positions.
 
-In the output, you'll find options to open the app in a
+## How the AI works (the honest version)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Every factual sentence AKSA produces comes from TypeScript code —
+[astronomy-engine](https://github.com/skyfielders/astronomy-engine) ported to a
+pure-TS sky engine — fed by the bundled catalogs (bright stars, Messier
+objects, constellations, asterisms, meteor showers, facts). The local model
+has exactly three jobs:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Pick a tool** for unusual questions (a tiny JSON router call, capped at
+   80 tokens),
+2. **Phrase** the computed result into 2–4 friendly sentences, and
+3. **Chat casually** (with a strict guard: it must never claim to see or name
+   anything in the sky).
 
-## Get a fresh project
+If no model is installed, AKSA answers with clean template wording instead —
+same facts, same features.
 
-When you're ready, run:
+## Requirements
+
+- [Bun](https://bun.sh) 1.4.0 (package manager)
+- Node.js 20+ (for Expo tooling)
+- Android Studio / Xcode for a device build, or Expo Go for a quick look
+
+## Getting started
 
 ```bash
-npm run reset-project
+bun install        # deps; also fetches llama.rn native artifacts
+bun run android    # or: bun run ios
+bun run test       # 80 tests: golden fixtures vs the Python reference + unit tests
+bun run typecheck  # tsc --noEmit
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Installing the AI model
 
-### Other setup steps
+Open the **Models** tab and download the recommended model
+(`gemma-3-1b-it-Q4_K_M.gguf`, about 0.8 GB, over Wi-Fi), or import a folder of
+`.gguf` files you already have. AKSA auto-selects the best model on each launch
+and tells you when it's running in template-only mode.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+On iOS the app enables file sharing, so you can also drop `.gguf` files into
+the app's `models/` folder via Finder.
 
-## Learn more
+## Project structure
 
-To learn more about developing your project with Expo, look at the following resources:
+```
+src/
+  app/          Expo Router screens (Tonight, Guide, Detective, Missions, Models, Object)
+  sky/          The pure sky engine: astro, catalog, score, facts, intent,
+                skyQuery, mapData, clues, missions — all deterministic and unit-tested
+  ai/           prompts, llm runtime (llama.rn), router, model manager
+  services/     location (GPS/city) and weather (Open-Meteo) — memory only
+  state/        one Zustand store, deliberately not persisted
+tests/          golden fixtures dumped from the Python reference + unit tests
+tools/          fixture generation and maintenance scripts
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The sky engine is a line-faithful port of the original Python **AKSA** CLI
+(Skyfield-based), verified against golden fixtures for three sites and seasons
+(Pune autumn, Reykjavík summer, New York winter) with tight tolerances
+(0.5° positions, 5-minute rise/set times).
 
-## Join the community
+## Attribution
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Sky math: [astronomy-engine](https://github.com/cosinekitty/astronomy)
+- Cloud cover: [Open-Meteo](https://open-meteo.com) (free, no key)
+- On-device model: [llama.cpp](https://github.com/ggml-org/llama.cpp) via
+  [llama.rn](https://github.com/mybigday/llama.rn); Gemma 3 1B GGUF by Google,
+  quantized builds by unsloth on Hugging Face
+- Star catalogs: HYG and Messier data bundled from the original AKSA project
