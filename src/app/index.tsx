@@ -41,18 +41,17 @@ export default function TonightScreen() {
   const profile = useSessionStore((s) => s.profile);
   const setProfile = useSessionStore((s) => s.setProfile);
   const activeModel = useSessionStore((s) => s.activeModel);
-  const nightMode = useSessionStore((s) => s.nightMode);
-  const toggleNightMode = useSessionStore((s) => s.toggleNightMode);
 
   const [summary, setSummary] = useState<TonightSummary | null>(null);
   const [phase, setPhase] = useState<DayPhase | null>(null);
   const [busy, setBusy] = useState(false);
+  const [cloudPending, setCloudPending] = useState(false);
   const [showPicker, setShowPicker] = useState(false);
 
-  const recompute = useCallback(async () => {
+  const recompute = useCallback(async (showSpinner = false) => {
     const loc = useSessionStore.getState().location;
     if (!loc) return;
-    setBusy(true);
+    if (showSpinner) setBusy(true);
     try {
       const ctx: SkyContext = {
         lat: loc.lat,
@@ -61,20 +60,43 @@ export default function TonightScreen() {
         now: new Date(),
         label: loc.label,
       };
-      const offline = false;
-      // Clouds are fetched first (the only network call), then the
-      // verdict is built synchronously from computed sky data.
-      const preDark = darkWindow(ctx);
-      const preCloud = preDark
-        ? await cloudForDarkWindow(loc.lat, loc.lon, preDark, new Date(), loc.tz, offline)
-        : null;
-      const result = tonightSummary(ctx, () => preCloud, offline);
-      setSummary(result);
+      // Show the computed verdict right away; clouds (the only network
+      // call) refine it when the forecast arrives.
+      setSummary(tonightSummary(ctx, () => null, false));
       setPhase(dayPhase(ctx));
+      const preDark = darkWindow(ctx);
+      if (!preDark) return;
+      setCloudPending(true);
+      const preCloud = await cloudForDarkWindow(loc.lat, loc.lon, preDark, ctx.now, loc.tz, false);
+      if (preCloud !== null) setSummary(tonightSummary(ctx, () => preCloud, false));
     } finally {
+      setCloudPending(false);
       setBusy(false);
     }
   }, []);
+
+  const pickCity = useCallback(
+    (city: string) => {
+      const loc = cityLocation(city);
+      if (!loc) return;
+      setLocation(loc);
+      setShowPicker(false);
+      recompute();
+    },
+    [recompute, setLocation],
+  );
+
+  const useGps = useCallback(async () => {
+    setShowPicker(false);
+    setLocationState('locating');
+    const gps = await getGpsLocation();
+    if (gps.ok && gps.loc) {
+      setLocation(gps.loc);
+      recompute();
+    } else {
+      setLocationState('denied');
+    }
+  }, [recompute, setLocation, setLocationState]);
 
   useEffect(() => {
     let cancelled = false;
@@ -126,7 +148,7 @@ export default function TonightScreen() {
       refreshControl={
         <RefreshControl
           refreshing={busy}
-          onRefresh={recompute}
+          onRefresh={() => recompute(true)}
           tintColor="#7FD4FF"
         />
       }
@@ -140,29 +162,11 @@ export default function TonightScreen() {
         </View>
       )}
 
-      {(locationState === 'denied' || showPicker) && (
+      {locationState === 'denied' && !summary && (
         <CityPicker
-          dismissible={locationState !== 'denied'}
-          onClose={() => setShowPicker(false)}
-          onPick={(city) => {
-            const loc = cityLocation(city);
-            if (loc) {
-              setLocation(loc);
-              setShowPicker(false);
-              recompute();
-            }
-          }}
-          onUseGps={async () => {
-            setShowPicker(false);
-            setLocationState('locating');
-            const gps = await getGpsLocation();
-            if (gps.ok && gps.loc) {
-              setLocation(gps.loc);
-              recompute();
-            } else {
-              setLocationState('denied');
-            }
-          }}
+          dismissible={false}
+          onPick={pickCity}
+          onUseGps={useGps}
         />
       )}
 
@@ -181,6 +185,14 @@ export default function TonightScreen() {
             </Text>
             <Text style={styles.dimText}>{summary.location}</Text>
           </View>
+
+          {location?.source === 'ip' ? (
+            <Pressable style={styles.ipBanner} onPress={() => setShowPicker(true)}>
+              <Text style={styles.ipText}>
+                Location is approximate (from your network) - tap to change city
+              </Text>
+            </Pressable>
+          ) : null}
 
           {phase && (
             <View
@@ -232,7 +244,12 @@ export default function TonightScreen() {
               {summary.moon.set ? `, sets ${summary.moon.set}` : ''})
             </Text>
             <Text style={styles.body}>
-              Clouds: {summary.cloud === null ? 'unknown (offline?)' : `about ${summary.cloud}%`}
+              Clouds:{' '}
+              {summary.cloud !== null
+                ? `about ${summary.cloud}%`
+                : cloudPending
+                  ? 'checking forecast...'
+                  : 'unknown (offline?)'}
             </Text>
             {summary.reasons.map((r) => (
               <Text key={r} style={styles.reason}>
@@ -303,6 +320,11 @@ export default function TonightScreen() {
             </Pressable>
           </Link>
 
+          <Link href="/chat" asChild>
+            <Pressable style={styles.linkButton}>
+              <Text style={styles.linkText}>AI Chat</Text>
+            </Pressable>
+          </Link>
           <View style={styles.linkRow}>
             <Link href="/sky" asChild>
               <Pressable style={styles.linkButton}>
@@ -321,28 +343,19 @@ export default function TonightScreen() {
             </Link>
           </View>
 
+          {showPicker && (
+            <CityPicker dismissible onClose={() => setShowPicker(false)} onPick={pickCity} onUseGps={useGps} />
+          )}
+
           <View style={styles.linkRow}>
-            <Pressable
-              style={[styles.linkButton, nightMode && styles.nightBtn]}
-              onPress={() => setShowPicker((v) => !v)}
-            >
-              <Text style={[styles.linkText, nightMode && styles.nightBtnText]}>
-                Change city
-              </Text>
-            </Pressable>
-            <Pressable
-              style={[styles.linkButton, nightMode && styles.nightBtn]}
-              onPress={toggleNightMode}
-            >
-              <Text style={[styles.linkText, nightMode && styles.nightBtnText]}>
-                {nightMode ? 'Red light: ON' : 'Red light: off'}
-              </Text>
+            <Pressable style={styles.linkButton} onPress={() => setShowPicker((v) => !v)}>
+              <Text style={styles.linkText}>{showPicker ? 'Hide city list' : 'Change city'}</Text>
             </Pressable>
           </View>
 
           {!activeModel && (
             <Text style={styles.dimText}>
-              AI phrasing unavailable (no on-device model or local Ollama) -
+              No AI model loaded (see Models) -
               running with template answers.
             </Text>
           )}
@@ -380,9 +393,11 @@ function CityPicker({
   dismissible?: boolean;
 }) {
   const [query, setQuery] = useState('');
-  const matches = query.trim()
-    ? cityNames().filter((c) => c.toLowerCase().includes(query.trim().toLowerCase())).slice(0, 8)
-    : [];
+  const needle = query.trim().toLowerCase();
+  const matches = (needle
+    ? cityNames().filter((c) => c.toLowerCase().includes(needle))
+    : cityNames()
+  ).slice(0, 8);
   return (
     <View style={styles.card}>
       <View style={styles.pickerHeader}>
@@ -406,14 +421,14 @@ function CityPicker({
           <Text style={styles.body}>{c}</Text>
         </Pressable>
       ))}
-      {query.trim() && !matches.length && (
+      {needle.length > 0 && matches.length === 0 ? (
         <Text style={styles.dimText}>No city by that name in the catalog.</Text>
-      )}
-      {onUseGps && (
+      ) : null}
+      {onUseGps ? (
         <Pressable style={styles.gpsButton} onPress={onUseGps}>
           <Text style={styles.gpsText}>Use my GPS instead</Text>
         </Pressable>
-      )}
+      ) : null}
     </View>
   );
 }
@@ -440,6 +455,15 @@ const styles = StyleSheet.create({
   },
   phaseTwilight: { borderLeftColor: '#E58A5C' },
   phaseNight: { borderLeftColor: '#4CC38A' },
+  ipBanner: {
+    backgroundColor: '#2A2413',
+    borderColor: '#E5C15C',
+    borderWidth: 1,
+    borderRadius: 12,
+    padding: 10,
+    alignItems: 'center',
+  },
+  ipText: { color: '#E5C15C', fontSize: 13, fontWeight: '600', textAlign: 'center' },
   phaseTitle: { color: '#7FD4FF', fontWeight: '700', fontSize: 13, letterSpacing: 1 },
   card: {
     backgroundColor: '#141B33',
@@ -496,6 +520,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   linkText: { color: '#7FD4FF', fontWeight: '600' },
-  nightBtn: { backgroundColor: '#2A0D0B', alignSelf: 'center', minWidth: 200 },
-  nightBtnText: { color: '#FF6B5B' },
 });

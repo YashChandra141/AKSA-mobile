@@ -65,16 +65,50 @@ export interface GpsResult {
   error?: string;
 }
 
-/** One GPS fix per launch; never persisted. */
+/** A sky computed for a fix a few km off is identical to the eye. */
+const LAST_KNOWN_MAX_AGE_MS = 30 * 60 * 1000;
+/** Cold GPS on budget phones can need 10s+ for its first lock. */
+const FRESH_FIX_TIMEOUT_MS = 15000;
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T | null> {
+  return new Promise((resolve) => {
+    const timer = setTimeout(() => resolve(null), ms);
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      () => {
+        clearTimeout(timer);
+        resolve(null);
+      },
+    );
+  });
+}
+
+/**
+ * One fix per launch; never persisted. Uses the OS's cached position when
+ * it is recent (instant), otherwise a fresh low-power fix capped at a few
+ * seconds so the first screen never hangs indoors.
+ */
 export async function getGpsLocation(): Promise<GpsResult> {
   try {
     const { status } = await Location.requestForegroundPermissionsAsync();
     if (status !== 'granted') {
       return { ok: false, error: 'location permission denied' };
     }
-    const pos = await Location.getCurrentPositionAsync({
-      accuracy: Location.Accuracy.Balanced,
-    });
+    const pos =
+      (await withTimeout(
+        Location.getLastKnownPositionAsync({ maxAge: LAST_KNOWN_MAX_AGE_MS }),
+        1500,
+      )) ??
+      (await withTimeout(
+        Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced }),
+        FRESH_FIX_TIMEOUT_MS,
+      ));
+    if (!pos) {
+      return { ok: false, error: 'location fix timed out' };
+    }
     const lat = Math.round(pos.coords.latitude * 10000) / 10000;
     const lon = Math.round(pos.coords.longitude * 10000) / 10000;
     const nearest = nearestCity(lat, lon);

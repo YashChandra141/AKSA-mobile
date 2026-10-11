@@ -20,13 +20,15 @@ import { Stack, useLocalSearchParams } from 'expo-router';
 import { useSessionStore } from '@/state/session';
 import { findObject } from '@/sky/skyQuery';
 import { buildClues, clueFor } from '@/sky/clues';
-import { NARRATOR_PROMPT } from '@/ai/prompts';
+import { narratorPrompt } from '@/ai/prompts';
 import { ensureAiReady, generate } from '@/ai/llm';
 import { fallbackText } from '@/ai/router';
 import type { FindObjectResult } from '@/sky/skyQuery';
 import type { SkyContext } from '@/sky/types';
 
 export default function ObjectScreen() {
+  /** Ask-chat memory cap - old turns drop off, nothing grows unbounded. */
+  const MAX_ASK_CHAT = 12;
   const raw = useLocalSearchParams<{ id?: string }>();
   const name = raw.id ? decodeURIComponent(String(raw.id)) : '';
   const location = useSessionStore((s) => s.location);
@@ -39,7 +41,8 @@ export default function ObjectScreen() {
   const [chat, setChat] = useState<{ role: 'user' | 'assistant'; content: string }[]>([]);
   const [input, setInput] = useState('');
   const [streaming, setStreaming] = useState(false);
-  const chatedOnce = useRef(false);
+  const [streamText, setStreamText] = useState('');
+  const clueRequest = useRef(0);
 
   const ctx: SkyContext | null = useMemo(
     () =>
@@ -68,29 +71,33 @@ export default function ObjectScreen() {
     setClueText(clue.text);
     revealClue(name, Math.min(revealed + 1, 4));
     // Model phrasing of the clue (best effort, template text is kept).
+    // A newer tap supersedes an in-flight rephrase.
+    const request = ++clueRequest.current;
     ensureAiReady().then((ready) => {
-      if (!ready) return;
+      if (!ready || request !== clueRequest.current) return;
       generate({
         messages: [
-          { role: 'system', content: NARRATOR_PROMPT },
+          { role: 'system', content: narratorPrompt(profile.knowledge) },
           { role: 'user', content: `Rephrase this stargazing clue warmly, same meaning: "${clue.text}"` },
         ],
         temperature: 0.4,
         maxTokens: 120,
-        onToken: (partial) => setClueText(partial),
+        onToken: (partial) => {
+          if (request === clueRequest.current) setClueText(partial);
+        },
       });
     });
-  }, [ctx, clues, name, revealed, revealClue]);
+  }, [ctx, clues, name, revealed, revealClue, profile.knowledge]);
 
   const ask = useCallback(async () => {
     const question = input.trim();
     if (!question || streaming || !ctx) return;
     setInput('');
-    setChat((c) => [...c, { role: 'user', content: question }]);
+    setChat((c) => [...c, { role: 'user' as const, content: question }].slice(-MAX_ASK_CHAT));
 
     const factPayload = result?.ok ? JSON.stringify(result) : 'object not visible';
     const messages = [
-      { role: 'system' as const, content: NARRATOR_PROMPT },
+      { role: 'system' as const, content: narratorPrompt(profile.knowledge) },
       {
         role: 'user' as const,
         content: `Question: ${question}\n\nComputed data:\n${factPayload}`,
@@ -106,30 +113,27 @@ export default function ObjectScreen() {
     }
 
     setStreaming(true);
-    let partial = '';
+    setStreamText('');
     const answer = await generate({
       messages,
       temperature: 0.2,
       maxTokens: 220,
-      onToken: (p) => {
-        partial = p;
-        setChat((c) => {
-          const last = c[c.length - 1];
-          if (last?.role === 'assistant' && last.content !== partial) {
-            return [...c.slice(0, -1), { role: 'assistant', content: partial }];
-          }
-          return [...c, { role: 'assistant', content: partial }];
-        });
-      },
+      // Stream into a SEPARATE state (one growing bubble). Never write
+      // partials into chat history - the updater would read the shared
+      // partial variable late and append a new bubble per token.
+      onToken: (p) => setStreamText(p),
     });
     setStreaming(false);
+    setStreamText('');
     if (answer?.text) {
-      setChat((c) => {
-        const withoutPartial = c[c.length - 1]?.role === 'assistant' ? c.slice(0, -1) : c;
-        return [...withoutPartial, { role: 'assistant', content: answer.text }];
-      });
+      setChat((c) => [...c, { role: 'assistant' as const, content: answer.text }].slice(-MAX_ASK_CHAT));
+    } else {
+      setChat((c) => [
+        ...c,
+        { role: 'assistant' as const, content: 'Sorry - I could not phrase an answer. Try again.' },
+      ].slice(-MAX_ASK_CHAT));
     }
-  }, [input, streaming, ctx, result]);
+  }, [input, streaming, ctx, result, profile.knowledge]);
 
   if (!name) {
     return (
@@ -191,7 +195,11 @@ export default function ObjectScreen() {
                 <Text style={styles.bubbleText}>{m.content}</Text>
               </View>
             ))}
-            {streaming && <ActivityIndicator color="#7FD4FF" />}
+            {streaming && (
+              <View style={[styles.bubble, styles.bubbleAksa]}>
+                <Text style={styles.bubbleText}>{streamText || '...'}</Text>
+              </View>
+            )}
           </>
         )}
       </ScrollView>

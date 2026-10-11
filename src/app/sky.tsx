@@ -12,6 +12,7 @@ import {
   StyleSheet,
   Text,
   TextInput,
+  useWindowDimensions,
   View,
 } from 'react-native';
 import { Link, Stack, useRouter, useLocalSearchParams } from 'expo-router';
@@ -22,9 +23,10 @@ import type { SkyContext } from '@/sky/types';
 
 export default function SkyScreen() {
   const location = useSessionStore((s) => s.location);
-  const nightMode = useSessionStore((s) => s.nightMode);
   const params = useLocalSearchParams<{ focus?: string }>();
   const router = useRouter();
+  const { width } = useWindowDimensions();
+  const mapSize = Math.min(width - 32, 420);
 
   const [tick, setTick] = useState(0);
   const [query, setQuery] = useState('');
@@ -66,7 +68,7 @@ export default function SkyScreen() {
 
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-      <Stack.Screen options={{ title: nightMode ? 'Sky Detective (red)' : 'Sky Detective' }} />
+      <Stack.Screen options={{ title: 'Sky Detective' }} />
 
       {params.focus && (
         <Text style={styles.dimText}>Focused: {decodeURIComponent(String(params.focus))}</Text>
@@ -74,7 +76,8 @@ export default function SkyScreen() {
 
       <SkyMap
         ctx={ctx}
-        size={Math.min(360, 360)}
+        data={mapData ?? undefined}
+        size={mapSize}
         selectedId={params.focus ? String(params.focus) : null}
         onPressObject={(p) => {
           if (p.name) router.push(`/object/${encodeURIComponent(p.name)}`);

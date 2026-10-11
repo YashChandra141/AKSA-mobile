@@ -8,9 +8,10 @@
 
 import {
   downloadRecommended,
-  RECOMMENDED_MODEL,
+  SMALL_MODEL,
   type DownloadHandle,
   type LocalModelInfo,
+  type ModelSpec,
 } from './models';
 
 export interface DownloadSnapshot {
@@ -48,14 +49,14 @@ export function isDownloading(): boolean {
   return handle !== null;
 }
 
-/** Start the recommended download; a no-op if one is already running. */
-export function startModelDownload(): void {
+/** Start a model download; a no-op if one is already running. */
+export function startModelDownload(spec: ModelSpec = SMALL_MODEL): void {
   if (handle) return;
-  const h = downloadRecommended((fraction) => {
+  const h = downloadRecommended(spec, (fraction) => {
     update({ fraction });
   });
   handle = h;
-  update({ fraction: 0, name: RECOMMENDED_MODEL.name, result: null });
+  update({ fraction: 0, name: spec.name, result: null });
   h.promise
     .then((info) => {
       update({ fraction: null, result: info });

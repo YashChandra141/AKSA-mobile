@@ -20,6 +20,9 @@ interface CacheEntry {
 }
 
 let _cache: CacheEntry | null = null;
+/** After a failed fetch, skip the network for a while (offline users). */
+const FAIL_BACKOFF_MS = 5 * 60 * 1000;
+let _lastFailAt = 0;
 
 export interface CloudData {
   hourly: { time: string; cloud: number | null }[];
@@ -34,9 +37,12 @@ async function fetchCloud(lat: number, lon: number): Promise<CloudData | null> {
     forecast_days: '7',
     timezone: 'auto',
   });
+  // AbortSignal.timeout is not available in every Hermes build.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
     const resp = await fetch(`${API_URL}?${params.toString()}`, {
-      signal: AbortSignal.timeout(TIMEOUT_MS),
+      signal: controller.signal,
     });
     if (!resp.ok) return null;
     const data = (await resp.json()) as {
@@ -51,6 +57,8 @@ async function fetchCloud(lat: number, lon: number): Promise<CloudData | null> {
     };
   } catch {
     return null;
+  } finally {
+    clearTimeout(timer);
   }
 }
 
@@ -72,10 +80,14 @@ export async function getCloudCover(
     if (_cache && samePlace(_cache, lat, lon) && Date.now() - _cache.fetchedAt < TTL_MS) {
       return _cache;
     }
-    const fresh = await fetchCloud(lat, lon);
-    if (fresh) {
-      _cache = { ...fresh, lat: Math.round(lat * 10) / 10, lon: Math.round(lon * 10) / 10 };
-      return _cache;
+    if (Date.now() - _lastFailAt >= FAIL_BACKOFF_MS) {
+      const fresh = await fetchCloud(lat, lon);
+      if (fresh) {
+        _cache = { ...fresh, lat: Math.round(lat * 10) / 10, lon: Math.round(lon * 10) / 10 };
+        _lastFailAt = 0;
+        return _cache;
+      }
+      _lastFailAt = Date.now();
     }
   }
   // Offline path, or network failure: use any cached forecast for this place.
@@ -86,6 +98,7 @@ export async function getCloudCover(
 /** Test hook: clear the in-memory cache. */
 export function clearWeatherCache(): void {
   _cache = null;
+  _lastFailAt = 0;
 }
 
 /** Open-Meteo local ISO "YYYY-MM-DDTHH:MM" -> instant in tz.

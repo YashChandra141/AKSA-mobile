@@ -25,9 +25,8 @@ No account. No telemetry. No stored app data.
 - **Stargazing missions** — a short chain of real, doable challenges for
   tonight, filtered by what is actually up and the equipment you told AKSA you
   have. Stuck on a step? The Detective's clue ladder walks you in.
-- **Red-light mode** — one tap turns the whole app red to protect your
-  dark-adapted eyes at the eyepiece.
-
+- **AI Chat** — free-form conversation with the loaded on-device model about
+  anything, sky or otherwise. In-memory history only.
 ## Privacy by construction
 
 - **Location is used in memory only.** A fresh GPS fix every launch, never
@@ -36,17 +35,19 @@ No account. No telemetry. No stored app data.
   mission progress reset when you close the app. There is no journal, no
   sync, no analytics.
 - **The only network calls are** (1) Open-Meteo for cloud cover, (2) an
-  optional one-time download of a ~0.8 GB GGUF model, and (3) ipapi.co for an
-  automatic IP-based location/timezone — used only when GPS is unavailable so
-  the sky math uses the right clock. Everything else runs offline.
-- **The AI runs on your phone.** The local model (Gemma 3 1B by default)
+  optional one-time download of a small GGUF model (258 MB – 0.8 GB), and
+  (3) ipapi.co for an automatic IP-based location/timezone — used only when
+  GPS is unavailable so the sky math uses the right clock. Everything else
+  runs offline. When the location is IP-approximate, the Tonight screen says
+  so and offers a one-tap city change.
+- **The AI runs on your phone.** The local model (SmolLM2 360M or Gemma 3 1B)
   only phrases sentences from computed data. It cannot see the sky, and the
   prompts forbid it from guessing positions.
 
 ## How the AI works (the honest version)
 
 Every factual sentence AKSA produces comes from TypeScript code —
-[astronomy-engine](https://github.com/skyfielders/astronomy-engine) ported to a
+[astronomy-engine](https://github.com/cosinekitty/astronomy) ported to a
 pure-TS sky engine — fed by the bundled catalogs (bright stars, Messier
 objects, constellations, asterisms, meteor showers, facts). The local model
 has exactly three jobs:
@@ -71,25 +72,49 @@ same facts, same features.
 ```bash
 bun install        # deps; also fetches llama.rn native artifacts
 bun run android    # or: bun run ios
-bun run test       # 80 tests: golden fixtures vs the Python reference + unit tests
+bun run test       # 105 tests: golden fixtures vs the Python reference + unit tests
 bun run typecheck  # tsc --noEmit
 ```
 
 ### Installing the AI model
 
-Open the **Models** tab and download the recommended model
-(`gemma-3-1b-it-Q4_K_M.gguf`, about 0.8 GB, over Wi-Fi), or import a folder of
-`.gguf` files you already have. AKSA auto-selects the best model on each launch
-and tells you when it's running in template-only mode.
+Open the **Models** screen and pick:
+
+- **Fast test model** — `SmolLM2-360M-Instruct-Q4_K_M.gguf`, about 258 MB.
+  Downloads quickly and answers snappily; ideal on budget phones.
+- **Better quality** — `gemma-3-1b-it-Q4_K_M.gguf`, about 770 MB. Nicer
+  phrasing, slower on low-end devices.
+
+You can also import a folder of `.gguf` files you already have. Downloaded
+and imported models **load into the AI runtime automatically** — the status
+line tells you when the model is live (until then you get template wording).
+AKSA auto-selects the best model on each launch and tells you when it's
+running in template-only mode.
 
 On iOS the app enables file sharing, so you can also drop `.gguf` files into
 the app's `models/` folder via Finder.
+
+### Building a release APK (standalone, no Metro needed)
+
+The debug build loads its JavaScript from Metro, but a release APK is fully
+self-contained — install it once and the phone needs nothing else:
+
+```bash
+cd android
+.\gradlew assembleRelease
+```
+
+The APK lands at `android/app/build/outputs/apk/release/app-release.apk`.
+The build compiles for arm64 only (`reactNativeArchitectures` in
+`gradle.properties`) and caps parallel compile workers (llama.cpp translation
+units need 1 GB+ RAM each), which keeps the build stable on modest machines.
+A rebuild after a change is quick — gradle caches all native compilation.
 
 ## Project structure
 
 ```
 src/
-  app/          Expo Router screens (Tonight, Guide, Detective, Missions, Models, Object)
+  app/          Expo Router screens (Tonight, Guide, AI Chat, Detective, Missions, Models, Object)
   sky/          The pure sky engine: astro, catalog, score, facts, intent,
                 skyQuery, mapData, clues, missions — all deterministic and unit-tested
   ai/           prompts, llm runtime (llama.rn), router, model manager
@@ -109,6 +134,7 @@ The sky engine is a line-faithful port of the original Python **AKSA** CLI
 - Sky math: [astronomy-engine](https://github.com/cosinekitty/astronomy)
 - Cloud cover: [Open-Meteo](https://open-meteo.com) (free, no key)
 - On-device model: [llama.cpp](https://github.com/ggml-org/llama.cpp) via
-  [llama.rn](https://github.com/mybigday/llama.rn); Gemma 3 1B GGUF by Google,
-  quantized builds by unsloth on Hugging Face
+  [llama.rn](https://github.com/mybigday/llama.rn); Gemma 3 1B GGUF by Google
+  (quantized by unsloth) and SmolLM2 360M GGUF by HuggingFaceTB (quantized by
+  bartowski) on Hugging Face
 - Star catalogs: HYG and Messier data bundled from the original AKSA project

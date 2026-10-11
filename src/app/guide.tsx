@@ -31,6 +31,7 @@ export default function GuideScreen() {
   const profile = useSessionStore((s) => s.profile);
   const guideChat = useSessionStore((s) => s.guideChat);
   const pushGuideChat = useSessionStore((s) => s.pushGuideChat);
+  const resetGuideChat = useSessionStore((s) => s.resetGuideChat);
 
   const [payload, setPayload] = useState<GuidePayload | null>(null);
   const [planText, setPlanText] = useState<string>('');
@@ -74,7 +75,7 @@ export default function GuideScreen() {
     if (!payload) return;
     const ready = await ensureAiReady();
     if (!ready) {
-      setNotice('No AI backend (on-device model or local Ollama) - showing the computed plan as-is.');
+      setNotice('No AI model loaded - showing the computed plan as-is. Load one from the Models screen.');
       return;
     }
     setStreaming(true);
@@ -128,19 +129,25 @@ export default function GuideScreen() {
       const result = routed ? runTool(routed[0], routed[1]) : null;
       const text = result
         ? fallbackText(result)
-        : 'No AI backend found (on-device model or local Ollama). Computed questions like "where is Sirius" still work.';
+        : 'No AI model loaded (see the Models screen). Computed questions like "where is Sirius" still work.';
       pushGuideChat({ role: 'assistant', content: text });
       return;
     }
 
     setStreaming(true);
-    const answer = await respond(question, runTool, {
-      locationLine: skyCtx.label ? ` The observer's location is ${skyCtx.label}.` : '',
-      history: useSessionStore.getState().guideChat,
-    });
-    pushGuideChat({ role: 'assistant', content: answer || 'Something went wrong - try again.' });
-    setStreaming(false);
-  }, [input, streaming, skyCtx, payload, pushGuideChat]);
+    try {
+      const answer = await respond(question, runTool, {
+        locationLine: skyCtx.label ? ` The observer's location is ${skyCtx.label}.` : '',
+        knowledge: profile.knowledge,
+        history: useSessionStore.getState().guideChat,
+      });
+      pushGuideChat({ role: 'assistant', content: answer || 'Something went wrong - try again.' });
+    } catch {
+      pushGuideChat({ role: 'assistant', content: 'Something went wrong - try again.' });
+    } finally {
+      setStreaming(false);
+    }
+  }, [input, streaming, skyCtx, payload, pushGuideChat, profile.knowledge]);
 
   if (!location || !skyCtx) {
     return (
@@ -202,6 +209,11 @@ export default function GuideScreen() {
         <Pressable style={styles.sendBtn} onPress={send} disabled={streaming}>
           <Text style={styles.sendText}>Send</Text>
         </Pressable>
+        {guideChat.length > 0 && (
+          <Pressable style={styles.clearBtn} onPress={resetGuideChat} disabled={streaming}>
+            <Text style={styles.clearText}>Clear</Text>
+          </Pressable>
+        )}
       </View>
     </KeyboardAvoidingView>
   );
@@ -264,4 +276,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   sendText: { color: '#0B1026', fontWeight: '800' },
+  clearBtn: {
+    backgroundColor: '#1D2748',
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  clearText: { color: '#9AA3C0', fontWeight: '600', fontSize: 13 },
 });

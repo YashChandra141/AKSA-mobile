@@ -19,11 +19,29 @@ export interface LocalModelInfo {
   hasChatTemplate: boolean;
 }
 
-/** Recommended starter model (Gemma 3 1B instruct, 4-bit ~ 800 MB). */
-export const RECOMMENDED_MODEL = {
+/** Recommended starter model (Gemma 3 1B instruct, 4-bit ~ 770 MB). */
+export interface ModelSpec {
+  name: string;
+  url: string;
+  sizeBytes: number;
+  /** Short human description shown on the Models screen. */
+  label: string;
+}
+
+/** Small fast model - quick to download, snappy on low-end phones. */
+export const SMALL_MODEL: ModelSpec = {
+  name: 'SmolLM2-360M-Instruct-Q4_K_M.gguf',
+  url: 'https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q4_K_M.gguf',
+  sizeBytes: 270_590_880, // 258 MB
+  label: 'SmolLM2 360M instruct, 4-bit - small and fast (~258 MB)',
+};
+
+/** Higher-quality phrasing model (Gemma 3 1B instruct, 4-bit ~ 770 MB). */
+export const RECOMMENDED_MODEL: ModelSpec = {
   name: 'gemma-3-1b-it-Q4_K_M.gguf',
   url: 'https://huggingface.co/unsloth/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf',
   sizeBytes: 807_694_688, // approximate, for the size label
+  label: 'Gemma 3 1B instruct, 4-bit - better answers (~770 MB)',
 };
 
 const APP_MODELS_DIR = 'models';
@@ -143,10 +161,13 @@ export interface DownloadHandle {
 }
 
 /**
- * Download the recommended model into the app models/ folder with
+ * Download a known model spec into the app models/ folder with
  * progress. Resolves null on cancel or failure.
  */
-export function downloadRecommended(onProgress: (fraction: number) => void): DownloadHandle {
+export function downloadRecommended(
+  spec: ModelSpec,
+  onProgress: (fraction: number) => void,
+): DownloadHandle {
   const dir = modelsDir();
   if (!dir) {
     onProgress(0);
@@ -155,11 +176,11 @@ export function downloadRecommended(onProgress: (fraction: number) => void): Dow
       cancel: () => undefined,
     };
   }
-  const destination = new File(dir, RECOMMENDED_MODEL.name);
+  const destination = new File(dir, spec.name);
   if (destination.exists) destination.delete();
   // Wire the progress listener through DownloadTaskOptions, otherwise the
   // onProgress callback of this function is never invoked.
-  const task = File.createDownloadTask(RECOMMENDED_MODEL.url, destination, {
+  const task = File.createDownloadTask(spec.url, destination, {
     onProgress: (data) => onProgress(data.totalBytes > 0 ? data.bytesWritten / data.totalBytes : 0),
   });
   let settled = false;

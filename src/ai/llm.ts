@@ -36,6 +36,8 @@ const OLLAMA_PORT = 11434;
 export const OLLAMA_PREFERRED_MODEL = 'gemma3:1b';
 let ollamaModel: string | null | undefined; // undefined = not probed yet
 let ollamaBase: string | null = null;
+/** Shared in-flight probe so concurrent callers don't fan out twice. */
+let ollamaProbe: Promise<string | null> | null = null;
 
 /**
  * Candidate Ollama base URLs, in order:
@@ -71,14 +73,13 @@ async function probeOllama(base: string): Promise<string | null> {
     if (!res.ok) return null;
     const data = (await res.json()) as { models?: { name?: string }[] };
     const names = (data.models ?? []).map((m) => m.name ?? '').filter(Boolean);
-    const picked =
+    return (
       names.find((n) => /unsloth\/gemma-3-1b-it-GGUF/i.test(n)) ?? // the recommended download, imported into Ollama
       names.find((n) => n.includes(OLLAMA_PREFERRED_MODEL)) ??
       names.find((n) => /gemma/i.test(n)) ??
       names[0] ??
-      null;
-    if (picked) ollamaBase = base;
-    return picked;
+      null
+    );
   } catch {
     return null;
   } finally {
@@ -89,15 +90,26 @@ async function probeOllama(base: string): Promise<string | null> {
 /** Probe the local Ollama server(s) and pick a model (prefers gemma3:1b). */
 export async function ensureOllama(): Promise<string | null> {
   if (ollamaModel !== undefined) return ollamaModel;
-  for (const base of ollamaCandidates()) {
-    ollamaModel = await probeOllama(base);
-    if (ollamaModel) {
-      console.log('[llm] using Ollama backend:', ollamaModel, 'at', ollamaBase);
-      return ollamaModel;
-    }
+  // Ollama is a dev-machine stand-in; release builds never probe the LAN.
+  if (!__DEV__) {
+    ollamaModel = null;
+    return null;
   }
-  ollamaModel = null;
-  return null;
+  if (ollamaProbe) return ollamaProbe;
+  ollamaProbe = (async () => {
+    const candidates = ollamaCandidates();
+    const results = await Promise.all(candidates.map((base) => probeOllama(base)));
+    const idx = results.findIndex((m) => m !== null);
+    ollamaModel = idx === -1 ? null : results[idx];
+    ollamaBase = idx === -1 ? null : candidates[idx];
+    if (ollamaModel) console.log('[llm] using Ollama backend:', ollamaModel, 'at', ollamaBase);
+    return ollamaModel;
+  })();
+  try {
+    return await ollamaProbe;
+  } finally {
+    ollamaProbe = null;
+  }
 }
 
 /** True when any phrasing backend is available (loaded GGUF or Ollama). */

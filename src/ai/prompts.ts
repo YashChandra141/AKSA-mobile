@@ -18,6 +18,12 @@ export const NARRATOR_PROMPT =
   "'Fact:' followed by that fact; if there is no 'fact' field or it is " +
   "empty, write no 'Fact:' line at all.";
 
+/** Narrator tuned to the user's knowledge level. */
+export function narratorPrompt(knowledge?: KnowledgeLevel): string {
+  if (!knowledge) return NARRATOR_PROMPT;
+  return `${NARRATOR_PROMPT} ${KNOWLEDGE_RULES[knowledge]}`;
+}
+
 /** JSON tool-pick prompt (used with response_format json_object). */
 export const ROUTER_PROMPT =
   'You are the tool router for a stargazing app. Choose one tool and reply ' +
@@ -93,5 +99,18 @@ export function missionPrompt(knowledge: KnowledgeLevel, payload: string): strin
     'You are AKSA, a stargazing coach. Phrase the current mission step as one ' +
     'clear, short instruction (1-2 sentences). ' +
     `${KNOWLEDGE_RULES[knowledge]} Use only the data below.\n\nData:\n${payload}`
+  );
+}
+
+/** Missions: congratulate the observer when every step is found. */
+export function missionCompletePrompt(knowledge: KnowledgeLevel, payload: string): string {
+  return (
+    'You are AKSA, a stargazing coach. The observer just found every object ' +
+    'in tonight\u2019s mission. Congratulate them warmly and name what they ' +
+    'found, in order. ' +
+    `${KNOWLEDGE_RULES[knowledge]} Keep it to 2-3 short sentences. ` +
+    'Use only the names and facts in the data below - do not invent new ' +
+    'objects.\n\nData:\n' +
+    payload
   );
 }

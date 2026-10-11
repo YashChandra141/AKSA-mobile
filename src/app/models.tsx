@@ -23,7 +23,9 @@ import {
   RECOMMENDED_MODEL,
   rescanAndSelect,
   scanPickedFolder,
+  SMALL_MODEL,
   type LocalModelInfo,
+  type ModelSpec,
 } from '@/ai/models';
 import {
   cancelModelDownload,
@@ -48,6 +50,19 @@ export default function ModelsScreen() {
   // Downloaded results already merged into the list (paths).
   const mergedRef = useRef<Set<string>>(new Set());
 
+  /** Fire-and-forget load into llama.rn (idempotent if already loaded). */
+  const autoLoad = useCallback((m: LocalModelInfo) => {
+    (async () => {
+      const { activateModel } = await import('@/ai/models');
+      const ctx = await activateModel(m);
+      if (ctx) {
+        setStatus(`${m.name} ready - AI answers are live.`);
+      } else {
+        setStatus(`Could not load ${m.name} - AI stays on template answers.`);
+      }
+    })();
+  }, []);
+
   const scan = useCallback(async () => {
     setScanning(true);
     try {
@@ -63,6 +78,9 @@ export default function ModelsScreen() {
       } else {
         setStatus('No .gguf models found yet.');
       }
+      // Auto-load the picked model so AI features work immediately -
+      // downloading/selecting alone never loaded it into the runtime.
+      if (picked) autoLoad(picked);
     } finally {
       setScanning(false);
     }
@@ -86,15 +104,18 @@ export default function ModelsScreen() {
     );
     // Side effects deliberately OUTSIDE the state updater (an updater
     // must stay pure - calling setActiveModel inside one crashes React).
-    if (!activeModel) setActiveModel(autoSelect([res]) ?? res);
+    const current = useSessionStore.getState().activeModel;
+    if (!current) setActiveModel(autoSelect([res]) ?? res);
     setStatus(`Downloaded ${res.name} (${fmtSize(res.sizeBytes)})`);
+    // The model is useless until llama.rn loads it - do that right away.
+    autoLoad(res);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [download.result]);
 
-  const startDownload = () => {
+  const startDownload = (spec: ModelSpec) => {
     if (download.fraction !== null) return;
-    setStatus(`Downloading ${RECOMMENDED_MODEL.name}...`);
-    startModelDownload();
+    setStatus(`Downloading ${spec.name}...`);
+    startModelDownload(spec);
   };
 
   const cancelDownload = () => {
@@ -117,7 +138,15 @@ export default function ModelsScreen() {
         // Pick a sensible active model from what we now know (kept outside
         // the updater - updaters must be pure).
         const active = useSessionStore.getState().activeModel;
-        if (!active) setActiveModel(autoSelect(found) ?? null);
+        if (!active) {
+          const pick = autoSelect(found) ?? null;
+          if (pick) {
+            setActiveModel(pick);
+            autoLoad(pick);
+          } else {
+            setActiveModel(null);
+          }
+        }
         setStatus(`Imported ${found.length} model(s) from the picked folder.`);
       } else {
         setStatus('No .gguf files in that folder.');
@@ -159,7 +188,7 @@ export default function ModelsScreen() {
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Why a model?</Text>
         <Text style={styles.body}>
-          AKSA computes all positions itself. A small local model (about 0.8 GB)
+          AKSA computes all positions itself. A small local model (from ~258 MB)
           only rephrases the computed data into friendly chat - and everything
           runs on this device, no account needed. Without a model you get the
           same facts in template wording.
@@ -210,22 +239,27 @@ export default function ModelsScreen() {
       )}
 
       <View style={styles.card}>
-        <Text style={styles.cardTitle}>Get the recommended model</Text>
+        <Text style={styles.cardTitle}>Download a model</Text>
         <Text style={styles.body}>
-          {RECOMMENDED_MODEL.name} (~{fmtSize(RECOMMENDED_MODEL.sizeBytes)}) - Gemma 3 1B
-          instruct, 4-bit. Downloaded over Wi-Fi into the app's models folder.
+          Small models download fast and answer quickly - best for testing. Bigger
+          models phrase answers better but take longer to download and load.
         </Text>
         {download.fraction === null ? (
-          <Pressable style={styles.primaryButton} onPress={startDownload}>
-            <Text style={styles.primaryButtonText}>Download model</Text>
-          </Pressable>
+          <View style={{ gap: 8 }}>
+            <Pressable style={styles.primaryButton} onPress={() => startDownload(SMALL_MODEL)}>
+              <Text style={styles.primaryButtonText}>Fast test model - {SMALL_MODEL.name.replace('-Instruct-Q4_K_M.gguf', '')} ({fmtSize(SMALL_MODEL.sizeBytes)})</Text>
+            </Pressable>
+            <Pressable style={styles.linkButton} onPress={() => startDownload(RECOMMENDED_MODEL)}>
+              <Text style={styles.linkText}>Better quality - Gemma 3 1B ({fmtSize(RECOMMENDED_MODEL.sizeBytes)})</Text>
+            </Pressable>
+          </View>
         ) : (
           <View style={styles.progressBox}>
             <View style={styles.progressTrack}>
               <View style={[styles.progressFill, { flex: Math.max(download.fraction, 0.02) }]} />
             </View>
             <Text style={styles.dimText}>
-              {Math.round(download.fraction * 100)}% - keeps running while you browse
+              {download.name} - {Math.round(download.fraction * 100)}% - keeps running while you browse
             </Text>
             <Pressable style={styles.cancelButton} onPress={cancelDownload}>
               <Text style={styles.cancelText}>Cancel download</Text>

@@ -151,3 +151,91 @@ export function buildTonightMission(
   });
   return buildMission(ctx, visible, CHALLENGES, options);
 }
+
+function shuffle<T>(items: T[]): T[] {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+/**
+ * Pick up to `count` entries, one per kind before repeating a kind, so a
+ * random mission samples planets, constellations and stars rather than
+ * three similar stars.
+ */
+export function pickRandomEntries(visible: VisibleEntry[], count: number): VisibleEntry[] {
+  if (count <= 0 || !visible.length) return [];
+  const pools = new Map<string, VisibleEntry[]>();
+  for (const e of visible) {
+    const list = pools.get(e.kind) ?? [];
+    list.push(e);
+    pools.set(e.kind, list);
+  }
+  const buckets = shuffle([...pools.values()]).map((b) => shuffle(b));
+  const picked: VisibleEntry[] = [];
+  let bucket = 0;
+  while (picked.length < count && buckets.some((b) => b.length)) {
+    const next = buckets[bucket % buckets.length].shift();
+    if (next) picked.push(next);
+    bucket += 1;
+  }
+  return picked;
+}
+
+const RANDOM_TITLES: Record<string, string> = {
+  planet: 'Planet watch',
+  star: 'Star find',
+  constellation: 'Constellation trace',
+  asterism: 'Pattern hunt',
+  messier: 'Deep-sky dive',
+};
+
+/**
+ * Random mission straight from what is up at the observer's location,
+ * within their equipment and time budget.
+ */
+export function buildRandomMission(ctx: SkyContext, options: MissionOptions): Mission | null {
+  const visible = visibleTonight(ctx, {
+    equipment: options.equipment,
+    windowMinutes: options.minutes,
+    limit: 40,
+  });
+  const picks = pickRandomEntries(
+    visible.filter((e) => e.kind !== 'moon'),
+    3,
+  );
+  if (!picks.length) return null;
+
+  const steps: MissionStep[] = picks.map((e) => ({
+    kind: e.kind === 'constellation' || e.kind === 'asterism' ? 'pattern' : 'confirm',
+    title: `Find ${e.name} - ${e.compass}, about ${e.fists} fist${e.fists === 1 ? '' : 's'} up`,
+    detail: `${e.why}${e.fact ? ` Fact: ${e.fact}` : ''}`.trim(),
+    targetName: e.name,
+    targetKind: e.kind,
+  }));
+
+  return {
+    id: `mission-rand-${ctx.now.getTime()}-${Math.random().toString(36).slice(2, 7)}`,
+    title: `${RANDOM_TITLES[picks[0].kind] ?? 'Sky challenge'}: ${picks[0].name}`,
+    minutes: options.minutes,
+    equipment: options.equipment,
+    difficulty: picks.some((p) => p.needs !== 'eyes') ? 'medium' : 'easy',
+    steps,
+    doneSteps: [],
+  };
+}
+
+/** Compact mission summary for AI phrasing. */
+export function missionPayloadText(mission: Mission): string {
+  const lines = mission.steps.map((s, i) => {
+    const done = mission.doneSteps.includes(i) ? ' (found)' : '';
+    return `${i + 1}. ${s.title}${done} - ${s.detail}`;
+  });
+  return [
+    `Mission: ${mission.title} (${mission.difficulty}, for ${mission.equipment})`,
+    ...lines,
+  ].join('\n');
+}

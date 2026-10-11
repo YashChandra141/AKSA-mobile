@@ -8,9 +8,9 @@
 
 import { route, type ToolArgs, type ToolName } from '@/sky/intent';
 import { findObject, identifyObject, whatsUp, tonightSummary } from '@/sky/skyQuery';
-import { casualChatPrompt, NARRATOR_PROMPT, ROUTER_PROMPT } from './prompts';
-import { generate, generateJson, parseLooseJson, type LlmMessage } from './llm';
-import type { ChatMsg } from '@/state/session';
+import { casualChatPrompt, narratorPrompt, ROUTER_PROMPT } from './prompts';
+import { generate, generateJson, type LlmMessage } from './llm';
+import type { ChatMsg, KnowledgeLevel } from '@/state/session';
 import type { SkyContext } from '@/sky/types';
 
 const VALID_TOOLS: ToolName[] = ['find_object', 'identify_object', 'whats_up', 'tonight_verdict'];
@@ -64,6 +64,8 @@ function stripDanglingFact(answer: string): string {
 export interface ChatSessionOpts {
   /** Location line for casual chat ("am I in Kanpur?"). */
   locationLine: string;
+  /** Knowledge level, tunes the narrator's jargon and glosses. */
+  knowledge?: KnowledgeLevel;
   /** In-memory chat history (already capped at 8 messages). */
   history: ChatMsg[];
   /** Persist new turns by appending to the caller's store. */
@@ -134,7 +136,7 @@ async function phrase(
   if (fact) payload.fact = fact;
 
   const messages: LlmMessage[] = [
-    { role: 'system', content: NARRATOR_PROMPT },
+    { role: 'system', content: narratorPrompt(opts.knowledge) },
     ...opts.history.slice(-4).map((m) => ({ role: m.role, content: m.content }) as LlmMessage),
     {
       role: 'user',

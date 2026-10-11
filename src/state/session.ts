@@ -52,6 +52,11 @@ export interface SessionState {
   pushGuideChat: (msg: ChatMsg) => void;
   resetGuideChat: () => void;
 
+  // --- General AI chat history (last 20 messages kept) ---
+  generalChat: ChatMsg[];
+  pushGeneralChat: (msg: ChatMsg) => void;
+  resetGeneralChat: () => void;
+
   // --- Sky Detective clue progress: object id -> revealed clue count ---
   clueProgress: Record<string, number>;
   revealClue: (objectId: string, clueIndex: number) => void;
@@ -62,13 +67,10 @@ export interface SessionState {
   setMission: (m: Mission | null) => void;
   completeMissionStep: (stepIndex: number) => void;
   resetMission: () => void;
-
-  // --- red-light night mode ---
-  nightMode: boolean;
-  toggleNightMode: () => void;
 }
 
 const MAX_CHAT = 8;
+const MAX_GENERAL_CHAT = 20;
 export const useSessionStore = create<SessionState>((set) => ({
   location: null,
   locationState: 'idle',
@@ -89,6 +91,14 @@ export const useSessionStore = create<SessionState>((set) => ({
       return { guideChat: chat.slice(-MAX_CHAT) };
     }),
   resetGuideChat: () => set({ guideChat: [] }),
+
+  generalChat: [],
+  pushGeneralChat: (msg) =>
+    set((s) => {
+      const chat = [...s.generalChat, msg];
+      return { generalChat: chat.slice(-MAX_GENERAL_CHAT) };
+    }),
+  resetGeneralChat: () => set({ generalChat: [] }),
 
   clueProgress: {},
   revealClue: (objectId, clueIndex) =>
@@ -121,7 +131,4 @@ export const useSessionStore = create<SessionState>((set) => ({
       };
     }),
   resetMission: () => set({ mission: null }),
-
-  nightMode: false,
-  toggleNightMode: () => set((s) => ({ nightMode: !s.nightMode })),
 }));
