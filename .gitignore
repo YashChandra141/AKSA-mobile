@@ -38,6 +38,12 @@ yarn-error.*
 
 example
 
+# local command output logs and captured build logs (project root)
+/*.txt
+/*.bin
+/*.json.orig
+pull_api.json
+
 # generated native folders
 /ios
 /android
