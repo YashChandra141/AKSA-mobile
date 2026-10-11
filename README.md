@@ -8,6 +8,14 @@ Unlike a generic AI astronomy chatbot, AKSA calculates astronomical positions on
 
 No account. No telemetry. Astronomy computed on your device.
 
+## 📸 Screenshots
+
+| Tonight Verdict | Sky Detective | Object + AI chat |
+| --- | --- | --- |
+| ![Tonight verdict — GO 100/100](docs/screenshots/tonight.jpg) | ![Sky Detective all-sky map](docs/screenshots/sky-map.jpg) | ![Capella object screen with AI chat](docs/screenshots/object-chat.jpg) |
+| **Missions** | **Models** | |
+| ![Stargazing missions](docs/screenshots/missions.jpg) | ![On-device model manager](docs/screenshots/models.jpg) | |
+
 ---
 
 ## ✨ Features
