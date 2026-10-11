@@ -48,3 +48,4 @@ pull_api.json
 # generated native folders
 /ios
 /android
+*.apk
