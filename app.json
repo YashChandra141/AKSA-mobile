@@ -60,6 +60,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1d2d1fda-fcb8-4af3-a05b-631c3c5750e5"
+      }
+    },
+    "owner": "noctis101s-team"
   }
 }

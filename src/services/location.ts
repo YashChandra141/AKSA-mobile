@@ -78,8 +78,12 @@ export async function getGpsLocation(): Promise<GpsResult> {
     const lat = Math.round(pos.coords.latitude * 10000) / 10000;
     const lon = Math.round(pos.coords.longitude * 10000) / 10000;
     const nearest = nearestCity(lat, lon);
+    // Always label with a city name - raw coordinates mean nothing to a
+    // stargazer. When the fix is far from the nearest bundled city, say so.
     const label =
-      nearest.distanceKm <= 40 ? nearest.name : `${lat}, ${lon}`;
+      nearest.distanceKm <= 40
+        ? nearest.name
+        : `${nearest.name} (${Math.round(nearest.distanceKm)} km away)`;
     return {
       ok: true,
       loc: { lat, lon, tz: deviceTimezone(), label, source: 'gps' },

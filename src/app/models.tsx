@@ -5,7 +5,7 @@
  * here re-scans per launch - nothing is persisted.
  */
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import {
   ActivityIndicator,
   Pressable,
@@ -15,17 +15,22 @@ import {
   View,
 } from 'react-native';
 import { Stack } from 'expo-router';
+import Constants from 'expo-constants';
 import {
   autoSelect,
   deleteModel,
-  downloadRecommended,
   fmtSize,
   RECOMMENDED_MODEL,
   rescanAndSelect,
   scanPickedFolder,
-  type DownloadHandle,
   type LocalModelInfo,
 } from '@/ai/models';
+import {
+  cancelModelDownload,
+  downloadSnapshot,
+  startModelDownload,
+  subscribeDownload,
+} from '@/ai/download';
 import { ensureOllama } from '@/ai/llm';
 import { useSessionStore } from '@/state/session';
 
@@ -35,10 +40,13 @@ export default function ModelsScreen() {
 
   const [models, setModels] = useState<LocalModelInfo[] | null>(null);
   const [scanning, setScanning] = useState(false);
-  const [downloadFrac, setDownloadFrac] = useState<number | null>(null);
+  // Download state lives in a module-level manager: navigating away from
+  // this screen (or re-entering it) never cancels the download.
+  const download = useSyncExternalStore(subscribeDownload, downloadSnapshot);
   const [status, setStatus] = useState<string | null>(null);
   const [ollamaModel, setOllamaModel] = useState<string | null>(null);
-  const downloadRef = useRef<DownloadHandle | null>(null);
+  // Downloaded results already merged into the list (paths).
+  const mergedRef = useRef<Set<string>>(new Set());
 
   const scan = useCallback(async () => {
     setScanning(true);
@@ -62,47 +70,58 @@ export default function ModelsScreen() {
 
   useEffect(() => {
     scan();
-    return () => downloadRef.current?.cancel();
+    // Intentionally NO cleanup that cancels the download: it must keep
+    // running when the user navigates away or minimizes the app.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Pick up a finished download from the manager (fires on any screen
+  // re-entry too, since the manager survives navigation).
+  useEffect(() => {
+    const res = download.result;
+    if (!res || mergedRef.current.has(res.path)) return;
+    mergedRef.current.add(res.path);
+    setModels((prev) =>
+      prev?.some((m) => m.path === res.path) ? prev : [...(prev ?? []), res],
+    );
+    // Side effects deliberately OUTSIDE the state updater (an updater
+    // must stay pure - calling setActiveModel inside one crashes React).
+    if (!activeModel) setActiveModel(autoSelect([res]) ?? res);
+    setStatus(`Downloaded ${res.name} (${fmtSize(res.sizeBytes)})`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [download.result]);
+
   const startDownload = () => {
-    if (downloadFrac !== null) return;
+    if (download.fraction !== null) return;
     setStatus(`Downloading ${RECOMMENDED_MODEL.name}...`);
-    setDownloadFrac(0);
-    const handle = downloadRecommended(setDownloadFrac);
-    downloadRef.current = handle;
-    handle.promise.then((info) => {
-      downloadRef.current = null;
-      setDownloadFrac(null);
-      if (info) {
-        setModels((prev) => {
-          const next = [...(prev ?? []), info];
-          setActiveModel(autoSelect(next));
-          return next;
-        });
-        setStatus(`Downloaded ${info.name} (${fmtSize(info.sizeBytes)})`);
-      } else {
-        setStatus('Download cancelled or failed.');
-      }
-    });
+    startModelDownload();
+  };
+
+  const cancelDownload = () => {
+    cancelModelDownload();
+    setStatus('Download cancelled.');
   };
 
   const importFolder = async () => {
     setStatus('Pick the folder that holds your .gguf files...');
     try {
       const found = await scanPickedFolder();
-      // Imported files are referenced in place; merge into the list.
-      setModels((prev) => {
-        const merged = [...(prev ?? []), ...found.filter((f) => !prev?.some((p) => p.path === f.path))];
-        setActiveModel(autoSelect(merged) ?? activeModel);
-        return merged;
-      });
-      setStatus(
-        found.length
-          ? `Imported ${found.length} model(s) from the picked folder.`
-          : 'No .gguf files in that folder.',
-      );
+      if (found.length) {
+        setModels((prev) => {
+          const merged = [
+            ...(prev ?? []),
+            ...found.filter((f) => !prev?.some((p) => p.path === f.path)),
+          ];
+          return merged;
+        });
+        // Pick a sensible active model from what we now know (kept outside
+        // the updater - updaters must be pure).
+        const active = useSessionStore.getState().activeModel;
+        if (!active) setActiveModel(autoSelect(found) ?? null);
+        setStatus(`Imported ${found.length} model(s) from the picked folder.`);
+      } else {
+        setStatus('No .gguf files in that folder.');
+      }
     } catch {
       setStatus('Folder import cancelled.');
     }
@@ -115,7 +134,15 @@ export default function ModelsScreen() {
     const ctx = await activateModel(m, (f) =>
       setStatus(`Loading ${m.name}... ${Math.round(f * 100)}%`),
     );
-    setStatus(ctx ? `${m.name} ready.` : `Could not load ${m.name}.`);
+    if (ctx) {
+      setStatus(`${m.name} ready.`);
+    } else if (Constants.appOwnership === 'expo') {
+      setStatus(
+        `On-device models cannot load inside Expo Go (they need a native build). AI phrasing is using local Ollama instead.`,
+      );
+    } else {
+      setStatus(`Could not load ${m.name}.`);
+    }
   };
 
   const remove = async (m: LocalModelInfo) => {
@@ -188,16 +215,21 @@ export default function ModelsScreen() {
           {RECOMMENDED_MODEL.name} (~{fmtSize(RECOMMENDED_MODEL.sizeBytes)}) - Gemma 3 1B
           instruct, 4-bit. Downloaded over Wi-Fi into the app's models folder.
         </Text>
-        {downloadFrac === null ? (
+        {download.fraction === null ? (
           <Pressable style={styles.primaryButton} onPress={startDownload}>
             <Text style={styles.primaryButtonText}>Download model</Text>
           </Pressable>
         ) : (
           <View style={styles.progressBox}>
             <View style={styles.progressTrack}>
-              <View style={[styles.progressFill, { flex: downloadFrac }]} />
+              <View style={[styles.progressFill, { flex: Math.max(download.fraction, 0.02) }]} />
             </View>
-            <Text style={styles.dimText}>{Math.round(downloadFrac * 100)}%</Text>
+            <Text style={styles.dimText}>
+              {Math.round(download.fraction * 100)}% - keeps running while you browse
+            </Text>
+            <Pressable style={styles.cancelButton} onPress={cancelDownload}>
+              <Text style={styles.cancelText}>Cancel download</Text>
+            </Pressable>
           </View>
         )}
         <Pressable style={styles.linkButton} onPress={importFolder}>
@@ -246,6 +278,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   progressFill: { backgroundColor: '#7FD4FF', minWidth: 4 },
+  cancelButton: {
+    borderRadius: 10,
+    paddingVertical: 8,
+    backgroundColor: '#2A1B2A',
+    alignItems: 'center',
+  },
+  cancelText: { color: '#E5646E', fontWeight: '600', fontSize: 13 },
   linkButton: {
     backgroundColor: '#1D2748',
     borderRadius: 12,

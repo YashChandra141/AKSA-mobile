@@ -7,6 +7,7 @@
  */
 
 import type { LlamaContext } from 'llama.rn';
+import { NativeModules, Platform } from 'react-native';
 
 export type LlmMessage = { role: 'system' | 'user' | 'assistant'; content: string };
 
@@ -25,42 +26,78 @@ let loading: Promise<LlamaContext | null> | null = null;
 
 // --- Ollama dev backend -------------------------------------------------
 // On a dev machine a local Ollama server (gemma3:1b) stands in for the
-// on-device GGUF so features can be tested without a device build. The
-// server runs on the same machine as the bundler; on a real device this
-// is unreachable and the llama.rn / template paths take over.
-const OLLAMA_URL = 'http://localhost:11434';
+// on-device GGUF so features can be tested without a device build. In
+// Expo Go the llama.rn native module is unavailable, so this fallback is
+// what makes AI phrasing work on phones/emulators too. The server runs
+// on the dev machine; on a real device this is unreachable (unless on
+// the same Wi-Fi) and the template paths take over.
+const OLLAMA_PORT = 11434;
 /** Preferred dev model, pinned for local testing. */
 export const OLLAMA_PREFERRED_MODEL = 'gemma3:1b';
 let ollamaModel: string | null | undefined; // undefined = not probed yet
+let ollamaBase: string | null = null;
 
-/** Probe the local Ollama server and pick a model (prefers gemma3:1b). */
-export async function ensureOllama(): Promise<string | null> {
-  if (ollamaModel !== undefined) return ollamaModel;
+/**
+ * Candidate Ollama base URLs, in order:
+ *  - localhost (the classic dev case: bundler and server on one machine)
+ *  - 10.0.2.2 (Android emulator's alias for the host PC's localhost)
+ *  - the Metro dev server's host (PC LAN IP, works from a phone on the
+ *    same Wi-Fi) - read from the dev launcher script URL, no stored state.
+ */
+function ollamaCandidates(): string[] {
+  const urls = new Set<string>();
+  urls.add(`http://localhost:${OLLAMA_PORT}`);
+  if (Platform.OS === 'android') urls.add(`http://10.0.2.2:${OLLAMA_PORT}`);
   try {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 3000);
-    try {
-      const res = await fetch(`${OLLAMA_URL}/api/tags`, { signal: controller.signal });
-      if (!res.ok) {
-        ollamaModel = null;
-        return null;
-      }
-      const data = (await res.json()) as { models?: { name?: string }[] };
-      const names = (data.models ?? []).map((m) => m.name ?? '').filter(Boolean);
-      ollamaModel =
-        names.find((n) => n === OLLAMA_PREFERRED_MODEL) ??
-        names.find((n) => /gemma/i.test(n)) ??
-        names[0] ??
-        null;
-      if (ollamaModel) console.log('[llm] using Ollama backend:', ollamaModel);
-      return ollamaModel;
-    } finally {
-      clearTimeout(timer);
+    // e.g. http://192.168.29.177:8081/node_modules/expo-router/entry.bundle
+    const scriptURL =
+      (NativeModules.SourceCode && NativeModules.SourceCode.scriptURL) || '';
+    const m = scriptURL.match(/^[a-z]+:\/\/([^/:]+)/i);
+    const host = m?.[1];
+    if (host && host !== 'localhost' && !host.startsWith('127.')) {
+      urls.add(`http://${host}:${OLLAMA_PORT}`);
     }
   } catch {
-    ollamaModel = null;
-    return null;
+    // SourceCode module unavailable (rare) - localhost fallbacks remain.
   }
+  return [...urls];
+}
+
+async function probeOllama(base: string): Promise<string | null> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 3000);
+  try {
+    const res = await fetch(`${base}/api/tags`, { signal: controller.signal });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { models?: { name?: string }[] };
+    const names = (data.models ?? []).map((m) => m.name ?? '').filter(Boolean);
+    const picked =
+      names.find((n) => /unsloth\/gemma-3-1b-it-GGUF/i.test(n)) ?? // the recommended download, imported into Ollama
+      names.find((n) => n.includes(OLLAMA_PREFERRED_MODEL)) ??
+      names.find((n) => /gemma/i.test(n)) ??
+      names[0] ??
+      null;
+    if (picked) ollamaBase = base;
+    return picked;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/** Probe the local Ollama server(s) and pick a model (prefers gemma3:1b). */
+export async function ensureOllama(): Promise<string | null> {
+  if (ollamaModel !== undefined) return ollamaModel;
+  for (const base of ollamaCandidates()) {
+    ollamaModel = await probeOllama(base);
+    if (ollamaModel) {
+      console.log('[llm] using Ollama backend:', ollamaModel, 'at', ollamaBase);
+      return ollamaModel;
+    }
+  }
+  ollamaModel = null;
+  return null;
 }
 
 /** True when any phrasing backend is available (loaded GGUF or Ollama). */
@@ -76,12 +113,12 @@ async function generateOllama(opts: {
   onToken?: (partial: string) => void;
 }): Promise<GenerateResult | null> {
   const model = await ensureOllama();
-  if (!model) return null;
+  if (!model || !ollamaBase) return null;
   try {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 120_000);
     try {
-      const res = await fetch(`${OLLAMA_URL}/api/chat`, {
+      const res = await fetch(`${ollamaBase}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         signal: controller.signal,

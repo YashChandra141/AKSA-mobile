@@ -3,6 +3,7 @@ import type { Theme } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
+import { useEffect } from 'react';
 import { StyleSheet, useColorScheme, View } from 'react-native';
 
 import { useSessionStore } from '@/state/session';
@@ -16,6 +17,14 @@ export const unstable_settings = {
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const nightMode = useSessionStore((s) => s.nightMode);
+
+  // expo-router does not hide the splash screen itself - once the root
+  // layout has mounted, fade it out so the app beneath becomes visible.
+  // Without this, Android/iOS sit on the splash forever (web has no
+  // splash, which is why this never showed up there).
+  useEffect(() => {
+    SplashScreen.hideAsync().catch(() => {});
+  }, []);
 
   const theme = nightMode
     ? AKSA_NIGHT_THEME

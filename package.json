@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@react-navigation/native": "^7.5.0",
-    "@shopify/react-native-skia": "2.6.2",
+    "@shopify/react-native-skia": "2.14.0",
     "astronomy-engine": "^2.1.19",
     "expo": "~57.0.27",
     "expo-constants": "~57.0.21",
