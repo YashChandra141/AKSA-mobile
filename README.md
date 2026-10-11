@@ -1,100 +1,213 @@
-# AKSA — your stargazing buddy, computed on your phone
+# 🌌 AKSA — Your Stargazing Buddy, Computed on Your Phone
 
-AKSA is an offline-first stargazing companion. It tells you **whether tonight is
-worth going out**, **what you can actually see from where you are**, and walks
-you to it with **compass directions and fists** — one fist at arm's length is
-about 10°. A friendly local AI model rephrases the computed answers into chat,
-but it never invents a single position: the astronomy is always calculated on
-device, right where you stand.
+**Know whether tonight is worth going out. Discover what's actually visible in your sky. Find it with directions you can follow using your own hands.**
 
-No account. No telemetry. No stored app data.
+AKSA is an offline-first, AI-powered stargazing companion that turns your phone into a personal guide to the night sky.
 
-## What it does
+Unlike a generic AI astronomy chatbot, AKSA calculates astronomical positions on-device. Its local language model explains the results in friendly, natural language — it never invents celestial positions or decides what is visible from memory.
 
-- **Tonight verdict** — a GO / MAYBE / SKIP score for tonight built from the
-  dark window (Sun −18°), real cloud cover, the Moon's phase and how long it
-  will be up, and active meteor showers. With reasons you can check yourself.
-- **Where is it?** — ask for any star, planet, constellation, asterism or
-  Messier object: direction, height in fists, when it rises and sets, what
-  equipment you need, and a star-hop hint from a nearby bright star.
-- **What's that bright star in the east?** — identify unknown objects from a
-  direction and height above the horizon.
-- **Sky Detective** — a live all-sky map you can tap. Don't know what you're
-  looking at? A five-clue guessing ladder (direction → star-hop → shape →
-  comparison → reveal) is built from verified data, never the model's memory.
-- **Stargazing missions** — a short chain of real, doable challenges for
-  tonight, filtered by what is actually up and the equipment you told AKSA you
-  have. Stuck on a step? The Detective's clue ladder walks you in.
-- **AI Chat** — free-form conversation with the loaded on-device model about
-  anything, sky or otherwise. In-memory history only.
-## Privacy by construction
+No account. No telemetry. Astronomy computed on your device.
 
-- **Location is used in memory only.** A fresh GPS fix every launch, never
-  written to disk. Deny GPS and pick a city instead.
-- **No stored app data at all.** Profile, chat history, clue progress and
-  mission progress reset when you close the app. There is no journal, no
-  sync, no analytics.
-- **The only network calls are** (1) Open-Meteo for cloud cover, (2) an
-  optional one-time download of a small GGUF model (258 MB – 0.8 GB), and
-  (3) ipapi.co for an automatic IP-based location/timezone — used only when
-  GPS is unavailable so the sky math uses the right clock. Everything else
-  runs offline. When the location is IP-approximate, the Tonight screen says
-  so and offers a one-tap city change.
-- **The AI runs on your phone.** The local model (SmolLM2 360M or Gemma 3 1B)
-  only phrases sentences from computed data. It cannot see the sky, and the
-  prompts forbid it from guessing positions.
+---
 
-## How the AI works (the honest version)
+## ✨ Features
 
-Every factual sentence AKSA produces comes from TypeScript code —
-[astronomy-engine](https://github.com/cosinekitty/astronomy) ported to a
-pure-TS sky engine — fed by the bundled catalogs (bright stars, Messier
-objects, constellations, asterisms, meteor showers, facts). The local model
-has exactly three jobs:
+### 🌙 Tonight Verdict
 
-1. **Pick a tool** for unusual questions (a tiny JSON router call, capped at
-   80 tokens),
-2. **Phrase** the computed result into 2–4 friendly sentences, and
-3. **Chat casually** (with a strict guard: it must never claim to see or name
-   anything in the sky).
+Should you go stargazing tonight?
 
-If no model is installed, AKSA answers with clean template wording instead —
-same facts, same features.
+AKSA calculates a **GO / MAYBE / SKIP** recommendation using:
 
-## Requirements
+- Astronomical darkness, based on the Sun being below −18°.
+- Real cloud-cover data.
+- Moon phase and how long the Moon will be above the horizon.
+- Active meteor showers and their observing conditions.
 
-- [Bun](https://bun.sh) 1.4.0 (package manager)
-- Node.js 20+ (for Expo tooling)
-- Android Studio / Xcode for a device build, or Expo Go for a quick look
+Every verdict comes with reasons you can inspect, rather than an unexplained AI-generated score.
 
-## Getting started
+### 🔭 Where Is It?
 
-```bash
-bun install        # deps; also fetches llama.rn native artifacts
-bun run android    # or: bun run ios
-bun run test       # 105 tests: golden fixtures vs the Python reference + unit tests
-bun run typecheck  # tsc --noEmit
+Ask AKSA about a star, planet, constellation, asterism, or Messier object.
+
+Get useful observing information, including:
+
+- Direction and altitude above the horizon.
+- Approximate height in fists at arm's length — one fist represents roughly 10°.
+- Rise and set times.
+- Recommended observing equipment.
+- Star-hopping hints using nearby bright stars.
+
+AKSA uses your location and the current time to calculate the relevant sky information.
+
+### 🧭 What's That Bright Object?
+
+Not sure what you're looking at?
+
+Describe the direction and approximate height above the horizon. AKSA searches its computed sky data for plausible candidates.
+
+It uses astronomical calculations rather than asking the language model to guess what might be in the sky.
+
+### 🕵️ Sky Detective
+
+Explore a live all-sky map and tap objects to learn more about them.
+
+When you need help finding an object, follow a five-stage clue ladder:
+
+1. **Direction** — where to look.
+2. **Star-hop** — which bright star to find first.
+3. **Shape** — what pattern to recognize.
+4. **Comparison** — how to distinguish the target.
+5. **Reveal** — identify the object and explain what makes it interesting.
+
+Clues are generated from verified catalog and sky-engine data, not from the model's unverified recollection.
+
+### 🎯 Stargazing Missions
+
+Turn a night outside into a series of small discoveries.
+
+AKSA generates short observing challenges based on what's actually visible and the equipment available to you.
+
+- Find objects that are currently observable.
+- Follow practical, achievable observing steps.
+- Get additional Detective clues when you get stuck.
+- Explore the sky without needing to know astronomy beforehand.
+
+### 💬 AI Chat
+
+A general-purpose chat with the loaded on-device model — talk about the sky or anything else, with streaming replies and a clear-chat button. Unlike the Guide, it is not grounded in tonight's computed plan, so it can wander freely. History is memory-only and resets when the app closes.
+
+### 🤖 On-Device AI
+
+AKSA uses a local GGUF language model through `llama.rn` and `llama.cpp`, with two download options on the Models screen:
+
+- **Fast test model** — `SmolLM2-360M-Instruct-Q4_K_M.gguf`, about 258 MB. Quick to download and snappy on budget phones.
+- **Better quality** — `gemma-3-1b-it-Q4_K_M.gguf`, about 770 MB. Nicer phrasing, slower on low-end devices.
+
+Downloaded and imported models **load into the AI runtime automatically** — the status line confirms when the model is live.
+
+The model has three primary responsibilities:
+
+1. **Route questions** to the appropriate application capability.
+2. **Explain computed results** in friendly, natural language.
+3. **Handle casual conversation** without pretending to see the sky or fabricate astronomical facts.
+
+If no model is installed, AKSA falls back to template-based responses. The core astronomy experience remains available without requiring a hosted language-model API.
+
+---
+
+## 🧠 How the AI Works
+
+AKSA separates astronomical computation from language generation.
+
+```text
+User question
+     │
+     ▼
+Intent routing
+     │
+     ▼
+On-device astronomy engine
+     │
+     ├── Object positions
+     ├── Rise and set times
+     ├── Visibility calculations
+     ├── Weather and Moon conditions
+     └── Catalog and observing data
+     │
+     ▼
+Local language model
+     │
+     ▼
+Friendly explanation grounded in computed results
 ```
 
-### Installing the AI model
+The astronomy engine is the source of truth. The local model helps interpret the user's intent and communicate results; it does not determine celestial positions from its training data.
 
-Open the **Models** screen and pick:
+When the model is unavailable, deterministic application logic and response templates provide a fallback.
 
-- **Fast test model** — `SmolLM2-360M-Instruct-Q4_K_M.gguf`, about 258 MB.
-  Downloads quickly and answers snappily; ideal on budget phones.
-- **Better quality** — `gemma-3-1b-it-Q4_K_M.gguf`, about 770 MB. Nicer
-  phrasing, slower on low-end devices.
+**The principle is simple: calculate the sky, then explain it.**
 
-You can also import a folder of `.gguf` files you already have. Downloaded
-and imported models **load into the AI runtime automatically** — the status
-line tells you when the model is live (until then you get template wording).
-AKSA auto-selects the best model on each launch and tells you when it's
-running in template-only mode.
+---
 
-On iOS the app enables file sharing, so you can also drop `.gguf` files into
-the app's `models/` folder via Finder.
+## 🔒 Privacy by Construction
 
-### Building a release APK (standalone, no Metro needed)
+AKSA is designed around local computation and minimal data collection.
+
+- **No account required.** There is no sign-up flow.
+- **Location in memory.** GPS coordinates are used during the session and are not intentionally persisted by the app. If GPS is unavailable, you can select a city.
+- **No persisted personal app state.** Chat history, profile settings, clue progress, and mission progress reset when the app closes.
+- **No analytics or telemetry.** AKSA does not intentionally send usage analytics to a tracking service.
+- **Local AI inference.** Once the model is downloaded, text generation runs on the device.
+- **Minimal network dependencies.** Open-Meteo supplies cloud-cover data, and an optional IP-location fallback can use ipapi.co when GPS is unavailable. Downloading a GGUF model also requires an internet connection.
+
+Weather requests require sending the relevant location to the weather service. The IP-location fallback communicates with its provider when used.
+
+The model download is optional for the template-only experience, although model-based responses require a compatible model installed on the device.
+
+---
+
+## 🛠️ Tech Stack
+
+| Component                 | Technology                                                         |
+| ------------------------- | ------------------------------------------------------------------ |
+| Mobile application        | React Native, Expo, TypeScript                                     |
+| Navigation                | Expo Router                                                        |
+| Local AI integration      | `llama.rn`                                                         |
+| Inference engine          | `llama.cpp`                                                        |
+| Model format              | GGUF                                                               |
+| Default models            | SmolLM2 360M (fast, 258 MB) / Gemma 3 1B (quality, ~770 MB), Q4_K_M |
+| State management          | Zustand, without persistence                                       |
+| Astronomy engine          | Pure TypeScript port of the original Python astronomy calculations |
+| Weather data              | Open-Meteo                                                         |
+| Testing                   | Unit tests and golden fixtures against a Python reference          |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Bun](https://bun.sh/) 1.4.0
+- [Node.js](https://nodejs.org/) 20 or later for Expo tooling
+- An Android device or compatible emulator
+- A custom Expo development build or standalone APK for native `llama.rn` support
+
+Expo Go alone does not include arbitrary native modules such as `llama.rn`.
+
+### Install dependencies
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/YashChandra141/AKSA-mobile.git
+cd AKSA-mobile
+```
+
+Install dependencies:
+
+```bash
+bun install
+```
+
+Follow the repository's native setup instructions if the `llama.rn` native artifacts need to be downloaded separately.
+
+### Run the application
+
+Use the scripts defined in `package.json`. If the project defines the following scripts:
+
+```bash
+bun run android
+bun run test
+bun run typecheck
+```
+
+- `android` launches the configured Android development workflow.
+- `test` runs the project's test suite.
+- `typecheck` runs TypeScript checks.
+
+A native development build is required for testing the full local-AI integration.
+
+### Build an Android APK (release, standalone)
 
 The debug build loads its JavaScript from Metro, but a release APK is fully
 self-contained — install it once and the phone needs nothing else:
@@ -104,37 +217,159 @@ cd android
 .\gradlew assembleRelease
 ```
 
-The APK lands at `android/app/build/outputs/apk/release/app-release.apk`.
-The build compiles for arm64 only (`reactNativeArchitectures` in
-`gradle.properties`) and caps parallel compile workers (llama.cpp translation
-units need 1 GB+ RAM each), which keeps the build stable on modest machines.
-A rebuild after a change is quick — gradle caches all native compilation.
+The APK is written to `android/app/build/outputs/apk/release/aksa.apk`
+(the release APK is renamed to `aksa.apk` at build time). The build targets
+arm64 only (`reactNativeArchitectures` in `gradle.properties`) and caps
+parallel compile workers, since llama.cpp translation units need 1 GB+ of RAM
+each. A rebuild after a change is quick — gradle caches all native
+compilation.
 
-## Project structure
+### Build with EAS (alternative)
 
+AKSA can also be built remotely using Expo Application Services (EAS),
+avoiding local Android Gradle compilation.
+
+Configure your EAS build profiles in `eas.json`, then run:
+
+```bash
+bunx eas-cli login
+bunx eas-cli build:configure
+bunx eas-cli build --platform android --profile preview
 ```
+
+Note: the free EAS plan caps builds at 45 minutes, which this project's
+native C++ (llama.cpp) can exceed — the local build above is the proven
+path. Make sure the selected profile specifies an APK build using
+`android.buildType: "apk"`. After the build completes, download the APK from
+the Expo build dashboard and install it on your Android device.
+
+Cloud compilation does not eliminate the need to test native inference on a real device.
+
+---
+
+## 🧩 Installing the AI Model
+
+Pick a model on the **Models** screen:
+
+1. Open **Models** and download the **fast test model** (`SmolLM2-360M-Instruct-Q4_K_M.gguf`, ~258 MB) or the **better quality** model (`gemma-3-1b-it-Q4_K_M.gguf`, ~770 MB) over Wi-Fi — or import a compatible GGUF you already have.
+2. The model **loads automatically** once downloaded — the status line says "ready — AI answers are live."
+3. Ask a question and receive a response from the local model.
+
+Model availability, memory usage, and inference speed depend on the device and the model's compatibility.
+
+If no model is installed, AKSA uses its template-only fallback.
+
+---
+
+## 📁 Project Structure
+
+```text
 src/
-  app/          Expo Router screens (Tonight, Guide, AI Chat, Detective, Missions, Models, Object)
-  sky/          The pure sky engine: astro, catalog, score, facts, intent,
-                skyQuery, mapData, clues, missions — all deterministic and unit-tested
-  ai/           prompts, llm runtime (llama.rn), router, model manager
-  services/     location (GPS/city) and weather (Open-Meteo) — memory only
-  state/        one Zustand store, deliberately not persisted
-tests/          golden fixtures dumped from the Python reference + unit tests
-tools/          fixture generation and maintenance scripts
+├── app/          # Expo Router screens
+│   ├── Tonight
+│   ├── Guide
+│   ├── Chat
+│   ├── Detective
+│   ├── Missions
+│   ├── Models
+│   └── Object
+├── sky/          # Deterministic astronomy logic
+│   ├── astro
+│   ├── catalog
+│   ├── score
+│   ├── facts
+│   ├── intent
+│   ├── skyQuery
+│   ├── mapData
+│   ├── clues
+│   └── missions
+├── ai/           # Local inference and AI orchestration
+│   ├── prompts
+│   ├── llm runtime
+│   ├── router
+│   └── model manager
+├── services/     # Location and weather
+└── state/        # In-memory Zustand state
+
+tests/             # Unit tests and golden fixtures
+tools/             # Fixture generation and maintenance
 ```
 
-The sky engine is a line-faithful port of the original Python **AKSA** CLI
-(Skyfield-based), verified against golden fixtures for three sites and seasons
-(Pune autumn, Reykjavík summer, New York winter) with tight tolerances
-(0.5° positions, 5-minute rise/set times).
+---
 
-## Attribution
+## 🧪 Testing and Accuracy
 
-- Sky math: [astronomy-engine](https://github.com/cosinekitty/astronomy)
-- Cloud cover: [Open-Meteo](https://open-meteo.com) (free, no key)
-- On-device model: [llama.cpp](https://github.com/ggml-org/llama.cpp) via
-  [llama.rn](https://github.com/mybigday/llama.rn); Gemma 3 1B GGUF by Google
-  (quantized by unsloth) and SmolLM2 360M GGUF by HuggingFaceTB (quantized by
-  bartowski) on Hugging Face
-- Star catalogs: HYG and Messier data bundled from the original AKSA project
+The sky engine is intended to preserve the behavior of the original Python AKSA CLI through a TypeScript implementation.
+
+The suite — 105 tests across 4 files — runs golden fixture comparisons against the Python reference across multiple observing locations and seasons, including Pune in autumn, Reykjavík in summer, and New York in winter.
+
+The stated comparison tolerances are:
+
+- **Angular positions:** within 0.5°.
+- **Rise and set times:** within 5 minutes.
+
+These are test targets for the reference comparisons, not a guarantee of accuracy for every object, location, or observing condition.
+
+Run the project's test suite and type checks before contributing changes:
+
+```bash
+bun run test
+bun run typecheck
+```
+
+---
+
+## 🌌 Design Philosophy
+
+AKSA is built around three principles:
+
+**1. Computation over hallucination**
+
+Astronomical positions and visibility are calculated from data and algorithms, not generated by a language model.
+
+**2. Local-first AI**
+
+The model runs on the phone, reducing reliance on remote AI services and keeping conversational processing on-device.
+
+**3. Discovery over complexity**
+
+Astronomy should be approachable. Directions, fist measurements, star-hopping hints, clues, and missions help newcomers explore without needing specialist equipment or prior knowledge.
+
+---
+
+## 📚 Attribution
+
+- **Astronomy calculations:** [Astronomy Engine](https://github.com/cosinekitty/astronomy) and the original AKSA Python reference implementation.
+- **Weather:** [Open-Meteo](https://open-meteo.com/).
+- **On-device inference:** [llama.cpp](https://github.com/ggml-org/llama.cpp).
+- **React Native integration:** [llama.rn](https://github.com/mybigday/llama.rn).
+- **Language model:** [Gemma](https://ai.google.dev/gemma), with quantized GGUF model distribution.
+- **Astronomical catalogs:** HYG star catalog and Messier object data bundled from the original AKSA project.
+
+Please consult the respective projects' licenses and attribution requirements when redistributing their data or model files.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and ideas are welcome.
+
+Areas where contributions are especially useful include:
+
+- Astronomy-engine accuracy and test coverage.
+- New observing challenges and clue strategies.
+- Better model compatibility and memory management.
+- Accessibility and usability improvements.
+- Documentation and reproducible build instructions.
+
+Please include tests for changes to deterministic astronomy logic whenever practical.
+
+---
+
+## 📄 License
+
+See the repository's `LICENSE` file for the project's licensing terms.
+
+---
+
+**AKSA — The sky is computed. The wonder is yours.** 🌠
