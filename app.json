@@ -35,6 +35,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "./plugins/llama-trim",
       "expo-router",
       [
         "expo-splash-screen",
