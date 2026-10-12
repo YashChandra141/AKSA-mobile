@@ -1,4 +1,4 @@
-# 🌌 AKSA — Your Stargazing Buddy, Computed on Your Phone
+# 🌌 AKSA — Your Stargazing Companion
 
 **Know whether tonight is worth going out. Discover what's actually visible in your sky. Find it with directions you can follow using your own hands.**
 
@@ -372,12 +372,6 @@ Areas where contributions are especially useful include:
 
 Please include tests for changes to deterministic astronomy logic whenever practical.
 
----
 
-## 📄 License
-
-See the repository's `LICENSE` file for the project's licensing terms.
-
----
 
 **AKSA — The sky is computed. The wonder is yours.** 🌠
