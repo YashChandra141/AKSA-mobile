@@ -1,0 +1,46 @@
+# Render blueprint for the AKSA web preview.
+#
+# The mobile app is fully on-device; this deployment is the browser
+# preview of the same code: computed sky engine, Open-Meteo weather,
+# and template answers. On-device AI (llama.rn) and GPS cannot run in a
+# browser - the site falls back to templates and the city picker, which
+# the code already handles.
+#
+# Deploy: Render dashboard -> New -> Blueprint -> point at this repo,
+# or `render blueprint launch` with the Render CLI. Everything is in
+# this one file; no other dashboard settings are needed.
+services:
+  - type: web
+    name: aksa-web
+    runtime: static
+    buildCommand: sh scripts/render-build.sh
+    staticPublishPath: dist
+    pullRequestPreviewsEnabled: true
+    headers:
+      # Hashed bundle filenames are content-addressed: cache forever.
+      - path: /_expo/static/js/web/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      # Per-route HTML is regenerated each build: always revalidate.
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+    routes:
+      # Deep links to the dynamic route (e.g. /object/Sirius) get the
+      # prerendered shell; hydration reads the URL and renders the object.
+      - type: rewrite
+        source: /object/*
+        destination: /object/[id].html
+      # Everything else without a matching file (e.g. /sky) loads the
+      # app shell; expo-router hydrates from the URL and renders the
+      # right screen client-side.
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: EXPO_NO_TELEMETRY
+        value: "1"
+      - key: CI
+        value: "1"

@@ -10,11 +10,11 @@ No account. No telemetry. Astronomy computed on your device.
 
 ## 📸 Screenshots
 
-| Tonight Verdict | Sky Detective | Object + AI chat |
-| --- | --- | --- |
+| Tonight Verdict                                               | Sky Detective                                              | Object + AI chat                                                        |
+| ------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![Tonight verdict — GO 100/100](docs/screenshots/tonight.jpg) | ![Sky Detective all-sky map](docs/screenshots/sky-map.jpg) | ![Capella object screen with AI chat](docs/screenshots/object-chat.jpg) |
-| **Missions** | **Models** | |
-| ![Stargazing missions](docs/screenshots/missions.jpg) | ![On-device model manager](docs/screenshots/models.jpg) | |
+| **Missions**                                                  | **Models**                                                 |                                                                         |
+| ![Stargazing missions](docs/screenshots/missions.jpg)         | ![On-device model manager](docs/screenshots/models.jpg)    |                                                                         |
 
 ---
 
@@ -156,18 +156,18 @@ The model download is optional for the template-only experience, although model-
 
 ## 🛠️ Tech Stack
 
-| Component                 | Technology                                                         |
-| ------------------------- | ------------------------------------------------------------------ |
-| Mobile application        | React Native, Expo, TypeScript                                     |
-| Navigation                | Expo Router                                                        |
-| Local AI integration      | `llama.rn`                                                         |
-| Inference engine          | `llama.cpp`                                                        |
-| Model format              | GGUF                                                               |
-| Default models            | SmolLM2 360M (fast, 258 MB) / Gemma 3 1B (quality, ~770 MB), Q4_K_M |
-| State management          | Zustand, without persistence                                       |
-| Astronomy engine          | Pure TypeScript port of the original Python astronomy calculations |
-| Weather data              | Open-Meteo                                                         |
-| Testing                   | Unit tests and golden fixtures against a Python reference          |
+| Component            | Technology                                                          |
+| -------------------- | ------------------------------------------------------------------- |
+| Mobile application   | React Native, Expo, TypeScript                                      |
+| Navigation           | Expo Router                                                         |
+| Local AI integration | `llama.rn`                                                          |
+| Inference engine     | `llama.cpp`                                                         |
+| Model format         | GGUF                                                                |
+| Default models       | SmolLM2 360M (fast, 258 MB) / Gemma 3 1B (quality, ~770 MB), Q4_K_M |
+| State management     | Zustand, without persistence                                        |
+| Astronomy engine     | Pure TypeScript port of the original Python astronomy calculations  |
+| Weather data         | Open-Meteo                                                          |
+| Testing              | Unit tests and golden fixtures against a Python reference           |
 
 ---
 
@@ -252,6 +252,33 @@ path. Make sure the selected profile specifies an APK build using
 the Expo build dashboard and install it on your Android device.
 
 Cloud compilation does not eliminate the need to test native inference on a real device.
+
+### Deploy a web preview to Render
+
+The computed sky engine, sky map, chat and missions are plain TypeScript,
+so the app also runs as a static web export. Render serves it free; on
+the web, GPS and on-device AI are unavailable and the app falls back to
+the city picker and template answers by design.
+
+One-time setup, from the Render dashboard:
+
+1. **New +** → **Blueprint**, point it at this repo.
+2. Render reads `render.yaml` and creates the `aksa-web` static site.
+3. Every push to the main branch rebuilds and redeploys.
+
+To deploy manually without the blueprint, create a **Static Site** and set:
+
+- **Build command:** `sh scripts/render-build.sh`
+- **Publish directory:** `dist`
+
+The build script installs dependencies, runs the typecheck and Jest
+suite as a gate, then runs `npx expo export --platform web`.
+
+```bash
+# Local check of exactly what Render will serve:
+npm run export:web     # writes dist/
+npx serve dist         # or any static file server
+```
 
 ---
 

@@ -43,6 +43,7 @@
     "dev": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
+    "export:web": "expo export --platform web",
     "test": "jest",
     "lint": "expo lint",
     "typecheck": "tsc --noEmit"
