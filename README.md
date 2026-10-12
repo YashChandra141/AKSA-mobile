@@ -399,6 +399,4 @@ Areas where contributions are especially useful include:
 
 Please include tests for changes to deterministic astronomy logic whenever practical.
 
-
-
 **AKSA — The sky is computed. The wonder is yours.** 🌠
